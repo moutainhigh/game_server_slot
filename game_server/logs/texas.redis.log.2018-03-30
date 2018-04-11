@@ -1,0 +1,12 @@
+[18/03/30 15:58:30,277] --> redis service init
+[18/03/30 15:58:30,323] --> redis[127.0.0.1:6379 service init successfully
+[18/03/30 15:58:30,325] --> ServerRedisMsgProcessor initialized successfully!
+[18/03/30 15:58:31,508] --> redis service after init
+[18/03/30 15:59:05,028] --> redis service init
+[18/03/30 15:59:05,049] --> redis[127.0.0.1:6379 service init successfully
+[18/03/30 15:59:05,050] --> ServerRedisMsgProcessor initialized successfully!
+[18/03/30 15:59:05,993] --> redis service after init
+[18/03/30 15:59:06,676] --> begin start redis sub thread
+[18/03/30 15:59:06,676] --> end start redis sub thread
+[18/03/30 15:59:07,008] --> subscribe [server.100001],server.100001=1
+[18/03/30 15:59:07,008] --> subscribe [broadcast],broadcast=2

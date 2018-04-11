@@ -1,0 +1,138 @@
+[18/04/09 18:28:23,257] [INFO] ConfigHelper.buildConfig --> Load config [class com.robot.RobotServerConfig] from [file:/C:/d_sortwire/eclipse_workspace_5/robot/bin/robot_server.cfg.js]
+[18/04/09 18:28:24,023] [INFO] ConfigHelper.buildConfig --> Load config [class com.gameserver.common.config.GameServerConfig] from [file:/C:/d_sortwire/eclipse_workspace_5/game_server/bin/game_server.cfg.js]
+[18/04/09 18:28:24,828] [INFO] EventListenerAdapter.addListener --> [#GS.EventManager.addListener] [Register event listener (event:com.core.orm.DBAccessEvent listener:com.core.orm.DBAccessEventListener]
+[18/04/09 18:28:24,859] [INFO] Version.<clinit> --> Hibernate Annotations 3.4.0.GA
+[18/04/09 18:28:24,875] [INFO] Environment.<clinit> --> Hibernate 3.3.2.GA
+[18/04/09 18:28:24,878] [INFO] Environment.<clinit> --> loaded properties from resource hibernate.properties: {hibernate.c3p0.timeout=1000, hibernate.c3p0.max_statements=50, hibernate.c3p0.max_size=10, hibernate.c3p0.min_size=5, hibernate.connection.username=root, hibernate.connection.url=jdbc:mysql://127.0.0.1:3306/texas?useUnicode=true&characterEncoding=utf-8&useServerPrepStmts=true, hibernate.connection.provider_class=org.hibernate.connection.C3P0ConnectionProvider, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, hibernate.connection.password=****}
+[18/04/09 18:28:24,881] [INFO] Environment.buildBytecodeProvider --> Bytecode provider name : javassist
+[18/04/09 18:28:24,885] [INFO] Environment.<clinit> --> using JDK 1.4 java.sql.Timestamp handling
+[18/04/09 18:28:24,940] [INFO] Version.<clinit> --> Hibernate Commons Annotations 3.1.0.GA
+[18/04/09 18:28:24,942] [INFO] Configuration.configure --> configuring from url: file:/C:/d_sortwire/eclipse_workspace_5/robot/bin/game_server_hibernate.cfg.xml
+[18/04/09 18:28:25,049] [INFO] Configuration.doConfigure --> Configured SessionFactory: null
+[18/04/09 18:28:25,051] [INFO] Configuration.addResource --> Reading mappings from resource : game_server_hibernate_query.xml
+[18/04/09 18:28:25,129] [INFO] HibernateSearchEventListenerRegister.enableHibernateSearch --> Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+[18/04/09 18:28:25,211] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.DbVersion
+[18/04/09 18:28:25,240] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.DbVersion on table t_db_version
+[18/04/09 18:28:25,317] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.DeviceEntity
+[18/04/09 18:28:25,318] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.DeviceEntity on table t_device
+[18/04/09 18:28:25,322] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.UserInfo
+[18/04/09 18:28:25,322] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.UserInfo on table t_user_info
+[18/04/09 18:28:25,325] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanEntity
+[18/04/09 18:28:25,325] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanEntity on table t_human_info
+[18/04/09 18:28:25,330] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanTexasEntity
+[18/04/09 18:28:25,331] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanTexasEntity on table t_human_texas
+[18/04/09 18:28:25,332] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanMonthCardEntity
+[18/04/09 18:28:25,333] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanMonthCardEntity on table t_human_month_card
+[18/04/09 18:28:25,334] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanWeekCardEntity
+[18/04/09 18:28:25,334] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanWeekCardEntity on table t_human_week_card
+[18/04/09 18:28:25,336] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.FriendEntity
+[18/04/09 18:28:25,337] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.FriendEntity on table t_human_friend
+[18/04/09 18:28:25,343] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.FriendRequestEntity
+[18/04/09 18:28:25,344] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.FriendRequestEntity on table t_human_friend_request
+[18/04/09 18:28:25,351] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.MailEntity
+[18/04/09 18:28:25,352] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.MailEntity on table t_mail_info
+[18/04/09 18:28:25,360] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanWeekSignInEntity
+[18/04/09 18:28:25,360] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanWeekSignInEntity on table t_human_week_sign_in
+[18/04/09 18:28:25,361] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.NoticeEntity
+[18/04/09 18:28:25,361] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.NoticeEntity on table t_notice
+[18/04/09 18:28:25,363] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanMiscEntity
+[18/04/09 18:28:25,363] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanMiscEntity on table t_human_misc
+[18/04/09 18:28:25,366] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanVipEntity
+[18/04/09 18:28:25,366] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanVipEntity on table t_human_vip
+[18/04/09 18:28:25,367] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanRechargeOrderEntity
+[18/04/09 18:28:25,367] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanRechargeOrderEntity on table t_human_recharge_order
+[18/04/09 18:28:25,371] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanTaskEntity
+[18/04/09 18:28:25,371] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanTaskEntity on table t_human_task
+[18/04/09 18:28:25,372] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanActivityEntity
+[18/04/09 18:28:25,373] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanActivityEntity on table t_human_activity
+[18/04/09 18:28:25,374] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.ActivityEntity
+[18/04/09 18:28:25,374] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.ActivityEntity on table t_activity
+[18/04/09 18:28:25,377] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanItemEntity
+[18/04/09 18:28:25,377] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanItemEntity on table t_human_item
+[18/04/09 18:28:25,378] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanTexasSNGEntity
+[18/04/09 18:28:25,379] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanTexasSNGEntity on table t_human_texas_sng
+[18/04/09 18:28:25,380] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.CompensationEntity
+[18/04/09 18:28:25,380] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.CompensationEntity on table t_compensation
+[18/04/09 18:28:25,381] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanCompensationEntity
+[18/04/09 18:28:25,382] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanCompensationEntity on table t_human_compensation
+[18/04/09 18:28:25,382] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanRefundEntity
+[18/04/09 18:28:25,384] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanRefundEntity on table t_human_refund
+[18/04/09 18:28:25,385] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanFriendGiftEntity
+[18/04/09 18:28:25,386] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanFriendGiftEntity on table t_human_friend_gift
+[18/04/09 18:28:25,387] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.RobotComplementEntity
+[18/04/09 18:28:25,387] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.RobotComplementEntity on table t_robot_complement
+[18/04/09 18:28:25,388] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanBaccartEntity
+[18/04/09 18:28:25,388] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanBaccartEntity on table t_human_baccart
+[18/04/09 18:28:25,395] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.BaccartRoomModelEntity
+[18/04/09 18:28:25,396] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.BaccartRoomModelEntity on table t_baccart_room_model
+[18/04/09 18:28:25,397] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanLuckySpinEntity
+[18/04/09 18:28:25,397] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanLuckySpinEntity on table t_human_lucky_spin
+[18/04/09 18:28:25,398] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanLuckyMatchEntity
+[18/04/09 18:28:25,399] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanLuckyMatchEntity on table t_human_lucky_match
+[18/04/09 18:28:25,400] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.SlotEntity
+[18/04/09 18:28:25,400] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.SlotEntity on table t_slot
+[18/04/09 18:28:25,402] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanSlotEntity
+[18/04/09 18:28:25,402] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanSlotEntity on table t_human_slot
+[18/04/09 18:28:25,404] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanVipNewEntity
+[18/04/09 18:28:25,404] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanVipNewEntity on table t_human_vip_new
+[18/04/09 18:28:25,405] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.TextasEntity
+[18/04/09 18:28:25,406] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.TextasEntity on table t_textas
+[18/04/09 18:28:25,407] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.RankEntity
+[18/04/09 18:28:25,408] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.RankEntity on table t_rank
+[18/04/09 18:28:25,419] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanGiftEntity
+[18/04/09 18:28:25,419] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanGiftEntity on table t_human_gift
+[18/04/09 18:28:25,424] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanAchievementEntity
+[18/04/09 18:28:25,425] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanAchievementEntity on table t_human_achievement
+[18/04/09 18:28:25,426] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.Conversioncode
+[18/04/09 18:28:25,426] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.Conversioncode on table t_conversioncode
+[18/04/09 18:28:25,427] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.RobotStatisDataEntity
+[18/04/09 18:28:25,428] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.RobotStatisDataEntity on table t_robot_statis_data
+[18/04/09 18:28:25,433] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.SlotListEntity
+[18/04/09 18:28:25,433] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.SlotListEntity on table t_slot_list
+[18/04/09 18:28:25,440] [INFO] AnnotationConfiguration.secondPassCompile --> Hibernate Validator not found: ignoring
+[18/04/09 18:28:25,500] [INFO] ConnectionProviderFactory.newConnectionProvider --> Initializing connection provider: org.hibernate.connection.C3P0ConnectionProvider
+[18/04/09 18:28:25,502] [INFO] C3P0ConnectionProvider.configure --> C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://127.0.0.1:3306/texas?useUnicode=true&characterEncoding=utf-8&useServerPrepStmts=true
+[18/04/09 18:28:25,502] [INFO] C3P0ConnectionProvider.configure --> Connection properties: {user=root, password=****}
+[18/04/09 18:28:25,502] [INFO] C3P0ConnectionProvider.configure --> autocommit mode: false
+[18/04/09 18:28:25,526] [INFO] MLog.<clinit> --> MLog clients using log4j logging.
+[18/04/09 18:28:25,844] [INFO] C3P0Registry.banner --> Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+[18/04/09 18:28:26,033] [INFO] AbstractPoolBackedDataSource.getPoolManager --> Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@2d97474 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@eae6c4da [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1499u1b5kvx71kovg94|6b1e7ad3, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@fe934ddf [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge1499u1b5kvx71kovg94|3aefae67, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/texas?useUnicode=true&characterEncoding=utf-8&useServerPrepStmts=true, properties -> {user=******, password=******} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge1499u1b5kvx71kovg94|b558294, numHelperThreads -> 3 ]
+[18/04/09 18:28:26,372] [INFO] SettingsFactory.buildSettings --> RDBMS: MySQL, version: 5.1.73-community
+[18/04/09 18:28:26,372] [INFO] SettingsFactory.buildSettings --> JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.18 ( Revision: tonci.grgin@oracle.com-20110930151701-jfj14ddfq48ifkfq )
+[18/04/09 18:28:26,396] [INFO] Dialect.<init> --> Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[18/04/09 18:28:26,400] [INFO] TransactionFactoryFactory.buildTransactionFactory --> Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+[18/04/09 18:28:26,401] [INFO] TransactionManagerLookupFactory.getTransactionManagerLookup --> No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[18/04/09 18:28:26,401] [INFO] SettingsFactory.buildSettings --> Automatic flush during beforeCompletion(): disabled
+[18/04/09 18:28:26,401] [INFO] SettingsFactory.buildSettings --> Automatic session close at end of transaction: disabled
+[18/04/09 18:28:26,401] [INFO] SettingsFactory.buildSettings --> JDBC batch size: 15
+[18/04/09 18:28:26,401] [INFO] SettingsFactory.buildSettings --> JDBC batch updates for versioned data: disabled
+[18/04/09 18:28:26,402] [INFO] SettingsFactory.buildSettings --> Scrollable result sets: enabled
+[18/04/09 18:28:26,402] [INFO] SettingsFactory.buildSettings --> JDBC3 getGeneratedKeys(): enabled
+[18/04/09 18:28:26,402] [INFO] SettingsFactory.buildSettings --> Connection release mode: auto
+[18/04/09 18:28:26,403] [INFO] SettingsFactory.buildSettings --> Maximum outer join fetch depth: 2
+[18/04/09 18:28:26,403] [INFO] SettingsFactory.buildSettings --> Default batch fetch size: 1
+[18/04/09 18:28:26,404] [INFO] SettingsFactory.buildSettings --> Generate SQL with comments: disabled
+[18/04/09 18:28:26,404] [INFO] SettingsFactory.buildSettings --> Order SQL updates by primary key: disabled
+[18/04/09 18:28:26,404] [INFO] SettingsFactory.buildSettings --> Order SQL inserts for batching: disabled
+[18/04/09 18:28:26,404] [INFO] SettingsFactory.createQueryTranslatorFactory --> Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[18/04/09 18:28:26,406] [INFO] ASTQueryTranslatorFactory.<init> --> Using ASTQueryTranslatorFactory
+[18/04/09 18:28:26,406] [INFO] SettingsFactory.buildSettings --> Query language substitutions: {}
+[18/04/09 18:28:26,406] [INFO] SettingsFactory.buildSettings --> JPA-QL strict compliance: disabled
+[18/04/09 18:28:26,407] [INFO] SettingsFactory.buildSettings --> Second-level cache: enabled
+[18/04/09 18:28:26,407] [INFO] SettingsFactory.buildSettings --> Query cache: disabled
+[18/04/09 18:28:26,411] [INFO] SettingsFactory.createRegionFactory --> Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+[18/04/09 18:28:26,412] [INFO] RegionFactoryCacheProviderBridge.<init> --> Cache provider: org.hibernate.cache.NoCacheProvider
+[18/04/09 18:28:26,412] [INFO] SettingsFactory.buildSettings --> Optimize cache for minimal puts: disabled
+[18/04/09 18:28:26,412] [INFO] SettingsFactory.buildSettings --> Structured second-level cache entries: disabled
+[18/04/09 18:28:26,414] [INFO] SettingsFactory.buildSettings --> Echoing all SQL to stdout
+[18/04/09 18:28:26,415] [INFO] SettingsFactory.buildSettings --> Statistics: disabled
+[18/04/09 18:28:26,415] [INFO] SettingsFactory.buildSettings --> Deleted entity synthetic identifier rollback: disabled
+[18/04/09 18:28:26,415] [INFO] SettingsFactory.buildSettings --> Default entity-mode: pojo
+[18/04/09 18:28:26,415] [INFO] SettingsFactory.buildSettings --> Named query checking : enabled
+[18/04/09 18:28:26,448] [INFO] SessionFactoryImpl.<init> --> building session factory
+[18/04/09 18:28:26,956] [INFO] SessionFactoryObjectFactory.addInstance --> Not binding factory to JNDI, no JNDI name configured
+[18/04/09 18:28:32,282] [INFO] Slf4jRecord.recordInfo --> #IMOP.LOCAL.LOGGER.INITLIZE...
+[18/04/09 18:28:32,284] [INFO] Slf4jRecord.recordInfo --> #IMOP.LOCAL.INIT.THREADPOOL.OK:SIZE:2
+[18/04/09 18:28:32,284] [INFO] Slf4jRecord.recordInfo --> #IMOP.LOCAL.START:AREAID:1
+[18/04/09 19:03:06,535] [INFO] ConfigHelper.buildConfig --> Load config [class com.robot.RobotServerConfig] from [file:/C:/d_sortwire/eclipse_workspace_5/robot/bin/robot_server.cfg.js]
+[18/04/09 19:03:07,204] [INFO] ConfigHelper.buildConfig --> Load config [class com.gameserver.common.config.GameServerConfig] from [file:/C:/d_sortwire/eclipse_workspace_5/game_server/bin/game_server.cfg.js]

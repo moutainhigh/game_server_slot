@@ -1,0 +1,1149 @@
+[18/03/30 15:58:23,159] [INFO] GameServer.main --> Starting Game Server
+[18/03/30 15:58:23,174] [INFO] GameServer.main --> Free memory 1781 Mb of 1797 Mb
+[18/03/30 15:58:23,355] [INFO] ConfigHelper.buildConfig --> Load config [class com.gameserver.common.config.GameServerConfig] from [file:/C:/d_sortwire/eclipse_workspace_4/game_server/bin/game_server.cfg.js]
+[18/03/30 15:58:24,104] [INFO] GameServer.init --> Begin to initialize Globals
+[18/03/30 15:58:24,220] [INFO] EventListenerAdapter.addListener --> [#GS.EventManager.addListener] [Register event listener (event:com.core.orm.DBAccessEvent listener:com.core.orm.DBAccessEventListener]
+[18/03/30 15:58:24,254] [INFO] Version.<clinit> --> Hibernate Annotations 3.4.0.GA
+[18/03/30 15:58:24,270] [INFO] Environment.<clinit> --> Hibernate 3.3.2.GA
+[18/03/30 15:58:24,273] [INFO] Environment.<clinit> --> loaded properties from resource hibernate.properties: {hibernate.c3p0.timeout=1000, hibernate.c3p0.max_statements=50, hibernate.c3p0.max_size=10, hibernate.c3p0.min_size=5, hibernate.connection.username=root, hibernate.connection.url=jdbc:mysql://127.0.0.1:3306/texas?useUnicode=true&characterEncoding=utf-8&useServerPrepStmts=true, hibernate.connection.provider_class=org.hibernate.connection.C3P0ConnectionProvider, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, hibernate.connection.password=****}
+[18/03/30 15:58:24,275] [INFO] Environment.buildBytecodeProvider --> Bytecode provider name : javassist
+[18/03/30 15:58:24,280] [INFO] Environment.<clinit> --> using JDK 1.4 java.sql.Timestamp handling
+[18/03/30 15:58:24,380] [INFO] Version.<clinit> --> Hibernate Commons Annotations 3.1.0.GA
+[18/03/30 15:58:24,383] [INFO] Configuration.configure --> configuring from url: file:/C:/d_sortwire/eclipse_workspace_4/game_server/bin/game_server_hibernate.cfg.xml
+[18/03/30 15:58:24,557] [INFO] Configuration.doConfigure --> Configured SessionFactory: null
+[18/03/30 15:58:24,558] [INFO] Configuration.addResource --> Reading mappings from resource : game_server_hibernate_query.xml
+[18/03/30 15:58:24,657] [INFO] HibernateSearchEventListenerRegister.enableHibernateSearch --> Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+[18/03/30 15:58:24,723] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.DbVersion
+[18/03/30 15:58:24,753] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.DbVersion on table t_db_version
+[18/03/30 15:58:24,790] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.DeviceEntity
+[18/03/30 15:58:24,790] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.DeviceEntity on table t_device
+[18/03/30 15:58:24,792] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.UserInfo
+[18/03/30 15:58:24,793] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.UserInfo on table t_user_info
+[18/03/30 15:58:24,794] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanEntity
+[18/03/30 15:58:24,795] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanEntity on table t_human_info
+[18/03/30 15:58:24,802] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanTexasEntity
+[18/03/30 15:58:24,802] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanTexasEntity on table t_human_texas
+[18/03/30 15:58:24,804] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanMonthCardEntity
+[18/03/30 15:58:24,804] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanMonthCardEntity on table t_human_month_card
+[18/03/30 15:58:24,807] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanWeekCardEntity
+[18/03/30 15:58:24,807] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanWeekCardEntity on table t_human_week_card
+[18/03/30 15:58:24,810] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.FriendEntity
+[18/03/30 15:58:24,811] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.FriendEntity on table t_human_friend
+[18/03/30 15:58:24,812] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.FriendRequestEntity
+[18/03/30 15:58:24,812] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.FriendRequestEntity on table t_human_friend_request
+[18/03/30 15:58:24,815] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.MailEntity
+[18/03/30 15:58:24,815] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.MailEntity on table t_mail_info
+[18/03/30 15:58:24,817] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanWeekSignInEntity
+[18/03/30 15:58:24,818] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanWeekSignInEntity on table t_human_week_sign_in
+[18/03/30 15:58:24,819] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.NoticeEntity
+[18/03/30 15:58:24,820] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.NoticeEntity on table t_notice
+[18/03/30 15:58:24,821] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanMiscEntity
+[18/03/30 15:58:24,822] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanMiscEntity on table t_human_misc
+[18/03/30 15:58:24,825] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanVipEntity
+[18/03/30 15:58:24,831] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanVipEntity on table t_human_vip
+[18/03/30 15:58:24,833] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanRechargeOrderEntity
+[18/03/30 15:58:24,833] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanRechargeOrderEntity on table t_human_recharge_order
+[18/03/30 15:58:24,838] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanTaskEntity
+[18/03/30 15:58:24,838] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanTaskEntity on table t_human_task
+[18/03/30 15:58:24,845] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanActivityEntity
+[18/03/30 15:58:24,846] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanActivityEntity on table t_human_activity
+[18/03/30 15:58:24,853] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.ActivityEntity
+[18/03/30 15:58:24,853] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.ActivityEntity on table t_activity
+[18/03/30 15:58:24,858] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanItemEntity
+[18/03/30 15:58:24,859] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanItemEntity on table t_human_item
+[18/03/30 15:58:24,866] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanTexasSNGEntity
+[18/03/30 15:58:24,866] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanTexasSNGEntity on table t_human_texas_sng
+[18/03/30 15:58:24,868] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.CompensationEntity
+[18/03/30 15:58:24,868] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.CompensationEntity on table t_compensation
+[18/03/30 15:58:24,869] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanCompensationEntity
+[18/03/30 15:58:24,869] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanCompensationEntity on table t_human_compensation
+[18/03/30 15:58:24,870] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanRefundEntity
+[18/03/30 15:58:24,870] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanRefundEntity on table t_human_refund
+[18/03/30 15:58:24,871] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanFriendGiftEntity
+[18/03/30 15:58:24,872] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanFriendGiftEntity on table t_human_friend_gift
+[18/03/30 15:58:24,872] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.RobotComplementEntity
+[18/03/30 15:58:24,873] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.RobotComplementEntity on table t_robot_complement
+[18/03/30 15:58:24,874] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanBaccartEntity
+[18/03/30 15:58:24,874] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanBaccartEntity on table t_human_baccart
+[18/03/30 15:58:24,876] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.BaccartRoomModelEntity
+[18/03/30 15:58:24,876] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.BaccartRoomModelEntity on table t_baccart_room_model
+[18/03/30 15:58:24,877] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanLuckySpinEntity
+[18/03/30 15:58:24,877] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanLuckySpinEntity on table t_human_lucky_spin
+[18/03/30 15:58:24,878] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanLuckyMatchEntity
+[18/03/30 15:58:24,878] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanLuckyMatchEntity on table t_human_lucky_match
+[18/03/30 15:58:24,879] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.SlotEntity
+[18/03/30 15:58:24,879] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.SlotEntity on table t_slot
+[18/03/30 15:58:24,880] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanSlotEntity
+[18/03/30 15:58:24,880] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanSlotEntity on table t_human_slot
+[18/03/30 15:58:24,881] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanVipNewEntity
+[18/03/30 15:58:24,881] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanVipNewEntity on table t_human_vip_new
+[18/03/30 15:58:24,882] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.TextasEntity
+[18/03/30 15:58:24,882] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.TextasEntity on table t_textas
+[18/03/30 15:58:24,883] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.RankEntity
+[18/03/30 15:58:24,883] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.RankEntity on table t_rank
+[18/03/30 15:58:24,887] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanGiftEntity
+[18/03/30 15:58:24,887] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanGiftEntity on table t_human_gift
+[18/03/30 15:58:24,888] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanAchievementEntity
+[18/03/30 15:58:24,888] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanAchievementEntity on table t_human_achievement
+[18/03/30 15:58:24,892] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.Conversioncode
+[18/03/30 15:58:24,892] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.Conversioncode on table t_conversioncode
+[18/03/30 15:58:24,893] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.RobotStatisDataEntity
+[18/03/30 15:58:24,893] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.RobotStatisDataEntity on table t_robot_statis_data
+[18/03/30 15:58:24,895] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.SlotListEntity
+[18/03/30 15:58:24,895] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.SlotListEntity on table t_slot_list
+[18/03/30 15:58:24,898] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanCollectEntity
+[18/03/30 15:58:24,898] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanCollectEntity on table t_human_collect
+[18/03/30 15:58:24,899] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanTreasuryEntity
+[18/03/30 15:58:24,900] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanTreasuryEntity on table t_human_treasury
+[18/03/30 15:58:24,901] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.CommonActivityEntity
+[18/03/30 15:58:24,901] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.CommonActivityEntity on table t_common_activity
+[18/03/30 15:58:24,902] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.ClubEntity
+[18/03/30 15:58:24,902] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.ClubEntity on table t_club
+[18/03/30 15:58:24,903] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.ClubMemberEntity
+[18/03/30 15:58:24,904] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.ClubMemberEntity on table t_club_member_list
+[18/03/30 15:58:24,904] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.ClubNoteEntity
+[18/03/30 15:58:24,905] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.ClubNoteEntity on table t_club_note
+[18/03/30 15:58:24,908] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.ClubInvateEntity
+[18/03/30 15:58:24,908] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.ClubInvateEntity on table t_club_invate
+[18/03/30 15:58:24,909] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.ClubInviteEntity
+[18/03/30 15:58:24,909] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.ClubInviteEntity on table t_club_invite
+[18/03/30 15:58:24,910] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.ClubApplyEntity
+[18/03/30 15:58:24,910] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.ClubApplyEntity on table t_club_applys
+[18/03/30 15:58:24,912] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.ClubInvatePlayerEntity
+[18/03/30 15:58:24,912] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.ClubInvatePlayerEntity on table t_club_invate_players
+[18/03/30 15:58:24,913] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.NewbieEntity
+[18/03/30 15:58:24,913] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.NewbieEntity on table t_human_newbie
+[18/03/30 15:58:24,914] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanAttackBossEntity
+[18/03/30 15:58:24,914] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanAttackBossEntity on table t_human_attack_boss
+[18/03/30 15:58:24,915] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.BossEntity
+[18/03/30 15:58:24,916] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.BossEntity on table t_boss
+[18/03/30 15:58:24,926] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanGivealikeEntity
+[18/03/30 15:58:24,927] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanGivealikeEntity on table t_human_givealike
+[18/03/30 15:58:24,928] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanMonthWeekEntity
+[18/03/30 15:58:24,929] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanMonthWeekEntity on table t_human_month_week
+[18/03/30 15:58:24,930] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanPayguideEntity
+[18/03/30 15:58:24,930] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanPayguideEntity on table t_human_payguide
+[18/03/30 15:58:24,933] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.ClubGiftRecordEntity
+[18/03/30 15:58:24,933] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.ClubGiftRecordEntity on table t_club_gift_record
+[18/03/30 15:58:24,934] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanNewComerEntity
+[18/03/30 15:58:24,934] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanNewComerEntity on table t_human_new_comer
+[18/03/30 15:58:24,935] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.FunctionEntity
+[18/03/30 15:58:24,935] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.FunctionEntity on table t_function
+[18/03/30 15:58:24,946] [INFO] AnnotationConfiguration.secondPassCompile --> Hibernate Validator not found: ignoring
+[18/03/30 15:58:25,048] [INFO] ConnectionProviderFactory.newConnectionProvider --> Initializing connection provider: org.hibernate.connection.C3P0ConnectionProvider
+[18/03/30 15:58:25,054] [INFO] C3P0ConnectionProvider.configure --> C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://127.0.0.1:3306/texas?useUnicode=true&characterEncoding=utf-8&useServerPrepStmts=true
+[18/03/30 15:58:25,055] [INFO] C3P0ConnectionProvider.configure --> Connection properties: {user=root, password=****}
+[18/03/30 15:58:25,055] [INFO] C3P0ConnectionProvider.configure --> autocommit mode: false
+[18/03/30 15:58:25,105] [INFO] MLog.<clinit> --> MLog clients using log4j logging.
+[18/03/30 15:58:25,421] [INFO] C3P0Registry.banner --> Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+[18/03/30 15:58:25,547] [INFO] AbstractPoolBackedDataSource.getPoolManager --> Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@2ca5369a [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@27871ee7 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1499uwptggq78uj3y|66eb985d, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@c88b6219 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge1499uwptggq78uj3y|4d666b41, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/texas?useUnicode=true&characterEncoding=utf-8&useServerPrepStmts=true, properties -> {user=******, password=******} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge1499uwptggq78uj3y|29d37757, numHelperThreads -> 3 ]
+[18/03/30 15:58:25,817] [INFO] SettingsFactory.buildSettings --> RDBMS: MySQL, version: 5.1.73-community
+[18/03/30 15:58:25,817] [INFO] SettingsFactory.buildSettings --> JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.18 ( Revision: tonci.grgin@oracle.com-20110930151701-jfj14ddfq48ifkfq )
+[18/03/30 15:58:25,843] [INFO] Dialect.<init> --> Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[18/03/30 15:58:25,848] [INFO] TransactionFactoryFactory.buildTransactionFactory --> Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+[18/03/30 15:58:25,850] [INFO] TransactionManagerLookupFactory.getTransactionManagerLookup --> No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[18/03/30 15:58:25,850] [INFO] SettingsFactory.buildSettings --> Automatic flush during beforeCompletion(): disabled
+[18/03/30 15:58:25,850] [INFO] SettingsFactory.buildSettings --> Automatic session close at end of transaction: disabled
+[18/03/30 15:58:25,850] [INFO] SettingsFactory.buildSettings --> JDBC batch size: 15
+[18/03/30 15:58:25,850] [INFO] SettingsFactory.buildSettings --> JDBC batch updates for versioned data: disabled
+[18/03/30 15:58:25,851] [INFO] SettingsFactory.buildSettings --> Scrollable result sets: enabled
+[18/03/30 15:58:25,851] [INFO] SettingsFactory.buildSettings --> JDBC3 getGeneratedKeys(): enabled
+[18/03/30 15:58:25,851] [INFO] SettingsFactory.buildSettings --> Connection release mode: auto
+[18/03/30 15:58:25,852] [INFO] SettingsFactory.buildSettings --> Maximum outer join fetch depth: 2
+[18/03/30 15:58:25,852] [INFO] SettingsFactory.buildSettings --> Default batch fetch size: 1
+[18/03/30 15:58:25,852] [INFO] SettingsFactory.buildSettings --> Generate SQL with comments: disabled
+[18/03/30 15:58:25,852] [INFO] SettingsFactory.buildSettings --> Order SQL updates by primary key: disabled
+[18/03/30 15:58:25,853] [INFO] SettingsFactory.buildSettings --> Order SQL inserts for batching: disabled
+[18/03/30 15:58:25,853] [INFO] SettingsFactory.createQueryTranslatorFactory --> Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[18/03/30 15:58:25,855] [INFO] ASTQueryTranslatorFactory.<init> --> Using ASTQueryTranslatorFactory
+[18/03/30 15:58:25,855] [INFO] SettingsFactory.buildSettings --> Query language substitutions: {}
+[18/03/30 15:58:25,856] [INFO] SettingsFactory.buildSettings --> JPA-QL strict compliance: disabled
+[18/03/30 15:58:25,856] [INFO] SettingsFactory.buildSettings --> Second-level cache: enabled
+[18/03/30 15:58:25,856] [INFO] SettingsFactory.buildSettings --> Query cache: disabled
+[18/03/30 15:58:25,861] [INFO] SettingsFactory.createRegionFactory --> Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+[18/03/30 15:58:25,861] [INFO] RegionFactoryCacheProviderBridge.<init> --> Cache provider: org.hibernate.cache.NoCacheProvider
+[18/03/30 15:58:25,861] [INFO] SettingsFactory.buildSettings --> Optimize cache for minimal puts: disabled
+[18/03/30 15:58:25,861] [INFO] SettingsFactory.buildSettings --> Structured second-level cache entries: disabled
+[18/03/30 15:58:25,864] [INFO] SettingsFactory.buildSettings --> Echoing all SQL to stdout
+[18/03/30 15:58:25,865] [INFO] SettingsFactory.buildSettings --> Statistics: disabled
+[18/03/30 15:58:25,865] [INFO] SettingsFactory.buildSettings --> Deleted entity synthetic identifier rollback: disabled
+[18/03/30 15:58:25,865] [INFO] SettingsFactory.buildSettings --> Default entity-mode: pojo
+[18/03/30 15:58:25,865] [INFO] SettingsFactory.buildSettings --> Named query checking : enabled
+[18/03/30 15:58:25,906] [INFO] SessionFactoryImpl.<init> --> building session factory
+[18/03/30 15:58:26,306] [INFO] SessionFactoryObjectFactory.addInstance --> Not binding factory to JNDI, no JNDI name configured
+[18/03/30 15:58:26,765] [INFO] GameDaoService$DaoHelper.<init> --> DBService instance:com.core.orm.HibernateDBServcieImpl@4f5f6e45
+[18/03/30 15:58:26,832] [INFO] GameDaoService.logInfo --> HumanDao - 检查实体
+[18/03/30 15:58:26,835] [INFO] GameDaoService.logInfo --> HumanItemDao - 检查实体
+[18/03/30 15:58:26,835] [INFO] GameDaoService.logInfo --> HumanTexasDao - 检查实体
+[18/03/30 15:58:26,835] [INFO] GameDaoService.logInfo --> HumanMonthCardDao - 检查实体
+[18/03/30 15:58:26,836] [INFO] GameDaoService.logInfo --> HumanWeekCardDao - 检查实体
+[18/03/30 15:58:26,836] [INFO] GameDaoService.logInfo --> MailDao - 检查实体
+[18/03/30 15:58:26,836] [INFO] GameDaoService.logInfo --> NewbieDao - 检查实体
+[18/03/30 15:58:26,836] [INFO] GameDaoService.logInfo --> HumanFriendDao - 检查实体
+[18/03/30 15:58:26,837] [INFO] GameDaoService.logInfo --> HumanFriendRequestDao - 检查实体
+[18/03/30 15:58:26,839] [INFO] GameDaoService.logInfo --> HumanWeekSignInDao - 检查实体
+[18/03/30 15:58:26,839] [INFO] GameDaoService.logInfo --> DbVersionDao - 检查实体
+[18/03/30 15:58:26,840] [INFO] GameDaoService.logInfo --> NoticeDao - 检查实体
+[18/03/30 15:58:26,840] [INFO] GameDaoService.logInfo --> HumanMiscDao - 检查实体
+[18/03/30 15:58:26,840] [INFO] GameDaoService.logInfo --> HumanVipDao - 检查实体
+[18/03/30 15:58:26,841] [INFO] GameDaoService.logInfo --> HumanVipNewDao - 检查实体
+[18/03/30 15:58:26,841] [INFO] GameDaoService.logInfo --> HumanRechargeOrderDao - 检查实体
+[18/03/30 15:58:26,841] [INFO] GameDaoService.logInfo --> HumanTaskDao - 检查实体
+[18/03/30 15:58:26,841] [INFO] GameDaoService.logInfo --> HumanActivityDao - 检查实体
+[18/03/30 15:58:26,847] [INFO] GameDaoService.logInfo --> ActivityDao - 检查实体
+[18/03/30 15:58:26,848] [INFO] GameDaoService.logInfo --> CommonActivityDao - 检查实体
+[18/03/30 15:58:26,848] [INFO] GameDaoService.logInfo --> FunctionDao - 检查实体
+[18/03/30 15:58:26,849] [INFO] GameDaoService.logInfo --> CompensationDao - 检查实体
+[18/03/30 15:58:26,850] [INFO] GameDaoService.logInfo --> HumanCompensationDao - 检查实体
+[18/03/30 15:58:26,850] [INFO] GameDaoService.logInfo --> HumanTexasSNGDao - 检查实体
+[18/03/30 15:58:26,850] [INFO] GameDaoService.logInfo --> HumanRefundDao - 检查实体
+[18/03/30 15:58:26,851] [INFO] GameDaoService.logInfo --> HumanFriendGiftDao - 检查实体
+[18/03/30 15:58:26,851] [INFO] GameDaoService.logInfo --> RobotComplementDao - 检查实体
+[18/03/30 15:58:26,851] [INFO] GameDaoService.logInfo --> HumanBaccartDao - 检查实体
+[18/03/30 15:58:26,851] [INFO] GameDaoService.logInfo --> BaccartRoomModelDao - 检查实体
+[18/03/30 15:58:26,852] [INFO] GameDaoService.logInfo --> DeviceDao - 检查实体
+[18/03/30 15:58:26,852] [INFO] GameDaoService.logInfo --> HumanLuckySpinDao - 检查实体
+[18/03/30 15:58:26,852] [INFO] GameDaoService.logInfo --> HumanLuckyMatchDao - 检查实体
+[18/03/30 15:58:26,852] [INFO] GameDaoService.logInfo --> SlotDao - 检查实体
+[18/03/30 15:58:26,853] [INFO] GameDaoService.logInfo --> HumanSlotDao - 检查实体
+[18/03/30 15:58:26,853] [INFO] GameDaoService.logInfo --> TextasDao - 检查实体
+[18/03/30 15:58:26,853] [INFO] GameDaoService.logInfo --> RankDao - 检查实体
+[18/03/30 15:58:26,854] [INFO] GameDaoService.logInfo --> HumanGiftDao - 检查实体
+[18/03/30 15:58:26,854] [INFO] GameDaoService.logInfo --> HumanAchievementDao - 检查实体
+[18/03/30 15:58:26,854] [INFO] GameDaoService.logInfo --> ConversioncodeDao - 检查实体
+[18/03/30 15:58:26,856] [INFO] GameDaoService.logInfo --> RobotStatisDataDao - 检查实体
+[18/03/30 15:58:26,856] [INFO] GameDaoService.logInfo --> HumanCollectDao - 检查实体
+[18/03/30 15:58:26,857] [INFO] GameDaoService.logInfo --> HumanTreasuryDao - 检查实体
+[18/03/30 15:58:26,857] [INFO] GameDaoService.logInfo --> HumanMonthWeekDao - 检查实体
+[18/03/30 15:58:26,857] [INFO] GameDaoService.logInfo --> ClubDao - 检查实体
+[18/03/30 15:58:26,860] [INFO] GameDaoService.logInfo --> ClubMemberListDao - 检查实体
+[18/03/30 15:58:26,860] [INFO] GameDaoService.logInfo --> ClubNoteDao - 检查实体
+[18/03/30 15:58:26,860] [INFO] GameDaoService.logInfo --> ClubInvateDao - 检查实体
+[18/03/30 15:58:26,861] [INFO] GameDaoService.logInfo --> ClubApplyDao - 检查实体
+[18/03/30 15:58:26,861] [INFO] GameDaoService.logInfo --> ClubSeasonDao - 检查实体
+[18/03/30 15:58:26,861] [INFO] GameDaoService.logInfo --> ClubInvatePlayerDao - 检查实体
+[18/03/30 15:58:26,861] [INFO] GameDaoService.logInfo --> HumanAttackBossDao - 检查实体
+[18/03/30 15:58:26,861] [INFO] GameDaoService.logInfo --> BossDao - 检查实体
+[18/03/30 15:58:26,864] [INFO] GameDaoService.logInfo --> HumanGivealikeDao - 检查实体
+[18/03/30 15:58:26,865] [INFO] GameDaoService.logInfo --> ClubInviteDao - 检查实体
+[18/03/30 15:58:26,868] [INFO] GameDaoService.logInfo --> HumanPayguideDao - 检查实体
+[18/03/30 15:58:26,868] [INFO] GameDaoService.logInfo --> HumanNewComerDao - 检查实体
+[18/03/30 15:58:26,868] [INFO] GameDaoService.logInfo --> ClubGiftRecordtDao - 检查实体
+[18/03/30 15:58:27,055] [INFO] LogService.<init> --> Connnect to Log server : 127.0.0.1 : 7001
+[18/03/30 15:58:28,232] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.scene.template.CityTemplate], fileName=city.xls]
+[18/03/30 15:58:28,234] [INFO] TemplateService.init --> loading template city.xls
+[18/03/30 15:58:28,251] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.common.template.ConfigTemplate], fileName=Config.xls]
+[18/03/30 15:58:28,251] [INFO] TemplateService.init --> loading template Config.xls
+[18/03/30 15:58:28,271] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.common.template.Dirtywords], fileName=dirtywords.xls]
+[18/03/30 15:58:28,272] [INFO] TemplateService.init --> loading template dirtywords.xls
+[18/03/30 15:58:28,457] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.texas.template.TexasRoomTemplate, class com.gameserver.texas.template.TexasRoomConfigTemplate, class com.gameserver.texas.template.TexasJackpotTemplate], fileName=TexasRoom.xls]
+[18/03/30 15:58:28,458] [INFO] TemplateService.init --> loading template TexasRoom.xls
+[18/03/30 15:58:28,480] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.human.template.RoleExpTemplate], fileName=RoleExp.xls]
+[18/03/30 15:58:28,480] [INFO] TemplateService.init --> loading template RoleExp.xls
+[18/03/30 15:58:28,499] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.shop.template.ShopTemplate], fileName=Shop.xls]
+[18/03/30 15:58:28,500] [INFO] TemplateService.init --> loading template Shop.xls
+[18/03/30 15:58:28,512] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.item.template.ItemTemplate, class com.gameserver.item.template.InteractiveItemTemplate, class com.gameserver.item.template.ItemCostTemplate], fileName=Item.xls]
+[18/03/30 15:58:28,512] [INFO] TemplateService.init --> loading template Item.xls
+[18/03/30 15:58:28,535] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.signin.template.SignInTemplate, class com.gameserver.signin.template.CumulativeSignInTemplate], fileName=signIn.xls]
+[18/03/30 15:58:28,535] [INFO] TemplateService.init --> loading template signIn.xls
+[18/03/30 15:58:28,540] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.misc.template.OnlineRewardTemplate], fileName=onlineRewards.xls]
+[18/03/30 15:58:28,540] [INFO] TemplateService.init --> loading template onlineRewards.xls
+[18/03/30 15:58:28,543] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.vip.template.VipTemplate, class com.gameserver.vip.template.VipRoomTemplate], fileName=vip.xls]
+[18/03/30 15:58:28,543] [INFO] TemplateService.init --> loading template vip.xls
+[18/03/30 15:58:28,556] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.vipnew.template.VipNewTemplate], fileName=vipNew.xls]
+[18/03/30 15:58:28,556] [INFO] TemplateService.init --> loading template vipNew.xls
+[18/03/30 15:58:28,561] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.recharge.template.RechargeTemplate], fileName=recharge.xls]
+[18/03/30 15:58:28,561] [INFO] TemplateService.init --> loading template recharge.xls
+[18/03/30 15:58:28,579] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.task.template.DailyTaskTemplate, class com.gameserver.task.template.DailyExtraTemplate], fileName=task.xls]
+[18/03/30 15:58:28,579] [INFO] TemplateService.init --> loading template task.xls
+[18/03/30 15:58:28,603] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.texas.template.SngMatchTemplate, class com.gameserver.texas.template.SngMatchConfigTemplate], fileName=match.xls]
+[18/03/30 15:58:28,604] [INFO] TemplateService.init --> loading template match.xls
+[18/03/30 15:58:28,612] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.baccart.template.BaccaratRoomTemplate, class com.gameserver.baccart.template.BaccaratConfigTemplate, class com.gameserver.baccart.template.JackpotTemplate], fileName=baccaratRoom.xls]
+[18/03/30 15:58:28,612] [INFO] TemplateService.init --> loading template baccaratRoom.xls
+[18/03/30 15:58:28,622] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.luckyspin.template.TurntableTemplate, class com.gameserver.luckyspin.template.TurntableExtra], fileName=turntable.xls]
+[18/03/30 15:58:28,622] [INFO] TemplateService.init --> loading template turntable.xls
+[18/03/30 15:58:28,635] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.luckyspin.template.LuckyMatchTemplate], fileName=luckyMatch.xls]
+[18/03/30 15:58:28,635] [INFO] TemplateService.init --> loading template luckyMatch.xls
+[18/03/30 15:58:28,638] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.PaylinesTemplate], fileName=payLines.xls]
+[18/03/30 15:58:28,638] [INFO] TemplateService.init --> loading template payLines.xls
+[18/03/30 15:58:28,655] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsTemplate, class com.gameserver.slot.template.ReelTemplate, class com.gameserver.slot.template.PayTemplate, class com.gameserver.slot.template.SlotJackpotTemplate, class com.gameserver.slot.template.SlotJackpotNewTemplate], fileName=slots.xls]
+[18/03/30 15:58:28,656] [INFO] TemplateService.init --> loading template slots.xls
+[18/03/30 15:58:29,020] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/03/30 15:58:29,022] [INFO] TemplateService.init --> loading template slotsList.xls
+[18/03/30 15:58:29,099] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsGameTemplate], fileName=bounsGame.xls]
+[18/03/30 15:58:29,099] [INFO] TemplateService.init --> loading template bounsGame.xls
+[18/03/30 15:58:29,102] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.WinMultipleTemplate], fileName=winMultiple.xls]
+[18/03/30 15:58:29,102] [INFO] TemplateService.init --> loading template winMultiple.xls
+[18/03/30 15:58:29,104] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterWheel, class com.gameserver.slot.template.WheelType, class com.gameserver.slot.template.GoldBonusTemplate, class com.gameserver.slot.template.BigWheelTemplate], fileName=scatterWheel.xls]
+[18/03/30 15:58:29,104] [INFO] TemplateService.init --> loading template scatterWheel.xls
+[18/03/30 15:58:29,114] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/03/30 15:58:29,114] [INFO] TemplateService.init --> loading template scatterGame.xls
+[18/03/30 15:58:29,135] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.misc.template.FbInviteTemplate], fileName=fbInvite.xls]
+[18/03/30 15:58:29,135] [INFO] TemplateService.init --> loading template fbInvite.xls
+[18/03/30 15:58:29,138] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.ranknew.template.RankListTemplate], fileName=rankList.xls]
+[18/03/30 15:58:29,138] [INFO] TemplateService.init --> loading template rankList.xls
+[18/03/30 15:58:29,145] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.gift.template.GiftTemplate], fileName=gift.xls]
+[18/03/30 15:58:29,146] [INFO] TemplateService.init --> loading template gift.xls
+[18/03/30 15:58:29,150] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.achievement.template.AchievementTemplate], fileName=achievement.xls]
+[18/03/30 15:58:29,151] [INFO] TemplateService.init --> loading template achievement.xls
+[18/03/30 15:58:29,181] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.human.template.VideoRewardTemplate], fileName=videoReward.xls]
+[18/03/30 15:58:29,181] [INFO] TemplateService.init --> loading template videoReward.xls
+[18/03/30 15:58:29,183] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.RiyuetanMultipleTemplate], fileName=riyuetanMultiple.xls]
+[18/03/30 15:58:29,184] [INFO] TemplateService.init --> loading template riyuetanMultiple.xls
+[18/03/30 15:58:29,186] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/03/30 15:58:29,186] [INFO] TemplateService.init --> loading template scatterMultiple.xls
+[18/03/30 15:58:29,191] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsZeusTemplate, class com.gameserver.slot.template.BounsZeusRewardTemplate], fileName=bounsZeus.xls]
+[18/03/30 15:58:29,200] [INFO] TemplateService.init --> loading template bounsZeus.xls
+[18/03/30 15:58:29,205] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.MagicSymbolTemplate], fileName=magicSymbol.xls]
+[18/03/30 15:58:29,206] [INFO] TemplateService.init --> loading template magicSymbol.xls
+[18/03/30 15:58:29,211] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusStoneAgeTemplate, class com.gameserver.slot.template.BonusStoneAgeRewardTemplate], fileName=bounsStoneAge.xls]
+[18/03/30 15:58:29,211] [INFO] TemplateService.init --> loading template bounsStoneAge.xls
+[18/03/30 15:58:29,214] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusStoneAgeOptimizeTemplate, class com.gameserver.slot.template.BonusStoneAgeAppleTemplate, class com.gameserver.slot.template.BonusStoneAgeRuneTemplate, class com.gameserver.slot.template.BonusStoneAgePreyTemplate], fileName=bounsStoneAgeOptimize.xls]
+[18/03/30 15:58:29,214] [INFO] TemplateService.init --> loading template bounsStoneAgeOptimize.xls
+[18/03/30 15:58:29,217] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsSphinxTemplate, class com.gameserver.slot.template.BounsSphinxRewardTemplate], fileName=bounsSphinx.xls]
+[18/03/30 15:58:29,217] [INFO] TemplateService.init --> loading template bounsSphinx.xls
+[18/03/30 15:58:29,222] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.WildSphinxTemplate], fileName=wildSphinx.xls]
+[18/03/30 15:58:29,222] [INFO] TemplateService.init --> loading template wildSphinx.xls
+[18/03/30 15:58:29,224] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/03/30 15:58:29,224] [INFO] TemplateService.init --> loading template bonusAztec.xls
+[18/03/30 15:58:29,226] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusWolfTemplate], fileName=bonusWolf.xls]
+[18/03/30 15:58:29,226] [INFO] TemplateService.init --> loading template bonusWolf.xls
+[18/03/30 15:58:29,230] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate, class com.gameserver.slot.template.ScatterCrystalRewardTemplate], fileName=scatterCrystal.xls]
+[18/03/30 15:58:29,230] [INFO] TemplateService.init --> loading template scatterCrystal.xls
+[18/03/30 15:58:29,237] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsElephontTemplate], fileName=bonusElephant.xls]
+[18/03/30 15:58:29,237] [INFO] TemplateService.init --> loading template bonusElephant.xls
+[18/03/30 15:58:29,241] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsElephont1Template, class com.gameserver.slot.template.BounsElephont1RewardTemplate], fileName=bonusElephant1.xls]
+[18/03/30 15:58:29,241] [INFO] TemplateService.init --> loading template bonusElephant1.xls
+[18/03/30 15:58:29,248] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BigWildRespinTemplate], fileName=bigWildRespin.xls]
+[18/03/30 15:58:29,248] [INFO] TemplateService.init --> loading template bigWildRespin.xls
+[18/03/30 15:58:29,264] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsTigerTemplate, class com.gameserver.slot.template.BounsTigerRewardTemplate], fileName=bounsTiger.xls]
+[18/03/30 15:58:29,264] [INFO] TemplateService.init --> loading template bounsTiger.xls
+[18/03/30 15:58:29,268] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate, class com.gameserver.slot.template.ScatterGoldTemplate], fileName=scatterCowboy.xls]
+[18/03/30 15:58:29,268] [INFO] TemplateService.init --> loading template scatterCowboy.xls
+[18/03/30 15:58:29,271] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.JackpotDragonTemplate], fileName=jackpotDrong.xls]
+[18/03/30 15:58:29,271] [INFO] TemplateService.init --> loading template jackpotDrong.xls
+[18/03/30 15:58:29,273] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusNinjaTemplate, class com.gameserver.slot.template.BonusNinjaRewardTemplate], fileName=bounsNinja.xls]
+[18/03/30 15:58:29,273] [INFO] TemplateService.init --> loading template bounsNinja.xls
+[18/03/30 15:58:29,276] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsRhinoTemplate], fileName=bonusRhino.xls]
+[18/03/30 15:58:29,276] [INFO] TemplateService.init --> loading template bonusRhino.xls
+[18/03/30 15:58:29,278] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate, class com.gameserver.slot.template.ScatterOceanTemplate, class com.gameserver.slot.template.ScatterOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/03/30 15:58:29,278] [INFO] TemplateService.init --> loading template bonusOcean.xls
+[18/03/30 15:58:29,284] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusHolmesTemplate, class com.gameserver.slot.template.BonusHolmesRewardTemplate], fileName=bonusHolmes.xls]
+[18/03/30 15:58:29,284] [INFO] TemplateService.init --> loading template bonusHolmes.xls
+[18/03/30 15:58:29,286] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.human.template.LevelGift], fileName=levelGift.xls]
+[18/03/30 15:58:29,287] [INFO] TemplateService.init --> loading template levelGift.xls
+[18/03/30 15:58:29,292] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.ranknew.template.ScoreListTemplate, class com.gameserver.ranknew.template.ScoreListRewardTemplate], fileName=scoreList.xls]
+[18/03/30 15:58:29,292] [INFO] TemplateService.init --> loading template scoreList.xls
+[18/03/30 15:58:29,299] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.recharge.template.MultipleWheel, class com.gameserver.recharge.template.WheelConditionTemplate], fileName=multipleWheel.xls]
+[18/03/30 15:58:29,299] [INFO] TemplateService.init --> loading template multipleWheel.xls
+[18/03/30 15:58:29,303] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.collect.template.ShavePrizeTemplate, class com.gameserver.collect.template.CardRewardTemplate], fileName=shavePrize.xls]
+[18/03/30 15:58:29,303] [INFO] TemplateService.init --> loading template shavePrize.xls
+[18/03/30 15:58:29,485] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.collect.template.ExchangeTemplate], fileName=exchange.xls]
+[18/03/30 15:58:29,485] [INFO] TemplateService.init --> loading template exchange.xls
+[18/03/30 15:58:29,488] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.TournamentTemplate, class com.gameserver.slot.template.TournamentRankListTemplate], fileName=tournament.xls]
+[18/03/30 15:58:29,488] [INFO] TemplateService.init --> loading template tournament.xls
+[18/03/30 15:58:29,508] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.treasury.template.TreasuryTemplate], fileName=treasury.xls]
+[18/03/30 15:58:29,509] [INFO] TemplateService.init --> loading template treasury.xls
+[18/03/30 15:58:29,512] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsPirate1Template, class com.gameserver.slot.template.BounsPirate1Step1Template, class com.gameserver.slot.template.BounsPirate1Step2Template], fileName=bonusPirate1.xls]
+[18/03/30 15:58:29,512] [INFO] TemplateService.init --> loading template bonusPirate1.xls
+[18/03/30 15:58:29,526] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsPirate2Template, class com.gameserver.slot.template.BounsPirate2RewardTemplate], fileName=bonusPirate2.xls]
+[18/03/30 15:58:29,526] [INFO] TemplateService.init --> loading template bonusPirate2.xls
+[18/03/30 15:58:29,529] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsPirate3Template, class com.gameserver.slot.template.BounsPirate3RewardTemplate], fileName=bonusPirate3.xls]
+[18/03/30 15:58:29,529] [INFO] TemplateService.init --> loading template bonusPirate3.xls
+[18/03/30 15:58:29,536] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.human.template.CouponTemplate], fileName=coupon.xls]
+[18/03/30 15:58:29,536] [INFO] TemplateService.init --> loading template coupon.xls
+[18/03/30 15:58:29,541] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.SocialitySpartaTemplate, class com.gameserver.slot.template.SocialitySpartaRewardTemplate], fileName=SocialitySparta.xls]
+[18/03/30 15:58:29,541] [INFO] TemplateService.init --> loading template SocialitySparta.xls
+[18/03/30 15:58:29,544] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusSpartaTemplate, class com.gameserver.slot.template.BonusSpartaRewardTemplate], fileName=bonusSparta.xls]
+[18/03/30 15:58:29,544] [INFO] TemplateService.init --> loading template bonusSparta.xls
+[18/03/30 15:58:29,551] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.club.template.ClubTemplate, class com.gameserver.club.template.ClubIconTemplate, class com.gameserver.club.template.ClubListTemplate], fileName=club.xls]
+[18/03/30 15:58:29,551] [INFO] TemplateService.init --> loading template club.xls
+[18/03/30 15:58:29,573] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.club.template.ClubRechargeTemplate], fileName=clubrecharge.xls]
+[18/03/30 15:58:29,573] [INFO] TemplateService.init --> loading template clubrecharge.xls
+[18/03/30 15:58:29,575] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.activity.template.WeeklyMonthlyPackTemplate], fileName=weeklyMonthlyPack.xls]
+[18/03/30 15:58:29,576] [INFO] TemplateService.init --> loading template weeklyMonthlyPack.xls
+[18/03/30 15:58:29,579] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.club.template.UnlockLevelTemplate], fileName=unlocklevel.xls]
+[18/03/30 15:58:29,579] [INFO] TemplateService.init --> loading template unlocklevel.xls
+[18/03/30 15:58:29,581] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusBrazilTemplate, class com.gameserver.slot.template.BonusBrazilBarGameTemplate, class com.gameserver.slot.template.BonusBrazilSambaStageTemplate], fileName=bonusBrazil.xls]
+[18/03/30 15:58:29,581] [INFO] TemplateService.init --> loading template bonusBrazil.xls
+[18/03/30 15:58:29,588] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsRedgirlTemplate, class com.gameserver.slot.template.BounsRedgirlRewardTemplate], fileName=bounsRedgirl.xls]
+[18/03/30 15:58:29,596] [INFO] TemplateService.init --> loading template bounsRedgirl.xls
+[18/03/30 15:58:29,602] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterRedgirlTemplate], fileName=scatterRedgirl.xls]
+[18/03/30 15:58:29,602] [INFO] TemplateService.init --> loading template scatterRedgirl.xls
+[18/03/30 15:58:29,604] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.worldboss.template.BossTemplate, class com.gameserver.worldboss.template.BossPropertyTemplate, class com.gameserver.worldboss.template.BossList], fileName=worldboss.xls]
+[18/03/30 15:58:29,604] [INFO] TemplateService.init --> loading template worldboss.xls
+[18/03/30 15:58:29,610] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.newbie.template.NovicebootTemplate, class com.gameserver.newbie.template.NoviceSlotsTemplate, class com.gameserver.newbie.template.NoviceStepTemplate], fileName=Noviceboot.xls]
+[18/03/30 15:58:29,610] [INFO] TemplateService.init --> loading template Noviceboot.xls
+[18/03/30 15:58:29,616] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsHallowmasTemplate, class com.gameserver.slot.template.BounsHallowmasRewardTemplate, class com.gameserver.slot.template.BounsHallowmasJackpotTemplate], fileName=bonusHallowmas.xls]
+[18/03/30 15:58:29,616] [INFO] TemplateService.init --> loading template bonusHallowmas.xls
+[18/03/30 15:58:29,619] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.WinnerWheelConfigTemplate, class com.gameserver.slot.template.WinnerWheelTemplate], fileName=Winnerwheel.xls]
+[18/03/30 15:58:29,619] [INFO] TemplateService.init --> loading template Winnerwheel.xls
+[18/03/30 15:58:29,621] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.gift.template.NewComerTemplate], fileName=newComer.xls]
+[18/03/30 15:58:29,621] [INFO] TemplateService.init --> loading template newComer.xls
+[18/03/30 15:58:29,772] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMAN] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,773] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:EXITREASONID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,773] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANTEXASID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,773] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANBAGID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,773] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANMONTHCARDID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,773] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANWEEKCARDID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,773] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANMAILID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,773] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANFRIENDID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,773] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANFRIENDREQUESTID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,773] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANWEEKSIGNINID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,773] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANVIPID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,773] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANRECHARGEID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,773] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANTASKID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,773] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANACTIVITYID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,774] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANTEXASROOMID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,774] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANTEXASROOMGAMEID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,774] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANITEMID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,774] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANTEXASSNGID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,775] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANCOMPENSATIONID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,775] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANMISCID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,775] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANFRIENDGIFTID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,775] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:ROBOTCOMPLEMENTID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,775] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANBACCARTID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,775] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:BACCARTROOMMODELID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,775] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:LUCKYSPINID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,775] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:LUCKYMATCHID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,775] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:SLOT] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,775] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANSLOT] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,776] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:RANKNEW] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,776] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANGIFT] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,776] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:TEXASROOT] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,776] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:ACHIEVEMENT] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,776] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:CONVERSIONCODE] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,776] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:COLLECT] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,776] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:CLUB] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,776] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:CLUB_MEMBER] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,777] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANTREASURYID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,777] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:WORLDBOSSID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,777] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANATTACKBOSSID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,777] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANGIVEALIKE] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,777] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANMONTHWEEK] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,777] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANPAYGUIDE] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,777] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANNEWCOMER] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:29,777] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:FUNCTIONUUID] cur uuid[Hex:589d7a8b729a8401] cur uuid[6385394586023003137]
+[18/03/30 15:58:30,277] [INFO] RedisService.init --> redis service init
+[18/03/30 15:58:30,323] [INFO] RedisService.init --> redis[127.0.0.1:6379 service init successfully
+[18/03/30 15:58:30,325] [INFO] RedisService.init --> ServerRedisMsgProcessor initialized successfully!
+[18/03/30 15:58:30,412] [INFO] ServerStatusService.init --> server status service init
+[18/03/30 15:58:30,417] [INFO] TexasService.init --> init texas service
+[18/03/30 15:58:30,420] [INFO] TexasService.initNormalRoom --> init texas service normal room
+[18/03/30 15:58:30,424] [INFO] TexasService.initSNGRoom --> init texas service sng room
+[18/03/30 15:58:30,449] [INFO] SignInService.init --> sign in service init
+[18/03/30 15:58:30,452] [INFO] NoticeService.loadNoticeFromDB --> 加载所有公告
+[18/03/30 15:58:30,501] [INFO] NoticeService.checkNotices --> 遍历所有公告
+[18/03/30 15:58:30,517] [INFO] MiscService.init --> misc service init
+[18/03/30 15:58:30,520] [INFO] ChatService.init --> chat service init
+[18/03/30 15:58:30,532] [INFO] SlotService.init --> slot service init
+[18/03/30 15:58:30,912] [INFO] Log.initialized --> Logging initialized @8424ms
+[18/03/30 15:58:31,099] [INFO] Server.doStart --> jetty-9.2.18.v20160721
+[18/03/30 15:58:31,162] [INFO] AbstractConnector.doStart --> Started ServerConnector@5633dc75{HTTP/1.1}{127.0.0.1:8888}
+[18/03/30 15:58:31,170] [INFO] Server.doStart --> Started @8682ms
+[18/03/30 15:58:31,361] [INFO] HumanLevelGiftService.init --> {5:{"id":1,"level":5,"reward1Id":3,"reward1Num":5000,"reward2Id":20007,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},10:{"id":2,"level":10,"reward1Id":3,"reward1Num":6000,"reward2Id":20022,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},15:{"id":3,"level":15,"reward1Id":3,"reward1Num":7000,"reward2Id":20022,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},20:{"id":4,"level":20,"reward1Id":3,"reward1Num":8000,"reward2Id":20022,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},25:{"id":5,"level":25,"reward1Id":3,"reward1Num":9000,"reward2Id":20022,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},30:{"id":6,"level":30,"reward1Id":3,"reward1Num":10000,"reward2Id":20022,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},35:{"id":7,"level":35,"reward1Id":3,"reward1Num":11000,"reward2Id":20022,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},40:{"id":8,"level":40,"reward1Id":3,"reward1Num":12000,"reward2Id":20022,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},45:{"id":9,"level":45,"reward1Id":3,"reward1Num":13000,"reward2Id":20022,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},50:{"id":10,"level":50,"reward1Id":3,"reward1Num":14000,"reward2Id":20022,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},55:{"id":11,"level":55,"reward1Id":3,"reward1Num":15000,"reward2Id":20022,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},60:{"id":12,"level":60,"reward1Id":3,"reward1Num":16000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},65:{"id":13,"level":65,"reward1Id":3,"reward1Num":17000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},70:{"id":14,"level":70,"reward1Id":3,"reward1Num":18000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},75:{"id":15,"level":75,"reward1Id":3,"reward1Num":19000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},80:{"id":16,"level":80,"reward1Id":3,"reward1Num":20000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},85:{"id":17,"level":85,"reward1Id":3,"reward1Num":21000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},90:{"id":18,"level":90,"reward1Id":3,"reward1Num":22000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},95:{"id":19,"level":95,"reward1Id":3,"reward1Num":23000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},100:{"id":20,"level":100,"reward1Id":3,"reward1Num":25000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},110:{"id":21,"level":110,"reward1Id":3,"reward1Num":27000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},120:{"id":22,"level":120,"reward1Id":3,"reward1Num":29000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},130:{"id":23,"level":130,"reward1Id":3,"reward1Num":31000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},140:{"id":24,"level":140,"reward1Id":3,"reward1Num":33000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},150:{"id":25,"level":150,"reward1Id":3,"reward1Num":35000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},160:{"id":26,"level":160,"reward1Id":3,"reward1Num":37000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},170:{"id":27,"level":170,"reward1Id":3,"reward1Num":39000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},180:{"id":28,"level":180,"reward1Id":3,"reward1Num":41000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},190:{"id":29,"level":190,"reward1Id":3,"reward1Num":43000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},200:{"id":30,"level":200,"reward1Id":3,"reward1Num":45000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},210:{"id":31,"level":210,"reward1Id":3,"reward1Num":47000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},220:{"id":32,"level":220,"reward1Id":3,"reward1Num":49000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},230:{"id":33,"level":230,"reward1Id":3,"reward1Num":51000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},240:{"id":34,"level":240,"reward1Id":3,"reward1Num":53000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},250:{"id":35,"level":250,"reward1Id":3,"reward1Num":55000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},260:{"id":36,"level":260,"reward1Id":3,"reward1Num":57000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},270:{"id":37,"level":270,"reward1Id":3,"reward1Num":59000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},280:{"id":38,"level":280,"reward1Id":3,"reward1Num":61000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},290:{"id":39,"level":290,"reward1Id":3,"reward1Num":63000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},300:{"id":40,"level":300,"reward1Id":3,"reward1Num":65000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},310:{"id":41,"level":310,"reward1Id":3,"reward1Num":67000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},320:{"id":42,"level":320,"reward1Id":3,"reward1Num":69000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},330:{"id":43,"level":330,"reward1Id":3,"reward1Num":71000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},340:{"id":44,"level":340,"reward1Id":3,"reward1Num":73000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},350:{"id":45,"level":350,"reward1Id":3,"reward1Num":75000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},360:{"id":46,"level":360,"reward1Id":3,"reward1Num":77000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},370:{"id":47,"level":370,"reward1Id":3,"reward1Num":79000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},380:{"id":48,"level":380,"reward1Id":3,"reward1Num":81000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},390:{"id":49,"level":390,"reward1Id":3,"reward1Num":83000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},400:{"id":50,"level":400,"reward1Id":3,"reward1Num":85000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},410:{"id":51,"level":410,"reward1Id":3,"reward1Num":87000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},420:{"id":52,"level":420,"reward1Id":3,"reward1Num":89000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},430:{"id":53,"level":430,"reward1Id":3,"reward1Num":91000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},440:{"id":54,"level":440,"reward1Id":3,"reward1Num":93000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},450:{"id":55,"level":450,"reward1Id":3,"reward1Num":95000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},460:{"id":56,"level":460,"reward1Id":3,"reward1Num":97000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},470:{"id":57,"level":470,"reward1Id":3,"reward1Num":99000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},480:{"id":58,"level":480,"reward1Id":3,"reward1Num":101000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},490:{"id":59,"level":490,"reward1Id":3,"reward1Num":103000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},500:{"id":60,"level":500,"reward1Id":3,"reward1Num":105000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"}}
+[18/03/30 15:58:31,387] [WARN] IndexedEnum$IndexedEnumUtil.toIndexes --> 警告：枚举类com.core.schedule.LLScheduleEnum中有索引超过1000的索引，如果有很多索引空缺，可能会造成空间浪费
+[18/03/30 15:58:31,397] [INFO] LLScheduleServiceImpl.scheduleWithFixedDelay --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@46a795de
+[18/03/30 15:58:31,402] [INFO] LLScheduleServiceImpl.scheduleWithFixedDelay --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@2f3928ac
+[18/03/30 15:58:31,403] [INFO] LLScheduleServiceImpl.scheduleWithFixedDelay --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@4bf03fee
+[18/03/30 15:58:31,403] [INFO] LLScheduleServiceImpl.scheduleWithFixedDelay --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@31834a2b
+[18/03/30 15:58:31,404] [INFO] LLScheduleServiceImpl.scheduleWithFixedDelay --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@44f0ff2b
+[18/03/30 15:58:31,443] [INFO] LLScheduleServiceImpl.scheduleWithFixedDelay --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@22ead351
+[18/03/30 15:58:31,444] [INFO] LLScheduleServiceImpl.scheduleWithFixedDelay --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@68af87ad
+[18/03/30 15:58:31,444] [INFO] LLScheduleServiceImpl.scheduleWithFixedDelay --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@43d65a81
+[18/03/30 15:58:31,446] [INFO] LLScheduleServiceImpl.scheduleWithFixedDelay --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@7418d76e
+[18/03/30 15:58:31,488] [INFO] WorldBossNewService.initHowTOStartWorldBoss --> ++++++比赛前 30 分钟 通知时间 设置：2018-03-31 03:30:00
+[18/03/30 15:58:31,493] [INFO] LLScheduleServiceImpl.scheduleOnce --> scheduleOnce date:Sat Mar 31 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@50b734c4
+[18/03/30 15:58:31,494] [INFO] WorldBossNewService.initHowTOStartWorldBoss --> ++++++跑马灯通知时间 设置：2018-03-31 03:55:00
+[18/03/30 15:58:31,495] [INFO] LLScheduleServiceImpl.scheduleOnce --> scheduleOnce date:Sat Mar 31 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@16d0e521
+[18/03/30 15:58:31,495] [INFO] WorldBossNewService.initHowTOStartWorldBoss --> ++++++游戏开始时间设置通知时间 设置：2018-03-31 04:00:00
+[18/03/30 15:58:31,497] [INFO] LLScheduleServiceImpl.scheduleOnce --> scheduleOnce date:Sat Mar 31 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@ab4aa5e
+[18/03/30 15:58:31,497] [INFO] WorldBossNewService.initHowTOStartWorldBoss --> ++++++比赛前 30 分钟 通知时间 设置：2018-03-30 19:30:00
+[18/03/30 15:58:31,497] [INFO] LLScheduleServiceImpl.scheduleOnce --> scheduleOnce date:Fri Mar 30 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@b14b60a
+[18/03/30 15:58:31,497] [INFO] WorldBossNewService.initHowTOStartWorldBoss --> ++++++跑马灯通知时间 设置：2018-03-30 19:55:00
+[18/03/30 15:58:31,497] [INFO] LLScheduleServiceImpl.scheduleOnce --> scheduleOnce date:Fri Mar 30 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@1a7cb3a4
+[18/03/30 15:58:31,497] [INFO] WorldBossNewService.initHowTOStartWorldBoss --> ++++++游戏开始时间设置通知时间 设置：2018-03-30 20:00:00
+[18/03/30 15:58:31,497] [INFO] LLScheduleServiceImpl.scheduleOnce --> scheduleOnce date:Fri Mar 30 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@1c297897
+[18/03/30 15:58:31,508] [INFO] ClubTemplateService.init --> 俱乐部模板服务加载 10 ClubTemplate 数据
+[18/03/30 15:58:31,508] [INFO] ClubTemplateService.init --> 俱乐部模板服务加载 1 ClubRechargeTemplate 数据
+[18/03/30 15:58:31,508] [INFO] RedisService.afterInit --> redis service after init
+[18/03/30 15:58:31,509] [INFO] ServerStatusService.afterInit --> server status service after init
+[18/03/30 15:58:31,531] [INFO] SignInService.afterInit --> sign in service after init
+[18/03/30 15:58:31,532] [INFO] MiscService.afterInit --> misc service after init
+[18/03/30 15:58:31,535] [INFO] ChatService.afterInit --> chat service after init
+[18/03/30 15:58:31,536] [INFO] RechargeService.afterInit --> recharge service after init
+[18/03/30 15:58:31,573] [INFO] SlotService.afterInit --> slot service  after init
+[18/03/30 15:58:32,267] [INFO] ClubService.startSeason --> csd.startTs: 1514563199960, csd.endTs: 1517155199950
+[18/03/30 15:58:32,303] [INFO] ClubService.startSeason --> csd.startTs: 1522339199930, csd.endTs: 1524931199920
+[18/03/30 15:58:32,303] [INFO] ClubService.startSeason --> delay: 2534487653, interval: 2591999990
+[18/03/30 15:58:32,317] [INFO] Slf4jRecord.recordInfo --> #IMOP.LOCAL.LOGGER.INITLIZE...
+[18/03/30 15:58:32,319] [INFO] Slf4jRecord.recordInfo --> #IMOP.LOCAL.INIT.THREADPOOL.OK:SIZE:2
+[18/03/30 15:58:32,319] [INFO] Slf4jRecord.recordInfo --> #IMOP.LOCAL.START:AREAID:0
+[18/03/30 15:58:32,321] [INFO] GameServer.init --> Globals initialized
+[18/03/30 15:58:32,645] [INFO] GameServer.start --> Begin to start Server Process
+[18/03/30 15:58:32,645] [INFO] ServerProcess.log --> Server process [texas]:Message processor thread starting...
+[18/03/30 15:58:32,646] [INFO] QueueMessageProcessor.start --> Message processor thread started [Thread[MessageProcessor Thread,5,main]]
+[18/03/30 15:58:32,686] [ERROR] GameServer.main --> Failed to start server
+java.lang.RuntimeException: Bind address [/192.168.1.41:9000] fail
+	at com.core.server.ServerProcess.start(ServerProcess.java:159)
+	at com.gameserver.GameServer.start(GameServer.java:111)
+	at com.gameserver.GameServer.main(GameServer.java:233)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.mina.transport.socket.nio.SocketAcceptor.registerNew(SocketAcceptor.java:363)
+	at org.apache.mina.transport.socket.nio.SocketAcceptor.access$800(SocketAcceptor.java:55)
+	at org.apache.mina.transport.socket.nio.SocketAcceptor$Worker.run(SocketAcceptor.java:222)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:51)
+	at java.lang.Thread.run(Thread.java:745)
+[18/03/30 15:58:58,505] [INFO] GameServer.main --> Starting Game Server
+[18/03/30 15:58:58,511] [INFO] GameServer.main --> Free memory 1781 Mb of 1797 Mb
+[18/03/30 15:58:58,678] [INFO] ConfigHelper.buildConfig --> Load config [class com.gameserver.common.config.GameServerConfig] from [file:/C:/d_sortwire/eclipse_workspace_4/game_server/bin/game_server.cfg.js]
+[18/03/30 15:58:59,432] [INFO] GameServer.init --> Begin to initialize Globals
+[18/03/30 15:58:59,537] [INFO] EventListenerAdapter.addListener --> [#GS.EventManager.addListener] [Register event listener (event:com.core.orm.DBAccessEvent listener:com.core.orm.DBAccessEventListener]
+[18/03/30 15:58:59,572] [INFO] Version.<clinit> --> Hibernate Annotations 3.4.0.GA
+[18/03/30 15:58:59,584] [INFO] Environment.<clinit> --> Hibernate 3.3.2.GA
+[18/03/30 15:58:59,586] [INFO] Environment.<clinit> --> loaded properties from resource hibernate.properties: {hibernate.c3p0.timeout=1000, hibernate.c3p0.max_statements=50, hibernate.c3p0.max_size=10, hibernate.c3p0.min_size=5, hibernate.connection.username=root, hibernate.connection.url=jdbc:mysql://127.0.0.1:3306/texas?useUnicode=true&characterEncoding=utf-8&useServerPrepStmts=true, hibernate.connection.provider_class=org.hibernate.connection.C3P0ConnectionProvider, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, hibernate.connection.password=****}
+[18/03/30 15:58:59,589] [INFO] Environment.buildBytecodeProvider --> Bytecode provider name : javassist
+[18/03/30 15:58:59,596] [INFO] Environment.<clinit> --> using JDK 1.4 java.sql.Timestamp handling
+[18/03/30 15:58:59,672] [INFO] Version.<clinit> --> Hibernate Commons Annotations 3.1.0.GA
+[18/03/30 15:58:59,679] [INFO] Configuration.configure --> configuring from url: file:/C:/d_sortwire/eclipse_workspace_4/game_server/bin/game_server_hibernate.cfg.xml
+[18/03/30 15:58:59,825] [INFO] Configuration.doConfigure --> Configured SessionFactory: null
+[18/03/30 15:58:59,825] [INFO] Configuration.addResource --> Reading mappings from resource : game_server_hibernate_query.xml
+[18/03/30 15:58:59,896] [INFO] HibernateSearchEventListenerRegister.enableHibernateSearch --> Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+[18/03/30 15:58:59,958] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.DbVersion
+[18/03/30 15:58:59,984] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.DbVersion on table t_db_version
+[18/03/30 15:59:00,028] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.DeviceEntity
+[18/03/30 15:59:00,028] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.DeviceEntity on table t_device
+[18/03/30 15:59:00,032] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.UserInfo
+[18/03/30 15:59:00,033] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.UserInfo on table t_user_info
+[18/03/30 15:59:00,035] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanEntity
+[18/03/30 15:59:00,035] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanEntity on table t_human_info
+[18/03/30 15:59:00,040] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanTexasEntity
+[18/03/30 15:59:00,040] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanTexasEntity on table t_human_texas
+[18/03/30 15:59:00,041] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanMonthCardEntity
+[18/03/30 15:59:00,042] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanMonthCardEntity on table t_human_month_card
+[18/03/30 15:59:00,043] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanWeekCardEntity
+[18/03/30 15:59:00,043] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanWeekCardEntity on table t_human_week_card
+[18/03/30 15:59:00,044] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.FriendEntity
+[18/03/30 15:59:00,045] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.FriendEntity on table t_human_friend
+[18/03/30 15:59:00,047] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.FriendRequestEntity
+[18/03/30 15:59:00,048] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.FriendRequestEntity on table t_human_friend_request
+[18/03/30 15:59:00,050] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.MailEntity
+[18/03/30 15:59:00,051] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.MailEntity on table t_mail_info
+[18/03/30 15:59:00,053] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanWeekSignInEntity
+[18/03/30 15:59:00,054] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanWeekSignInEntity on table t_human_week_sign_in
+[18/03/30 15:59:00,055] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.NoticeEntity
+[18/03/30 15:59:00,055] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.NoticeEntity on table t_notice
+[18/03/30 15:59:00,057] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanMiscEntity
+[18/03/30 15:59:00,058] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanMiscEntity on table t_human_misc
+[18/03/30 15:59:00,060] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanVipEntity
+[18/03/30 15:59:00,061] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanVipEntity on table t_human_vip
+[18/03/30 15:59:00,064] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanRechargeOrderEntity
+[18/03/30 15:59:00,064] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanRechargeOrderEntity on table t_human_recharge_order
+[18/03/30 15:59:00,067] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanTaskEntity
+[18/03/30 15:59:00,067] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanTaskEntity on table t_human_task
+[18/03/30 15:59:00,072] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanActivityEntity
+[18/03/30 15:59:00,073] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanActivityEntity on table t_human_activity
+[18/03/30 15:59:00,074] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.ActivityEntity
+[18/03/30 15:59:00,075] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.ActivityEntity on table t_activity
+[18/03/30 15:59:00,083] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanItemEntity
+[18/03/30 15:59:00,083] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanItemEntity on table t_human_item
+[18/03/30 15:59:00,085] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanTexasSNGEntity
+[18/03/30 15:59:00,086] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanTexasSNGEntity on table t_human_texas_sng
+[18/03/30 15:59:00,087] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.CompensationEntity
+[18/03/30 15:59:00,088] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.CompensationEntity on table t_compensation
+[18/03/30 15:59:00,090] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanCompensationEntity
+[18/03/30 15:59:00,090] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanCompensationEntity on table t_human_compensation
+[18/03/30 15:59:00,091] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanRefundEntity
+[18/03/30 15:59:00,091] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanRefundEntity on table t_human_refund
+[18/03/30 15:59:00,093] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanFriendGiftEntity
+[18/03/30 15:59:00,095] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanFriendGiftEntity on table t_human_friend_gift
+[18/03/30 15:59:00,096] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.RobotComplementEntity
+[18/03/30 15:59:00,097] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.RobotComplementEntity on table t_robot_complement
+[18/03/30 15:59:00,098] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanBaccartEntity
+[18/03/30 15:59:00,098] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanBaccartEntity on table t_human_baccart
+[18/03/30 15:59:00,099] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.BaccartRoomModelEntity
+[18/03/30 15:59:00,099] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.BaccartRoomModelEntity on table t_baccart_room_model
+[18/03/30 15:59:00,100] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanLuckySpinEntity
+[18/03/30 15:59:00,101] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanLuckySpinEntity on table t_human_lucky_spin
+[18/03/30 15:59:00,101] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanLuckyMatchEntity
+[18/03/30 15:59:00,102] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanLuckyMatchEntity on table t_human_lucky_match
+[18/03/30 15:59:00,103] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.SlotEntity
+[18/03/30 15:59:00,103] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.SlotEntity on table t_slot
+[18/03/30 15:59:00,104] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanSlotEntity
+[18/03/30 15:59:00,104] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanSlotEntity on table t_human_slot
+[18/03/30 15:59:00,105] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanVipNewEntity
+[18/03/30 15:59:00,105] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanVipNewEntity on table t_human_vip_new
+[18/03/30 15:59:00,106] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.TextasEntity
+[18/03/30 15:59:00,106] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.TextasEntity on table t_textas
+[18/03/30 15:59:00,107] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.RankEntity
+[18/03/30 15:59:00,107] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.RankEntity on table t_rank
+[18/03/30 15:59:00,108] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanGiftEntity
+[18/03/30 15:59:00,108] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanGiftEntity on table t_human_gift
+[18/03/30 15:59:00,112] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanAchievementEntity
+[18/03/30 15:59:00,113] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanAchievementEntity on table t_human_achievement
+[18/03/30 15:59:00,114] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.Conversioncode
+[18/03/30 15:59:00,114] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.Conversioncode on table t_conversioncode
+[18/03/30 15:59:00,115] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.RobotStatisDataEntity
+[18/03/30 15:59:00,116] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.RobotStatisDataEntity on table t_robot_statis_data
+[18/03/30 15:59:00,117] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.SlotListEntity
+[18/03/30 15:59:00,118] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.SlotListEntity on table t_slot_list
+[18/03/30 15:59:00,119] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanCollectEntity
+[18/03/30 15:59:00,119] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanCollectEntity on table t_human_collect
+[18/03/30 15:59:00,121] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanTreasuryEntity
+[18/03/30 15:59:00,121] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanTreasuryEntity on table t_human_treasury
+[18/03/30 15:59:00,122] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.CommonActivityEntity
+[18/03/30 15:59:00,122] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.CommonActivityEntity on table t_common_activity
+[18/03/30 15:59:00,123] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.ClubEntity
+[18/03/30 15:59:00,123] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.ClubEntity on table t_club
+[18/03/30 15:59:00,126] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.ClubMemberEntity
+[18/03/30 15:59:00,126] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.ClubMemberEntity on table t_club_member_list
+[18/03/30 15:59:00,127] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.ClubNoteEntity
+[18/03/30 15:59:00,128] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.ClubNoteEntity on table t_club_note
+[18/03/30 15:59:00,129] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.ClubInvateEntity
+[18/03/30 15:59:00,129] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.ClubInvateEntity on table t_club_invate
+[18/03/30 15:59:00,130] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.ClubInviteEntity
+[18/03/30 15:59:00,131] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.ClubInviteEntity on table t_club_invite
+[18/03/30 15:59:00,133] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.ClubApplyEntity
+[18/03/30 15:59:00,141] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.ClubApplyEntity on table t_club_applys
+[18/03/30 15:59:00,149] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.ClubInvatePlayerEntity
+[18/03/30 15:59:00,149] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.ClubInvatePlayerEntity on table t_club_invate_players
+[18/03/30 15:59:00,151] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.NewbieEntity
+[18/03/30 15:59:00,152] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.NewbieEntity on table t_human_newbie
+[18/03/30 15:59:00,162] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanAttackBossEntity
+[18/03/30 15:59:00,163] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanAttackBossEntity on table t_human_attack_boss
+[18/03/30 15:59:00,165] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.BossEntity
+[18/03/30 15:59:00,167] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.BossEntity on table t_boss
+[18/03/30 15:59:00,177] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanGivealikeEntity
+[18/03/30 15:59:00,177] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanGivealikeEntity on table t_human_givealike
+[18/03/30 15:59:00,179] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanMonthWeekEntity
+[18/03/30 15:59:00,179] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanMonthWeekEntity on table t_human_month_week
+[18/03/30 15:59:00,180] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanPayguideEntity
+[18/03/30 15:59:00,180] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanPayguideEntity on table t_human_payguide
+[18/03/30 15:59:00,182] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.ClubGiftRecordEntity
+[18/03/30 15:59:00,182] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.ClubGiftRecordEntity on table t_club_gift_record
+[18/03/30 15:59:00,183] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.HumanNewComerEntity
+[18/03/30 15:59:00,183] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.HumanNewComerEntity on table t_human_new_comer
+[18/03/30 15:59:00,185] [INFO] AnnotationBinder.bindClass --> Binding entity from annotated class: com.db.model.FunctionEntity
+[18/03/30 15:59:00,185] [INFO] EntityBinder.bindTable --> Bind entity com.db.model.FunctionEntity on table t_function
+[18/03/30 15:59:00,192] [INFO] AnnotationConfiguration.secondPassCompile --> Hibernate Validator not found: ignoring
+[18/03/30 15:59:00,257] [INFO] ConnectionProviderFactory.newConnectionProvider --> Initializing connection provider: org.hibernate.connection.C3P0ConnectionProvider
+[18/03/30 15:59:00,278] [INFO] C3P0ConnectionProvider.configure --> C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://127.0.0.1:3306/texas?useUnicode=true&characterEncoding=utf-8&useServerPrepStmts=true
+[18/03/30 15:59:00,279] [INFO] C3P0ConnectionProvider.configure --> Connection properties: {user=root, password=****}
+[18/03/30 15:59:00,279] [INFO] C3P0ConnectionProvider.configure --> autocommit mode: false
+[18/03/30 15:59:00,320] [INFO] MLog.<clinit> --> MLog clients using log4j logging.
+[18/03/30 15:59:00,608] [INFO] C3P0Registry.banner --> Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+[18/03/30 15:59:00,733] [INFO] AbstractPoolBackedDataSource.getPoolManager --> Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@4741512e [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@4223397b [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1499uwpu7n4giw9gh|66eb985d, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@e3277cad [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge1499uwpu7n4giw9gh|4d666b41, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/texas?useUnicode=true&characterEncoding=utf-8&useServerPrepStmts=true, properties -> {user=******, password=******} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge1499uwpu7n4giw9gh|29d37757, numHelperThreads -> 3 ]
+[18/03/30 15:59:01,009] [INFO] SettingsFactory.buildSettings --> RDBMS: MySQL, version: 5.1.73-community
+[18/03/30 15:59:01,010] [INFO] SettingsFactory.buildSettings --> JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.18 ( Revision: tonci.grgin@oracle.com-20110930151701-jfj14ddfq48ifkfq )
+[18/03/30 15:59:01,030] [INFO] Dialect.<init> --> Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[18/03/30 15:59:01,035] [INFO] TransactionFactoryFactory.buildTransactionFactory --> Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+[18/03/30 15:59:01,036] [INFO] TransactionManagerLookupFactory.getTransactionManagerLookup --> No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[18/03/30 15:59:01,037] [INFO] SettingsFactory.buildSettings --> Automatic flush during beforeCompletion(): disabled
+[18/03/30 15:59:01,037] [INFO] SettingsFactory.buildSettings --> Automatic session close at end of transaction: disabled
+[18/03/30 15:59:01,037] [INFO] SettingsFactory.buildSettings --> JDBC batch size: 15
+[18/03/30 15:59:01,037] [INFO] SettingsFactory.buildSettings --> JDBC batch updates for versioned data: disabled
+[18/03/30 15:59:01,037] [INFO] SettingsFactory.buildSettings --> Scrollable result sets: enabled
+[18/03/30 15:59:01,038] [INFO] SettingsFactory.buildSettings --> JDBC3 getGeneratedKeys(): enabled
+[18/03/30 15:59:01,038] [INFO] SettingsFactory.buildSettings --> Connection release mode: auto
+[18/03/30 15:59:01,038] [INFO] SettingsFactory.buildSettings --> Maximum outer join fetch depth: 2
+[18/03/30 15:59:01,039] [INFO] SettingsFactory.buildSettings --> Default batch fetch size: 1
+[18/03/30 15:59:01,039] [INFO] SettingsFactory.buildSettings --> Generate SQL with comments: disabled
+[18/03/30 15:59:01,039] [INFO] SettingsFactory.buildSettings --> Order SQL updates by primary key: disabled
+[18/03/30 15:59:01,039] [INFO] SettingsFactory.buildSettings --> Order SQL inserts for batching: disabled
+[18/03/30 15:59:01,039] [INFO] SettingsFactory.createQueryTranslatorFactory --> Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[18/03/30 15:59:01,040] [INFO] ASTQueryTranslatorFactory.<init> --> Using ASTQueryTranslatorFactory
+[18/03/30 15:59:01,041] [INFO] SettingsFactory.buildSettings --> Query language substitutions: {}
+[18/03/30 15:59:01,041] [INFO] SettingsFactory.buildSettings --> JPA-QL strict compliance: disabled
+[18/03/30 15:59:01,041] [INFO] SettingsFactory.buildSettings --> Second-level cache: enabled
+[18/03/30 15:59:01,041] [INFO] SettingsFactory.buildSettings --> Query cache: disabled
+[18/03/30 15:59:01,044] [INFO] SettingsFactory.createRegionFactory --> Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+[18/03/30 15:59:01,044] [INFO] RegionFactoryCacheProviderBridge.<init> --> Cache provider: org.hibernate.cache.NoCacheProvider
+[18/03/30 15:59:01,045] [INFO] SettingsFactory.buildSettings --> Optimize cache for minimal puts: disabled
+[18/03/30 15:59:01,045] [INFO] SettingsFactory.buildSettings --> Structured second-level cache entries: disabled
+[18/03/30 15:59:01,048] [INFO] SettingsFactory.buildSettings --> Echoing all SQL to stdout
+[18/03/30 15:59:01,049] [INFO] SettingsFactory.buildSettings --> Statistics: disabled
+[18/03/30 15:59:01,049] [INFO] SettingsFactory.buildSettings --> Deleted entity synthetic identifier rollback: disabled
+[18/03/30 15:59:01,050] [INFO] SettingsFactory.buildSettings --> Default entity-mode: pojo
+[18/03/30 15:59:01,050] [INFO] SettingsFactory.buildSettings --> Named query checking : enabled
+[18/03/30 15:59:01,083] [INFO] SessionFactoryImpl.<init> --> building session factory
+[18/03/30 15:59:01,512] [INFO] SessionFactoryObjectFactory.addInstance --> Not binding factory to JNDI, no JNDI name configured
+[18/03/30 15:59:01,945] [INFO] GameDaoService$DaoHelper.<init> --> DBService instance:com.core.orm.HibernateDBServcieImpl@70c0a3d5
+[18/03/30 15:59:01,980] [INFO] GameDaoService.logInfo --> HumanDao - 检查实体
+[18/03/30 15:59:01,980] [INFO] GameDaoService.logInfo --> HumanItemDao - 检查实体
+[18/03/30 15:59:01,980] [INFO] GameDaoService.logInfo --> HumanTexasDao - 检查实体
+[18/03/30 15:59:01,980] [INFO] GameDaoService.logInfo --> HumanMonthCardDao - 检查实体
+[18/03/30 15:59:01,980] [INFO] GameDaoService.logInfo --> HumanWeekCardDao - 检查实体
+[18/03/30 15:59:01,980] [INFO] GameDaoService.logInfo --> MailDao - 检查实体
+[18/03/30 15:59:01,981] [INFO] GameDaoService.logInfo --> NewbieDao - 检查实体
+[18/03/30 15:59:01,981] [INFO] GameDaoService.logInfo --> HumanFriendDao - 检查实体
+[18/03/30 15:59:01,983] [INFO] GameDaoService.logInfo --> HumanFriendRequestDao - 检查实体
+[18/03/30 15:59:01,983] [INFO] GameDaoService.logInfo --> HumanWeekSignInDao - 检查实体
+[18/03/30 15:59:01,984] [INFO] GameDaoService.logInfo --> DbVersionDao - 检查实体
+[18/03/30 15:59:01,992] [INFO] GameDaoService.logInfo --> NoticeDao - 检查实体
+[18/03/30 15:59:01,993] [INFO] GameDaoService.logInfo --> HumanMiscDao - 检查实体
+[18/03/30 15:59:01,994] [INFO] GameDaoService.logInfo --> HumanVipDao - 检查实体
+[18/03/30 15:59:01,994] [INFO] GameDaoService.logInfo --> HumanVipNewDao - 检查实体
+[18/03/30 15:59:01,994] [INFO] GameDaoService.logInfo --> HumanRechargeOrderDao - 检查实体
+[18/03/30 15:59:01,994] [INFO] GameDaoService.logInfo --> HumanTaskDao - 检查实体
+[18/03/30 15:59:01,995] [INFO] GameDaoService.logInfo --> HumanActivityDao - 检查实体
+[18/03/30 15:59:01,997] [INFO] GameDaoService.logInfo --> ActivityDao - 检查实体
+[18/03/30 15:59:02,012] [INFO] GameDaoService.logInfo --> CommonActivityDao - 检查实体
+[18/03/30 15:59:02,012] [INFO] GameDaoService.logInfo --> FunctionDao - 检查实体
+[18/03/30 15:59:02,013] [INFO] GameDaoService.logInfo --> CompensationDao - 检查实体
+[18/03/30 15:59:02,014] [INFO] GameDaoService.logInfo --> HumanCompensationDao - 检查实体
+[18/03/30 15:59:02,014] [INFO] GameDaoService.logInfo --> HumanTexasSNGDao - 检查实体
+[18/03/30 15:59:02,014] [INFO] GameDaoService.logInfo --> HumanRefundDao - 检查实体
+[18/03/30 15:59:02,015] [INFO] GameDaoService.logInfo --> HumanFriendGiftDao - 检查实体
+[18/03/30 15:59:02,016] [INFO] GameDaoService.logInfo --> RobotComplementDao - 检查实体
+[18/03/30 15:59:02,016] [INFO] GameDaoService.logInfo --> HumanBaccartDao - 检查实体
+[18/03/30 15:59:02,017] [INFO] GameDaoService.logInfo --> BaccartRoomModelDao - 检查实体
+[18/03/30 15:59:02,019] [INFO] GameDaoService.logInfo --> DeviceDao - 检查实体
+[18/03/30 15:59:02,019] [INFO] GameDaoService.logInfo --> HumanLuckySpinDao - 检查实体
+[18/03/30 15:59:02,020] [INFO] GameDaoService.logInfo --> HumanLuckyMatchDao - 检查实体
+[18/03/30 15:59:02,020] [INFO] GameDaoService.logInfo --> SlotDao - 检查实体
+[18/03/30 15:59:02,020] [INFO] GameDaoService.logInfo --> HumanSlotDao - 检查实体
+[18/03/30 15:59:02,020] [INFO] GameDaoService.logInfo --> TextasDao - 检查实体
+[18/03/30 15:59:02,021] [INFO] GameDaoService.logInfo --> RankDao - 检查实体
+[18/03/30 15:59:02,021] [INFO] GameDaoService.logInfo --> HumanGiftDao - 检查实体
+[18/03/30 15:59:02,022] [INFO] GameDaoService.logInfo --> HumanAchievementDao - 检查实体
+[18/03/30 15:59:02,022] [INFO] GameDaoService.logInfo --> ConversioncodeDao - 检查实体
+[18/03/30 15:59:02,024] [INFO] GameDaoService.logInfo --> RobotStatisDataDao - 检查实体
+[18/03/30 15:59:02,024] [INFO] GameDaoService.logInfo --> HumanCollectDao - 检查实体
+[18/03/30 15:59:02,026] [INFO] GameDaoService.logInfo --> HumanTreasuryDao - 检查实体
+[18/03/30 15:59:02,026] [INFO] GameDaoService.logInfo --> HumanMonthWeekDao - 检查实体
+[18/03/30 15:59:02,026] [INFO] GameDaoService.logInfo --> ClubDao - 检查实体
+[18/03/30 15:59:02,026] [INFO] GameDaoService.logInfo --> ClubMemberListDao - 检查实体
+[18/03/30 15:59:02,027] [INFO] GameDaoService.logInfo --> ClubNoteDao - 检查实体
+[18/03/30 15:59:02,027] [INFO] GameDaoService.logInfo --> ClubInvateDao - 检查实体
+[18/03/30 15:59:02,027] [INFO] GameDaoService.logInfo --> ClubApplyDao - 检查实体
+[18/03/30 15:59:02,027] [INFO] GameDaoService.logInfo --> ClubSeasonDao - 检查实体
+[18/03/30 15:59:02,027] [INFO] GameDaoService.logInfo --> ClubInvatePlayerDao - 检查实体
+[18/03/30 15:59:02,030] [INFO] GameDaoService.logInfo --> HumanAttackBossDao - 检查实体
+[18/03/30 15:59:02,030] [INFO] GameDaoService.logInfo --> BossDao - 检查实体
+[18/03/30 15:59:02,030] [INFO] GameDaoService.logInfo --> HumanGivealikeDao - 检查实体
+[18/03/30 15:59:02,034] [INFO] GameDaoService.logInfo --> ClubInviteDao - 检查实体
+[18/03/30 15:59:02,035] [INFO] GameDaoService.logInfo --> HumanPayguideDao - 检查实体
+[18/03/30 15:59:02,035] [INFO] GameDaoService.logInfo --> HumanNewComerDao - 检查实体
+[18/03/30 15:59:02,035] [INFO] GameDaoService.logInfo --> ClubGiftRecordtDao - 检查实体
+[18/03/30 15:59:02,251] [INFO] LogService.<init> --> Connnect to Log server : 127.0.0.1 : 7001
+[18/03/30 15:59:03,018] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.scene.template.CityTemplate], fileName=city.xls]
+[18/03/30 15:59:03,018] [INFO] TemplateService.init --> loading template city.xls
+[18/03/30 15:59:03,035] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.common.template.ConfigTemplate], fileName=Config.xls]
+[18/03/30 15:59:03,035] [INFO] TemplateService.init --> loading template Config.xls
+[18/03/30 15:59:03,057] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.common.template.Dirtywords], fileName=dirtywords.xls]
+[18/03/30 15:59:03,057] [INFO] TemplateService.init --> loading template dirtywords.xls
+[18/03/30 15:59:03,249] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.texas.template.TexasRoomTemplate, class com.gameserver.texas.template.TexasRoomConfigTemplate, class com.gameserver.texas.template.TexasJackpotTemplate], fileName=TexasRoom.xls]
+[18/03/30 15:59:03,249] [INFO] TemplateService.init --> loading template TexasRoom.xls
+[18/03/30 15:59:03,266] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.human.template.RoleExpTemplate], fileName=RoleExp.xls]
+[18/03/30 15:59:03,267] [INFO] TemplateService.init --> loading template RoleExp.xls
+[18/03/30 15:59:03,283] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.shop.template.ShopTemplate], fileName=Shop.xls]
+[18/03/30 15:59:03,283] [INFO] TemplateService.init --> loading template Shop.xls
+[18/03/30 15:59:03,288] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.item.template.ItemTemplate, class com.gameserver.item.template.InteractiveItemTemplate, class com.gameserver.item.template.ItemCostTemplate], fileName=Item.xls]
+[18/03/30 15:59:03,288] [INFO] TemplateService.init --> loading template Item.xls
+[18/03/30 15:59:03,309] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.signin.template.SignInTemplate, class com.gameserver.signin.template.CumulativeSignInTemplate], fileName=signIn.xls]
+[18/03/30 15:59:03,309] [INFO] TemplateService.init --> loading template signIn.xls
+[18/03/30 15:59:03,315] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.misc.template.OnlineRewardTemplate], fileName=onlineRewards.xls]
+[18/03/30 15:59:03,316] [INFO] TemplateService.init --> loading template onlineRewards.xls
+[18/03/30 15:59:03,318] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.vip.template.VipTemplate, class com.gameserver.vip.template.VipRoomTemplate], fileName=vip.xls]
+[18/03/30 15:59:03,318] [INFO] TemplateService.init --> loading template vip.xls
+[18/03/30 15:59:03,367] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.vipnew.template.VipNewTemplate], fileName=vipNew.xls]
+[18/03/30 15:59:03,367] [INFO] TemplateService.init --> loading template vipNew.xls
+[18/03/30 15:59:03,377] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.recharge.template.RechargeTemplate], fileName=recharge.xls]
+[18/03/30 15:59:03,377] [INFO] TemplateService.init --> loading template recharge.xls
+[18/03/30 15:59:03,385] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.task.template.DailyTaskTemplate, class com.gameserver.task.template.DailyExtraTemplate], fileName=task.xls]
+[18/03/30 15:59:03,385] [INFO] TemplateService.init --> loading template task.xls
+[18/03/30 15:59:03,424] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.texas.template.SngMatchTemplate, class com.gameserver.texas.template.SngMatchConfigTemplate], fileName=match.xls]
+[18/03/30 15:59:03,428] [INFO] TemplateService.init --> loading template match.xls
+[18/03/30 15:59:03,441] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.baccart.template.BaccaratRoomTemplate, class com.gameserver.baccart.template.BaccaratConfigTemplate, class com.gameserver.baccart.template.JackpotTemplate], fileName=baccaratRoom.xls]
+[18/03/30 15:59:03,441] [INFO] TemplateService.init --> loading template baccaratRoom.xls
+[18/03/30 15:59:03,452] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.luckyspin.template.TurntableTemplate, class com.gameserver.luckyspin.template.TurntableExtra], fileName=turntable.xls]
+[18/03/30 15:59:03,455] [INFO] TemplateService.init --> loading template turntable.xls
+[18/03/30 15:59:03,468] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.luckyspin.template.LuckyMatchTemplate], fileName=luckyMatch.xls]
+[18/03/30 15:59:03,468] [INFO] TemplateService.init --> loading template luckyMatch.xls
+[18/03/30 15:59:03,474] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.PaylinesTemplate], fileName=payLines.xls]
+[18/03/30 15:59:03,475] [INFO] TemplateService.init --> loading template payLines.xls
+[18/03/30 15:59:03,491] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsTemplate, class com.gameserver.slot.template.ReelTemplate, class com.gameserver.slot.template.PayTemplate, class com.gameserver.slot.template.SlotJackpotTemplate, class com.gameserver.slot.template.SlotJackpotNewTemplate], fileName=slots.xls]
+[18/03/30 15:59:03,491] [INFO] TemplateService.init --> loading template slots.xls
+[18/03/30 15:59:03,879] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/03/30 15:59:03,879] [INFO] TemplateService.init --> loading template slotsList.xls
+[18/03/30 15:59:03,952] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsGameTemplate], fileName=bounsGame.xls]
+[18/03/30 15:59:03,952] [INFO] TemplateService.init --> loading template bounsGame.xls
+[18/03/30 15:59:03,955] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.WinMultipleTemplate], fileName=winMultiple.xls]
+[18/03/30 15:59:03,955] [INFO] TemplateService.init --> loading template winMultiple.xls
+[18/03/30 15:59:03,957] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterWheel, class com.gameserver.slot.template.WheelType, class com.gameserver.slot.template.GoldBonusTemplate, class com.gameserver.slot.template.BigWheelTemplate], fileName=scatterWheel.xls]
+[18/03/30 15:59:03,957] [INFO] TemplateService.init --> loading template scatterWheel.xls
+[18/03/30 15:59:03,966] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/03/30 15:59:03,966] [INFO] TemplateService.init --> loading template scatterGame.xls
+[18/03/30 15:59:03,985] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.misc.template.FbInviteTemplate], fileName=fbInvite.xls]
+[18/03/30 15:59:03,986] [INFO] TemplateService.init --> loading template fbInvite.xls
+[18/03/30 15:59:03,988] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.ranknew.template.RankListTemplate], fileName=rankList.xls]
+[18/03/30 15:59:03,988] [INFO] TemplateService.init --> loading template rankList.xls
+[18/03/30 15:59:03,994] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.gift.template.GiftTemplate], fileName=gift.xls]
+[18/03/30 15:59:03,994] [INFO] TemplateService.init --> loading template gift.xls
+[18/03/30 15:59:03,998] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.achievement.template.AchievementTemplate], fileName=achievement.xls]
+[18/03/30 15:59:03,998] [INFO] TemplateService.init --> loading template achievement.xls
+[18/03/30 15:59:04,047] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.human.template.VideoRewardTemplate], fileName=videoReward.xls]
+[18/03/30 15:59:04,048] [INFO] TemplateService.init --> loading template videoReward.xls
+[18/03/30 15:59:04,055] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.RiyuetanMultipleTemplate], fileName=riyuetanMultiple.xls]
+[18/03/30 15:59:04,056] [INFO] TemplateService.init --> loading template riyuetanMultiple.xls
+[18/03/30 15:59:04,057] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/03/30 15:59:04,057] [INFO] TemplateService.init --> loading template scatterMultiple.xls
+[18/03/30 15:59:04,060] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsZeusTemplate, class com.gameserver.slot.template.BounsZeusRewardTemplate], fileName=bounsZeus.xls]
+[18/03/30 15:59:04,060] [INFO] TemplateService.init --> loading template bounsZeus.xls
+[18/03/30 15:59:04,067] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.MagicSymbolTemplate], fileName=magicSymbol.xls]
+[18/03/30 15:59:04,067] [INFO] TemplateService.init --> loading template magicSymbol.xls
+[18/03/30 15:59:04,070] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusStoneAgeTemplate, class com.gameserver.slot.template.BonusStoneAgeRewardTemplate], fileName=bounsStoneAge.xls]
+[18/03/30 15:59:04,070] [INFO] TemplateService.init --> loading template bounsStoneAge.xls
+[18/03/30 15:59:04,073] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusStoneAgeOptimizeTemplate, class com.gameserver.slot.template.BonusStoneAgeAppleTemplate, class com.gameserver.slot.template.BonusStoneAgeRuneTemplate, class com.gameserver.slot.template.BonusStoneAgePreyTemplate], fileName=bounsStoneAgeOptimize.xls]
+[18/03/30 15:59:04,073] [INFO] TemplateService.init --> loading template bounsStoneAgeOptimize.xls
+[18/03/30 15:59:04,076] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsSphinxTemplate, class com.gameserver.slot.template.BounsSphinxRewardTemplate], fileName=bounsSphinx.xls]
+[18/03/30 15:59:04,076] [INFO] TemplateService.init --> loading template bounsSphinx.xls
+[18/03/30 15:59:04,096] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.WildSphinxTemplate], fileName=wildSphinx.xls]
+[18/03/30 15:59:04,097] [INFO] TemplateService.init --> loading template wildSphinx.xls
+[18/03/30 15:59:04,099] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/03/30 15:59:04,100] [INFO] TemplateService.init --> loading template bonusAztec.xls
+[18/03/30 15:59:04,102] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusWolfTemplate], fileName=bonusWolf.xls]
+[18/03/30 15:59:04,102] [INFO] TemplateService.init --> loading template bonusWolf.xls
+[18/03/30 15:59:04,104] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate, class com.gameserver.slot.template.ScatterCrystalRewardTemplate], fileName=scatterCrystal.xls]
+[18/03/30 15:59:04,104] [INFO] TemplateService.init --> loading template scatterCrystal.xls
+[18/03/30 15:59:04,109] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsElephontTemplate], fileName=bonusElephant.xls]
+[18/03/30 15:59:04,109] [INFO] TemplateService.init --> loading template bonusElephant.xls
+[18/03/30 15:59:04,113] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsElephont1Template, class com.gameserver.slot.template.BounsElephont1RewardTemplate], fileName=bonusElephant1.xls]
+[18/03/30 15:59:04,114] [INFO] TemplateService.init --> loading template bonusElephant1.xls
+[18/03/30 15:59:04,121] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BigWildRespinTemplate], fileName=bigWildRespin.xls]
+[18/03/30 15:59:04,122] [INFO] TemplateService.init --> loading template bigWildRespin.xls
+[18/03/30 15:59:04,123] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsTigerTemplate, class com.gameserver.slot.template.BounsTigerRewardTemplate], fileName=bounsTiger.xls]
+[18/03/30 15:59:04,123] [INFO] TemplateService.init --> loading template bounsTiger.xls
+[18/03/30 15:59:04,127] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate, class com.gameserver.slot.template.ScatterGoldTemplate], fileName=scatterCowboy.xls]
+[18/03/30 15:59:04,127] [INFO] TemplateService.init --> loading template scatterCowboy.xls
+[18/03/30 15:59:04,129] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.JackpotDragonTemplate], fileName=jackpotDrong.xls]
+[18/03/30 15:59:04,129] [INFO] TemplateService.init --> loading template jackpotDrong.xls
+[18/03/30 15:59:04,131] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusNinjaTemplate, class com.gameserver.slot.template.BonusNinjaRewardTemplate], fileName=bounsNinja.xls]
+[18/03/30 15:59:04,131] [INFO] TemplateService.init --> loading template bounsNinja.xls
+[18/03/30 15:59:04,133] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsRhinoTemplate], fileName=bonusRhino.xls]
+[18/03/30 15:59:04,133] [INFO] TemplateService.init --> loading template bonusRhino.xls
+[18/03/30 15:59:04,135] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate, class com.gameserver.slot.template.ScatterOceanTemplate, class com.gameserver.slot.template.ScatterOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/03/30 15:59:04,135] [INFO] TemplateService.init --> loading template bonusOcean.xls
+[18/03/30 15:59:04,142] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusHolmesTemplate, class com.gameserver.slot.template.BonusHolmesRewardTemplate], fileName=bonusHolmes.xls]
+[18/03/30 15:59:04,142] [INFO] TemplateService.init --> loading template bonusHolmes.xls
+[18/03/30 15:59:04,145] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.human.template.LevelGift], fileName=levelGift.xls]
+[18/03/30 15:59:04,145] [INFO] TemplateService.init --> loading template levelGift.xls
+[18/03/30 15:59:04,150] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.ranknew.template.ScoreListTemplate, class com.gameserver.ranknew.template.ScoreListRewardTemplate], fileName=scoreList.xls]
+[18/03/30 15:59:04,150] [INFO] TemplateService.init --> loading template scoreList.xls
+[18/03/30 15:59:04,162] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.recharge.template.MultipleWheel, class com.gameserver.recharge.template.WheelConditionTemplate], fileName=multipleWheel.xls]
+[18/03/30 15:59:04,162] [INFO] TemplateService.init --> loading template multipleWheel.xls
+[18/03/30 15:59:04,175] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.collect.template.ShavePrizeTemplate, class com.gameserver.collect.template.CardRewardTemplate], fileName=shavePrize.xls]
+[18/03/30 15:59:04,175] [INFO] TemplateService.init --> loading template shavePrize.xls
+[18/03/30 15:59:04,419] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.collect.template.ExchangeTemplate], fileName=exchange.xls]
+[18/03/30 15:59:04,420] [INFO] TemplateService.init --> loading template exchange.xls
+[18/03/30 15:59:04,443] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.TournamentTemplate, class com.gameserver.slot.template.TournamentRankListTemplate], fileName=tournament.xls]
+[18/03/30 15:59:04,443] [INFO] TemplateService.init --> loading template tournament.xls
+[18/03/30 15:59:04,451] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.treasury.template.TreasuryTemplate], fileName=treasury.xls]
+[18/03/30 15:59:04,451] [INFO] TemplateService.init --> loading template treasury.xls
+[18/03/30 15:59:04,453] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsPirate1Template, class com.gameserver.slot.template.BounsPirate1Step1Template, class com.gameserver.slot.template.BounsPirate1Step2Template], fileName=bonusPirate1.xls]
+[18/03/30 15:59:04,453] [INFO] TemplateService.init --> loading template bonusPirate1.xls
+[18/03/30 15:59:04,459] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsPirate2Template, class com.gameserver.slot.template.BounsPirate2RewardTemplate], fileName=bonusPirate2.xls]
+[18/03/30 15:59:04,459] [INFO] TemplateService.init --> loading template bonusPirate2.xls
+[18/03/30 15:59:04,462] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsPirate3Template, class com.gameserver.slot.template.BounsPirate3RewardTemplate], fileName=bonusPirate3.xls]
+[18/03/30 15:59:04,462] [INFO] TemplateService.init --> loading template bonusPirate3.xls
+[18/03/30 15:59:04,467] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.human.template.CouponTemplate], fileName=coupon.xls]
+[18/03/30 15:59:04,467] [INFO] TemplateService.init --> loading template coupon.xls
+[18/03/30 15:59:04,469] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.SocialitySpartaTemplate, class com.gameserver.slot.template.SocialitySpartaRewardTemplate], fileName=SocialitySparta.xls]
+[18/03/30 15:59:04,469] [INFO] TemplateService.init --> loading template SocialitySparta.xls
+[18/03/30 15:59:04,473] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusSpartaTemplate, class com.gameserver.slot.template.BonusSpartaRewardTemplate], fileName=bonusSparta.xls]
+[18/03/30 15:59:04,473] [INFO] TemplateService.init --> loading template bonusSparta.xls
+[18/03/30 15:59:04,478] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.club.template.ClubTemplate, class com.gameserver.club.template.ClubIconTemplate, class com.gameserver.club.template.ClubListTemplate], fileName=club.xls]
+[18/03/30 15:59:04,478] [INFO] TemplateService.init --> loading template club.xls
+[18/03/30 15:59:04,502] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.club.template.ClubRechargeTemplate], fileName=clubrecharge.xls]
+[18/03/30 15:59:04,502] [INFO] TemplateService.init --> loading template clubrecharge.xls
+[18/03/30 15:59:04,504] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.activity.template.WeeklyMonthlyPackTemplate], fileName=weeklyMonthlyPack.xls]
+[18/03/30 15:59:04,505] [INFO] TemplateService.init --> loading template weeklyMonthlyPack.xls
+[18/03/30 15:59:04,507] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.club.template.UnlockLevelTemplate], fileName=unlocklevel.xls]
+[18/03/30 15:59:04,507] [INFO] TemplateService.init --> loading template unlocklevel.xls
+[18/03/30 15:59:04,508] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusBrazilTemplate, class com.gameserver.slot.template.BonusBrazilBarGameTemplate, class com.gameserver.slot.template.BonusBrazilSambaStageTemplate], fileName=bonusBrazil.xls]
+[18/03/30 15:59:04,508] [INFO] TemplateService.init --> loading template bonusBrazil.xls
+[18/03/30 15:59:04,513] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsRedgirlTemplate, class com.gameserver.slot.template.BounsRedgirlRewardTemplate], fileName=bounsRedgirl.xls]
+[18/03/30 15:59:04,515] [INFO] TemplateService.init --> loading template bounsRedgirl.xls
+[18/03/30 15:59:04,519] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterRedgirlTemplate], fileName=scatterRedgirl.xls]
+[18/03/30 15:59:04,520] [INFO] TemplateService.init --> loading template scatterRedgirl.xls
+[18/03/30 15:59:04,522] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.worldboss.template.BossTemplate, class com.gameserver.worldboss.template.BossPropertyTemplate, class com.gameserver.worldboss.template.BossList], fileName=worldboss.xls]
+[18/03/30 15:59:04,522] [INFO] TemplateService.init --> loading template worldboss.xls
+[18/03/30 15:59:04,528] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.newbie.template.NovicebootTemplate, class com.gameserver.newbie.template.NoviceSlotsTemplate, class com.gameserver.newbie.template.NoviceStepTemplate], fileName=Noviceboot.xls]
+[18/03/30 15:59:04,528] [INFO] TemplateService.init --> loading template Noviceboot.xls
+[18/03/30 15:59:04,537] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsHallowmasTemplate, class com.gameserver.slot.template.BounsHallowmasRewardTemplate, class com.gameserver.slot.template.BounsHallowmasJackpotTemplate], fileName=bonusHallowmas.xls]
+[18/03/30 15:59:04,537] [INFO] TemplateService.init --> loading template bonusHallowmas.xls
+[18/03/30 15:59:04,542] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.slot.template.WinnerWheelConfigTemplate, class com.gameserver.slot.template.WinnerWheelTemplate], fileName=Winnerwheel.xls]
+[18/03/30 15:59:04,542] [INFO] TemplateService.init --> loading template Winnerwheel.xls
+[18/03/30 15:59:04,546] [INFO] TemplateService.init --> TemplateConfig [classes=[class com.gameserver.gift.template.NewComerTemplate], fileName=newComer.xls]
+[18/03/30 15:59:04,546] [INFO] TemplateService.init --> loading template newComer.xls
+[18/03/30 15:59:04,711] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMAN] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,711] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:EXITREASONID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,711] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANTEXASID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,712] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANBAGID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,712] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANMONTHCARDID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,712] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANWEEKCARDID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,712] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANMAILID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,712] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANFRIENDID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,712] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANFRIENDREQUESTID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,712] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANWEEKSIGNINID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,712] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANVIPID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,712] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANRECHARGEID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,712] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANTASKID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,712] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANACTIVITYID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,712] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANTEXASROOMID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,712] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANTEXASROOMGAMEID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,713] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANITEMID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,713] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANTEXASSNGID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,713] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANCOMPENSATIONID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,713] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANMISCID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,714] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANFRIENDGIFTID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,714] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:ROBOTCOMPLEMENTID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,714] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANBACCARTID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,714] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:BACCARTROOMMODELID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,714] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:LUCKYSPINID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,714] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:LUCKYMATCHID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,715] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:SLOT] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,716] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANSLOT] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,716] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:RANKNEW] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,716] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANGIFT] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,716] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:TEXASROOT] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,716] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:ACHIEVEMENT] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,716] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:CONVERSIONCODE] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,716] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:COLLECT] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,716] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:CLUB] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,716] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:CLUB_MEMBER] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,717] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANTREASURYID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,717] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:WORLDBOSSID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,717] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANATTACKBOSSID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,717] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANGIVEALIKE] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,717] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANMONTHWEEK] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,717] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANPAYGUIDE] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,717] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:HUMANNEWCOMER] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:04,718] [INFO] MyUUIDServiceImpl.init --> Get UUID for [sid:100001,type:FUNCTIONUUID] cur uuid[Hex:589d7aadf1da8401] cur uuid[6385394734186791937]
+[18/03/30 15:59:05,028] [INFO] RedisService.init --> redis service init
+[18/03/30 15:59:05,049] [INFO] RedisService.init --> redis[127.0.0.1:6379 service init successfully
+[18/03/30 15:59:05,050] [INFO] RedisService.init --> ServerRedisMsgProcessor initialized successfully!
+[18/03/30 15:59:05,097] [INFO] ServerStatusService.init --> server status service init
+[18/03/30 15:59:05,098] [INFO] TexasService.init --> init texas service
+[18/03/30 15:59:05,098] [INFO] TexasService.initNormalRoom --> init texas service normal room
+[18/03/30 15:59:05,100] [INFO] TexasService.initSNGRoom --> init texas service sng room
+[18/03/30 15:59:05,106] [INFO] SignInService.init --> sign in service init
+[18/03/30 15:59:05,106] [INFO] NoticeService.loadNoticeFromDB --> 加载所有公告
+[18/03/30 15:59:05,120] [INFO] NoticeService.checkNotices --> 遍历所有公告
+[18/03/30 15:59:05,124] [INFO] MiscService.init --> misc service init
+[18/03/30 15:59:05,124] [INFO] ChatService.init --> chat service init
+[18/03/30 15:59:05,126] [INFO] SlotService.init --> slot service init
+[18/03/30 15:59:05,260] [INFO] Log.initialized --> Logging initialized @7338ms
+[18/03/30 15:59:05,368] [INFO] Server.doStart --> jetty-9.2.18.v20160721
+[18/03/30 15:59:05,448] [INFO] AbstractConnector.doStart --> Started ServerConnector@2a9a1bff{HTTP/1.1}{127.0.0.1:8888}
+[18/03/30 15:59:05,449] [INFO] Server.doStart --> Started @7526ms
+[18/03/30 15:59:05,791] [INFO] HumanLevelGiftService.init --> {5:{"id":1,"level":5,"reward1Id":3,"reward1Num":5000,"reward2Id":20007,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},10:{"id":2,"level":10,"reward1Id":3,"reward1Num":6000,"reward2Id":20022,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},15:{"id":3,"level":15,"reward1Id":3,"reward1Num":7000,"reward2Id":20022,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},20:{"id":4,"level":20,"reward1Id":3,"reward1Num":8000,"reward2Id":20022,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},25:{"id":5,"level":25,"reward1Id":3,"reward1Num":9000,"reward2Id":20022,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},30:{"id":6,"level":30,"reward1Id":3,"reward1Num":10000,"reward2Id":20022,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},35:{"id":7,"level":35,"reward1Id":3,"reward1Num":11000,"reward2Id":20022,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},40:{"id":8,"level":40,"reward1Id":3,"reward1Num":12000,"reward2Id":20022,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},45:{"id":9,"level":45,"reward1Id":3,"reward1Num":13000,"reward2Id":20022,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},50:{"id":10,"level":50,"reward1Id":3,"reward1Num":14000,"reward2Id":20022,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},55:{"id":11,"level":55,"reward1Id":3,"reward1Num":15000,"reward2Id":20022,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},60:{"id":12,"level":60,"reward1Id":3,"reward1Num":16000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},65:{"id":13,"level":65,"reward1Id":3,"reward1Num":17000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},70:{"id":14,"level":70,"reward1Id":3,"reward1Num":18000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},75:{"id":15,"level":75,"reward1Id":3,"reward1Num":19000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},80:{"id":16,"level":80,"reward1Id":3,"reward1Num":20000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},85:{"id":17,"level":85,"reward1Id":3,"reward1Num":21000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},90:{"id":18,"level":90,"reward1Id":3,"reward1Num":22000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},95:{"id":19,"level":95,"reward1Id":3,"reward1Num":23000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},100:{"id":20,"level":100,"reward1Id":3,"reward1Num":25000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},110:{"id":21,"level":110,"reward1Id":3,"reward1Num":27000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},120:{"id":22,"level":120,"reward1Id":3,"reward1Num":29000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},130:{"id":23,"level":130,"reward1Id":3,"reward1Num":31000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},140:{"id":24,"level":140,"reward1Id":3,"reward1Num":33000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},150:{"id":25,"level":150,"reward1Id":3,"reward1Num":35000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},160:{"id":26,"level":160,"reward1Id":3,"reward1Num":37000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},170:{"id":27,"level":170,"reward1Id":3,"reward1Num":39000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},180:{"id":28,"level":180,"reward1Id":3,"reward1Num":41000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},190:{"id":29,"level":190,"reward1Id":3,"reward1Num":43000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},200:{"id":30,"level":200,"reward1Id":3,"reward1Num":45000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},210:{"id":31,"level":210,"reward1Id":3,"reward1Num":47000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},220:{"id":32,"level":220,"reward1Id":3,"reward1Num":49000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},230:{"id":33,"level":230,"reward1Id":3,"reward1Num":51000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},240:{"id":34,"level":240,"reward1Id":3,"reward1Num":53000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},250:{"id":35,"level":250,"reward1Id":3,"reward1Num":55000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},260:{"id":36,"level":260,"reward1Id":3,"reward1Num":57000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},270:{"id":37,"level":270,"reward1Id":3,"reward1Num":59000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},280:{"id":38,"level":280,"reward1Id":3,"reward1Num":61000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},290:{"id":39,"level":290,"reward1Id":3,"reward1Num":63000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},300:{"id":40,"level":300,"reward1Id":3,"reward1Num":65000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},310:{"id":41,"level":310,"reward1Id":3,"reward1Num":67000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},320:{"id":42,"level":320,"reward1Id":3,"reward1Num":69000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},330:{"id":43,"level":330,"reward1Id":3,"reward1Num":71000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},340:{"id":44,"level":340,"reward1Id":3,"reward1Num":73000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},350:{"id":45,"level":350,"reward1Id":3,"reward1Num":75000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},360:{"id":46,"level":360,"reward1Id":3,"reward1Num":77000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},370:{"id":47,"level":370,"reward1Id":3,"reward1Num":79000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},380:{"id":48,"level":380,"reward1Id":3,"reward1Num":81000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},390:{"id":49,"level":390,"reward1Id":3,"reward1Num":83000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},400:{"id":50,"level":400,"reward1Id":3,"reward1Num":85000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},410:{"id":51,"level":410,"reward1Id":3,"reward1Num":87000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},420:{"id":52,"level":420,"reward1Id":3,"reward1Num":89000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},430:{"id":53,"level":430,"reward1Id":3,"reward1Num":91000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},440:{"id":54,"level":440,"reward1Id":3,"reward1Num":93000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},450:{"id":55,"level":450,"reward1Id":3,"reward1Num":95000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},460:{"id":56,"level":460,"reward1Id":3,"reward1Num":97000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},470:{"id":57,"level":470,"reward1Id":3,"reward1Num":99000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},480:{"id":58,"level":480,"reward1Id":3,"reward1Num":101000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},490:{"id":59,"level":490,"reward1Id":3,"reward1Num":103000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"},500:{"id":60,"level":500,"reward1Id":3,"reward1Num":105000,"reward2Id":20023,"reward2Num":1,"reward3Id":20007,"reward3Num":1,"sheetName":"LevelGiftTemplateVO"}}
+[18/03/30 15:59:05,823] [WARN] IndexedEnum$IndexedEnumUtil.toIndexes --> 警告：枚举类com.core.schedule.LLScheduleEnum中有索引超过1000的索引，如果有很多索引空缺，可能会造成空间浪费
+[18/03/30 15:59:05,839] [INFO] LLScheduleServiceImpl.scheduleWithFixedDelay --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@22ead351
+[18/03/30 15:59:05,841] [INFO] LLScheduleServiceImpl.scheduleWithFixedDelay --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@43d65a81
+[18/03/30 15:59:05,841] [INFO] LLScheduleServiceImpl.scheduleWithFixedDelay --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@9cfc77
+[18/03/30 15:59:05,841] [INFO] LLScheduleServiceImpl.scheduleWithFixedDelay --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@7418d76e
+[18/03/30 15:59:05,849] [INFO] LLScheduleServiceImpl.scheduleWithFixedDelay --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@601eb4af
+[18/03/30 15:59:05,849] [INFO] LLScheduleServiceImpl.scheduleWithFixedDelay --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@11ede87f
+[18/03/30 15:59:05,850] [INFO] LLScheduleServiceImpl.scheduleWithFixedDelay --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@7675c171
+[18/03/30 15:59:05,850] [INFO] LLScheduleServiceImpl.scheduleWithFixedDelay --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@44e4cb76
+[18/03/30 15:59:05,866] [INFO] LLScheduleServiceImpl.scheduleWithFixedDelay --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@2f9a10df
+[18/03/30 15:59:05,963] [INFO] WorldBossNewService.initHowTOStartWorldBoss --> ++++++比赛前 30 分钟 通知时间 设置：2018-03-31 03:30:00
+[18/03/30 15:59:05,975] [INFO] LLScheduleServiceImpl.scheduleOnce --> scheduleOnce date:Sat Mar 31 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@1a7cb3a4
+[18/03/30 15:59:05,975] [INFO] WorldBossNewService.initHowTOStartWorldBoss --> ++++++跑马灯通知时间 设置：2018-03-31 03:55:00
+[18/03/30 15:59:05,976] [INFO] LLScheduleServiceImpl.scheduleOnce --> scheduleOnce date:Sat Mar 31 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@33e0c716
+[18/03/30 15:59:05,976] [INFO] WorldBossNewService.initHowTOStartWorldBoss --> ++++++游戏开始时间设置通知时间 设置：2018-03-31 04:00:00
+[18/03/30 15:59:05,978] [INFO] LLScheduleServiceImpl.scheduleOnce --> scheduleOnce date:Sat Mar 31 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@6274f21c
+[18/03/30 15:59:05,978] [INFO] WorldBossNewService.initHowTOStartWorldBoss --> ++++++比赛前 30 分钟 通知时间 设置：2018-03-30 19:30:00
+[18/03/30 15:59:05,978] [INFO] LLScheduleServiceImpl.scheduleOnce --> scheduleOnce date:Fri Mar 30 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@35cec305
+[18/03/30 15:59:05,979] [INFO] WorldBossNewService.initHowTOStartWorldBoss --> ++++++跑马灯通知时间 设置：2018-03-30 19:55:00
+[18/03/30 15:59:05,979] [INFO] LLScheduleServiceImpl.scheduleOnce --> scheduleOnce date:Fri Mar 30 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@237add
+[18/03/30 15:59:05,979] [INFO] WorldBossNewService.initHowTOStartWorldBoss --> ++++++游戏开始时间设置通知时间 设置：2018-03-30 20:00:00
+[18/03/30 15:59:05,979] [INFO] LLScheduleServiceImpl.scheduleOnce --> scheduleOnce date:Fri Mar 30 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@491cafec
+[18/03/30 15:59:05,992] [INFO] ClubTemplateService.init --> 俱乐部模板服务加载 10 ClubTemplate 数据
+[18/03/30 15:59:05,992] [INFO] ClubTemplateService.init --> 俱乐部模板服务加载 1 ClubRechargeTemplate 数据
+[18/03/30 15:59:05,993] [INFO] RedisService.afterInit --> redis service after init
+[18/03/30 15:59:05,993] [INFO] ServerStatusService.afterInit --> server status service after init
+[18/03/30 15:59:06,008] [INFO] SignInService.afterInit --> sign in service after init
+[18/03/30 15:59:06,008] [INFO] MiscService.afterInit --> misc service after init
+[18/03/30 15:59:06,010] [INFO] ChatService.afterInit --> chat service after init
+[18/03/30 15:59:06,010] [INFO] RechargeService.afterInit --> recharge service after init
+[18/03/30 15:59:06,044] [INFO] SlotService.afterInit --> slot service  after init
+[18/03/30 15:59:06,445] [INFO] ClubService.startSeason --> csd.startTs: 1522339199930, csd.endTs: 1524931199920
+[18/03/30 15:59:06,448] [INFO] ClubService.startSeason --> csd.startTs: 1522339199930, csd.endTs: 1524931199920
+[18/03/30 15:59:06,449] [INFO] ClubService.startSeason --> delay: 2534453475, interval: 2591999990
+[18/03/30 15:59:06,457] [INFO] Slf4jRecord.recordInfo --> #IMOP.LOCAL.LOGGER.INITLIZE...
+[18/03/30 15:59:06,458] [INFO] Slf4jRecord.recordInfo --> #IMOP.LOCAL.INIT.THREADPOOL.OK:SIZE:2
+[18/03/30 15:59:06,458] [INFO] Slf4jRecord.recordInfo --> #IMOP.LOCAL.START:AREAID:0
+[18/03/30 15:59:06,459] [INFO] GameServer.init --> Globals initialized
+[18/03/30 15:59:06,648] [INFO] GameServer.start --> Begin to start Server Process
+[18/03/30 15:59:06,648] [INFO] ServerProcess.log --> Server process [texas]:Message processor thread starting...
+[18/03/30 15:59:06,649] [INFO] QueueMessageProcessor.start --> Message processor thread started [Thread[MessageProcessor Thread,5,main]]
+[18/03/30 15:59:06,675] [INFO] ServerProcess.log --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4
+[18/03/30 15:59:06,676] [INFO] GameServer.start --> Server Process started
+[18/03/30 15:59:06,676] [INFO] GameServer.start --> Begin to start Globals
+[18/03/30 15:59:06,676] [INFO] RedisService.start --> begin start redis sub thread
+[18/03/30 15:59:06,676] [INFO] RedisService.start --> end start redis sub thread
+[18/03/30 15:59:06,681] [INFO] HeartbeatThread.AddHeartbeatRunner --> heartbeatEnum:时间同步 heartRunner:com.core.heartbeat.LLTimeRunner@430df350
+[18/03/30 15:59:06,681] [INFO] HeartbeatThread.AddHeartbeatRunner --> heartbeatEnum:定时任务 heartRunner:com.core.heartbeat.LLScheduleRunner@1373e3ee
+[18/03/30 15:59:06,682] [INFO] GameServer.start --> Globals started
+[18/03/30 15:59:06,682] [INFO] GameServer.start --> Begin to schedule fixed rate task
+[18/03/30 15:59:06,684] [INFO] LLScheduleServiceImpl.scheduleWithFixedDelay --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@69a5c6be
+[18/03/30 15:59:06,692] [INFO] LLScheduleServiceImpl.scheduleWithFixedDelay --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@497ed877
+[18/03/30 15:59:06,694] [INFO] LLScheduleServiceImpl.scheduleWithFixedDelay --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@7b6141f0
+[18/03/30 15:59:06,696] [INFO] LLScheduleServiceImpl.scheduleWithFixedDelay --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@70b48eb3
+[18/03/30 15:59:06,697] [INFO] LLScheduleServiceImpl.scheduleWithFixedDelay --> scheduleWithFixedDelay delay:201660473 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@a91119b
+[18/03/30 15:59:06,700] [INFO] LLScheduleServiceImpl.scheduleWithFixedDelay --> scheduleWithFixedDelay delay:60473 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@231df705
+[18/03/30 15:59:06,947] [INFO] GameServer.main --> Free memory 1772 Mb of 1797 Mb
+[18/03/30 15:59:06,949] [INFO] GameServer.main --> <<-------------------------------- Game Server started version:1.0.0.1----------------------------------->>
+[18/03/30 15:59:06,949] [INFO] GameServer.main --> 服务器启动时间 : 8437毫秒
+[18/03/30 15:59:06,980] [INFO] LLScheduleServiceImpl.scheduleOnce --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@42accc76
+[18/03/30 15:59:06,983] [INFO] LLScheduleServiceImpl.scheduleOnce --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@3797d48b
+[18/03/30 15:59:06,984] [INFO] LLScheduleServiceImpl.scheduleOnce --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@647c975
+[18/03/30 15:59:06,985] [INFO] LLScheduleServiceImpl.scheduleOnce --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@3f77636f
+[18/03/30 15:59:06,986] [INFO] LLScheduleServiceImpl.scheduleOnce --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@1b9cd78b
+[18/03/30 15:59:06,992] [DEBUG] ScheduleHeartBeatServer.execute --> ======>start HeartBeatServer time is:2018-03-30 15:59:06
+[18/03/30 15:59:07,008] [INFO] ServerRedisMsgListener.onSubscribe --> subscribe [server.100001],server.100001=1
+[18/03/30 15:59:07,008] [INFO] ServerRedisMsgListener.onSubscribe --> subscribe [broadcast],broadcast=2
+[18/03/30 15:59:07,011] [INFO] ScheduleLastNetTime.execute --> ======>start sendLastNetTime time is:2018-03-30 15:59:07
+[18/03/30 15:59:07,012] [DEBUG] ScheduleNotice.execute --> ======>start notice time is:2018-03-30 15:59:07
+[18/03/30 15:59:07,013] [INFO] NoticeService.checkNotices --> 遍历所有公告
+[18/03/30 15:59:07,015] [DEBUG] AbstractDataUpdater.update --> [#GS.UpdateService.update] [Begin to sync objects size:125]
+[18/03/30 15:59:07,025] [DEBUG] AbstractDataUpdater.update --> [#GS.UpdateService.update] [Finish sync objects size:125]
+[18/03/30 15:59:07,025] [DEBUG] AbstractDataUpdater.update --> [#GS.DataUpdater.update] [Update Time:10ms]
+[18/03/30 15:59:07,026] [ERROR] HeartbeatThread.run --> runnerId:-1 is busy
+[18/03/30 15:59:07,026] [ERROR] HeartbeatThread.run --> runnerId:1 is busy
+[18/03/30 15:59:07,026] [ERROR] HeartbeatThread.run --> runnerId:2 is busy
+[18/03/30 15:59:07,058] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:38us Total:1
+[18/03/30 15:59:07,060] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:2
+[18/03/30 15:59:07,062] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:3
+[18/03/30 15:59:07,066] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:4
+[18/03/30 15:59:07,070] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:5
+[18/03/30 15:59:07,073] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:6
+[18/03/30 15:59:07,076] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:7
+[18/03/30 15:59:07,081] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:8
+[18/03/30 15:59:07,084] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:9
+[18/03/30 15:59:07,087] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:10
+[18/03/30 15:59:07,090] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:11
+[18/03/30 15:59:07,094] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1248us Total:12
+[18/03/30 15:59:07,097] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:13
+[18/03/30 15:59:07,098] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:14
+[18/03/30 15:59:07,102] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:15
+[18/03/30 15:59:07,104] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:16
+[18/03/30 15:59:07,107] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:17
+[18/03/30 15:59:07,112] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:18
+[18/03/30 15:59:07,116] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:19
+[18/03/30 15:59:07,117] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:20
+[18/03/30 15:59:07,121] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:21
+[18/03/30 15:59:07,124] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:22
+[18/03/30 15:59:07,129] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:23
+[18/03/30 15:59:07,131] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:24
+[18/03/30 15:59:07,139] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:25
+[18/03/30 15:59:07,143] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:26
+[18/03/30 15:59:07,144] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:27
+[18/03/30 15:59:07,149] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:28
+[18/03/30 15:59:07,152] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:29
+[18/03/30 15:59:07,155] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:30
+[18/03/30 15:59:07,159] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:168us Total:31
+[18/03/30 15:59:07,162] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:32
+[18/03/30 15:59:07,165] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:33
+[18/03/30 15:59:07,168] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:34
+[18/03/30 15:59:07,169] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:35
+[18/03/30 15:59:07,172] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:36
+[18/03/30 15:59:07,175] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:37
+[18/03/30 15:59:07,179] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:38
+[18/03/30 15:59:07,180] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:39
+[18/03/30 15:59:07,183] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:40
+[18/03/30 15:59:07,185] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:41
+[18/03/30 15:59:07,187] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:42
+[18/03/30 15:59:07,190] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:43
+[18/03/30 15:59:07,192] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:44
+[18/03/30 15:59:07,195] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:45
+[18/03/30 15:59:07,198] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:46
+[18/03/30 15:59:07,200] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:47
+[18/03/30 15:59:07,202] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:61us Total:48
+[18/03/30 15:59:07,204] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:49
+[18/03/30 15:59:07,207] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:50
+[18/03/30 15:59:07,209] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:51
+[18/03/30 15:59:07,211] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:52
+[18/03/30 15:59:07,213] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:53
+[18/03/30 15:59:07,216] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:54
+[18/03/30 15:59:07,219] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:55
+[18/03/30 15:59:07,221] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:56
+[18/03/30 15:59:07,224] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:57
+[18/03/30 15:59:07,226] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:58
+[18/03/30 15:59:07,227] [INFO] LLScheduleServiceImpl.scheduleOnce --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@d3129b3
+[18/03/30 15:59:07,227] [INFO] LLScheduleServiceImpl.scheduleOnce --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@51ec0d46
+[18/03/30 15:59:07,228] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:59
+[18/03/30 15:59:07,231] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:60
+[18/03/30 15:59:07,233] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:61
+[18/03/30 15:59:07,235] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:62
+[18/03/30 15:59:07,240] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:63
+[18/03/30 15:59:07,243] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:64
+[18/03/30 15:59:07,247] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1269us Total:65
+[18/03/30 15:59:07,248] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:20us Total:66
+[18/03/30 15:59:07,251] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:67
+[18/03/30 15:59:07,253] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:68
+[18/03/30 15:59:07,256] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:69
+[18/03/30 15:59:07,258] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:70
+[18/03/30 15:59:07,261] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:71
+[18/03/30 15:59:07,265] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:72
+[18/03/30 15:59:07,271] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:73
+[18/03/30 15:59:07,275] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:978us Total:74
+[18/03/30 15:59:07,276] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:75
+[18/03/30 15:59:07,280] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:76
+[18/03/30 15:59:07,285] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:5us Total:77
+[18/03/30 15:59:07,286] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:78
+[18/03/30 15:59:07,288] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:79
+[18/03/30 15:59:07,291] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:80
+[18/03/30 15:59:07,293] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:81
+[18/03/30 15:59:07,295] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:82
+[18/03/30 15:59:07,300] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:83
+[18/03/30 15:59:07,302] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:84
+[18/03/30 15:59:07,305] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:85
+[18/03/30 15:59:07,309] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:86
+[18/03/30 15:59:07,310] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:87
+[18/03/30 15:59:07,312] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:88
+[18/03/30 15:59:07,314] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:89
+[18/03/30 15:59:07,316] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:90
+[18/03/30 15:59:07,318] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:91
+[18/03/30 15:59:07,321] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:92
+[18/03/30 15:59:07,323] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:93
+[18/03/30 15:59:07,326] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:94
+[18/03/30 15:59:07,336] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:95
+[18/03/30 15:59:07,340] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:96
+[18/03/30 15:59:07,340] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:97
+[18/03/30 15:59:07,340] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:98
+[18/03/30 15:59:07,355] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:99
+[18/03/30 15:59:07,356] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:100
+[18/03/30 15:59:07,356] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:101
+[18/03/30 15:59:07,359] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:102
+[18/03/30 15:59:07,360] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:103
+[18/03/30 15:59:07,364] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:104
+[18/03/30 15:59:07,366] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:105
+[18/03/30 15:59:07,369] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:106
+[18/03/30 15:59:07,371] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:107
+[18/03/30 15:59:07,375] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:108
+[18/03/30 15:59:07,384] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:109
+[18/03/30 15:59:07,388] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:110
+[18/03/30 15:59:07,394] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:111
+[18/03/30 15:59:07,396] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:112
+[18/03/30 15:59:07,402] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:23us Total:113
+[18/03/30 15:59:07,403] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:114
+[18/03/30 15:59:07,404] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:115
+[18/03/30 15:59:07,413] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:116
+[18/03/30 15:59:07,413] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:117
+[18/03/30 15:59:07,416] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:118
+[18/03/30 15:59:07,419] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:119
+[18/03/30 15:59:07,423] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:120
+[18/03/30 15:59:07,427] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:121
+[18/03/30 15:59:07,429] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:122
+[18/03/30 15:59:07,432] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:123
+[18/03/30 15:59:07,432] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:124
+[18/03/30 15:59:07,435] [INFO] QueueMessageProcessor.process --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:125
+[18/03/30 15:59:07,438] [INFO] LLScheduleServiceImpl.scheduleOnce --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@763f74c4

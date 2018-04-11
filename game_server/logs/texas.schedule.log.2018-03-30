@@ -1,0 +1,47 @@
+[18/03/30 15:58:31,397] --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@46a795de
+[18/03/30 15:58:31,402] --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@2f3928ac
+[18/03/30 15:58:31,403] --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@4bf03fee
+[18/03/30 15:58:31,403] --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@31834a2b
+[18/03/30 15:58:31,404] --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@44f0ff2b
+[18/03/30 15:58:31,443] --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@22ead351
+[18/03/30 15:58:31,444] --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@68af87ad
+[18/03/30 15:58:31,444] --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@43d65a81
+[18/03/30 15:58:31,446] --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@7418d76e
+[18/03/30 15:58:31,493] --> scheduleOnce date:Sat Mar 31 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@50b734c4
+[18/03/30 15:58:31,495] --> scheduleOnce date:Sat Mar 31 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@16d0e521
+[18/03/30 15:58:31,497] --> scheduleOnce date:Sat Mar 31 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@ab4aa5e
+[18/03/30 15:58:31,497] --> scheduleOnce date:Fri Mar 30 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@b14b60a
+[18/03/30 15:58:31,497] --> scheduleOnce date:Fri Mar 30 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@1a7cb3a4
+[18/03/30 15:58:31,497] --> scheduleOnce date:Fri Mar 30 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@1c297897
+[18/03/30 15:59:05,839] --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@22ead351
+[18/03/30 15:59:05,841] --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@43d65a81
+[18/03/30 15:59:05,841] --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@9cfc77
+[18/03/30 15:59:05,841] --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@7418d76e
+[18/03/30 15:59:05,849] --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@601eb4af
+[18/03/30 15:59:05,849] --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@11ede87f
+[18/03/30 15:59:05,850] --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@7675c171
+[18/03/30 15:59:05,850] --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@44e4cb76
+[18/03/30 15:59:05,866] --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@2f9a10df
+[18/03/30 15:59:05,975] --> scheduleOnce date:Sat Mar 31 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@1a7cb3a4
+[18/03/30 15:59:05,976] --> scheduleOnce date:Sat Mar 31 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@33e0c716
+[18/03/30 15:59:05,978] --> scheduleOnce date:Sat Mar 31 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@6274f21c
+[18/03/30 15:59:05,978] --> scheduleOnce date:Fri Mar 30 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@35cec305
+[18/03/30 15:59:05,979] --> scheduleOnce date:Fri Mar 30 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@237add
+[18/03/30 15:59:05,979] --> scheduleOnce date:Fri Mar 30 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@491cafec
+[18/03/30 15:59:06,684] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@69a5c6be
+[18/03/30 15:59:06,692] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@497ed877
+[18/03/30 15:59:06,694] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@7b6141f0
+[18/03/30 15:59:06,696] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@70b48eb3
+[18/03/30 15:59:06,697] --> scheduleWithFixedDelay delay:201660473 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@a91119b
+[18/03/30 15:59:06,700] --> scheduleWithFixedDelay delay:60473 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@231df705
+[18/03/30 15:59:06,980] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@42accc76
+[18/03/30 15:59:06,983] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@3797d48b
+[18/03/30 15:59:06,984] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@647c975
+[18/03/30 15:59:06,985] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@3f77636f
+[18/03/30 15:59:06,986] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@1b9cd78b
+[18/03/30 15:59:06,992] --> ======>start HeartBeatServer time is:2018-03-30 15:59:06
+[18/03/30 15:59:07,011] --> ======>start sendLastNetTime time is:2018-03-30 15:59:07
+[18/03/30 15:59:07,012] --> ======>start notice time is:2018-03-30 15:59:07
+[18/03/30 15:59:07,227] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@d3129b3
+[18/03/30 15:59:07,227] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@51ec0d46
+[18/03/30 15:59:07,438] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@763f74c4

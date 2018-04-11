@@ -1,0 +1,3 @@
+[18/03/30 15:59:07,015] --> [#GS.UpdateService.update] [Begin to sync objects size:125]
+[18/03/30 15:59:07,025] --> [#GS.UpdateService.update] [Finish sync objects size:125]
+[18/03/30 15:59:07,025] --> [#GS.DataUpdater.update] [Update Time:10ms]

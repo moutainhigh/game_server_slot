@@ -1,0 +1,13 @@
+[16/10/19 09:37:14,627] [INFO] ConfigHelper.buildConfig --> Load config [class com.robot.RobotServerConfig] from [file:/D:/javaproject/robot/bin/robot_server.cfg.js]
+[16/10/19 09:37:15,914] [INFO] RPCImpl.robotJoin --> request join robot from server[100003],room[6194320171060595714]
+[16/10/19 09:37:15,938] [INFO] Slf4jRecord.recordInfo --> #IMOP.LOCAL.LOGGER.INITLIZE...
+[16/10/19 09:37:15,941] [INFO] Slf4jRecord.recordInfo --> #IMOP.LOCAL.INIT.THREADPOOL.OK:SIZE:2
+[16/10/19 09:37:15,942] [INFO] Slf4jRecord.recordInfo --> #IMOP.LOCAL.START:AREAID:1
+[16/10/19 09:37:33,846] [INFO] RPCImpl.robotJoin --> request join robot from server[100003],room[6194320171060595714]
+[16/10/19 11:23:04,615] [INFO] ConfigHelper.buildConfig --> Load config [class com.robot.RobotServerConfig] from [file:/D:/javaproject/robot/bin/robot_server.cfg.js]
+[16/10/19 15:29:56,050] [INFO] RPCImpl.robotJoin --> request join robot from server[100003],room[6194409007044267010]
+[16/10/19 15:29:56,086] [INFO] Slf4jRecord.recordInfo --> #IMOP.LOCAL.LOGGER.INITLIZE...
+[16/10/19 15:29:56,090] [INFO] Slf4jRecord.recordInfo --> #IMOP.LOCAL.INIT.THREADPOOL.OK:SIZE:2
+[16/10/19 15:29:56,090] [INFO] Slf4jRecord.recordInfo --> #IMOP.LOCAL.START:AREAID:1
+[16/10/19 15:30:45,297] [INFO] RPCImpl.robotJoin --> request join robot from server[100003],room[6194409007044267010]
+[16/10/19 18:51:32,768] [INFO] ConfigHelper.buildConfig --> Load config [class com.robot.RobotServerConfig] from [file:/D:/javaproject/robot/bin/robot_server.cfg.js]

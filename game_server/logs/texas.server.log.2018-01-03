@@ -1,0 +1,14 @@
+[18/01/03 15:28:38,868] --> server status service init
+[18/01/03 15:31:23,952] --> server status service init
+[18/01/03 15:32:49,069] --> server status service init
+[18/01/03 15:34:55,907] --> server status service init
+[18/01/03 15:34:57,341] --> server status service after init
+[18/01/03 15:34:57,897] --> Server process [texas]:Message processor thread starting...
+[18/01/03 15:35:21,777] --> server status service init
+[18/01/03 15:35:22,388] --> server status service after init
+[18/01/03 15:35:22,996] --> Server process [texas]:Message processor thread starting...
+[18/01/03 15:35:23,030] --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4
+[18/01/03 15:50:32,200] --> server status service init
+[18/01/03 15:50:32,779] --> server status service after init
+[18/01/03 15:50:33,928] --> Server process [texas]:Message processor thread starting...
+[18/01/03 15:50:33,959] --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4

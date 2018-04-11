@@ -1,0 +1,6 @@
+int nameId;[notNull=false] // 名称
+int descrip;[notNull=false] //描述
+String langDesc;[notNull=false] //描述
+String icon;[notNull=false] //图片
+int giftType;[notNull=false] //礼包类型 1、用户发送的礼物
+int costGold;[notNull=false] //花费多少金币

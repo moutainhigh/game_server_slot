@@ -1,0 +1,29 @@
+[18/01/03 15:28:38,723] --> redis service init
+[18/01/03 15:28:38,739] --> redis[127.0.0.1:6379 service init successfully
+[18/01/03 15:28:38,741] --> ServerRedisMsgProcessor initialized successfully!
+[18/01/03 15:31:23,890] --> redis service init
+[18/01/03 15:31:23,905] --> redis[127.0.0.1:6379 service init successfully
+[18/01/03 15:31:23,909] --> ServerRedisMsgProcessor initialized successfully!
+[18/01/03 15:32:48,991] --> redis service init
+[18/01/03 15:32:49,012] --> redis[127.0.0.1:6379 service init successfully
+[18/01/03 15:32:49,013] --> ServerRedisMsgProcessor initialized successfully!
+[18/01/03 15:34:55,791] --> redis service init
+[18/01/03 15:34:55,817] --> redis[127.0.0.1:6379 service init successfully
+[18/01/03 15:34:55,819] --> ServerRedisMsgProcessor initialized successfully!
+[18/01/03 15:34:57,340] --> redis service after init
+[18/01/03 15:35:21,595] --> redis service init
+[18/01/03 15:35:21,620] --> redis[127.0.0.1:6379 service init successfully
+[18/01/03 15:35:21,622] --> ServerRedisMsgProcessor initialized successfully!
+[18/01/03 15:35:22,387] --> redis service after init
+[18/01/03 15:35:23,031] --> begin start redis sub thread
+[18/01/03 15:35:23,031] --> end start redis sub thread
+[18/01/03 15:35:23,281] --> subscribe [server.100001],server.100001=1
+[18/01/03 15:35:23,281] --> subscribe [broadcast],broadcast=2
+[18/01/03 15:50:32,077] --> redis service init
+[18/01/03 15:50:32,095] --> redis[127.0.0.1:6379 service init successfully
+[18/01/03 15:50:32,098] --> ServerRedisMsgProcessor initialized successfully!
+[18/01/03 15:50:32,779] --> redis service after init
+[18/01/03 15:50:33,960] --> begin start redis sub thread
+[18/01/03 15:50:33,960] --> end start redis sub thread
+[18/01/03 15:50:34,177] --> subscribe [server.100001],server.100001=1
+[18/01/03 15:50:34,178] --> subscribe [broadcast],broadcast=2

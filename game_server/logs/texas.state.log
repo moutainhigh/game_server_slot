@@ -1,0 +1,54 @@
+[18/04/09 18:06:01,829] --> Session open com.gameserver.startup.MinaGameClientSession@6a1415a8
+[18/04/09 18:06:15,392] --> Session open com.gameserver.startup.MinaGameClientSession@74bf03eb
+[18/04/09 18:06:15,988] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 18:06:43,129] --> Session open com.gameserver.startup.MinaGameClientSession@5bd6ad1a
+[18/04/09 18:06:43,656] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 18:08:20,012] --> Session open com.gameserver.startup.MinaGameClientSession@6f559df6
+[18/04/09 18:08:20,675] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 18:09:27,475] --> Session open com.gameserver.startup.MinaGameClientSession@243e8857
+[18/04/09 18:09:28,070] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 18:10:23,261] --> Session open com.gameserver.startup.MinaGameClientSession@6891db74
+[18/04/09 18:10:23,803] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 18:14:20,082] --> Session open com.gameserver.startup.MinaGameClientSession@6737fc76
+[18/04/09 18:14:20,657] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 18:20:44,351] --> Session open com.gameserver.startup.MinaGameClientSession@fc8b91
+[18/04/09 18:20:45,229] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 18:22:36,620] --> Session open com.gameserver.startup.MinaGameClientSession@34465beb
+[18/04/09 18:22:37,297] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 18:24:05,627] --> Session open com.gameserver.startup.MinaGameClientSession@5fbe1b93
+[18/04/09 18:24:06,287] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 18:24:52,364] --> Session open com.gameserver.startup.MinaGameClientSession@c470324
+[18/04/09 18:24:52,956] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 18:28:33,250] --> Session open com.gameserver.startup.MinaGameClientSession@26c6d42e
+[18/04/09 18:29:01,400] --> Session open com.gameserver.startup.MinaGameClientSession@33bb26dd
+[18/04/09 18:29:01,879] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 18:31:36,925] --> Session open com.gameserver.startup.MinaGameClientSession@1ec9262b
+[18/04/09 18:31:37,442] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 18:33:45,052] --> Session open com.gameserver.startup.MinaGameClientSession@58b7e9fa
+[18/04/09 18:33:45,588] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 18:40:25,797] --> Session open com.gameserver.startup.MinaGameClientSession@5f7b57f2
+[18/04/09 18:40:26,285] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 18:43:59,257] --> Session open com.gameserver.startup.MinaGameClientSession@1a0e6e27
+[18/04/09 18:43:59,853] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 18:46:23,690] --> Session open com.gameserver.startup.MinaGameClientSession@52f21719
+[18/04/09 18:46:24,271] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 18:51:35,459] --> Session open com.gameserver.startup.MinaGameClientSession@139154f6
+[18/04/09 18:51:36,051] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 18:53:37,022] --> Session open com.gameserver.startup.MinaGameClientSession@165a9627
+[18/04/09 18:53:37,557] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 18:54:43,638] --> Session open com.gameserver.startup.MinaGameClientSession@3bb83098
+[18/04/09 18:54:44,182] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 18:58:41,639] --> Session open com.gameserver.startup.MinaGameClientSession@400a8d7c
+[18/04/09 18:58:42,175] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 18:59:52,915] --> Session open com.gameserver.startup.MinaGameClientSession@5dd036cf
+[18/04/09 18:59:53,587] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 19:05:40,054] --> Session open com.gameserver.startup.MinaGameClientSession@6c5c8a05
+[18/04/09 19:05:40,594] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 19:07:05,892] --> Session open com.gameserver.startup.MinaGameClientSession@5339ce8d
+[18/04/09 19:07:06,405] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 19:09:13,780] --> Session open com.gameserver.startup.MinaGameClientSession@5655f23
+[18/04/09 19:09:14,313] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 19:11:59,224] --> Session open com.gameserver.startup.MinaGameClientSession@5d228268
+[18/04/09 19:11:59,905] --> Can't change state from [loadingrolelist] to [loadingrolelist]!
+[18/04/09 19:13:54,271] --> Session open com.gameserver.startup.MinaGameClientSession@500f4417
+[18/04/09 19:13:54,759] --> Can't change state from [loadingrolelist] to [loadingrolelist]!

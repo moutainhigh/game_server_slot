@@ -1,0 +1,300 @@
+[18/03/30 15:58:28,232] --> TemplateConfig [classes=[class com.gameserver.scene.template.CityTemplate], fileName=city.xls]
+[18/03/30 15:58:28,234] --> loading template city.xls
+[18/03/30 15:58:28,251] --> TemplateConfig [classes=[class com.gameserver.common.template.ConfigTemplate], fileName=Config.xls]
+[18/03/30 15:58:28,251] --> loading template Config.xls
+[18/03/30 15:58:28,271] --> TemplateConfig [classes=[class com.gameserver.common.template.Dirtywords], fileName=dirtywords.xls]
+[18/03/30 15:58:28,272] --> loading template dirtywords.xls
+[18/03/30 15:58:28,457] --> TemplateConfig [classes=[class com.gameserver.texas.template.TexasRoomTemplate, class com.gameserver.texas.template.TexasRoomConfigTemplate, class com.gameserver.texas.template.TexasJackpotTemplate], fileName=TexasRoom.xls]
+[18/03/30 15:58:28,458] --> loading template TexasRoom.xls
+[18/03/30 15:58:28,480] --> TemplateConfig [classes=[class com.gameserver.human.template.RoleExpTemplate], fileName=RoleExp.xls]
+[18/03/30 15:58:28,480] --> loading template RoleExp.xls
+[18/03/30 15:58:28,499] --> TemplateConfig [classes=[class com.gameserver.shop.template.ShopTemplate], fileName=Shop.xls]
+[18/03/30 15:58:28,500] --> loading template Shop.xls
+[18/03/30 15:58:28,512] --> TemplateConfig [classes=[class com.gameserver.item.template.ItemTemplate, class com.gameserver.item.template.InteractiveItemTemplate, class com.gameserver.item.template.ItemCostTemplate], fileName=Item.xls]
+[18/03/30 15:58:28,512] --> loading template Item.xls
+[18/03/30 15:58:28,535] --> TemplateConfig [classes=[class com.gameserver.signin.template.SignInTemplate, class com.gameserver.signin.template.CumulativeSignInTemplate], fileName=signIn.xls]
+[18/03/30 15:58:28,535] --> loading template signIn.xls
+[18/03/30 15:58:28,540] --> TemplateConfig [classes=[class com.gameserver.misc.template.OnlineRewardTemplate], fileName=onlineRewards.xls]
+[18/03/30 15:58:28,540] --> loading template onlineRewards.xls
+[18/03/30 15:58:28,543] --> TemplateConfig [classes=[class com.gameserver.vip.template.VipTemplate, class com.gameserver.vip.template.VipRoomTemplate], fileName=vip.xls]
+[18/03/30 15:58:28,543] --> loading template vip.xls
+[18/03/30 15:58:28,556] --> TemplateConfig [classes=[class com.gameserver.vipnew.template.VipNewTemplate], fileName=vipNew.xls]
+[18/03/30 15:58:28,556] --> loading template vipNew.xls
+[18/03/30 15:58:28,561] --> TemplateConfig [classes=[class com.gameserver.recharge.template.RechargeTemplate], fileName=recharge.xls]
+[18/03/30 15:58:28,561] --> loading template recharge.xls
+[18/03/30 15:58:28,579] --> TemplateConfig [classes=[class com.gameserver.task.template.DailyTaskTemplate, class com.gameserver.task.template.DailyExtraTemplate], fileName=task.xls]
+[18/03/30 15:58:28,579] --> loading template task.xls
+[18/03/30 15:58:28,603] --> TemplateConfig [classes=[class com.gameserver.texas.template.SngMatchTemplate, class com.gameserver.texas.template.SngMatchConfigTemplate], fileName=match.xls]
+[18/03/30 15:58:28,604] --> loading template match.xls
+[18/03/30 15:58:28,612] --> TemplateConfig [classes=[class com.gameserver.baccart.template.BaccaratRoomTemplate, class com.gameserver.baccart.template.BaccaratConfigTemplate, class com.gameserver.baccart.template.JackpotTemplate], fileName=baccaratRoom.xls]
+[18/03/30 15:58:28,612] --> loading template baccaratRoom.xls
+[18/03/30 15:58:28,622] --> TemplateConfig [classes=[class com.gameserver.luckyspin.template.TurntableTemplate, class com.gameserver.luckyspin.template.TurntableExtra], fileName=turntable.xls]
+[18/03/30 15:58:28,622] --> loading template turntable.xls
+[18/03/30 15:58:28,635] --> TemplateConfig [classes=[class com.gameserver.luckyspin.template.LuckyMatchTemplate], fileName=luckyMatch.xls]
+[18/03/30 15:58:28,635] --> loading template luckyMatch.xls
+[18/03/30 15:58:28,638] --> TemplateConfig [classes=[class com.gameserver.slot.template.PaylinesTemplate], fileName=payLines.xls]
+[18/03/30 15:58:28,638] --> loading template payLines.xls
+[18/03/30 15:58:28,655] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsTemplate, class com.gameserver.slot.template.ReelTemplate, class com.gameserver.slot.template.PayTemplate, class com.gameserver.slot.template.SlotJackpotTemplate, class com.gameserver.slot.template.SlotJackpotNewTemplate], fileName=slots.xls]
+[18/03/30 15:58:28,656] --> loading template slots.xls
+[18/03/30 15:58:29,020] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/03/30 15:58:29,022] --> loading template slotsList.xls
+[18/03/30 15:58:29,099] --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsGameTemplate], fileName=bounsGame.xls]
+[18/03/30 15:58:29,099] --> loading template bounsGame.xls
+[18/03/30 15:58:29,102] --> TemplateConfig [classes=[class com.gameserver.slot.template.WinMultipleTemplate], fileName=winMultiple.xls]
+[18/03/30 15:58:29,102] --> loading template winMultiple.xls
+[18/03/30 15:58:29,104] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterWheel, class com.gameserver.slot.template.WheelType, class com.gameserver.slot.template.GoldBonusTemplate, class com.gameserver.slot.template.BigWheelTemplate], fileName=scatterWheel.xls]
+[18/03/30 15:58:29,104] --> loading template scatterWheel.xls
+[18/03/30 15:58:29,114] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/03/30 15:58:29,114] --> loading template scatterGame.xls
+[18/03/30 15:58:29,135] --> TemplateConfig [classes=[class com.gameserver.misc.template.FbInviteTemplate], fileName=fbInvite.xls]
+[18/03/30 15:58:29,135] --> loading template fbInvite.xls
+[18/03/30 15:58:29,138] --> TemplateConfig [classes=[class com.gameserver.ranknew.template.RankListTemplate], fileName=rankList.xls]
+[18/03/30 15:58:29,138] --> loading template rankList.xls
+[18/03/30 15:58:29,145] --> TemplateConfig [classes=[class com.gameserver.gift.template.GiftTemplate], fileName=gift.xls]
+[18/03/30 15:58:29,146] --> loading template gift.xls
+[18/03/30 15:58:29,150] --> TemplateConfig [classes=[class com.gameserver.achievement.template.AchievementTemplate], fileName=achievement.xls]
+[18/03/30 15:58:29,151] --> loading template achievement.xls
+[18/03/30 15:58:29,181] --> TemplateConfig [classes=[class com.gameserver.human.template.VideoRewardTemplate], fileName=videoReward.xls]
+[18/03/30 15:58:29,181] --> loading template videoReward.xls
+[18/03/30 15:58:29,183] --> TemplateConfig [classes=[class com.gameserver.slot.template.RiyuetanMultipleTemplate], fileName=riyuetanMultiple.xls]
+[18/03/30 15:58:29,184] --> loading template riyuetanMultiple.xls
+[18/03/30 15:58:29,186] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/03/30 15:58:29,186] --> loading template scatterMultiple.xls
+[18/03/30 15:58:29,191] --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsZeusTemplate, class com.gameserver.slot.template.BounsZeusRewardTemplate], fileName=bounsZeus.xls]
+[18/03/30 15:58:29,200] --> loading template bounsZeus.xls
+[18/03/30 15:58:29,205] --> TemplateConfig [classes=[class com.gameserver.slot.template.MagicSymbolTemplate], fileName=magicSymbol.xls]
+[18/03/30 15:58:29,206] --> loading template magicSymbol.xls
+[18/03/30 15:58:29,211] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusStoneAgeTemplate, class com.gameserver.slot.template.BonusStoneAgeRewardTemplate], fileName=bounsStoneAge.xls]
+[18/03/30 15:58:29,211] --> loading template bounsStoneAge.xls
+[18/03/30 15:58:29,214] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusStoneAgeOptimizeTemplate, class com.gameserver.slot.template.BonusStoneAgeAppleTemplate, class com.gameserver.slot.template.BonusStoneAgeRuneTemplate, class com.gameserver.slot.template.BonusStoneAgePreyTemplate], fileName=bounsStoneAgeOptimize.xls]
+[18/03/30 15:58:29,214] --> loading template bounsStoneAgeOptimize.xls
+[18/03/30 15:58:29,217] --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsSphinxTemplate, class com.gameserver.slot.template.BounsSphinxRewardTemplate], fileName=bounsSphinx.xls]
+[18/03/30 15:58:29,217] --> loading template bounsSphinx.xls
+[18/03/30 15:58:29,222] --> TemplateConfig [classes=[class com.gameserver.slot.template.WildSphinxTemplate], fileName=wildSphinx.xls]
+[18/03/30 15:58:29,222] --> loading template wildSphinx.xls
+[18/03/30 15:58:29,224] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/03/30 15:58:29,224] --> loading template bonusAztec.xls
+[18/03/30 15:58:29,226] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusWolfTemplate], fileName=bonusWolf.xls]
+[18/03/30 15:58:29,226] --> loading template bonusWolf.xls
+[18/03/30 15:58:29,230] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate, class com.gameserver.slot.template.ScatterCrystalRewardTemplate], fileName=scatterCrystal.xls]
+[18/03/30 15:58:29,230] --> loading template scatterCrystal.xls
+[18/03/30 15:58:29,237] --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsElephontTemplate], fileName=bonusElephant.xls]
+[18/03/30 15:58:29,237] --> loading template bonusElephant.xls
+[18/03/30 15:58:29,241] --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsElephont1Template, class com.gameserver.slot.template.BounsElephont1RewardTemplate], fileName=bonusElephant1.xls]
+[18/03/30 15:58:29,241] --> loading template bonusElephant1.xls
+[18/03/30 15:58:29,248] --> TemplateConfig [classes=[class com.gameserver.slot.template.BigWildRespinTemplate], fileName=bigWildRespin.xls]
+[18/03/30 15:58:29,248] --> loading template bigWildRespin.xls
+[18/03/30 15:58:29,264] --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsTigerTemplate, class com.gameserver.slot.template.BounsTigerRewardTemplate], fileName=bounsTiger.xls]
+[18/03/30 15:58:29,264] --> loading template bounsTiger.xls
+[18/03/30 15:58:29,268] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate, class com.gameserver.slot.template.ScatterGoldTemplate], fileName=scatterCowboy.xls]
+[18/03/30 15:58:29,268] --> loading template scatterCowboy.xls
+[18/03/30 15:58:29,271] --> TemplateConfig [classes=[class com.gameserver.slot.template.JackpotDragonTemplate], fileName=jackpotDrong.xls]
+[18/03/30 15:58:29,271] --> loading template jackpotDrong.xls
+[18/03/30 15:58:29,273] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusNinjaTemplate, class com.gameserver.slot.template.BonusNinjaRewardTemplate], fileName=bounsNinja.xls]
+[18/03/30 15:58:29,273] --> loading template bounsNinja.xls
+[18/03/30 15:58:29,276] --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsRhinoTemplate], fileName=bonusRhino.xls]
+[18/03/30 15:58:29,276] --> loading template bonusRhino.xls
+[18/03/30 15:58:29,278] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate, class com.gameserver.slot.template.ScatterOceanTemplate, class com.gameserver.slot.template.ScatterOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/03/30 15:58:29,278] --> loading template bonusOcean.xls
+[18/03/30 15:58:29,284] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusHolmesTemplate, class com.gameserver.slot.template.BonusHolmesRewardTemplate], fileName=bonusHolmes.xls]
+[18/03/30 15:58:29,284] --> loading template bonusHolmes.xls
+[18/03/30 15:58:29,286] --> TemplateConfig [classes=[class com.gameserver.human.template.LevelGift], fileName=levelGift.xls]
+[18/03/30 15:58:29,287] --> loading template levelGift.xls
+[18/03/30 15:58:29,292] --> TemplateConfig [classes=[class com.gameserver.ranknew.template.ScoreListTemplate, class com.gameserver.ranknew.template.ScoreListRewardTemplate], fileName=scoreList.xls]
+[18/03/30 15:58:29,292] --> loading template scoreList.xls
+[18/03/30 15:58:29,299] --> TemplateConfig [classes=[class com.gameserver.recharge.template.MultipleWheel, class com.gameserver.recharge.template.WheelConditionTemplate], fileName=multipleWheel.xls]
+[18/03/30 15:58:29,299] --> loading template multipleWheel.xls
+[18/03/30 15:58:29,303] --> TemplateConfig [classes=[class com.gameserver.collect.template.ShavePrizeTemplate, class com.gameserver.collect.template.CardRewardTemplate], fileName=shavePrize.xls]
+[18/03/30 15:58:29,303] --> loading template shavePrize.xls
+[18/03/30 15:58:29,485] --> TemplateConfig [classes=[class com.gameserver.collect.template.ExchangeTemplate], fileName=exchange.xls]
+[18/03/30 15:58:29,485] --> loading template exchange.xls
+[18/03/30 15:58:29,488] --> TemplateConfig [classes=[class com.gameserver.slot.template.TournamentTemplate, class com.gameserver.slot.template.TournamentRankListTemplate], fileName=tournament.xls]
+[18/03/30 15:58:29,488] --> loading template tournament.xls
+[18/03/30 15:58:29,508] --> TemplateConfig [classes=[class com.gameserver.treasury.template.TreasuryTemplate], fileName=treasury.xls]
+[18/03/30 15:58:29,509] --> loading template treasury.xls
+[18/03/30 15:58:29,512] --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsPirate1Template, class com.gameserver.slot.template.BounsPirate1Step1Template, class com.gameserver.slot.template.BounsPirate1Step2Template], fileName=bonusPirate1.xls]
+[18/03/30 15:58:29,512] --> loading template bonusPirate1.xls
+[18/03/30 15:58:29,526] --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsPirate2Template, class com.gameserver.slot.template.BounsPirate2RewardTemplate], fileName=bonusPirate2.xls]
+[18/03/30 15:58:29,526] --> loading template bonusPirate2.xls
+[18/03/30 15:58:29,529] --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsPirate3Template, class com.gameserver.slot.template.BounsPirate3RewardTemplate], fileName=bonusPirate3.xls]
+[18/03/30 15:58:29,529] --> loading template bonusPirate3.xls
+[18/03/30 15:58:29,536] --> TemplateConfig [classes=[class com.gameserver.human.template.CouponTemplate], fileName=coupon.xls]
+[18/03/30 15:58:29,536] --> loading template coupon.xls
+[18/03/30 15:58:29,541] --> TemplateConfig [classes=[class com.gameserver.slot.template.SocialitySpartaTemplate, class com.gameserver.slot.template.SocialitySpartaRewardTemplate], fileName=SocialitySparta.xls]
+[18/03/30 15:58:29,541] --> loading template SocialitySparta.xls
+[18/03/30 15:58:29,544] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusSpartaTemplate, class com.gameserver.slot.template.BonusSpartaRewardTemplate], fileName=bonusSparta.xls]
+[18/03/30 15:58:29,544] --> loading template bonusSparta.xls
+[18/03/30 15:58:29,551] --> TemplateConfig [classes=[class com.gameserver.club.template.ClubTemplate, class com.gameserver.club.template.ClubIconTemplate, class com.gameserver.club.template.ClubListTemplate], fileName=club.xls]
+[18/03/30 15:58:29,551] --> loading template club.xls
+[18/03/30 15:58:29,573] --> TemplateConfig [classes=[class com.gameserver.club.template.ClubRechargeTemplate], fileName=clubrecharge.xls]
+[18/03/30 15:58:29,573] --> loading template clubrecharge.xls
+[18/03/30 15:58:29,575] --> TemplateConfig [classes=[class com.gameserver.activity.template.WeeklyMonthlyPackTemplate], fileName=weeklyMonthlyPack.xls]
+[18/03/30 15:58:29,576] --> loading template weeklyMonthlyPack.xls
+[18/03/30 15:58:29,579] --> TemplateConfig [classes=[class com.gameserver.club.template.UnlockLevelTemplate], fileName=unlocklevel.xls]
+[18/03/30 15:58:29,579] --> loading template unlocklevel.xls
+[18/03/30 15:58:29,581] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusBrazilTemplate, class com.gameserver.slot.template.BonusBrazilBarGameTemplate, class com.gameserver.slot.template.BonusBrazilSambaStageTemplate], fileName=bonusBrazil.xls]
+[18/03/30 15:58:29,581] --> loading template bonusBrazil.xls
+[18/03/30 15:58:29,588] --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsRedgirlTemplate, class com.gameserver.slot.template.BounsRedgirlRewardTemplate], fileName=bounsRedgirl.xls]
+[18/03/30 15:58:29,596] --> loading template bounsRedgirl.xls
+[18/03/30 15:58:29,602] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterRedgirlTemplate], fileName=scatterRedgirl.xls]
+[18/03/30 15:58:29,602] --> loading template scatterRedgirl.xls
+[18/03/30 15:58:29,604] --> TemplateConfig [classes=[class com.gameserver.worldboss.template.BossTemplate, class com.gameserver.worldboss.template.BossPropertyTemplate, class com.gameserver.worldboss.template.BossList], fileName=worldboss.xls]
+[18/03/30 15:58:29,604] --> loading template worldboss.xls
+[18/03/30 15:58:29,610] --> TemplateConfig [classes=[class com.gameserver.newbie.template.NovicebootTemplate, class com.gameserver.newbie.template.NoviceSlotsTemplate, class com.gameserver.newbie.template.NoviceStepTemplate], fileName=Noviceboot.xls]
+[18/03/30 15:58:29,610] --> loading template Noviceboot.xls
+[18/03/30 15:58:29,616] --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsHallowmasTemplate, class com.gameserver.slot.template.BounsHallowmasRewardTemplate, class com.gameserver.slot.template.BounsHallowmasJackpotTemplate], fileName=bonusHallowmas.xls]
+[18/03/30 15:58:29,616] --> loading template bonusHallowmas.xls
+[18/03/30 15:58:29,619] --> TemplateConfig [classes=[class com.gameserver.slot.template.WinnerWheelConfigTemplate, class com.gameserver.slot.template.WinnerWheelTemplate], fileName=Winnerwheel.xls]
+[18/03/30 15:58:29,619] --> loading template Winnerwheel.xls
+[18/03/30 15:58:29,621] --> TemplateConfig [classes=[class com.gameserver.gift.template.NewComerTemplate], fileName=newComer.xls]
+[18/03/30 15:58:29,621] --> loading template newComer.xls
+[18/03/30 15:59:03,018] --> TemplateConfig [classes=[class com.gameserver.scene.template.CityTemplate], fileName=city.xls]
+[18/03/30 15:59:03,018] --> loading template city.xls
+[18/03/30 15:59:03,035] --> TemplateConfig [classes=[class com.gameserver.common.template.ConfigTemplate], fileName=Config.xls]
+[18/03/30 15:59:03,035] --> loading template Config.xls
+[18/03/30 15:59:03,057] --> TemplateConfig [classes=[class com.gameserver.common.template.Dirtywords], fileName=dirtywords.xls]
+[18/03/30 15:59:03,057] --> loading template dirtywords.xls
+[18/03/30 15:59:03,249] --> TemplateConfig [classes=[class com.gameserver.texas.template.TexasRoomTemplate, class com.gameserver.texas.template.TexasRoomConfigTemplate, class com.gameserver.texas.template.TexasJackpotTemplate], fileName=TexasRoom.xls]
+[18/03/30 15:59:03,249] --> loading template TexasRoom.xls
+[18/03/30 15:59:03,266] --> TemplateConfig [classes=[class com.gameserver.human.template.RoleExpTemplate], fileName=RoleExp.xls]
+[18/03/30 15:59:03,267] --> loading template RoleExp.xls
+[18/03/30 15:59:03,283] --> TemplateConfig [classes=[class com.gameserver.shop.template.ShopTemplate], fileName=Shop.xls]
+[18/03/30 15:59:03,283] --> loading template Shop.xls
+[18/03/30 15:59:03,288] --> TemplateConfig [classes=[class com.gameserver.item.template.ItemTemplate, class com.gameserver.item.template.InteractiveItemTemplate, class com.gameserver.item.template.ItemCostTemplate], fileName=Item.xls]
+[18/03/30 15:59:03,288] --> loading template Item.xls
+[18/03/30 15:59:03,309] --> TemplateConfig [classes=[class com.gameserver.signin.template.SignInTemplate, class com.gameserver.signin.template.CumulativeSignInTemplate], fileName=signIn.xls]
+[18/03/30 15:59:03,309] --> loading template signIn.xls
+[18/03/30 15:59:03,315] --> TemplateConfig [classes=[class com.gameserver.misc.template.OnlineRewardTemplate], fileName=onlineRewards.xls]
+[18/03/30 15:59:03,316] --> loading template onlineRewards.xls
+[18/03/30 15:59:03,318] --> TemplateConfig [classes=[class com.gameserver.vip.template.VipTemplate, class com.gameserver.vip.template.VipRoomTemplate], fileName=vip.xls]
+[18/03/30 15:59:03,318] --> loading template vip.xls
+[18/03/30 15:59:03,367] --> TemplateConfig [classes=[class com.gameserver.vipnew.template.VipNewTemplate], fileName=vipNew.xls]
+[18/03/30 15:59:03,367] --> loading template vipNew.xls
+[18/03/30 15:59:03,377] --> TemplateConfig [classes=[class com.gameserver.recharge.template.RechargeTemplate], fileName=recharge.xls]
+[18/03/30 15:59:03,377] --> loading template recharge.xls
+[18/03/30 15:59:03,385] --> TemplateConfig [classes=[class com.gameserver.task.template.DailyTaskTemplate, class com.gameserver.task.template.DailyExtraTemplate], fileName=task.xls]
+[18/03/30 15:59:03,385] --> loading template task.xls
+[18/03/30 15:59:03,424] --> TemplateConfig [classes=[class com.gameserver.texas.template.SngMatchTemplate, class com.gameserver.texas.template.SngMatchConfigTemplate], fileName=match.xls]
+[18/03/30 15:59:03,428] --> loading template match.xls
+[18/03/30 15:59:03,441] --> TemplateConfig [classes=[class com.gameserver.baccart.template.BaccaratRoomTemplate, class com.gameserver.baccart.template.BaccaratConfigTemplate, class com.gameserver.baccart.template.JackpotTemplate], fileName=baccaratRoom.xls]
+[18/03/30 15:59:03,441] --> loading template baccaratRoom.xls
+[18/03/30 15:59:03,452] --> TemplateConfig [classes=[class com.gameserver.luckyspin.template.TurntableTemplate, class com.gameserver.luckyspin.template.TurntableExtra], fileName=turntable.xls]
+[18/03/30 15:59:03,455] --> loading template turntable.xls
+[18/03/30 15:59:03,468] --> TemplateConfig [classes=[class com.gameserver.luckyspin.template.LuckyMatchTemplate], fileName=luckyMatch.xls]
+[18/03/30 15:59:03,468] --> loading template luckyMatch.xls
+[18/03/30 15:59:03,474] --> TemplateConfig [classes=[class com.gameserver.slot.template.PaylinesTemplate], fileName=payLines.xls]
+[18/03/30 15:59:03,475] --> loading template payLines.xls
+[18/03/30 15:59:03,491] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsTemplate, class com.gameserver.slot.template.ReelTemplate, class com.gameserver.slot.template.PayTemplate, class com.gameserver.slot.template.SlotJackpotTemplate, class com.gameserver.slot.template.SlotJackpotNewTemplate], fileName=slots.xls]
+[18/03/30 15:59:03,491] --> loading template slots.xls
+[18/03/30 15:59:03,879] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/03/30 15:59:03,879] --> loading template slotsList.xls
+[18/03/30 15:59:03,952] --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsGameTemplate], fileName=bounsGame.xls]
+[18/03/30 15:59:03,952] --> loading template bounsGame.xls
+[18/03/30 15:59:03,955] --> TemplateConfig [classes=[class com.gameserver.slot.template.WinMultipleTemplate], fileName=winMultiple.xls]
+[18/03/30 15:59:03,955] --> loading template winMultiple.xls
+[18/03/30 15:59:03,957] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterWheel, class com.gameserver.slot.template.WheelType, class com.gameserver.slot.template.GoldBonusTemplate, class com.gameserver.slot.template.BigWheelTemplate], fileName=scatterWheel.xls]
+[18/03/30 15:59:03,957] --> loading template scatterWheel.xls
+[18/03/30 15:59:03,966] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/03/30 15:59:03,966] --> loading template scatterGame.xls
+[18/03/30 15:59:03,985] --> TemplateConfig [classes=[class com.gameserver.misc.template.FbInviteTemplate], fileName=fbInvite.xls]
+[18/03/30 15:59:03,986] --> loading template fbInvite.xls
+[18/03/30 15:59:03,988] --> TemplateConfig [classes=[class com.gameserver.ranknew.template.RankListTemplate], fileName=rankList.xls]
+[18/03/30 15:59:03,988] --> loading template rankList.xls
+[18/03/30 15:59:03,994] --> TemplateConfig [classes=[class com.gameserver.gift.template.GiftTemplate], fileName=gift.xls]
+[18/03/30 15:59:03,994] --> loading template gift.xls
+[18/03/30 15:59:03,998] --> TemplateConfig [classes=[class com.gameserver.achievement.template.AchievementTemplate], fileName=achievement.xls]
+[18/03/30 15:59:03,998] --> loading template achievement.xls
+[18/03/30 15:59:04,047] --> TemplateConfig [classes=[class com.gameserver.human.template.VideoRewardTemplate], fileName=videoReward.xls]
+[18/03/30 15:59:04,048] --> loading template videoReward.xls
+[18/03/30 15:59:04,055] --> TemplateConfig [classes=[class com.gameserver.slot.template.RiyuetanMultipleTemplate], fileName=riyuetanMultiple.xls]
+[18/03/30 15:59:04,056] --> loading template riyuetanMultiple.xls
+[18/03/30 15:59:04,057] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/03/30 15:59:04,057] --> loading template scatterMultiple.xls
+[18/03/30 15:59:04,060] --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsZeusTemplate, class com.gameserver.slot.template.BounsZeusRewardTemplate], fileName=bounsZeus.xls]
+[18/03/30 15:59:04,060] --> loading template bounsZeus.xls
+[18/03/30 15:59:04,067] --> TemplateConfig [classes=[class com.gameserver.slot.template.MagicSymbolTemplate], fileName=magicSymbol.xls]
+[18/03/30 15:59:04,067] --> loading template magicSymbol.xls
+[18/03/30 15:59:04,070] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusStoneAgeTemplate, class com.gameserver.slot.template.BonusStoneAgeRewardTemplate], fileName=bounsStoneAge.xls]
+[18/03/30 15:59:04,070] --> loading template bounsStoneAge.xls
+[18/03/30 15:59:04,073] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusStoneAgeOptimizeTemplate, class com.gameserver.slot.template.BonusStoneAgeAppleTemplate, class com.gameserver.slot.template.BonusStoneAgeRuneTemplate, class com.gameserver.slot.template.BonusStoneAgePreyTemplate], fileName=bounsStoneAgeOptimize.xls]
+[18/03/30 15:59:04,073] --> loading template bounsStoneAgeOptimize.xls
+[18/03/30 15:59:04,076] --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsSphinxTemplate, class com.gameserver.slot.template.BounsSphinxRewardTemplate], fileName=bounsSphinx.xls]
+[18/03/30 15:59:04,076] --> loading template bounsSphinx.xls
+[18/03/30 15:59:04,096] --> TemplateConfig [classes=[class com.gameserver.slot.template.WildSphinxTemplate], fileName=wildSphinx.xls]
+[18/03/30 15:59:04,097] --> loading template wildSphinx.xls
+[18/03/30 15:59:04,099] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/03/30 15:59:04,100] --> loading template bonusAztec.xls
+[18/03/30 15:59:04,102] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusWolfTemplate], fileName=bonusWolf.xls]
+[18/03/30 15:59:04,102] --> loading template bonusWolf.xls
+[18/03/30 15:59:04,104] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate, class com.gameserver.slot.template.ScatterCrystalRewardTemplate], fileName=scatterCrystal.xls]
+[18/03/30 15:59:04,104] --> loading template scatterCrystal.xls
+[18/03/30 15:59:04,109] --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsElephontTemplate], fileName=bonusElephant.xls]
+[18/03/30 15:59:04,109] --> loading template bonusElephant.xls
+[18/03/30 15:59:04,113] --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsElephont1Template, class com.gameserver.slot.template.BounsElephont1RewardTemplate], fileName=bonusElephant1.xls]
+[18/03/30 15:59:04,114] --> loading template bonusElephant1.xls
+[18/03/30 15:59:04,121] --> TemplateConfig [classes=[class com.gameserver.slot.template.BigWildRespinTemplate], fileName=bigWildRespin.xls]
+[18/03/30 15:59:04,122] --> loading template bigWildRespin.xls
+[18/03/30 15:59:04,123] --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsTigerTemplate, class com.gameserver.slot.template.BounsTigerRewardTemplate], fileName=bounsTiger.xls]
+[18/03/30 15:59:04,123] --> loading template bounsTiger.xls
+[18/03/30 15:59:04,127] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate, class com.gameserver.slot.template.ScatterGoldTemplate], fileName=scatterCowboy.xls]
+[18/03/30 15:59:04,127] --> loading template scatterCowboy.xls
+[18/03/30 15:59:04,129] --> TemplateConfig [classes=[class com.gameserver.slot.template.JackpotDragonTemplate], fileName=jackpotDrong.xls]
+[18/03/30 15:59:04,129] --> loading template jackpotDrong.xls
+[18/03/30 15:59:04,131] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusNinjaTemplate, class com.gameserver.slot.template.BonusNinjaRewardTemplate], fileName=bounsNinja.xls]
+[18/03/30 15:59:04,131] --> loading template bounsNinja.xls
+[18/03/30 15:59:04,133] --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsRhinoTemplate], fileName=bonusRhino.xls]
+[18/03/30 15:59:04,133] --> loading template bonusRhino.xls
+[18/03/30 15:59:04,135] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate, class com.gameserver.slot.template.ScatterOceanTemplate, class com.gameserver.slot.template.ScatterOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/03/30 15:59:04,135] --> loading template bonusOcean.xls
+[18/03/30 15:59:04,142] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusHolmesTemplate, class com.gameserver.slot.template.BonusHolmesRewardTemplate], fileName=bonusHolmes.xls]
+[18/03/30 15:59:04,142] --> loading template bonusHolmes.xls
+[18/03/30 15:59:04,145] --> TemplateConfig [classes=[class com.gameserver.human.template.LevelGift], fileName=levelGift.xls]
+[18/03/30 15:59:04,145] --> loading template levelGift.xls
+[18/03/30 15:59:04,150] --> TemplateConfig [classes=[class com.gameserver.ranknew.template.ScoreListTemplate, class com.gameserver.ranknew.template.ScoreListRewardTemplate], fileName=scoreList.xls]
+[18/03/30 15:59:04,150] --> loading template scoreList.xls
+[18/03/30 15:59:04,162] --> TemplateConfig [classes=[class com.gameserver.recharge.template.MultipleWheel, class com.gameserver.recharge.template.WheelConditionTemplate], fileName=multipleWheel.xls]
+[18/03/30 15:59:04,162] --> loading template multipleWheel.xls
+[18/03/30 15:59:04,175] --> TemplateConfig [classes=[class com.gameserver.collect.template.ShavePrizeTemplate, class com.gameserver.collect.template.CardRewardTemplate], fileName=shavePrize.xls]
+[18/03/30 15:59:04,175] --> loading template shavePrize.xls
+[18/03/30 15:59:04,419] --> TemplateConfig [classes=[class com.gameserver.collect.template.ExchangeTemplate], fileName=exchange.xls]
+[18/03/30 15:59:04,420] --> loading template exchange.xls
+[18/03/30 15:59:04,443] --> TemplateConfig [classes=[class com.gameserver.slot.template.TournamentTemplate, class com.gameserver.slot.template.TournamentRankListTemplate], fileName=tournament.xls]
+[18/03/30 15:59:04,443] --> loading template tournament.xls
+[18/03/30 15:59:04,451] --> TemplateConfig [classes=[class com.gameserver.treasury.template.TreasuryTemplate], fileName=treasury.xls]
+[18/03/30 15:59:04,451] --> loading template treasury.xls
+[18/03/30 15:59:04,453] --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsPirate1Template, class com.gameserver.slot.template.BounsPirate1Step1Template, class com.gameserver.slot.template.BounsPirate1Step2Template], fileName=bonusPirate1.xls]
+[18/03/30 15:59:04,453] --> loading template bonusPirate1.xls
+[18/03/30 15:59:04,459] --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsPirate2Template, class com.gameserver.slot.template.BounsPirate2RewardTemplate], fileName=bonusPirate2.xls]
+[18/03/30 15:59:04,459] --> loading template bonusPirate2.xls
+[18/03/30 15:59:04,462] --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsPirate3Template, class com.gameserver.slot.template.BounsPirate3RewardTemplate], fileName=bonusPirate3.xls]
+[18/03/30 15:59:04,462] --> loading template bonusPirate3.xls
+[18/03/30 15:59:04,467] --> TemplateConfig [classes=[class com.gameserver.human.template.CouponTemplate], fileName=coupon.xls]
+[18/03/30 15:59:04,467] --> loading template coupon.xls
+[18/03/30 15:59:04,469] --> TemplateConfig [classes=[class com.gameserver.slot.template.SocialitySpartaTemplate, class com.gameserver.slot.template.SocialitySpartaRewardTemplate], fileName=SocialitySparta.xls]
+[18/03/30 15:59:04,469] --> loading template SocialitySparta.xls
+[18/03/30 15:59:04,473] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusSpartaTemplate, class com.gameserver.slot.template.BonusSpartaRewardTemplate], fileName=bonusSparta.xls]
+[18/03/30 15:59:04,473] --> loading template bonusSparta.xls
+[18/03/30 15:59:04,478] --> TemplateConfig [classes=[class com.gameserver.club.template.ClubTemplate, class com.gameserver.club.template.ClubIconTemplate, class com.gameserver.club.template.ClubListTemplate], fileName=club.xls]
+[18/03/30 15:59:04,478] --> loading template club.xls
+[18/03/30 15:59:04,502] --> TemplateConfig [classes=[class com.gameserver.club.template.ClubRechargeTemplate], fileName=clubrecharge.xls]
+[18/03/30 15:59:04,502] --> loading template clubrecharge.xls
+[18/03/30 15:59:04,504] --> TemplateConfig [classes=[class com.gameserver.activity.template.WeeklyMonthlyPackTemplate], fileName=weeklyMonthlyPack.xls]
+[18/03/30 15:59:04,505] --> loading template weeklyMonthlyPack.xls
+[18/03/30 15:59:04,507] --> TemplateConfig [classes=[class com.gameserver.club.template.UnlockLevelTemplate], fileName=unlocklevel.xls]
+[18/03/30 15:59:04,507] --> loading template unlocklevel.xls
+[18/03/30 15:59:04,508] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusBrazilTemplate, class com.gameserver.slot.template.BonusBrazilBarGameTemplate, class com.gameserver.slot.template.BonusBrazilSambaStageTemplate], fileName=bonusBrazil.xls]
+[18/03/30 15:59:04,508] --> loading template bonusBrazil.xls
+[18/03/30 15:59:04,513] --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsRedgirlTemplate, class com.gameserver.slot.template.BounsRedgirlRewardTemplate], fileName=bounsRedgirl.xls]
+[18/03/30 15:59:04,515] --> loading template bounsRedgirl.xls
+[18/03/30 15:59:04,519] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterRedgirlTemplate], fileName=scatterRedgirl.xls]
+[18/03/30 15:59:04,520] --> loading template scatterRedgirl.xls
+[18/03/30 15:59:04,522] --> TemplateConfig [classes=[class com.gameserver.worldboss.template.BossTemplate, class com.gameserver.worldboss.template.BossPropertyTemplate, class com.gameserver.worldboss.template.BossList], fileName=worldboss.xls]
+[18/03/30 15:59:04,522] --> loading template worldboss.xls
+[18/03/30 15:59:04,528] --> TemplateConfig [classes=[class com.gameserver.newbie.template.NovicebootTemplate, class com.gameserver.newbie.template.NoviceSlotsTemplate, class com.gameserver.newbie.template.NoviceStepTemplate], fileName=Noviceboot.xls]
+[18/03/30 15:59:04,528] --> loading template Noviceboot.xls
+[18/03/30 15:59:04,537] --> TemplateConfig [classes=[class com.gameserver.slot.template.BounsHallowmasTemplate, class com.gameserver.slot.template.BounsHallowmasRewardTemplate, class com.gameserver.slot.template.BounsHallowmasJackpotTemplate], fileName=bonusHallowmas.xls]
+[18/03/30 15:59:04,537] --> loading template bonusHallowmas.xls
+[18/03/30 15:59:04,542] --> TemplateConfig [classes=[class com.gameserver.slot.template.WinnerWheelConfigTemplate, class com.gameserver.slot.template.WinnerWheelTemplate], fileName=Winnerwheel.xls]
+[18/03/30 15:59:04,542] --> loading template Winnerwheel.xls
+[18/03/30 15:59:04,546] --> TemplateConfig [classes=[class com.gameserver.gift.template.NewComerTemplate], fileName=newComer.xls]
+[18/03/30 15:59:04,546] --> loading template newComer.xls

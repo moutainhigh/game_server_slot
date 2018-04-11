@@ -1,0 +1,346 @@
+[18/04/09 14:45:15,503] --> Starting Game Server
+[18/04/09 14:45:15,514] --> Free memory 1781 Mb of 1797 Mb
+[18/04/09 14:45:16,363] --> Begin to initialize Globals
+[18/04/09 14:45:19,112] --> Failed to start server
+java.lang.RuntimeException: org.hibernate.HibernateException: Errors in named queries: queryTheBazooAgent
+	at com.core.orm.HibernateDBServcieImpl.<init>(HibernateDBServcieImpl.java:93)
+	at com.core.orm.DBServiceBuilder.buildDirectDBService(DBServiceBuilder.java:29)
+	at com.gameserver.common.db.GameDaoService$DaoHelper.<init>(GameDaoService.java:757)
+	at com.gameserver.common.db.GameDaoService$DaoHelper.<init>(GameDaoService.java:740)
+	at com.gameserver.common.db.GameDaoService.<init>(GameDaoService.java:90)
+	at com.gameserver.common.Globals.init(Globals.java:415)
+	at com.gameserver.GameServer.init(GameServer.java:71)
+	at com.gameserver.GameServer.main(GameServer.java:232)
+Caused by: org.hibernate.HibernateException: Errors in named queries: queryTheBazooAgent
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:407)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1341)
+	at org.hibernate.cfg.AnnotationConfiguration.buildSessionFactory(AnnotationConfiguration.java:867)
+	at com.core.orm.HibernateDBServcieImpl.<init>(HibernateDBServcieImpl.java:86)
+	... 7 more
+[18/04/09 14:46:04,463] --> Starting Game Server
+[18/04/09 14:46:04,470] --> Free memory 1781 Mb of 1797 Mb
+[18/04/09 14:46:05,511] --> Begin to initialize Globals
+[18/04/09 14:46:06,651] --> Failed to start server
+java.lang.RuntimeException: org.hibernate.AnnotationException: No identifier specified for entity: com.db.model.BazooAgentEntity
+	at com.core.orm.HibernateDBServcieImpl.<init>(HibernateDBServcieImpl.java:93)
+	at com.core.orm.DBServiceBuilder.buildDirectDBService(DBServiceBuilder.java:29)
+	at com.gameserver.common.db.GameDaoService$DaoHelper.<init>(GameDaoService.java:757)
+	at com.gameserver.common.db.GameDaoService$DaoHelper.<init>(GameDaoService.java:740)
+	at com.gameserver.common.db.GameDaoService.<init>(GameDaoService.java:90)
+	at com.gameserver.common.Globals.init(Globals.java:415)
+	at com.gameserver.GameServer.init(GameServer.java:71)
+	at com.gameserver.GameServer.main(GameServer.java:232)
+Caused by: org.hibernate.AnnotationException: No identifier specified for entity: com.db.model.BazooAgentEntity
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:672)
+	at org.hibernate.cfg.AnnotationConfiguration.processArtifactsOfType(AnnotationConfiguration.java:546)
+	at org.hibernate.cfg.AnnotationConfiguration.secondPassCompile(AnnotationConfiguration.java:291)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1333)
+	at org.hibernate.cfg.AnnotationConfiguration.buildSessionFactory(AnnotationConfiguration.java:867)
+	at com.core.orm.HibernateDBServcieImpl.<init>(HibernateDBServcieImpl.java:86)
+	... 7 more
+[18/04/09 14:46:30,879] --> Starting Game Server
+[18/04/09 14:46:30,887] --> Free memory 1781 Mb of 1797 Mb
+[18/04/09 14:46:31,715] --> Begin to initialize Globals
+[18/04/09 14:46:34,552] --> DBService instance:com.core.orm.HibernateDBServcieImpl@61c42416
+[18/04/09 14:46:38,130] --> Failed to start server
+java.lang.NullPointerException
+	at com.gameserver.gift.GiftService.init(GiftService.java:81)
+	at com.gameserver.common.Globals.initService(Globals.java:702)
+	at com.gameserver.common.Globals.init(Globals.java:642)
+	at com.gameserver.GameServer.init(GameServer.java:71)
+	at com.gameserver.GameServer.main(GameServer.java:232)
+[18/04/09 14:48:15,584] --> Starting Game Server
+[18/04/09 14:48:15,590] --> Free memory 1781 Mb of 1797 Mb
+[18/04/09 14:48:16,593] --> Begin to initialize Globals
+[18/04/09 14:48:19,421] --> DBService instance:com.core.orm.HibernateDBServcieImpl@61c42416
+[18/04/09 14:48:21,985] --> Failed to start server
+com.common.exception.ConfigException: Errors occurs while parsing xls file:giftNew.xls
+	at com.core.template.TemplateService.init(TemplateService.java:81)
+	at com.gameserver.common.Globals.init(Globals.java:438)
+	at com.gameserver.GameServer.init(GameServer.java:71)
+	at com.gameserver.GameServer.main(GameServer.java:232)
+Caused by: java.io.FileNotFoundException: ..\resources\scripts\giftNew.xls (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.core.template.TemplateService.init(TemplateService.java:73)
+	... 3 more
+[18/04/09 14:56:21,179] --> Starting Game Server
+[18/04/09 14:56:21,186] --> Free memory 1781 Mb of 1797 Mb
+[18/04/09 14:56:22,074] --> Begin to initialize Globals
+[18/04/09 14:56:24,812] --> DBService instance:com.core.orm.HibernateDBServcieImpl@61c42416
+[18/04/09 14:56:29,170] --> 警告：枚举类com.core.schedule.LLScheduleEnum中有索引超过1000的索引，如果有很多索引空缺，可能会造成空间浪费
+[18/04/09 14:56:30,219] --> Globals initialized
+[18/04/09 14:56:30,371] --> Begin to start Server Process
+[18/04/09 14:56:30,405] --> Server Process started
+[18/04/09 14:56:30,405] --> Begin to start Globals
+[18/04/09 14:56:30,407] --> heartbeatEnum:时间同步 heartRunner:com.core.heartbeat.LLTimeRunner@7b9088f2
+[18/04/09 14:56:30,407] --> heartbeatEnum:定时任务 heartRunner:com.core.heartbeat.LLScheduleRunner@1a914089
+[18/04/09 14:56:30,407] --> Globals started
+[18/04/09 14:56:30,407] --> Begin to schedule fixed rate task
+[18/04/09 14:56:30,580] --> Free memory 1767 Mb of 1797 Mb
+[18/04/09 14:56:30,581] --> <<-------------------------------- Game Server started version:1.0.0.1----------------------------------->>
+[18/04/09 14:56:30,581] --> 服务器启动时间 : 9395毫秒
+[18/04/09 14:56:30,644] --> runnerId:-1 is busy
+[18/04/09 14:56:30,644] --> runnerId:1 is busy
+[18/04/09 14:56:30,644] --> runnerId:2 is busy
+[18/04/09 15:56:26,531] --> Starting Game Server
+[18/04/09 15:56:26,536] --> Free memory 1781 Mb of 1797 Mb
+[18/04/09 15:56:27,394] --> Begin to initialize Globals
+[18/04/09 15:56:29,957] --> DBService instance:com.core.orm.HibernateDBServcieImpl@61c42416
+[18/04/09 15:56:34,320] --> 警告：枚举类com.core.schedule.LLScheduleEnum中有索引超过1000的索引，如果有很多索引空缺，可能会造成空间浪费
+[18/04/09 15:56:35,400] --> Globals initialized
+[18/04/09 15:56:35,551] --> Begin to start Server Process
+[18/04/09 15:56:35,575] --> Server Process started
+[18/04/09 15:56:35,575] --> Begin to start Globals
+[18/04/09 15:56:35,577] --> heartbeatEnum:时间同步 heartRunner:com.core.heartbeat.LLTimeRunner@37c7766e
+[18/04/09 15:56:35,577] --> heartbeatEnum:定时任务 heartRunner:com.core.heartbeat.LLScheduleRunner@3fb450d7
+[18/04/09 15:56:35,577] --> Globals started
+[18/04/09 15:56:35,578] --> Begin to schedule fixed rate task
+[18/04/09 15:56:35,769] --> Free memory 1767 Mb of 1797 Mb
+[18/04/09 15:56:35,769] --> <<-------------------------------- Game Server started version:1.0.0.1----------------------------------->>
+[18/04/09 15:56:35,769] --> 服务器启动时间 : 9233毫秒
+[18/04/09 15:56:35,835] --> runnerId:-1 is busy
+[18/04/09 15:56:35,837] --> runnerId:1 is busy
+[18/04/09 15:56:35,838] --> runnerId:2 is busy
+[18/04/09 17:56:26,784] --> Starting Game Server
+[18/04/09 17:56:26,793] --> Free memory 1781 Mb of 1797 Mb
+[18/04/09 17:56:27,814] --> Begin to initialize Globals
+[18/04/09 17:56:30,339] --> DBService instance:com.core.orm.HibernateDBServcieImpl@61c42416
+[18/04/09 17:56:34,751] --> 警告：枚举类com.core.schedule.LLScheduleEnum中有索引超过1000的索引，如果有很多索引空缺，可能会造成空间浪费
+[18/04/09 17:56:35,249] --> Globals initialized
+[18/04/09 17:56:35,565] --> Begin to start Server Process
+[18/04/09 17:56:35,613] --> Server Process started
+[18/04/09 17:56:35,613] --> Begin to start Globals
+[18/04/09 17:56:35,618] --> heartbeatEnum:时间同步 heartRunner:com.core.heartbeat.LLTimeRunner@4b7ed03e
+[18/04/09 17:56:35,618] --> heartbeatEnum:定时任务 heartRunner:com.core.heartbeat.LLScheduleRunner@636985df
+[18/04/09 17:56:35,618] --> Globals started
+[18/04/09 17:56:35,618] --> Begin to schedule fixed rate task
+[18/04/09 17:56:35,926] --> Free memory 1767 Mb of 1797 Mb
+[18/04/09 17:56:35,926] --> <<-------------------------------- Game Server started version:1.0.0.1----------------------------------->>
+[18/04/09 17:56:35,926] --> 服务器启动时间 : 9132毫秒
+[18/04/09 18:02:29,954] --> Starting Game Server
+[18/04/09 18:02:29,962] --> Free memory 1781 Mb of 1797 Mb
+[18/04/09 18:02:30,871] --> Begin to initialize Globals
+[18/04/09 18:02:33,656] --> DBService instance:com.core.orm.HibernateDBServcieImpl@61c42416
+[18/04/09 18:02:38,597] --> 警告：枚举类com.core.schedule.LLScheduleEnum中有索引超过1000的索引，如果有很多索引空缺，可能会造成空间浪费
+[18/04/09 18:02:39,520] --> Globals initialized
+[18/04/09 18:02:39,769] --> Begin to start Server Process
+[18/04/09 18:02:39,802] --> Server Process started
+[18/04/09 18:02:39,802] --> Begin to start Globals
+[18/04/09 18:02:39,803] --> heartbeatEnum:时间同步 heartRunner:com.core.heartbeat.LLTimeRunner@48d739f
+[18/04/09 18:02:39,804] --> heartbeatEnum:定时任务 heartRunner:com.core.heartbeat.LLScheduleRunner@51e7589f
+[18/04/09 18:02:39,804] --> Globals started
+[18/04/09 18:02:39,804] --> Begin to schedule fixed rate task
+[18/04/09 18:02:40,044] --> Free memory 1767 Mb of 1797 Mb
+[18/04/09 18:02:40,045] --> <<-------------------------------- Game Server started version:1.0.0.1----------------------------------->>
+[18/04/09 18:02:40,045] --> 服务器启动时间 : 10083毫秒
+[18/04/09 18:02:40,110] --> runnerId:-1 is busy
+[18/04/09 18:02:40,110] --> runnerId:2 is busy
+[18/04/09 18:06:01,825] --> Session opened: (SOCKET, R: /192.168.1.11:51510, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:06:02,397] --> 警告：枚举类com.common.LogReasons$GoldLogReason中有索引超过1000的索引，如果有很多索引空缺，可能会造成空间浪费
+[18/04/09 18:06:02,677] --> Session closed: (SOCKET, R: /192.168.1.11:51510, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:06:02,681] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:51510;type:2
+[18/04/09 18:06:15,391] --> Session opened: (SOCKET, R: /192.168.1.11:51517, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:06:15,994] --> Session closed: (SOCKET, R: /192.168.1.11:51517, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:06:15,994] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:51517;type:2
+[18/04/09 18:06:43,128] --> Session opened: (SOCKET, R: /192.168.1.11:51531, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:06:43,665] --> Session closed: (SOCKET, R: /192.168.1.11:51531, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:06:43,665] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:51531;type:2
+[18/04/09 18:06:58,107] --> runnerId:-1 is busy
+[18/04/09 18:06:58,108] --> runnerId:1 is busy
+[18/04/09 18:08:02,606] --> Starting Game Server
+[18/04/09 18:08:02,614] --> Free memory 1781 Mb of 1797 Mb
+[18/04/09 18:08:03,577] --> Begin to initialize Globals
+[18/04/09 18:08:06,779] --> DBService instance:com.core.orm.HibernateDBServcieImpl@61c42416
+[18/04/09 18:08:12,327] --> 警告：枚举类com.core.schedule.LLScheduleEnum中有索引超过1000的索引，如果有很多索引空缺，可能会造成空间浪费
+[18/04/09 18:08:13,078] --> Globals initialized
+[18/04/09 18:08:13,298] --> Begin to start Server Process
+[18/04/09 18:08:13,317] --> Server Process started
+[18/04/09 18:08:13,317] --> Begin to start Globals
+[18/04/09 18:08:13,321] --> heartbeatEnum:时间同步 heartRunner:com.core.heartbeat.LLTimeRunner@8641b7d
+[18/04/09 18:08:13,321] --> heartbeatEnum:定时任务 heartRunner:com.core.heartbeat.LLScheduleRunner@37c7766e
+[18/04/09 18:08:13,322] --> Globals started
+[18/04/09 18:08:13,322] --> Begin to schedule fixed rate task
+[18/04/09 18:08:13,530] --> Free memory 1767 Mb of 1797 Mb
+[18/04/09 18:08:13,532] --> <<-------------------------------- Game Server started version:1.0.0.1----------------------------------->>
+[18/04/09 18:08:13,532] --> 服务器启动时间 : 10918毫秒
+[18/04/09 18:08:13,588] --> runnerId:-1 is busy
+[18/04/09 18:08:13,588] --> runnerId:1 is busy
+[18/04/09 18:08:13,588] --> runnerId:2 is busy
+[18/04/09 18:08:20,009] --> Session opened: (SOCKET, R: /192.168.1.11:51555, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:08:20,843] --> Session closed: (SOCKET, R: /192.168.1.11:51555, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:08:20,844] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:51555;type:2
+[18/04/09 18:08:25,740] --> runnerId:-1 is busy
+[18/04/09 18:08:25,740] --> runnerId:1 is busy
+[18/04/09 18:09:27,475] --> Session opened: (SOCKET, R: /192.168.1.11:51571, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:09:37,721] --> [player=-1]msg type 504(CG_PING) can't be processed in curState:loading
+[18/04/09 18:10:17,893] --> Session closed: (SOCKET, R: /192.168.1.11:51571, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:10:17,894] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:51571;type:2
+[18/04/09 18:10:23,260] --> Session opened: (SOCKET, R: /192.168.1.11:51590, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:10:33,508] --> [player=-1]msg type 504(CG_PING) can't be processed in curState:loading
+[18/04/09 18:12:43,728] --> Session closed: (SOCKET, R: /192.168.1.11:51590, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:12:43,728] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:51590;type:2
+[18/04/09 18:14:20,081] --> Session opened: (SOCKET, R: /192.168.1.11:51634, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:14:30,323] --> [player=-1]msg type 504(CG_PING) can't be processed in curState:loading
+[18/04/09 18:15:23,384] --> Session closed: (SOCKET, R: /192.168.1.11:51634, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:15:23,384] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:51634;type:2
+[18/04/09 18:20:05,056] --> Starting Game Server
+[18/04/09 18:20:05,063] --> Free memory 1781 Mb of 1797 Mb
+[18/04/09 18:20:06,079] --> Begin to initialize Globals
+[18/04/09 18:20:09,286] --> DBService instance:com.core.orm.HibernateDBServcieImpl@381d7219
+[18/04/09 18:20:13,403] --> 警告：枚举类com.core.schedule.LLScheduleEnum中有索引超过1000的索引，如果有很多索引空缺，可能会造成空间浪费
+[18/04/09 18:20:13,746] --> Globals initialized
+[18/04/09 18:20:13,901] --> Begin to start Server Process
+[18/04/09 18:20:13,925] --> Server Process started
+[18/04/09 18:20:13,925] --> Begin to start Globals
+[18/04/09 18:20:13,928] --> heartbeatEnum:时间同步 heartRunner:com.core.heartbeat.LLTimeRunner@48d739f
+[18/04/09 18:20:13,929] --> heartbeatEnum:定时任务 heartRunner:com.core.heartbeat.LLScheduleRunner@51e7589f
+[18/04/09 18:20:13,929] --> Globals started
+[18/04/09 18:20:13,929] --> Begin to schedule fixed rate task
+[18/04/09 18:20:14,252] --> Free memory 1765 Mb of 1797 Mb
+[18/04/09 18:20:14,252] --> <<-------------------------------- Game Server started version:1.0.0.1----------------------------------->>
+[18/04/09 18:20:14,254] --> 服务器启动时间 : 9191毫秒
+[18/04/09 18:20:14,348] --> runnerId:-1 is busy
+[18/04/09 18:20:14,348] --> runnerId:1 is busy
+[18/04/09 18:20:14,348] --> runnerId:2 is busy
+[18/04/09 18:20:44,348] --> Session opened: (SOCKET, R: /192.168.1.11:51748, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:20:54,483] --> [player=-1]msg type 504(CG_PING) can't be processed in curState:loading
+[18/04/09 18:22:04,219] --> Session closed: (SOCKET, R: /192.168.1.11:51748, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:22:04,221] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:51748;type:2
+[18/04/09 18:22:36,620] --> Session opened: (SOCKET, R: /192.168.1.11:51783, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:22:44,581] --> Session closed: (SOCKET, R: /192.168.1.11:51783, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:22:44,581] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:51783;type:2
+[18/04/09 18:22:53,791] --> Starting Game Server
+[18/04/09 18:22:53,797] --> Free memory 1781 Mb of 1797 Mb
+[18/04/09 18:22:54,815] --> Begin to initialize Globals
+[18/04/09 18:22:57,931] --> DBService instance:com.core.orm.HibernateDBServcieImpl@329a1f8d
+[18/04/09 18:23:02,300] --> 警告：枚举类com.core.schedule.LLScheduleEnum中有索引超过1000的索引，如果有很多索引空缺，可能会造成空间浪费
+[18/04/09 18:23:03,189] --> Globals initialized
+[18/04/09 18:23:03,388] --> Begin to start Server Process
+[18/04/09 18:23:03,418] --> Server Process started
+[18/04/09 18:23:03,418] --> Begin to start Globals
+[18/04/09 18:23:03,423] --> heartbeatEnum:时间同步 heartRunner:com.core.heartbeat.LLTimeRunner@46f73ffa
+[18/04/09 18:23:03,423] --> heartbeatEnum:定时任务 heartRunner:com.core.heartbeat.LLScheduleRunner@41aebbb4
+[18/04/09 18:23:03,423] --> Globals started
+[18/04/09 18:23:03,423] --> Begin to schedule fixed rate task
+[18/04/09 18:23:03,643] --> Free memory 1766 Mb of 1797 Mb
+[18/04/09 18:23:03,643] --> <<-------------------------------- Game Server started version:1.0.0.1----------------------------------->>
+[18/04/09 18:23:03,643] --> 服务器启动时间 : 9846毫秒
+[18/04/09 18:23:03,717] --> runnerId:-1 is busy
+[18/04/09 18:23:03,717] --> runnerId:2 is busy
+[18/04/09 18:24:05,624] --> Session opened: (SOCKET, R: /192.168.1.11:51812, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:24:06,430] --> Session closed: (SOCKET, R: /192.168.1.11:51812, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:24:06,434] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:51812;type:2
+[18/04/09 18:24:33,948] --> Starting Game Server
+[18/04/09 18:24:33,953] --> Free memory 1781 Mb of 1797 Mb
+[18/04/09 18:24:34,868] --> Begin to initialize Globals
+[18/04/09 18:24:37,567] --> DBService instance:com.core.orm.HibernateDBServcieImpl@13fed1ec
+[18/04/09 18:24:41,764] --> 警告：枚举类com.core.schedule.LLScheduleEnum中有索引超过1000的索引，如果有很多索引空缺，可能会造成空间浪费
+[18/04/09 18:24:42,954] --> Globals initialized
+[18/04/09 18:24:43,136] --> Begin to start Server Process
+[18/04/09 18:24:43,156] --> Server Process started
+[18/04/09 18:24:43,156] --> Begin to start Globals
+[18/04/09 18:24:43,158] --> heartbeatEnum:时间同步 heartRunner:com.core.heartbeat.LLTimeRunner@53d6e959
+[18/04/09 18:24:43,158] --> heartbeatEnum:定时任务 heartRunner:com.core.heartbeat.LLScheduleRunner@3caee3a8
+[18/04/09 18:24:43,159] --> Globals started
+[18/04/09 18:24:43,159] --> Begin to schedule fixed rate task
+[18/04/09 18:24:43,364] --> Free memory 1764 Mb of 1797 Mb
+[18/04/09 18:24:43,365] --> <<-------------------------------- Game Server started version:1.0.0.1----------------------------------->>
+[18/04/09 18:24:43,365] --> 服务器启动时间 : 9412毫秒
+[18/04/09 18:24:43,452] --> runnerId:2 is busy
+[18/04/09 18:24:52,361] --> Session opened: (SOCKET, R: /192.168.1.11:51824, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:24:53,082] --> Session closed: (SOCKET, R: /192.168.1.11:51824, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:24:53,087] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:51824;type:2
+[18/04/09 18:27:41,734] --> Starting Game Server
+[18/04/09 18:27:41,742] --> Free memory 1781 Mb of 1797 Mb
+[18/04/09 18:27:42,674] --> Begin to initialize Globals
+[18/04/09 18:27:45,567] --> DBService instance:com.core.orm.HibernateDBServcieImpl@49fe3142
+[18/04/09 18:27:50,635] --> 警告：枚举类com.core.schedule.LLScheduleEnum中有索引超过1000的索引，如果有很多索引空缺，可能会造成空间浪费
+[18/04/09 18:27:51,773] --> Globals initialized
+[18/04/09 18:27:51,923] --> Begin to start Server Process
+[18/04/09 18:27:51,951] --> Server Process started
+[18/04/09 18:27:51,952] --> Begin to start Globals
+[18/04/09 18:27:51,953] --> heartbeatEnum:时间同步 heartRunner:com.core.heartbeat.LLTimeRunner@4b7ed03e
+[18/04/09 18:27:51,954] --> heartbeatEnum:定时任务 heartRunner:com.core.heartbeat.LLScheduleRunner@636985df
+[18/04/09 18:27:51,954] --> Globals started
+[18/04/09 18:27:51,954] --> Begin to schedule fixed rate task
+[18/04/09 18:27:52,196] --> Free memory 1767 Mb of 1797 Mb
+[18/04/09 18:27:52,203] --> <<-------------------------------- Game Server started version:1.0.0.1----------------------------------->>
+[18/04/09 18:27:52,203] --> 服务器启动时间 : 10461毫秒
+[18/04/09 18:28:33,241] --> Session opened: (SOCKET, R: /192.168.1.41:51576, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:28:34,034] --> 警告：枚举类com.common.LogReasons$GoldLogReason中有索引超过1000的索引，如果有很多索引空缺，可能会造成空间浪费
+[18/04/09 18:29:01,399] --> Session opened: (SOCKET, R: /192.168.1.11:51883, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:29:49,400] --> Session closed: (SOCKET, R: /192.168.1.41:51576, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:29:49,402] --> #CLOSE.SESSION.PASSIVE:192.168.1.41:51576;type:2
+[18/04/09 18:30:15,634] --> Session closed: (SOCKET, R: /192.168.1.11:51883, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:30:15,634] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:51883;type:2
+[18/04/09 18:31:36,925] --> Session opened: (SOCKET, R: /192.168.1.11:51924, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:33:31,102] --> Session closed: (SOCKET, R: /192.168.1.11:51924, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:33:31,103] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:51924;type:2
+[18/04/09 18:33:45,052] --> Session opened: (SOCKET, R: /192.168.1.11:51951, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:34:32,865] --> Session closed: (SOCKET, R: /192.168.1.11:51951, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:34:32,866] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:51951;type:2
+[18/04/09 18:40:25,796] --> Session opened: (SOCKET, R: /192.168.1.11:52071, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:43:44,718] --> Session closed: (SOCKET, R: /192.168.1.11:52071, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:43:44,719] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:52071;type:2
+[18/04/09 18:43:59,256] --> Session opened: (SOCKET, R: /192.168.1.11:52121, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:45:10,383] --> Session closed: (SOCKET, R: /192.168.1.11:52121, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:45:10,384] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:52121;type:2
+[18/04/09 18:46:23,690] --> Session opened: (SOCKET, R: /192.168.1.11:52159, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:48:01,354] --> runnerId:1 is busy
+[18/04/09 18:48:02,718] --> Session closed: (SOCKET, R: /192.168.1.11:52159, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:48:02,719] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:52159;type:2
+[18/04/09 18:51:35,459] --> Session opened: (SOCKET, R: /192.168.1.11:52235, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:52:14,163] --> runnerId:1 is busy
+[18/04/09 18:53:16,289] --> Session closed: (SOCKET, R: /192.168.1.11:52235, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:53:16,289] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:52235;type:2
+[18/04/09 18:53:37,021] --> Session opened: (SOCKET, R: /192.168.1.11:52274, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:54:22,736] --> runnerId:1 is busy
+[18/04/09 18:54:26,240] --> Session closed: (SOCKET, R: /192.168.1.11:52274, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:54:26,241] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:52274;type:2
+[18/04/09 18:54:43,637] --> Session opened: (SOCKET, R: /192.168.1.11:52297, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:55:31,391] --> runnerId:1 is busy
+[18/04/09 18:58:19,345] --> Session closed: (SOCKET, R: /192.168.1.11:52297, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:58:19,345] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:52297;type:2
+[18/04/09 18:58:41,639] --> Session opened: (SOCKET, R: /192.168.1.11:52380, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:59:27,821] --> Session closed: (SOCKET, R: /192.168.1.11:52380, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 18:59:27,821] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:52380;type:2
+[18/04/09 18:59:52,915] --> Session opened: (SOCKET, R: /192.168.1.11:52400, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 19:00:43,898] --> runnerId:1 is busy
+[18/04/09 19:03:11,389] --> Starting Game Server
+[18/04/09 19:03:11,394] --> Free memory 1781 Mb of 1797 Mb
+[18/04/09 19:03:12,634] --> Begin to initialize Globals
+[18/04/09 19:03:15,436] --> DBService instance:com.core.orm.HibernateDBServcieImpl@49fe3142
+[18/04/09 19:03:20,282] --> 警告：枚举类com.core.schedule.LLScheduleEnum中有索引超过1000的索引，如果有很多索引空缺，可能会造成空间浪费
+[18/04/09 19:03:21,539] --> Globals initialized
+[18/04/09 19:03:22,114] --> Begin to start Server Process
+[18/04/09 19:03:22,135] --> Server Process started
+[18/04/09 19:03:22,135] --> Begin to start Globals
+[18/04/09 19:03:22,138] --> heartbeatEnum:时间同步 heartRunner:com.core.heartbeat.LLTimeRunner@251c90f
+[18/04/09 19:03:22,138] --> heartbeatEnum:定时任务 heartRunner:com.core.heartbeat.LLScheduleRunner@6629643d
+[18/04/09 19:03:22,138] --> Globals started
+[18/04/09 19:03:22,138] --> Begin to schedule fixed rate task
+[18/04/09 19:03:22,356] --> Free memory 1766 Mb of 1797 Mb
+[18/04/09 19:03:22,357] --> <<-------------------------------- Game Server started version:1.0.0.1----------------------------------->>
+[18/04/09 19:03:22,357] --> 服务器启动时间 : 10963毫秒
+[18/04/09 19:03:22,426] --> runnerId:-1 is busy
+[18/04/09 19:03:22,426] --> runnerId:2 is busy
+[18/04/09 19:05:40,050] --> Session opened: (SOCKET, R: /192.168.1.11:52525, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 19:06:05,169] --> Session closed: (SOCKET, R: /192.168.1.11:52525, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 19:06:05,171] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:52525;type:2
+[18/04/09 19:07:05,892] --> Session opened: (SOCKET, R: /192.168.1.11:52553, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 19:07:16,028] --> [player=6389050585346900994]msg type 504(CG_PING) can't be processed in curState:loading
+[18/04/09 19:08:16,298] --> Session closed: (SOCKET, R: /192.168.1.11:52553, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 19:08:16,298] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:52553;type:2
+[18/04/09 19:09:13,780] --> Session opened: (SOCKET, R: /192.168.1.11:52590, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 19:09:53,496] --> Session closed: (SOCKET, R: /192.168.1.11:52590, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 19:09:53,497] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:52590;type:2
+[18/04/09 19:11:59,224] --> Session opened: (SOCKET, R: /192.168.1.11:52628, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 19:13:40,658] --> Session closed: (SOCKET, R: /192.168.1.11:52628, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 19:13:40,658] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:52628;type:2
+[18/04/09 19:13:54,271] --> Session opened: (SOCKET, R: /192.168.1.11:52662, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 19:14:07,838] --> runnerId:1 is busy
+[18/04/09 19:15:04,921] --> Session closed: (SOCKET, R: /192.168.1.11:52662, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/09 19:15:04,921] --> #CLOSE.SESSION.PASSIVE:192.168.1.11:52662;type:2

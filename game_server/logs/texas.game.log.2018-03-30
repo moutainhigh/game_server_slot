@@ -1,0 +1,42 @@
+[18/03/30 15:58:23,159] --> Starting Game Server
+[18/03/30 15:58:23,174] --> Free memory 1781 Mb of 1797 Mb
+[18/03/30 15:58:24,104] --> Begin to initialize Globals
+[18/03/30 15:58:26,765] --> DBService instance:com.core.orm.HibernateDBServcieImpl@4f5f6e45
+[18/03/30 15:58:31,387] --> 警告：枚举类com.core.schedule.LLScheduleEnum中有索引超过1000的索引，如果有很多索引空缺，可能会造成空间浪费
+[18/03/30 15:58:32,321] --> Globals initialized
+[18/03/30 15:58:32,645] --> Begin to start Server Process
+[18/03/30 15:58:32,686] --> Failed to start server
+java.lang.RuntimeException: Bind address [/192.168.1.41:9000] fail
+	at com.core.server.ServerProcess.start(ServerProcess.java:159)
+	at com.gameserver.GameServer.start(GameServer.java:111)
+	at com.gameserver.GameServer.main(GameServer.java:233)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.mina.transport.socket.nio.SocketAcceptor.registerNew(SocketAcceptor.java:363)
+	at org.apache.mina.transport.socket.nio.SocketAcceptor.access$800(SocketAcceptor.java:55)
+	at org.apache.mina.transport.socket.nio.SocketAcceptor$Worker.run(SocketAcceptor.java:222)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:51)
+	at java.lang.Thread.run(Thread.java:745)
+[18/03/30 15:58:58,505] --> Starting Game Server
+[18/03/30 15:58:58,511] --> Free memory 1781 Mb of 1797 Mb
+[18/03/30 15:58:59,432] --> Begin to initialize Globals
+[18/03/30 15:59:01,945] --> DBService instance:com.core.orm.HibernateDBServcieImpl@70c0a3d5
+[18/03/30 15:59:05,823] --> 警告：枚举类com.core.schedule.LLScheduleEnum中有索引超过1000的索引，如果有很多索引空缺，可能会造成空间浪费
+[18/03/30 15:59:06,459] --> Globals initialized
+[18/03/30 15:59:06,648] --> Begin to start Server Process
+[18/03/30 15:59:06,676] --> Server Process started
+[18/03/30 15:59:06,676] --> Begin to start Globals
+[18/03/30 15:59:06,681] --> heartbeatEnum:时间同步 heartRunner:com.core.heartbeat.LLTimeRunner@430df350
+[18/03/30 15:59:06,681] --> heartbeatEnum:定时任务 heartRunner:com.core.heartbeat.LLScheduleRunner@1373e3ee
+[18/03/30 15:59:06,682] --> Globals started
+[18/03/30 15:59:06,682] --> Begin to schedule fixed rate task
+[18/03/30 15:59:06,947] --> Free memory 1772 Mb of 1797 Mb
+[18/03/30 15:59:06,949] --> <<-------------------------------- Game Server started version:1.0.0.1----------------------------------->>
+[18/03/30 15:59:06,949] --> 服务器启动时间 : 8437毫秒
+[18/03/30 15:59:07,026] --> runnerId:-1 is busy
+[18/03/30 15:59:07,026] --> runnerId:1 is busy
+[18/03/30 15:59:07,026] --> runnerId:2 is busy

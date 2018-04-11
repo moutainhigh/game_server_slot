@@ -1,0 +1,6 @@
+[16/10/20 10:54:23,690] [INFO] RPCImpl.robotJoin --> request join robot from server[100003],room[6194702053522705411]
+[16/10/20 10:54:23,724] [INFO] Slf4jRecord.recordInfo --> #IMOP.LOCAL.LOGGER.INITLIZE...
+[16/10/20 10:54:23,728] [INFO] Slf4jRecord.recordInfo --> #IMOP.LOCAL.INIT.THREADPOOL.OK:SIZE:2
+[16/10/20 10:54:23,728] [INFO] Slf4jRecord.recordInfo --> #IMOP.LOCAL.START:AREAID:1
+[16/10/20 11:41:29,303] [INFO] RPCImpl.robotJoin --> request join robot from server[100003],room[6194702053522705411]
+[16/10/20 11:41:49,943] [INFO] RPCImpl.robotJoin --> request join robot from server[100003],room[6194702053522705411]

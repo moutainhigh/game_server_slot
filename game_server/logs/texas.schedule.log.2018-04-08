@@ -1,0 +1,630 @@
+[18/04/08 14:20:06,845] --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@7418d76e
+[18/04/08 14:20:06,849] --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@11ede87f
+[18/04/08 14:20:06,850] --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@7675c171
+[18/04/08 14:20:06,851] --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@44e4cb76
+[18/04/08 14:20:06,855] --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@51cab489
+[18/04/08 14:20:06,855] --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@2f9a10df
+[18/04/08 14:20:06,855] --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@773c2214
+[18/04/08 14:20:06,856] --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@15e1f8fe
+[18/04/08 14:20:06,857] --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@6ee88e21
+[18/04/08 14:20:06,885] --> scheduleOnce date:Mon Apr 09 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@6274f21c
+[18/04/08 14:20:06,887] --> scheduleOnce date:Mon Apr 09 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@237add
+[18/04/08 14:20:06,889] --> scheduleOnce date:Mon Apr 09 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@cbd40c1
+[18/04/08 14:20:06,889] --> scheduleOnce date:Sun Apr 08 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@4fa86cb8
+[18/04/08 14:20:06,889] --> scheduleOnce date:Sun Apr 08 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@54c60202
+[18/04/08 14:20:06,890] --> scheduleOnce date:Sun Apr 08 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@7889b4b9
+[18/04/08 14:20:07,450] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@615db358
+[18/04/08 14:20:07,491] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@5fef0c19
+[18/04/08 14:20:07,493] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@22a6d75c
+[18/04/08 14:20:07,495] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@7d30007d
+[18/04/08 14:20:07,497] --> scheduleWithFixedDelay delay:639599517 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@2ca54da9
+[18/04/08 14:20:07,499] --> scheduleWithFixedDelay delay:2399517 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@496cc217
+[18/04/08 14:20:07,725] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@2d1180b1
+[18/04/08 14:20:07,728] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@798b9be3
+[18/04/08 14:20:07,730] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@2442216f
+[18/04/08 14:20:07,731] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@fbdcfc4
+[18/04/08 14:20:07,731] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@2e08c28a
+[18/04/08 14:20:07,732] --> ======>start HeartBeatServer time is:2018-04-08 14:20:07
+[18/04/08 14:20:07,756] --> ======>start sendLastNetTime time is:2018-04-08 14:20:07
+[18/04/08 14:20:07,757] --> ======>start notice time is:2018-04-08 14:20:07
+[18/04/08 14:20:08,037] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@6a6ffab7
+[18/04/08 14:20:08,039] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@3b1b0dce
+[18/04/08 14:20:08,240] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@57f8710
+[18/04/08 14:21:07,546] --> ======>start HeartBeatServer time is:2018-04-08 14:21:07
+[18/04/08 14:21:07,546] --> ======>start sendLastNetTime time is:2018-04-08 14:21:07
+[18/04/08 14:21:07,546] --> ======>start notice time is:2018-04-08 14:21:07
+[18/04/08 14:22:07,473] --> ======>start HeartBeatServer time is:2018-04-08 14:22:07
+[18/04/08 14:22:07,673] --> ======>start sendLastNetTime time is:2018-04-08 14:22:07
+[18/04/08 14:22:07,673] --> ======>start notice time is:2018-04-08 14:22:07
+[18/04/08 14:23:07,475] --> ======>start HeartBeatServer time is:2018-04-08 14:23:07
+[18/04/08 14:23:07,676] --> ======>start sendLastNetTime time is:2018-04-08 14:23:07
+[18/04/08 14:23:07,676] --> ======>start notice time is:2018-04-08 14:23:07
+[18/04/08 14:24:07,526] --> ======>start HeartBeatServer time is:2018-04-08 14:24:07
+[18/04/08 14:24:07,527] --> ======>start sendLastNetTime time is:2018-04-08 14:24:07
+[18/04/08 14:24:07,527] --> ======>start notice time is:2018-04-08 14:24:07
+[18/04/08 14:25:07,586] --> ======>start HeartBeatServer time is:2018-04-08 14:25:07
+[18/04/08 14:25:07,587] --> ======>start sendLastNetTime time is:2018-04-08 14:25:07
+[18/04/08 14:25:07,587] --> ======>start notice time is:2018-04-08 14:25:07
+[18/04/08 14:26:07,579] --> ======>start HeartBeatServer time is:2018-04-08 14:26:07
+[18/04/08 14:26:07,579] --> ======>start sendLastNetTime time is:2018-04-08 14:26:07
+[18/04/08 14:26:07,579] --> ======>start notice time is:2018-04-08 14:26:07
+[18/04/08 14:27:07,531] --> ======>start HeartBeatServer time is:2018-04-08 14:27:07
+[18/04/08 14:27:07,531] --> ======>start sendLastNetTime time is:2018-04-08 14:27:07
+[18/04/08 14:27:07,532] --> ======>start notice time is:2018-04-08 14:27:07
+[18/04/08 14:28:07,592] --> ======>start HeartBeatServer time is:2018-04-08 14:28:07
+[18/04/08 14:28:07,592] --> ======>start sendLastNetTime time is:2018-04-08 14:28:07
+[18/04/08 14:28:07,592] --> ======>start notice time is:2018-04-08 14:28:07
+[18/04/08 14:29:07,588] --> ======>start HeartBeatServer time is:2018-04-08 14:29:07
+[18/04/08 14:29:07,588] --> ======>start sendLastNetTime time is:2018-04-08 14:29:07
+[18/04/08 14:29:07,588] --> ======>start notice time is:2018-04-08 14:29:07
+[18/04/08 14:30:07,635] --> ======>start HeartBeatServer time is:2018-04-08 14:30:07
+[18/04/08 14:30:07,636] --> ======>start sendLastNetTime time is:2018-04-08 14:30:07
+[18/04/08 14:30:07,636] --> ======>start notice time is:2018-04-08 14:30:07
+[18/04/08 14:31:07,533] --> ======>start HeartBeatServer time is:2018-04-08 14:31:07
+[18/04/08 14:31:07,534] --> ======>start sendLastNetTime time is:2018-04-08 14:31:07
+[18/04/08 14:31:07,534] --> ======>start notice time is:2018-04-08 14:31:07
+[18/04/08 14:32:07,646] --> ======>start HeartBeatServer time is:2018-04-08 14:32:07
+[18/04/08 14:32:07,646] --> ======>start sendLastNetTime time is:2018-04-08 14:32:07
+[18/04/08 14:32:07,647] --> ======>start notice time is:2018-04-08 14:32:07
+[18/04/08 14:33:07,531] --> ======>start HeartBeatServer time is:2018-04-08 14:33:07
+[18/04/08 14:33:07,532] --> ======>start sendLastNetTime time is:2018-04-08 14:33:07
+[18/04/08 14:33:07,532] --> ======>start notice time is:2018-04-08 14:33:07
+[18/04/08 14:34:07,641] --> ======>start HeartBeatServer time is:2018-04-08 14:34:07
+[18/04/08 14:34:07,642] --> ======>start sendLastNetTime time is:2018-04-08 14:34:07
+[18/04/08 14:34:07,642] --> ======>start notice time is:2018-04-08 14:34:07
+[18/04/08 14:35:07,536] --> ======>start HeartBeatServer time is:2018-04-08 14:35:07
+[18/04/08 14:35:07,537] --> ======>start sendLastNetTime time is:2018-04-08 14:35:07
+[18/04/08 14:35:07,537] --> ======>start notice time is:2018-04-08 14:35:07
+[18/04/08 14:36:07,656] --> ======>start HeartBeatServer time is:2018-04-08 14:36:07
+[18/04/08 14:36:07,656] --> ======>start sendLastNetTime time is:2018-04-08 14:36:07
+[18/04/08 14:36:07,656] --> ======>start notice time is:2018-04-08 14:36:07
+[18/04/08 14:37:07,468] --> ======>start HeartBeatServer time is:2018-04-08 14:37:07
+[18/04/08 14:37:07,668] --> ======>start sendLastNetTime time is:2018-04-08 14:37:07
+[18/04/08 14:37:07,668] --> ======>start notice time is:2018-04-08 14:37:07
+[18/04/08 14:38:07,504] --> ======>start HeartBeatServer time is:2018-04-08 14:38:07
+[18/04/08 14:38:07,505] --> ======>start sendLastNetTime time is:2018-04-08 14:38:07
+[18/04/08 14:38:07,505] --> ======>start notice time is:2018-04-08 14:38:07
+[18/04/08 14:39:07,612] --> ======>start HeartBeatServer time is:2018-04-08 14:39:07
+[18/04/08 14:39:07,613] --> ======>start sendLastNetTime time is:2018-04-08 14:39:07
+[18/04/08 14:39:07,613] --> ======>start notice time is:2018-04-08 14:39:07
+[18/04/08 14:40:07,476] --> ======>start HeartBeatServer time is:2018-04-08 14:40:07
+[18/04/08 14:40:07,676] --> ======>start sendLastNetTime time is:2018-04-08 14:40:07
+[18/04/08 14:40:07,676] --> ======>start notice time is:2018-04-08 14:40:07
+[18/04/08 14:41:07,579] --> ======>start HeartBeatServer time is:2018-04-08 14:41:07
+[18/04/08 14:41:07,579] --> ======>start sendLastNetTime time is:2018-04-08 14:41:07
+[18/04/08 14:41:07,580] --> ======>start notice time is:2018-04-08 14:41:07
+[18/04/08 14:42:07,479] --> ======>start HeartBeatServer time is:2018-04-08 14:42:07
+[18/04/08 14:42:07,679] --> ======>start sendLastNetTime time is:2018-04-08 14:42:07
+[18/04/08 14:42:07,680] --> ======>start notice time is:2018-04-08 14:42:07
+[18/04/08 14:43:00,571] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@493cc22e
+[18/04/08 14:43:07,581] --> ======>start HeartBeatServer time is:2018-04-08 14:43:07
+[18/04/08 14:43:07,582] --> ======>start sendLastNetTime time is:2018-04-08 14:43:07
+[18/04/08 14:43:07,582] --> ======>start notice time is:2018-04-08 14:43:07
+[18/04/08 14:44:00,682] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@5c9333fc
+[18/04/08 14:44:07,492] --> ======>start HeartBeatServer time is:2018-04-08 14:44:07
+[18/04/08 14:44:07,492] --> ======>start sendLastNetTime time is:2018-04-08 14:44:07
+[18/04/08 14:44:07,492] --> ======>start notice time is:2018-04-08 14:44:07
+[18/04/08 14:45:00,589] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@3f0530dd
+[18/04/08 14:45:07,509] --> ======>start HeartBeatServer time is:2018-04-08 14:45:07
+[18/04/08 14:45:07,511] --> ======>start sendLastNetTime time is:2018-04-08 14:45:07
+[18/04/08 14:45:07,511] --> ======>start notice time is:2018-04-08 14:45:07
+[18/04/08 14:46:00,678] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@46bb672a
+[18/04/08 14:46:07,491] --> ======>start HeartBeatServer time is:2018-04-08 14:46:07
+[18/04/08 14:46:07,491] --> ======>start sendLastNetTime time is:2018-04-08 14:46:07
+[18/04/08 14:46:07,491] --> ======>start notice time is:2018-04-08 14:46:07
+[18/04/08 14:47:00,669] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@6939f061
+[18/04/08 14:47:07,481] --> ======>start HeartBeatServer time is:2018-04-08 14:47:07
+[18/04/08 14:47:07,681] --> ======>start sendLastNetTime time is:2018-04-08 14:47:07
+[18/04/08 14:47:07,681] --> ======>start notice time is:2018-04-08 14:47:07
+[18/04/08 14:48:00,583] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@2cf03269
+[18/04/08 14:48:07,607] --> ======>start HeartBeatServer time is:2018-04-08 14:48:07
+[18/04/08 14:48:07,607] --> ======>start sendLastNetTime time is:2018-04-08 14:48:07
+[18/04/08 14:48:07,607] --> ======>start notice time is:2018-04-08 14:48:07
+[18/04/08 14:49:00,554] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@3ae56cf2
+[18/04/08 14:49:07,566] --> ======>start HeartBeatServer time is:2018-04-08 14:49:07
+[18/04/08 14:49:07,566] --> ======>start sendLastNetTime time is:2018-04-08 14:49:07
+[18/04/08 14:49:07,567] --> ======>start notice time is:2018-04-08 14:49:07
+[18/04/08 14:50:00,517] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@27faceb3
+[18/04/08 14:50:07,531] --> ======>start HeartBeatServer time is:2018-04-08 14:50:07
+[18/04/08 14:50:07,531] --> ======>start sendLastNetTime time is:2018-04-08 14:50:07
+[18/04/08 14:50:07,532] --> ======>start notice time is:2018-04-08 14:50:07
+[18/04/08 14:51:07,658] --> ======>start HeartBeatServer time is:2018-04-08 14:51:07
+[18/04/08 14:51:07,659] --> ======>start sendLastNetTime time is:2018-04-08 14:51:07
+[18/04/08 14:51:07,660] --> ======>start notice time is:2018-04-08 14:51:07
+[18/04/08 14:52:07,582] --> ======>start HeartBeatServer time is:2018-04-08 14:52:07
+[18/04/08 14:52:07,584] --> ======>start sendLastNetTime time is:2018-04-08 14:52:07
+[18/04/08 14:52:07,585] --> ======>start notice time is:2018-04-08 14:52:07
+[18/04/08 14:53:07,497] --> ======>start HeartBeatServer time is:2018-04-08 14:53:07
+[18/04/08 14:53:07,498] --> ======>start sendLastNetTime time is:2018-04-08 14:53:07
+[18/04/08 14:53:07,498] --> ======>start notice time is:2018-04-08 14:53:07
+[18/04/08 14:54:07,501] --> ======>start HeartBeatServer time is:2018-04-08 14:54:07
+[18/04/08 14:54:07,501] --> ======>start sendLastNetTime time is:2018-04-08 14:54:07
+[18/04/08 14:54:07,502] --> ======>start notice time is:2018-04-08 14:54:07
+[18/04/08 14:55:07,576] --> ======>start HeartBeatServer time is:2018-04-08 14:55:07
+[18/04/08 14:55:07,579] --> ======>start sendLastNetTime time is:2018-04-08 14:55:07
+[18/04/08 14:55:07,579] --> ======>start notice time is:2018-04-08 14:55:07
+[18/04/08 14:56:07,627] --> ======>start HeartBeatServer time is:2018-04-08 14:56:07
+[18/04/08 14:56:07,628] --> ======>start sendLastNetTime time is:2018-04-08 14:56:07
+[18/04/08 14:56:07,628] --> ======>start notice time is:2018-04-08 14:56:07
+[18/04/08 14:57:07,471] --> ======>start HeartBeatServer time is:2018-04-08 14:57:07
+[18/04/08 14:57:07,672] --> ======>start sendLastNetTime time is:2018-04-08 14:57:07
+[18/04/08 14:57:07,672] --> ======>start notice time is:2018-04-08 14:57:07
+[18/04/08 14:58:07,559] --> ======>start HeartBeatServer time is:2018-04-08 14:58:07
+[18/04/08 14:58:07,559] --> ======>start sendLastNetTime time is:2018-04-08 14:58:07
+[18/04/08 14:58:07,559] --> ======>start notice time is:2018-04-08 14:58:07
+[18/04/08 14:59:07,660] --> ======>start HeartBeatServer time is:2018-04-08 14:59:07
+[18/04/08 14:59:07,666] --> ======>start sendLastNetTime time is:2018-04-08 14:59:07
+[18/04/08 14:59:07,666] --> ======>start notice time is:2018-04-08 14:59:07
+[18/04/08 15:00:07,587] --> ======>start HeartBeatServer time is:2018-04-08 15:00:07
+[18/04/08 15:00:07,588] --> ======>start sendLastNetTime time is:2018-04-08 15:00:07
+[18/04/08 15:00:07,588] --> ======>start notice time is:2018-04-08 15:00:07
+[18/04/08 15:01:07,593] --> ======>start HeartBeatServer time is:2018-04-08 15:01:07
+[18/04/08 15:01:07,594] --> ======>start sendLastNetTime time is:2018-04-08 15:01:07
+[18/04/08 15:01:07,594] --> ======>start notice time is:2018-04-08 15:01:07
+[18/04/08 15:02:07,479] --> ======>start HeartBeatServer time is:2018-04-08 15:02:07
+[18/04/08 15:02:07,680] --> ======>start sendLastNetTime time is:2018-04-08 15:02:07
+[18/04/08 15:02:07,680] --> ======>start notice time is:2018-04-08 15:02:07
+[18/04/08 15:03:07,619] --> ======>start HeartBeatServer time is:2018-04-08 15:03:07
+[18/04/08 15:03:07,620] --> ======>start sendLastNetTime time is:2018-04-08 15:03:07
+[18/04/08 15:03:07,620] --> ======>start notice time is:2018-04-08 15:03:07
+[18/04/08 15:04:07,510] --> ======>start HeartBeatServer time is:2018-04-08 15:04:07
+[18/04/08 15:04:07,510] --> ======>start sendLastNetTime time is:2018-04-08 15:04:07
+[18/04/08 15:04:07,510] --> ======>start notice time is:2018-04-08 15:04:07
+[18/04/08 15:05:07,637] --> ======>start HeartBeatServer time is:2018-04-08 15:05:07
+[18/04/08 15:05:07,638] --> ======>start sendLastNetTime time is:2018-04-08 15:05:07
+[18/04/08 15:05:07,638] --> ======>start notice time is:2018-04-08 15:05:07
+[18/04/08 15:06:00,583] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@7e4c2af8
+[18/04/08 15:06:07,617] --> ======>start HeartBeatServer time is:2018-04-08 15:06:07
+[18/04/08 15:06:07,620] --> ======>start sendLastNetTime time is:2018-04-08 15:06:07
+[18/04/08 15:06:07,621] --> ======>start notice time is:2018-04-08 15:06:07
+[18/04/08 15:07:07,527] --> ======>start HeartBeatServer time is:2018-04-08 15:07:07
+[18/04/08 15:07:07,528] --> ======>start sendLastNetTime time is:2018-04-08 15:07:07
+[18/04/08 15:07:07,528] --> ======>start notice time is:2018-04-08 15:07:07
+[18/04/08 15:08:00,660] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@7d9e634a
+[18/04/08 15:08:07,468] --> ======>start HeartBeatServer time is:2018-04-08 15:08:07
+[18/04/08 15:08:07,669] --> ======>start sendLastNetTime time is:2018-04-08 15:08:07
+[18/04/08 15:08:07,669] --> ======>start notice time is:2018-04-08 15:08:07
+[18/04/08 15:09:07,557] --> ======>start HeartBeatServer time is:2018-04-08 15:09:07
+[18/04/08 15:09:07,557] --> ======>start sendLastNetTime time is:2018-04-08 15:09:07
+[18/04/08 15:09:07,558] --> ======>start notice time is:2018-04-08 15:09:07
+[18/04/08 15:10:00,628] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@47e826fe
+[18/04/08 15:10:07,636] --> ======>start HeartBeatServer time is:2018-04-08 15:10:07
+[18/04/08 15:10:07,637] --> ======>start sendLastNetTime time is:2018-04-08 15:10:07
+[18/04/08 15:10:07,637] --> ======>start notice time is:2018-04-08 15:10:07
+[18/04/08 15:11:07,505] --> ======>start HeartBeatServer time is:2018-04-08 15:11:07
+[18/04/08 15:11:07,538] --> ======>start sendLastNetTime time is:2018-04-08 15:11:07
+[18/04/08 15:11:07,538] --> ======>start notice time is:2018-04-08 15:11:07
+[18/04/08 15:12:00,594] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@d7e4b80
+[18/04/08 15:12:07,604] --> ======>start HeartBeatServer time is:2018-04-08 15:12:07
+[18/04/08 15:12:07,604] --> ======>start sendLastNetTime time is:2018-04-08 15:12:07
+[18/04/08 15:12:07,604] --> ======>start notice time is:2018-04-08 15:12:07
+[18/04/08 15:13:07,586] --> ======>start HeartBeatServer time is:2018-04-08 15:13:07
+[18/04/08 15:13:07,586] --> ======>start sendLastNetTime time is:2018-04-08 15:13:07
+[18/04/08 15:13:07,586] --> ======>start notice time is:2018-04-08 15:13:07
+[18/04/08 15:14:00,666] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@127abb3d
+[18/04/08 15:14:07,532] --> ======>start HeartBeatServer time is:2018-04-08 15:14:07
+[18/04/08 15:14:07,533] --> ======>start sendLastNetTime time is:2018-04-08 15:14:07
+[18/04/08 15:14:07,534] --> ======>start notice time is:2018-04-08 15:14:07
+[18/04/08 15:15:07,650] --> ======>start HeartBeatServer time is:2018-04-08 15:15:07
+[18/04/08 15:15:07,650] --> ======>start sendLastNetTime time is:2018-04-08 15:15:07
+[18/04/08 15:15:07,651] --> ======>start notice time is:2018-04-08 15:15:07
+[18/04/08 15:16:00,636] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@1cf00e0b
+[18/04/08 15:16:07,615] --> ======>start HeartBeatServer time is:2018-04-08 15:16:07
+[18/04/08 15:16:07,616] --> ======>start sendLastNetTime time is:2018-04-08 15:16:07
+[18/04/08 15:16:07,616] --> ======>start notice time is:2018-04-08 15:16:07
+[18/04/08 15:17:07,606] --> ======>start HeartBeatServer time is:2018-04-08 15:17:07
+[18/04/08 15:17:07,611] --> ======>start sendLastNetTime time is:2018-04-08 15:17:07
+[18/04/08 15:17:07,611] --> ======>start notice time is:2018-04-08 15:17:07
+[18/04/08 15:18:00,548] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@1a2904bd
+[18/04/08 15:18:07,566] --> ======>start HeartBeatServer time is:2018-04-08 15:18:07
+[18/04/08 15:18:07,568] --> ======>start sendLastNetTime time is:2018-04-08 15:18:07
+[18/04/08 15:18:07,568] --> ======>start notice time is:2018-04-08 15:18:07
+[18/04/08 15:19:07,547] --> ======>start HeartBeatServer time is:2018-04-08 15:19:07
+[18/04/08 15:19:07,548] --> ======>start sendLastNetTime time is:2018-04-08 15:19:07
+[18/04/08 15:19:07,548] --> ======>start notice time is:2018-04-08 15:19:07
+[18/04/08 15:20:00,660] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@65f46e33
+[18/04/08 15:20:07,470] --> ======>start HeartBeatServer time is:2018-04-08 15:20:07
+[18/04/08 15:20:07,671] --> ======>start sendLastNetTime time is:2018-04-08 15:20:07
+[18/04/08 15:20:07,671] --> ======>start notice time is:2018-04-08 15:20:07
+[18/04/08 15:21:07,567] --> ======>start HeartBeatServer time is:2018-04-08 15:21:07
+[18/04/08 15:21:07,568] --> ======>start sendLastNetTime time is:2018-04-08 15:21:07
+[18/04/08 15:21:07,568] --> ======>start notice time is:2018-04-08 15:21:07
+[18/04/08 15:22:07,669] --> ======>start HeartBeatServer time is:2018-04-08 15:22:07
+[18/04/08 15:22:07,676] --> ======>start sendLastNetTime time is:2018-04-08 15:22:07
+[18/04/08 15:22:07,676] --> ======>start notice time is:2018-04-08 15:22:07
+[18/04/08 15:23:07,524] --> ======>start HeartBeatServer time is:2018-04-08 15:23:07
+[18/04/08 15:23:07,526] --> ======>start sendLastNetTime time is:2018-04-08 15:23:07
+[18/04/08 15:23:07,527] --> ======>start notice time is:2018-04-08 15:23:07
+[18/04/08 15:24:07,501] --> ======>start HeartBeatServer time is:2018-04-08 15:24:07
+[18/04/08 15:24:07,502] --> ======>start sendLastNetTime time is:2018-04-08 15:24:07
+[18/04/08 15:24:07,502] --> ======>start notice time is:2018-04-08 15:24:07
+[18/04/08 15:25:07,646] --> ======>start HeartBeatServer time is:2018-04-08 15:25:07
+[18/04/08 15:25:07,646] --> ======>start sendLastNetTime time is:2018-04-08 15:25:07
+[18/04/08 15:25:07,647] --> ======>start notice time is:2018-04-08 15:25:07
+[18/04/08 15:26:07,634] --> ======>start HeartBeatServer time is:2018-04-08 15:26:07
+[18/04/08 15:26:07,635] --> ======>start sendLastNetTime time is:2018-04-08 15:26:07
+[18/04/08 15:26:07,635] --> ======>start notice time is:2018-04-08 15:26:07
+[18/04/08 15:27:07,470] --> ======>start HeartBeatServer time is:2018-04-08 15:27:07
+[18/04/08 15:27:07,672] --> ======>start sendLastNetTime time is:2018-04-08 15:27:07
+[18/04/08 15:27:07,673] --> ======>start notice time is:2018-04-08 15:27:07
+[18/04/08 15:28:07,486] --> ======>start HeartBeatServer time is:2018-04-08 15:28:07
+[18/04/08 15:28:07,703] --> ======>start sendLastNetTime time is:2018-04-08 15:28:07
+[18/04/08 15:28:07,703] --> ======>start notice time is:2018-04-08 15:28:07
+[18/04/08 15:29:00,605] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@229082e3
+[18/04/08 15:29:07,616] --> ======>start HeartBeatServer time is:2018-04-08 15:29:07
+[18/04/08 15:29:07,617] --> ======>start sendLastNetTime time is:2018-04-08 15:29:07
+[18/04/08 15:29:07,617] --> ======>start notice time is:2018-04-08 15:29:07
+[18/04/08 15:30:07,511] --> ======>start HeartBeatServer time is:2018-04-08 15:30:07
+[18/04/08 15:30:07,512] --> ======>start sendLastNetTime time is:2018-04-08 15:30:07
+[18/04/08 15:30:07,512] --> ======>start notice time is:2018-04-08 15:30:07
+[18/04/08 15:31:07,612] --> ======>start HeartBeatServer time is:2018-04-08 15:31:07
+[18/04/08 15:31:07,612] --> ======>start sendLastNetTime time is:2018-04-08 15:31:07
+[18/04/08 15:31:07,613] --> ======>start notice time is:2018-04-08 15:31:07
+[18/04/08 15:32:00,583] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@3e8c50ec
+[18/04/08 15:32:07,502] --> ======>start HeartBeatServer time is:2018-04-08 15:32:07
+[18/04/08 15:32:07,503] --> ======>start sendLastNetTime time is:2018-04-08 15:32:07
+[18/04/08 15:32:07,504] --> ======>start notice time is:2018-04-08 15:32:07
+[18/04/08 15:33:07,640] --> ======>start HeartBeatServer time is:2018-04-08 15:33:07
+[18/04/08 15:33:07,641] --> ======>start sendLastNetTime time is:2018-04-08 15:33:07
+[18/04/08 15:33:07,642] --> ======>start notice time is:2018-04-08 15:33:07
+[18/04/08 15:34:07,546] --> ======>start HeartBeatServer time is:2018-04-08 15:34:07
+[18/04/08 15:34:07,547] --> ======>start sendLastNetTime time is:2018-04-08 15:34:07
+[18/04/08 15:34:07,547] --> ======>start notice time is:2018-04-08 15:34:07
+[18/04/08 15:35:00,583] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@6cd2a76c
+[18/04/08 15:35:07,591] --> ======>start HeartBeatServer time is:2018-04-08 15:35:07
+[18/04/08 15:35:07,591] --> ======>start sendLastNetTime time is:2018-04-08 15:35:07
+[18/04/08 15:35:07,591] --> ======>start notice time is:2018-04-08 15:35:07
+[18/04/08 15:36:07,483] --> ======>start HeartBeatServer time is:2018-04-08 15:36:07
+[18/04/08 15:36:07,684] --> ======>start sendLastNetTime time is:2018-04-08 15:36:07
+[18/04/08 15:36:07,684] --> ======>start notice time is:2018-04-08 15:36:07
+[18/04/08 15:37:07,604] --> ======>start HeartBeatServer time is:2018-04-08 15:37:07
+[18/04/08 15:37:07,605] --> ======>start sendLastNetTime time is:2018-04-08 15:37:07
+[18/04/08 15:37:07,605] --> ======>start notice time is:2018-04-08 15:37:07
+[18/04/08 15:38:00,553] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@2a11c933
+[18/04/08 15:38:07,561] --> ======>start HeartBeatServer time is:2018-04-08 15:38:07
+[18/04/08 15:38:07,562] --> ======>start sendLastNetTime time is:2018-04-08 15:38:07
+[18/04/08 15:38:07,562] --> ======>start notice time is:2018-04-08 15:38:07
+[18/04/08 15:39:07,512] --> ======>start HeartBeatServer time is:2018-04-08 15:39:07
+[18/04/08 15:39:07,514] --> ======>start sendLastNetTime time is:2018-04-08 15:39:07
+[18/04/08 15:39:07,515] --> ======>start notice time is:2018-04-08 15:39:07
+[18/04/08 15:40:07,642] --> ======>start HeartBeatServer time is:2018-04-08 15:40:07
+[18/04/08 15:40:07,643] --> ======>start sendLastNetTime time is:2018-04-08 15:40:07
+[18/04/08 15:40:07,643] --> ======>start notice time is:2018-04-08 15:40:07
+[18/04/08 15:41:00,515] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@c30c108
+[18/04/08 15:41:07,544] --> ======>start HeartBeatServer time is:2018-04-08 15:41:07
+[18/04/08 15:41:07,545] --> ======>start sendLastNetTime time is:2018-04-08 15:41:07
+[18/04/08 15:41:07,546] --> ======>start notice time is:2018-04-08 15:41:07
+[18/04/08 15:42:07,527] --> ======>start HeartBeatServer time is:2018-04-08 15:42:07
+[18/04/08 15:42:07,531] --> ======>start sendLastNetTime time is:2018-04-08 15:42:07
+[18/04/08 15:42:07,531] --> ======>start notice time is:2018-04-08 15:42:07
+[18/04/08 15:43:07,606] --> ======>start HeartBeatServer time is:2018-04-08 15:43:07
+[18/04/08 15:43:07,606] --> ======>start sendLastNetTime time is:2018-04-08 15:43:07
+[18/04/08 15:43:07,606] --> ======>start notice time is:2018-04-08 15:43:07
+[18/04/08 15:44:00,522] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@50e7fb52
+[18/04/08 15:44:07,530] --> ======>start HeartBeatServer time is:2018-04-08 15:44:07
+[18/04/08 15:44:07,530] --> ======>start sendLastNetTime time is:2018-04-08 15:44:07
+[18/04/08 15:44:07,531] --> ======>start notice time is:2018-04-08 15:44:07
+[18/04/08 15:45:07,611] --> ======>start HeartBeatServer time is:2018-04-08 15:45:07
+[18/04/08 15:45:07,612] --> ======>start sendLastNetTime time is:2018-04-08 15:45:07
+[18/04/08 15:45:07,612] --> ======>start notice time is:2018-04-08 15:45:07
+[18/04/08 15:46:07,511] --> ======>start HeartBeatServer time is:2018-04-08 15:46:07
+[18/04/08 15:46:07,511] --> ======>start sendLastNetTime time is:2018-04-08 15:46:07
+[18/04/08 15:46:07,512] --> ======>start notice time is:2018-04-08 15:46:07
+[18/04/08 15:47:00,671] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@2977cfe5
+[18/04/08 15:47:07,480] --> ======>start HeartBeatServer time is:2018-04-08 15:47:07
+[18/04/08 15:47:07,680] --> ======>start sendLastNetTime time is:2018-04-08 15:47:07
+[18/04/08 15:47:07,681] --> ======>start notice time is:2018-04-08 15:47:07
+[18/04/08 15:48:07,588] --> ======>start HeartBeatServer time is:2018-04-08 15:48:07
+[18/04/08 15:48:07,589] --> ======>start sendLastNetTime time is:2018-04-08 15:48:07
+[18/04/08 15:48:07,589] --> ======>start notice time is:2018-04-08 15:48:07
+[18/04/08 15:49:07,524] --> ======>start HeartBeatServer time is:2018-04-08 15:49:07
+[18/04/08 15:49:07,525] --> ======>start sendLastNetTime time is:2018-04-08 15:49:07
+[18/04/08 15:49:07,525] --> ======>start notice time is:2018-04-08 15:49:07
+[18/04/08 15:50:00,602] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@d0bd3a9
+[18/04/08 15:50:07,611] --> ======>start HeartBeatServer time is:2018-04-08 15:50:07
+[18/04/08 15:50:07,611] --> ======>start sendLastNetTime time is:2018-04-08 15:50:07
+[18/04/08 15:50:07,611] --> ======>start notice time is:2018-04-08 15:50:07
+[18/04/08 15:51:07,529] --> ======>start HeartBeatServer time is:2018-04-08 15:51:07
+[18/04/08 15:51:07,530] --> ======>start sendLastNetTime time is:2018-04-08 15:51:07
+[18/04/08 15:51:07,530] --> ======>start notice time is:2018-04-08 15:51:07
+[18/04/08 15:52:00,486] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@7b97b81
+[18/04/08 15:52:07,497] --> ======>start HeartBeatServer time is:2018-04-08 15:52:07
+[18/04/08 15:52:07,497] --> ======>start sendLastNetTime time is:2018-04-08 15:52:07
+[18/04/08 15:52:07,498] --> ======>start notice time is:2018-04-08 15:52:07
+[18/04/08 15:53:07,591] --> ======>start HeartBeatServer time is:2018-04-08 15:53:07
+[18/04/08 15:53:07,592] --> ======>start sendLastNetTime time is:2018-04-08 15:53:07
+[18/04/08 15:53:07,592] --> ======>start notice time is:2018-04-08 15:53:07
+[18/04/08 15:54:07,476] --> ======>start HeartBeatServer time is:2018-04-08 15:54:07
+[18/04/08 15:54:07,676] --> ======>start sendLastNetTime time is:2018-04-08 15:54:07
+[18/04/08 15:54:07,676] --> ======>start notice time is:2018-04-08 15:54:07
+[18/04/08 15:55:07,574] --> ======>start HeartBeatServer time is:2018-04-08 15:55:07
+[18/04/08 15:55:07,575] --> ======>start sendLastNetTime time is:2018-04-08 15:55:07
+[18/04/08 15:55:07,575] --> ======>start notice time is:2018-04-08 15:55:07
+[18/04/08 15:56:00,641] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@686b2d4f
+[18/04/08 15:56:07,652] --> ======>start HeartBeatServer time is:2018-04-08 15:56:07
+[18/04/08 15:56:07,652] --> ======>start sendLastNetTime time is:2018-04-08 15:56:07
+[18/04/08 15:56:07,653] --> ======>start notice time is:2018-04-08 15:56:07
+[18/04/08 15:57:07,541] --> ======>start HeartBeatServer time is:2018-04-08 15:57:07
+[18/04/08 15:57:07,541] --> ======>start sendLastNetTime time is:2018-04-08 15:57:07
+[18/04/08 15:57:07,541] --> ======>start notice time is:2018-04-08 15:57:07
+[18/04/08 15:58:07,475] --> ======>start HeartBeatServer time is:2018-04-08 15:58:07
+[18/04/08 15:58:07,675] --> ======>start sendLastNetTime time is:2018-04-08 15:58:07
+[18/04/08 15:58:07,676] --> ======>start notice time is:2018-04-08 15:58:07
+[18/04/08 15:59:07,592] --> ======>start HeartBeatServer time is:2018-04-08 15:59:07
+[18/04/08 15:59:07,594] --> ======>start sendLastNetTime time is:2018-04-08 15:59:07
+[18/04/08 15:59:07,594] --> ======>start notice time is:2018-04-08 15:59:07
+[18/04/08 16:00:00,663] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@7f74df40
+[18/04/08 16:00:07,475] --> ======>start HeartBeatServer time is:2018-04-08 16:00:07
+[18/04/08 16:00:07,675] --> ======>start sendLastNetTime time is:2018-04-08 16:00:07
+[18/04/08 16:00:07,675] --> ======>start notice time is:2018-04-08 16:00:07
+[18/04/08 16:01:07,573] --> ======>start HeartBeatServer time is:2018-04-08 16:01:07
+[18/04/08 16:01:07,575] --> ======>start sendLastNetTime time is:2018-04-08 16:01:07
+[18/04/08 16:01:07,575] --> ======>start notice time is:2018-04-08 16:01:07
+[18/04/08 16:02:07,466] --> ======>start HeartBeatServer time is:2018-04-08 16:02:07
+[18/04/08 16:02:07,667] --> ======>start sendLastNetTime time is:2018-04-08 16:02:07
+[18/04/08 16:02:07,667] --> ======>start notice time is:2018-04-08 16:02:07
+[18/04/08 16:03:07,591] --> ======>start HeartBeatServer time is:2018-04-08 16:03:07
+[18/04/08 16:03:07,592] --> ======>start sendLastNetTime time is:2018-04-08 16:03:07
+[18/04/08 16:03:07,593] --> ======>start notice time is:2018-04-08 16:03:07
+[18/04/08 16:04:00,673] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@2c31cd9c
+[18/04/08 16:04:07,481] --> ======>start HeartBeatServer time is:2018-04-08 16:04:07
+[18/04/08 16:04:07,681] --> ======>start sendLastNetTime time is:2018-04-08 16:04:07
+[18/04/08 16:04:07,681] --> ======>start notice time is:2018-04-08 16:04:07
+[18/04/08 16:05:07,579] --> ======>start HeartBeatServer time is:2018-04-08 16:05:07
+[18/04/08 16:05:07,580] --> ======>start sendLastNetTime time is:2018-04-08 16:05:07
+[18/04/08 16:05:07,581] --> ======>start notice time is:2018-04-08 16:05:07
+[18/04/08 16:06:07,474] --> ======>start HeartBeatServer time is:2018-04-08 16:06:07
+[18/04/08 16:06:07,674] --> ======>start sendLastNetTime time is:2018-04-08 16:06:07
+[18/04/08 16:06:07,674] --> ======>start notice time is:2018-04-08 16:06:07
+[18/04/08 16:07:07,627] --> ======>start HeartBeatServer time is:2018-04-08 16:07:07
+[18/04/08 16:07:07,630] --> ======>start sendLastNetTime time is:2018-04-08 16:07:07
+[18/04/08 16:07:07,630] --> ======>start notice time is:2018-04-08 16:07:07
+[18/04/08 16:08:00,529] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@6098dee8
+[18/04/08 16:08:07,537] --> ======>start HeartBeatServer time is:2018-04-08 16:08:07
+[18/04/08 16:08:07,537] --> ======>start sendLastNetTime time is:2018-04-08 16:08:07
+[18/04/08 16:08:07,537] --> ======>start notice time is:2018-04-08 16:08:07
+[18/04/08 16:09:07,639] --> ======>start HeartBeatServer time is:2018-04-08 16:09:07
+[18/04/08 16:09:07,640] --> ======>start sendLastNetTime time is:2018-04-08 16:09:07
+[18/04/08 16:09:07,641] --> ======>start notice time is:2018-04-08 16:09:07
+[18/04/08 16:10:07,537] --> ======>start HeartBeatServer time is:2018-04-08 16:10:07
+[18/04/08 16:10:07,539] --> ======>start sendLastNetTime time is:2018-04-08 16:10:07
+[18/04/08 16:10:07,539] --> ======>start notice time is:2018-04-08 16:10:07
+[18/04/08 16:11:07,511] --> ======>start HeartBeatServer time is:2018-04-08 16:11:07
+[18/04/08 16:11:07,512] --> ======>start sendLastNetTime time is:2018-04-08 16:11:07
+[18/04/08 16:11:07,513] --> ======>start notice time is:2018-04-08 16:11:07
+[18/04/08 16:12:00,591] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@512896e1
+[18/04/08 16:12:07,621] --> ======>start HeartBeatServer time is:2018-04-08 16:12:07
+[18/04/08 16:12:07,623] --> ======>start sendLastNetTime time is:2018-04-08 16:12:07
+[18/04/08 16:12:07,623] --> ======>start notice time is:2018-04-08 16:12:07
+[18/04/08 16:13:07,605] --> ======>start HeartBeatServer time is:2018-04-08 16:13:07
+[18/04/08 16:13:07,606] --> ======>start sendLastNetTime time is:2018-04-08 16:13:07
+[18/04/08 16:13:07,606] --> ======>start notice time is:2018-04-08 16:13:07
+[18/04/08 16:14:07,519] --> ======>start HeartBeatServer time is:2018-04-08 16:14:07
+[18/04/08 16:14:07,520] --> ======>start sendLastNetTime time is:2018-04-08 16:14:07
+[18/04/08 16:14:07,520] --> ======>start notice time is:2018-04-08 16:14:07
+[18/04/08 16:15:00,612] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@8ffcd5b
+[18/04/08 16:15:07,618] --> ======>start HeartBeatServer time is:2018-04-08 16:15:07
+[18/04/08 16:15:07,619] --> ======>start sendLastNetTime time is:2018-04-08 16:15:07
+[18/04/08 16:15:07,620] --> ======>start notice time is:2018-04-08 16:15:07
+[18/04/08 16:16:00,501] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@2a00bcf5
+[18/04/08 16:16:07,518] --> ======>start HeartBeatServer time is:2018-04-08 16:16:07
+[18/04/08 16:16:07,519] --> ======>start sendLastNetTime time is:2018-04-08 16:16:07
+[18/04/08 16:16:07,520] --> ======>start notice time is:2018-04-08 16:16:07
+[18/04/08 16:17:07,610] --> ======>start HeartBeatServer time is:2018-04-08 16:17:07
+[18/04/08 16:17:07,611] --> ======>start sendLastNetTime time is:2018-04-08 16:17:07
+[18/04/08 16:17:07,611] --> ======>start notice time is:2018-04-08 16:17:07
+[18/04/08 16:18:07,514] --> ======>start HeartBeatServer time is:2018-04-08 16:18:07
+[18/04/08 16:18:07,516] --> ======>start sendLastNetTime time is:2018-04-08 16:18:07
+[18/04/08 16:18:07,516] --> ======>start notice time is:2018-04-08 16:18:07
+[18/04/08 16:19:07,623] --> ======>start HeartBeatServer time is:2018-04-08 16:19:07
+[18/04/08 16:19:07,624] --> ======>start sendLastNetTime time is:2018-04-08 16:19:07
+[18/04/08 16:19:07,625] --> ======>start notice time is:2018-04-08 16:19:07
+[18/04/08 16:20:00,499] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@c4958c3
+[18/04/08 16:20:00,718] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@19c34835
+[18/04/08 16:20:07,532] --> ======>start HeartBeatServer time is:2018-04-08 16:20:07
+[18/04/08 16:20:07,533] --> ======>start sendLastNetTime time is:2018-04-08 16:20:07
+[18/04/08 16:20:07,533] --> ======>start notice time is:2018-04-08 16:20:07
+[18/04/08 16:21:07,626] --> ======>start HeartBeatServer time is:2018-04-08 16:21:07
+[18/04/08 16:21:07,628] --> ======>start sendLastNetTime time is:2018-04-08 16:21:07
+[18/04/08 16:21:07,628] --> ======>start notice time is:2018-04-08 16:21:07
+[18/04/08 16:22:07,514] --> ======>start HeartBeatServer time is:2018-04-08 16:22:07
+[18/04/08 16:22:07,515] --> ======>start sendLastNetTime time is:2018-04-08 16:22:07
+[18/04/08 16:22:07,515] --> ======>start notice time is:2018-04-08 16:22:07
+[18/04/08 16:23:07,615] --> ======>start HeartBeatServer time is:2018-04-08 16:23:07
+[18/04/08 16:23:07,623] --> ======>start sendLastNetTime time is:2018-04-08 16:23:07
+[18/04/08 16:23:07,623] --> ======>start notice time is:2018-04-08 16:23:07
+[18/04/08 16:24:07,528] --> ======>start HeartBeatServer time is:2018-04-08 16:24:07
+[18/04/08 16:24:07,530] --> ======>start sendLastNetTime time is:2018-04-08 16:24:07
+[18/04/08 16:24:07,530] --> ======>start notice time is:2018-04-08 16:24:07
+[18/04/08 16:25:00,610] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@6fa0db43
+[18/04/08 16:25:07,620] --> ======>start HeartBeatServer time is:2018-04-08 16:25:07
+[18/04/08 16:25:07,622] --> ======>start sendLastNetTime time is:2018-04-08 16:25:07
+[18/04/08 16:25:07,622] --> ======>start notice time is:2018-04-08 16:25:07
+[18/04/08 16:26:07,659] --> ======>start HeartBeatServer time is:2018-04-08 16:26:07
+[18/04/08 16:26:07,661] --> ======>start sendLastNetTime time is:2018-04-08 16:26:07
+[18/04/08 16:26:07,661] --> ======>start notice time is:2018-04-08 16:26:07
+[18/04/08 16:27:07,670] --> ======>start HeartBeatServer time is:2018-04-08 16:27:07
+[18/04/08 16:27:07,676] --> ======>start sendLastNetTime time is:2018-04-08 16:27:07
+[18/04/08 16:27:07,677] --> ======>start notice time is:2018-04-08 16:27:07
+[18/04/08 16:28:07,615] --> ======>start HeartBeatServer time is:2018-04-08 16:28:07
+[18/04/08 16:28:07,617] --> ======>start sendLastNetTime time is:2018-04-08 16:28:07
+[18/04/08 16:28:07,617] --> ======>start notice time is:2018-04-08 16:28:07
+[18/04/08 16:29:07,516] --> ======>start HeartBeatServer time is:2018-04-08 16:29:07
+[18/04/08 16:29:07,517] --> ======>start sendLastNetTime time is:2018-04-08 16:29:07
+[18/04/08 16:29:07,517] --> ======>start notice time is:2018-04-08 16:29:07
+[18/04/08 16:30:00,601] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@40e82556
+[18/04/08 16:30:07,642] --> ======>start HeartBeatServer time is:2018-04-08 16:30:07
+[18/04/08 16:30:07,643] --> ======>start sendLastNetTime time is:2018-04-08 16:30:07
+[18/04/08 16:30:07,644] --> ======>start notice time is:2018-04-08 16:30:07
+[18/04/08 16:31:07,544] --> ======>start HeartBeatServer time is:2018-04-08 16:31:07
+[18/04/08 16:31:07,545] --> ======>start sendLastNetTime time is:2018-04-08 16:31:07
+[18/04/08 16:31:07,546] --> ======>start notice time is:2018-04-08 16:31:07
+[18/04/08 16:32:07,479] --> ======>start HeartBeatServer time is:2018-04-08 16:32:07
+[18/04/08 16:32:07,680] --> ======>start sendLastNetTime time is:2018-04-08 16:32:07
+[18/04/08 16:32:07,680] --> ======>start notice time is:2018-04-08 16:32:07
+[18/04/08 16:33:07,597] --> ======>start HeartBeatServer time is:2018-04-08 16:33:07
+[18/04/08 16:33:07,598] --> ======>start sendLastNetTime time is:2018-04-08 16:33:07
+[18/04/08 16:33:07,599] --> ======>start notice time is:2018-04-08 16:33:07
+[18/04/08 16:34:07,487] --> ======>start HeartBeatServer time is:2018-04-08 16:34:07
+[18/04/08 16:34:07,488] --> ======>start sendLastNetTime time is:2018-04-08 16:34:07
+[18/04/08 16:34:07,488] --> ======>start notice time is:2018-04-08 16:34:07
+[18/04/08 16:35:00,573] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@6a1f2c8
+[18/04/08 16:35:07,584] --> ======>start HeartBeatServer time is:2018-04-08 16:35:07
+[18/04/08 16:35:07,585] --> ======>start sendLastNetTime time is:2018-04-08 16:35:07
+[18/04/08 16:35:07,585] --> ======>start notice time is:2018-04-08 16:35:07
+[18/04/08 16:36:07,505] --> ======>start HeartBeatServer time is:2018-04-08 16:36:07
+[18/04/08 16:36:07,505] --> ======>start sendLastNetTime time is:2018-04-08 16:36:07
+[18/04/08 16:36:07,506] --> ======>start notice time is:2018-04-08 16:36:07
+[18/04/08 16:37:07,640] --> ======>start HeartBeatServer time is:2018-04-08 16:37:07
+[18/04/08 16:37:07,641] --> ======>start sendLastNetTime time is:2018-04-08 16:37:07
+[18/04/08 16:37:07,641] --> ======>start notice time is:2018-04-08 16:37:07
+[18/04/08 16:38:00,525] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@5a090c9
+[18/04/08 16:38:07,536] --> ======>start HeartBeatServer time is:2018-04-08 16:38:07
+[18/04/08 16:38:07,537] --> ======>start sendLastNetTime time is:2018-04-08 16:38:07
+[18/04/08 16:38:07,537] --> ======>start notice time is:2018-04-08 16:38:07
+[18/04/08 16:39:07,644] --> ======>start HeartBeatServer time is:2018-04-08 16:39:07
+[18/04/08 16:39:07,645] --> ======>start sendLastNetTime time is:2018-04-08 16:39:07
+[18/04/08 16:39:07,645] --> ======>start notice time is:2018-04-08 16:39:07
+[18/04/08 16:40:00,519] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@6cb339fd
+[18/04/08 16:40:07,532] --> ======>start HeartBeatServer time is:2018-04-08 16:40:07
+[18/04/08 16:40:07,533] --> ======>start sendLastNetTime time is:2018-04-08 16:40:07
+[18/04/08 16:40:07,533] --> ======>start notice time is:2018-04-08 16:40:07
+[18/04/08 16:41:07,640] --> ======>start HeartBeatServer time is:2018-04-08 16:41:07
+[18/04/08 16:41:07,642] --> ======>start sendLastNetTime time is:2018-04-08 16:41:07
+[18/04/08 16:41:07,642] --> ======>start notice time is:2018-04-08 16:41:07
+[18/04/08 16:42:07,525] --> ======>start HeartBeatServer time is:2018-04-08 16:42:07
+[18/04/08 16:42:07,526] --> ======>start sendLastNetTime time is:2018-04-08 16:42:07
+[18/04/08 16:42:07,526] --> ======>start notice time is:2018-04-08 16:42:07
+[18/04/08 16:43:07,611] --> ======>start HeartBeatServer time is:2018-04-08 16:43:07
+[18/04/08 16:43:07,612] --> ======>start sendLastNetTime time is:2018-04-08 16:43:07
+[18/04/08 16:43:07,612] --> ======>start notice time is:2018-04-08 16:43:07
+[18/04/08 16:44:00,496] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@6df073a8
+[18/04/08 16:44:07,524] --> ======>start HeartBeatServer time is:2018-04-08 16:44:07
+[18/04/08 16:44:07,525] --> ======>start sendLastNetTime time is:2018-04-08 16:44:07
+[18/04/08 16:44:07,525] --> ======>start notice time is:2018-04-08 16:44:07
+[18/04/08 16:45:00,603] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@64cefb6c
+[18/04/08 16:45:07,643] --> ======>start HeartBeatServer time is:2018-04-08 16:45:07
+[18/04/08 16:45:07,644] --> ======>start sendLastNetTime time is:2018-04-08 16:45:07
+[18/04/08 16:45:07,644] --> ======>start notice time is:2018-04-08 16:45:07
+[18/04/08 16:46:07,542] --> ======>start HeartBeatServer time is:2018-04-08 16:46:07
+[18/04/08 16:46:07,544] --> ======>start sendLastNetTime time is:2018-04-08 16:46:07
+[18/04/08 16:46:07,544] --> ======>start notice time is:2018-04-08 16:46:07
+[18/04/08 16:47:07,520] --> ======>start HeartBeatServer time is:2018-04-08 16:47:07
+[18/04/08 16:47:07,522] --> ======>start sendLastNetTime time is:2018-04-08 16:47:07
+[18/04/08 16:47:07,522] --> ======>start notice time is:2018-04-08 16:47:07
+[18/04/08 16:48:07,656] --> ======>start HeartBeatServer time is:2018-04-08 16:48:07
+[18/04/08 16:48:07,657] --> ======>start sendLastNetTime time is:2018-04-08 16:48:07
+[18/04/08 16:48:07,657] --> ======>start notice time is:2018-04-08 16:48:07
+[18/04/08 16:49:07,622] --> ======>start HeartBeatServer time is:2018-04-08 16:49:07
+[18/04/08 16:49:07,623] --> ======>start sendLastNetTime time is:2018-04-08 16:49:07
+[18/04/08 16:49:07,623] --> ======>start notice time is:2018-04-08 16:49:07
+[18/04/08 16:50:00,512] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@656909e4
+[18/04/08 16:50:00,712] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@1060b865
+[18/04/08 16:50:07,584] --> ======>start HeartBeatServer time is:2018-04-08 16:50:07
+[18/04/08 16:50:07,584] --> ======>start sendLastNetTime time is:2018-04-08 16:50:07
+[18/04/08 16:50:07,585] --> ======>start notice time is:2018-04-08 16:50:07
+[18/04/08 16:51:07,499] --> ======>start HeartBeatServer time is:2018-04-08 16:51:07
+[18/04/08 16:51:07,500] --> ======>start sendLastNetTime time is:2018-04-08 16:51:07
+[18/04/08 16:51:07,501] --> ======>start notice time is:2018-04-08 16:51:07
+[18/04/08 16:52:07,595] --> ======>start HeartBeatServer time is:2018-04-08 16:52:07
+[18/04/08 16:52:07,595] --> ======>start sendLastNetTime time is:2018-04-08 16:52:07
+[18/04/08 16:52:07,595] --> ======>start notice time is:2018-04-08 16:52:07
+[18/04/08 16:53:07,484] --> ======>start HeartBeatServer time is:2018-04-08 16:53:07
+[18/04/08 16:53:07,684] --> ======>start sendLastNetTime time is:2018-04-08 16:53:07
+[18/04/08 16:53:07,684] --> ======>start notice time is:2018-04-08 16:53:07
+[18/04/08 16:54:07,577] --> ======>start HeartBeatServer time is:2018-04-08 16:54:07
+[18/04/08 16:54:07,579] --> ======>start sendLastNetTime time is:2018-04-08 16:54:07
+[18/04/08 16:54:07,579] --> ======>start notice time is:2018-04-08 16:54:07
+[18/04/08 16:55:07,490] --> ======>start HeartBeatServer time is:2018-04-08 16:55:07
+[18/04/08 16:55:07,491] --> ======>start sendLastNetTime time is:2018-04-08 16:55:07
+[18/04/08 16:55:07,491] --> ======>start notice time is:2018-04-08 16:55:07
+[18/04/08 16:56:00,575] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@7ee3f4f2
+[18/04/08 16:56:07,592] --> ======>start HeartBeatServer time is:2018-04-08 16:56:07
+[18/04/08 16:56:07,593] --> ======>start sendLastNetTime time is:2018-04-08 16:56:07
+[18/04/08 16:56:07,594] --> ======>start notice time is:2018-04-08 16:56:07
+[18/04/08 16:57:07,492] --> ======>start HeartBeatServer time is:2018-04-08 16:57:07
+[18/04/08 16:57:07,493] --> ======>start sendLastNetTime time is:2018-04-08 16:57:07
+[18/04/08 16:57:07,493] --> ======>start notice time is:2018-04-08 16:57:07
+[18/04/08 16:58:07,580] --> ======>start HeartBeatServer time is:2018-04-08 16:58:07
+[18/04/08 16:58:07,581] --> ======>start sendLastNetTime time is:2018-04-08 16:58:07
+[18/04/08 16:58:07,581] --> ======>start notice time is:2018-04-08 16:58:07
+[18/04/08 16:59:07,471] --> ======>start HeartBeatServer time is:2018-04-08 16:59:07
+[18/04/08 16:59:07,672] --> ======>start sendLastNetTime time is:2018-04-08 16:59:07
+[18/04/08 16:59:07,672] --> ======>start notice time is:2018-04-08 16:59:07
+[18/04/08 17:00:07,566] --> ======>start HeartBeatServer time is:2018-04-08 17:00:07
+[18/04/08 17:00:07,566] --> ======>start sendLastNetTime time is:2018-04-08 17:00:07
+[18/04/08 17:00:07,566] --> ======>start notice time is:2018-04-08 17:00:07
+[18/04/08 17:01:00,638] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@6de575d9
+[18/04/08 17:01:07,641] --> ======>start HeartBeatServer time is:2018-04-08 17:01:07
+[18/04/08 17:01:07,642] --> ======>start sendLastNetTime time is:2018-04-08 17:01:07
+[18/04/08 17:01:07,642] --> ======>start notice time is:2018-04-08 17:01:07
+[18/04/08 17:02:00,511] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@406e77a8
+[18/04/08 17:02:07,554] --> ======>start HeartBeatServer time is:2018-04-08 17:02:07
+[18/04/08 17:02:07,554] --> ======>start sendLastNetTime time is:2018-04-08 17:02:07
+[18/04/08 17:02:07,554] --> ======>start notice time is:2018-04-08 17:02:07
+[18/04/08 17:03:07,640] --> ======>start HeartBeatServer time is:2018-04-08 17:03:07
+[18/04/08 17:03:07,641] --> ======>start sendLastNetTime time is:2018-04-08 17:03:07
+[18/04/08 17:03:07,641] --> ======>start notice time is:2018-04-08 17:03:07
+[18/04/08 17:04:07,525] --> ======>start HeartBeatServer time is:2018-04-08 17:04:07
+[18/04/08 17:04:07,525] --> ======>start sendLastNetTime time is:2018-04-08 17:04:07
+[18/04/08 17:04:07,525] --> ======>start notice time is:2018-04-08 17:04:07
+[18/04/08 17:05:07,614] --> ======>start HeartBeatServer time is:2018-04-08 17:05:07
+[18/04/08 17:05:07,615] --> ======>start sendLastNetTime time is:2018-04-08 17:05:07
+[18/04/08 17:05:07,615] --> ======>start notice time is:2018-04-08 17:05:07
+[18/04/08 17:06:07,525] --> ======>start HeartBeatServer time is:2018-04-08 17:06:07
+[18/04/08 17:06:07,525] --> ======>start sendLastNetTime time is:2018-04-08 17:06:07
+[18/04/08 17:06:07,525] --> ======>start notice time is:2018-04-08 17:06:07
+[18/04/08 17:07:07,632] --> ======>start HeartBeatServer time is:2018-04-08 17:07:07
+[18/04/08 17:07:07,633] --> ======>start sendLastNetTime time is:2018-04-08 17:07:07
+[18/04/08 17:07:07,633] --> ======>start notice time is:2018-04-08 17:07:07
+[18/04/08 17:08:00,583] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@55585c50
+[18/04/08 17:08:00,784] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@347d766d
+[18/04/08 17:08:07,614] --> ======>start HeartBeatServer time is:2018-04-08 17:08:07
+[18/04/08 17:08:07,615] --> ======>start sendLastNetTime time is:2018-04-08 17:08:07
+[18/04/08 17:08:07,615] --> ======>start notice time is:2018-04-08 17:08:07
+[18/04/08 17:09:07,531] --> ======>start HeartBeatServer time is:2018-04-08 17:09:07
+[18/04/08 17:09:07,531] --> ======>start sendLastNetTime time is:2018-04-08 17:09:07
+[18/04/08 17:09:07,532] --> ======>start notice time is:2018-04-08 17:09:07
+[18/04/08 17:10:07,470] --> ======>start HeartBeatServer time is:2018-04-08 17:10:07
+[18/04/08 17:10:07,670] --> ======>start sendLastNetTime time is:2018-04-08 17:10:07
+[18/04/08 17:10:07,670] --> ======>start notice time is:2018-04-08 17:10:07
+[18/04/08 17:11:07,597] --> ======>start HeartBeatServer time is:2018-04-08 17:11:07
+[18/04/08 17:11:07,598] --> ======>start sendLastNetTime time is:2018-04-08 17:11:07
+[18/04/08 17:11:07,598] --> ======>start notice time is:2018-04-08 17:11:07
+[18/04/08 17:12:07,502] --> ======>start HeartBeatServer time is:2018-04-08 17:12:07
+[18/04/08 17:12:07,503] --> ======>start sendLastNetTime time is:2018-04-08 17:12:07
+[18/04/08 17:12:07,503] --> ======>start notice time is:2018-04-08 17:12:07
+[18/04/08 17:13:07,590] --> ======>start HeartBeatServer time is:2018-04-08 17:13:07
+[18/04/08 17:13:07,591] --> ======>start sendLastNetTime time is:2018-04-08 17:13:07
+[18/04/08 17:13:07,591] --> ======>start notice time is:2018-04-08 17:13:07
+[18/04/08 17:14:00,662] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@72708686
+[18/04/08 17:14:07,484] --> ======>start HeartBeatServer time is:2018-04-08 17:14:07
+[18/04/08 17:14:07,684] --> ======>start sendLastNetTime time is:2018-04-08 17:14:07
+[18/04/08 17:14:07,684] --> ======>start notice time is:2018-04-08 17:14:07
+[18/04/08 17:15:00,576] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@41106c57
+[18/04/08 17:15:07,582] --> ======>start HeartBeatServer time is:2018-04-08 17:15:07
+[18/04/08 17:15:07,582] --> ======>start sendLastNetTime time is:2018-04-08 17:15:07
+[18/04/08 17:15:07,582] --> ======>start notice time is:2018-04-08 17:15:07
+[18/04/08 17:16:07,517] --> ======>start HeartBeatServer time is:2018-04-08 17:16:07
+[18/04/08 17:16:07,518] --> ======>start sendLastNetTime time is:2018-04-08 17:16:07
+[18/04/08 17:16:07,518] --> ======>start notice time is:2018-04-08 17:16:07
+[18/04/08 17:17:07,617] --> ======>start HeartBeatServer time is:2018-04-08 17:17:07
+[18/04/08 17:17:07,618] --> ======>start sendLastNetTime time is:2018-04-08 17:17:07
+[18/04/08 17:17:07,618] --> ======>start notice time is:2018-04-08 17:17:07
+[18/04/08 17:18:07,496] --> ======>start HeartBeatServer time is:2018-04-08 17:18:07
+[18/04/08 17:18:07,497] --> ======>start sendLastNetTime time is:2018-04-08 17:18:07
+[18/04/08 17:18:07,497] --> ======>start notice time is:2018-04-08 17:18:07
+[18/04/08 17:19:07,584] --> ======>start HeartBeatServer time is:2018-04-08 17:19:07
+[18/04/08 17:19:07,585] --> ======>start sendLastNetTime time is:2018-04-08 17:19:07
+[18/04/08 17:19:07,585] --> ======>start notice time is:2018-04-08 17:19:07
+[18/04/08 17:20:00,667] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@563d12f9
+[18/04/08 17:20:07,506] --> ======>start HeartBeatServer time is:2018-04-08 17:20:07
+[18/04/08 17:20:07,506] --> ======>start sendLastNetTime time is:2018-04-08 17:20:07
+[18/04/08 17:20:07,506] --> ======>start notice time is:2018-04-08 17:20:07
+[18/04/08 17:21:07,591] --> ======>start HeartBeatServer time is:2018-04-08 17:21:07
+[18/04/08 17:21:07,591] --> ======>start sendLastNetTime time is:2018-04-08 17:21:07
+[18/04/08 17:21:07,592] --> ======>start notice time is:2018-04-08 17:21:07
+[18/04/08 17:22:00,554] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@92cc84d
+[18/04/08 17:22:07,586] --> ======>start HeartBeatServer time is:2018-04-08 17:22:07
+[18/04/08 17:22:07,587] --> ======>start sendLastNetTime time is:2018-04-08 17:22:07
+[18/04/08 17:22:07,587] --> ======>start notice time is:2018-04-08 17:22:07

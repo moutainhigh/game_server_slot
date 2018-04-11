@@ -1,0 +1,59 @@
+[18/04/09 18:28:33,154] --> Message processor thread started [Thread[MessageProcessor Thread,5,main]]
+[18/04/09 18:28:33,157] --> Start connect to Game Server host: 192.168.1.41 port: 9000
+[18/04/09 18:28:33,457] --> Connect success.
+[18/04/09 18:28:33,486] --> GCHandshake[]507
+[18/04/09 18:28:33,487] --> Message:GC_HANDSHAKE Type:507 Time:35us Total:1
+[18/04/09 18:28:33,678] --> GCCheckPlayerLogin[loginId=1692,facebookId=-1,accountId=-1692,img=head_3.png,utcOffset=28800000,playerRole=2]852
+[18/04/09 18:28:33,678] --> Message:GC_CHECK_PLAYER_LOGIN Type:852 Time:11us Total:2
+[18/04/09 18:28:41,407] --> GCMonthOrWeek[mwtype=0,startOrEnd=0,leftTime=86400]6810
+[18/04/09 18:28:41,407] --> Message:GC_MONTH_OR_WEEK Type:6810 Time:9us Total:3
+[18/04/09 18:28:41,410] --> GCMonthOrWeek[mwtype=1,startOrEnd=0,leftTime=259200]6810
+[18/04/09 18:28:41,411] --> Message:GC_MONTH_OR_WEEK Type:6810 Time:8us Total:4
+[18/04/09 18:28:41,432] --> GCHumanDetailInfo[human=com.gameserver.human.data.HumanInfoData@2273b47c]1551
+[18/04/09 18:28:41,433] --> Message:GC_HUMAN_DETAIL_INFO Type:1551 Time:10us Total:5
+[18/04/09 18:28:41,433] --> GCHumanTexasInfoData[totalCount=0,winCount=0,isAuto=1,people=6,weekWinCoins=0,dayBiggestWinCoins=0,biggestHandCardList={}]1230
+[18/04/09 18:28:41,437] --> Message:GC_HUMAN_TEXAS_INFO_DATA Type:1230 Time:14us Total:6
+[18/04/09 18:28:41,448] --> GCHumanBagInfoData[itemList={com.gameserver.item.data.ItemInfoData@1bfee239,com.gameserver.item.data.ItemInfoData@4de653c4,com.gameserver.item.data.ItemInfoData@58edd7e8}]2951
+[18/04/09 18:28:41,452] --> Message:GC_HUMAN_BAG_INFO_DATA Type:2951 Time:15us Total:7
+[18/04/09 18:28:41,453] --> GCHumanMonthCardInfoData[monthCardInfoData=com.gameserver.monthcard.data.HumanMonthCardInfoData@6fca74b0]2601
+[18/04/09 18:28:41,454] --> Message:GC_HUMAN_MONTH_CARD_INFO_DATA Type:2601 Time:11us Total:8
+[18/04/09 18:28:41,456] --> GCHumanWeekCardInfoData[weekCardInfoData=com.gameserver.weekcard.data.HumanWeekCardInfoData@2b0b7089]2251
+[18/04/09 18:28:41,456] --> GCSignInInfoData[dayList={}]4353
+[18/04/09 18:28:41,457] --> Message:GC_HUMAN_WEEK_CARD_INFO_DATA Type:2251 Time:10us Total:9
+[18/04/09 18:28:41,457] --> Message:GC_SIGN_IN_INFO_DATA Type:4353 Time:13us Total:10
+[18/04/09 18:28:41,458] --> GCMiscInfoData[humanMiscInfoData=com.gameserver.misc.data.HumanMiscInfoData@650225d4]5053
+[18/04/09 18:28:41,459] --> Message:GC_MISC_INFO_DATA Type:5053 Time:9us Total:11
+[18/04/09 18:28:41,460] --> GCMiscFbInfoData[humanMiscFBInfoData=com.gameserver.misc.data.HumanMiscFBInfoData@eae96ff]5062
+[18/04/09 18:28:41,465] --> Message:GC_MISC_FB_INFO_DATA Type:5062 Time:99us Total:12
+[18/04/09 18:28:41,466] --> GCVipNewData[humanVipNewInfoData=com.gameserver.vipnew.data.HumanVipNewInfoData@4e52376b]8201
+[18/04/09 18:28:41,467] --> Message:GC_VIP_NEW_DATA Type:8201 Time:13us Total:13
+[18/04/09 18:28:41,468] --> GCLoadMailList[mailKind=0,mailInfoDataList={}]3652
+[18/04/09 18:28:41,468] --> GCLoadMailList[mailKind=1,mailInfoDataList={}]3652
+[18/04/09 18:28:41,469] --> GCLoadMailList[mailKind=2,mailInfoDataList={}]3652
+[18/04/09 18:28:41,469] --> GCLoadMailList[mailKind=3,mailInfoDataList={}]3652
+[18/04/09 18:28:41,470] --> Message:GC_LOAD_MAIL_LIST Type:3652 Time:10us Total:14
+[18/04/09 18:28:41,470] --> Message:GC_LOAD_MAIL_LIST Type:3652 Time:6us Total:15
+[18/04/09 18:28:41,470] --> Message:GC_LOAD_MAIL_LIST Type:3652 Time:5us Total:16
+[18/04/09 18:28:41,471] --> Message:GC_LOAD_MAIL_LIST Type:3652 Time:8us Total:17
+[18/04/09 18:28:41,481] --> GCLoadFriendGiftList[friendGiftInfoDataList={}]4014
+[18/04/09 18:28:41,483] --> Message:GC_LOAD_FRIEND_GIFT_LIST Type:4014 Time:12us Total:18
+[18/04/09 18:28:41,484] --> GCLoadFriendRequestList[friendRequestInfoDataList={}]4004
+[18/04/09 18:28:41,484] --> Message:GC_LOAD_FRIEND_REQUEST_LIST Type:4004 Time:10us Total:19
+[18/04/09 18:28:41,486] --> GCTaskInfoData[dailyTaskDataList={com.gameserver.task.data.TaskData@6f7f6c28,com.gameserver.task.data.TaskData@5b8d0265,com.gameserver.task.data.TaskData@43e79364,com.gameserver.task.data.TaskData@42128fc6,com.gameserver.task.data.TaskData@5618a580,com.gameserver.task.data.TaskData@65350b0c,com.gameserver.task.data.TaskData@1a36c87d,com.gameserver.task.data.TaskData@4c0c1842,com.gameserver.task.data.TaskData@5f2b80e6}]6103
+[18/04/09 18:28:41,486] --> Message:GC_TASK_INFO_DATA Type:6103 Time:11us Total:20
+[18/04/09 18:28:41,487] --> GCTaskProgress[boxId=0,taskNum=0,taskProcges=]6106
+[18/04/09 18:28:41,487] --> Message:GC_TASK_PROGRESS Type:6106 Time:24us Total:21
+[18/04/09 18:28:41,489] --> GCActivityList[activityDataList={}]6801
+[18/04/09 18:28:41,490] --> Message:GC_ACTIVITY_LIST Type:6801 Time:14us Total:22
+[18/04/09 18:28:41,491] --> GCHumanActivityRewardDataList[humanSimpleRewardInfoData={}]6802
+[18/04/09 18:28:41,492] --> Message:GC_HUMAN_ACTIVITY_REWARD_DATA_LIST Type:6802 Time:12us Total:23
+[18/04/09 18:28:41,495] --> GCHunamnProgress[humanActivitySmallData={}]6807
+[18/04/09 18:28:41,496] --> Message:GC_HUNAMN_PROGRESS Type:6807 Time:10us Total:24
+[18/04/09 18:28:41,496] --> GCFunctionLeftTime[img=,leftTime=0,functionType={0}]6817
+[18/04/09 18:28:41,498] --> Message:GC_FUNCTION_LEFT_TIME Type:6817 Time:12us Total:25
+[18/04/09 18:28:41,498] --> GCBigZhuanpan[isFree=1,loginPoint=0]7508
+[18/04/09 18:28:41,500] --> Message:GC_BIG_ZHUANPAN Type:7508 Time:13us Total:26
+[18/04/09 18:28:41,517] --> GCEnterScene[]856
+[18/04/09 18:28:41,517] --> Message:GC_ENTER_SCENE Type:856 Time:8us Total:27
+[18/04/09 18:28:41,835] --> GCHumanChangeName[name=,duplicateNum=14007]1554
+[18/04/09 18:28:41,839] --> Message:GC_HUMAN_CHANGE_NAME Type:1554 Time:16us Total:28

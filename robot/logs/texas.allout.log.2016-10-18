@@ -1,0 +1,26 @@
+[16/10/18 09:29:27,318] [INFO] ConfigHelper.buildConfig --> Load config [class com.robot.RobotServerConfig] from [file:/D:/javaproject/robot/bin/robot_server.cfg.js]
+[16/10/18 09:35:38,184] [INFO] ConfigHelper.buildConfig --> Load config [class com.robot.RobotServerConfig] from [file:/D:/javaproject/robot/bin/robot_server.cfg.js]
+[16/10/18 09:44:27,303] [INFO] RPCImpl.robotJoin --> request join robot from server[100003],room[6193959676659010562]
+[16/10/18 09:44:27,330] [INFO] Slf4jRecord.recordInfo --> #IMOP.LOCAL.LOGGER.INITLIZE...
+[16/10/18 09:44:27,331] [INFO] Slf4jRecord.recordInfo --> #IMOP.LOCAL.INIT.THREADPOOL.OK:SIZE:2
+[16/10/18 09:44:27,331] [INFO] Slf4jRecord.recordInfo --> #IMOP.LOCAL.START:AREAID:1
+[16/10/18 09:45:10,462] [INFO] RPCImpl.robotJoin --> request join robot from server[100003],room[6193959676659010562]
+[16/10/18 09:47:10,352] [INFO] RPCImpl.robotJoin --> request join robot from server[100003],room[6193959676659010562]
+[16/10/18 10:14:31,217] [INFO] ConfigHelper.buildConfig --> Load config [class com.robot.RobotServerConfig] from [file:/D:/javaproject/robot/bin/robot_server.cfg.js]
+[16/10/18 10:14:52,040] [INFO] RPCImpl.robotJoin --> request join robot from server[100003],room[6193967330605304834]
+[16/10/18 10:14:52,047] [INFO] Slf4jRecord.recordInfo --> #IMOP.LOCAL.LOGGER.INITLIZE...
+[16/10/18 10:14:52,048] [INFO] Slf4jRecord.recordInfo --> #IMOP.LOCAL.INIT.THREADPOOL.OK:SIZE:2
+[16/10/18 10:14:52,048] [INFO] Slf4jRecord.recordInfo --> #IMOP.LOCAL.START:AREAID:1
+[16/10/18 10:15:31,104] [INFO] RPCImpl.robotJoin --> request join robot from server[100003],room[6193967330605304834]
+[16/10/18 10:16:30,461] [INFO] RPCImpl.robotJoin --> request join robot from server[100003],room[6193967330605304834]
+[16/10/18 10:19:17,013] [INFO] RPCImpl.robotJoin --> request join robot from server[100003],room[6193968441957452802]
+[16/10/18 10:19:39,201] [INFO] RPCImpl.robotJoin --> request join robot from server[100003],room[6193968441957452802]
+[16/10/18 10:23:06,700] [INFO] RPCImpl.robotJoin --> request join robot from server[100003],room[6193969405640739843]
+[16/10/18 10:23:28,141] [INFO] RPCImpl.robotJoin --> request join robot from server[100003],room[6193969405640739843]
+[16/10/18 10:26:28,023] [INFO] RPCImpl.robotJoin --> request join robot from server[100003],room[6193969405640739843]
+[16/10/18 10:34:27,352] [INFO] RPCImpl.robotJoin --> request join robot from server[100003],room[6193969405640739843]
+[16/10/18 10:34:51,632] [INFO] RPCImpl.robotJoin --> request join robot from server[100003],room[6193969405640739843]
+[16/10/18 10:45:37,851] [INFO] RPCImpl.robotJoin --> request join robot from server[100003],room[6193969405640739843]
+[16/10/18 10:46:04,418] [INFO] RPCImpl.robotJoin --> request join robot from server[100003],room[6193969405640739843]
+[16/10/18 11:07:41,984] [INFO] RPCImpl.robotJoin --> request join robot from server[100003],room[6193969405640739843]
+[16/10/18 11:08:02,284] [INFO] RPCImpl.robotJoin --> request join robot from server[100003],room[6193969405640739843]
