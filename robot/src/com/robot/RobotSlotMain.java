@@ -127,7 +127,8 @@ public class RobotSlotMain {
 	private static void completeTest(int start,int free,int runTimes,int port,String serverId, String path,DBService dbService,TemplateService templateService) throws LocalException 
 	{
 		
-			Robot robot =  createRobot("Robot_"+RandomUtil.nextInt(1, 999999999), serverId,dbService);
+//			Robot robot =  createRobot("Robot_"+RandomUtil.nextInt(1, 999999999), serverId,dbService);
+			Robot robot =  createRobot("adfadfadf675", serverId,dbService);
 			List<SlotListEntity> slotLists = robot.getSlotListDao().getEverySlot();
 			SlotListEntity  entity = null; 
 			for(SlotListEntity en:slotLists){

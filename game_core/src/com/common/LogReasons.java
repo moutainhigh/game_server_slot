@@ -1586,6 +1586,13 @@ public interface LogReasons
 		CLUB_DONATE(6083,"俱乐部捐献"),
 		@ReasonDesc("俱乐部礼包")
 		CLUB_GIFT(6084,"俱乐部礼包"),
+		
+		
+		
+		
+		
+		addgold(20000, "老虎机 银行 增加金币"),
+		subgold(20001, "老虎机 银行 减少金币"),
 		;
 		
 		/** 原因序号 */
@@ -2631,36 +2638,7 @@ public interface LogReasons
 			return this.reasonText;
 		}
 	}
-	/**
-	 * 老虎机  中银行
-	 */
-	@LogDesc(desc = "老虎机 银行")
-	public enum BankLogReason implements ILogReason {
-		
-		@ReasonDesc("老虎机 银行")
-		addgold(0, "老虎机 银行 增加金币"),
-		subgold(1, "老虎机 银行 减少金币"),
-		;
-		/** 原因序号 */
-		public final int reason;
-		/** 原因文本 */
-		public final String reasonText;
-		
-		private BankLogReason(int reason, String reasonText) {
-			this.reason = reason;
-			this.reasonText = reasonText;
-		}
-		
-		@Override
-		public int getReason() {
-			return this.reason;
-		}
-		
-		@Override
-		public String getReasonText() {
-			return this.reasonText;
-		}
-	}
+
 	
 	
 }

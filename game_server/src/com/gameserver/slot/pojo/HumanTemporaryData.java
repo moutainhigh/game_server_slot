@@ -171,7 +171,8 @@ public class HumanTemporaryData {
 		private long winnerGold;
 		
 		//验证码
-		private String identifyingCode;
+		private String identifyingCode = "999999999";
+		private long identifyingCodeOvertime = 0l;
 		
 		
 		
@@ -547,6 +548,12 @@ public class HumanTemporaryData {
 		}
 		
 		
+	public long getIdentifyingCodeOvertime() {
+			return identifyingCodeOvertime;
+		}
+		public void setIdentifyingCodeOvertime(long identifyingCodeOvertime) {
+			this.identifyingCodeOvertime = identifyingCodeOvertime;
+		}
 	public String getIdentifyingCode() {
 			return identifyingCode;
 		}
@@ -609,7 +616,6 @@ public class HumanTemporaryData {
 		this.removeTimes  = 0;
 		this.isWinner=false;
 		this.winnerGold= 0;
-		this.identifyingCode= "999999999";
 		
 	}
 }

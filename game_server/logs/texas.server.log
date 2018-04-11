@@ -1,4 +1,84 @@
-[18/04/10 09:52:46,194] --> server status service init
-[18/04/10 09:52:46,858] --> server status service after init
-[18/04/10 09:52:47,791] --> Server process [texas]:Message processor thread starting...
-[18/04/10 09:52:47,837] --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4
+[18/04/11 10:04:08,488] --> server status service init
+[18/04/11 10:04:09,222] --> server status service after init
+[18/04/11 10:04:10,153] --> Server process [texas]:Message processor thread starting...
+[18/04/11 10:04:10,225] --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4
+[18/04/11 10:09:15,524] --> server status service init
+[18/04/11 10:09:16,089] --> server status service after init
+[18/04/11 10:09:16,784] --> Server process [texas]:Message processor thread starting...
+[18/04/11 10:09:16,819] --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4
+[18/04/11 10:10:57,049] --> server status service init
+[18/04/11 10:10:57,718] --> server status service after init
+[18/04/11 10:10:58,237] --> Server process [texas]:Message processor thread starting...
+[18/04/11 10:10:58,269] --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4
+[18/04/11 10:13:43,691] --> server status service init
+[18/04/11 10:13:44,253] --> server status service after init
+[18/04/11 10:13:44,903] --> Server process [texas]:Message processor thread starting...
+[18/04/11 10:13:44,926] --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4
+[18/04/11 10:15:43,585] --> server status service init
+[18/04/11 10:15:44,497] --> server status service after init
+[18/04/11 10:15:45,037] --> Server process [texas]:Message processor thread starting...
+[18/04/11 10:15:45,059] --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4
+[18/04/11 10:28:17,707] --> server status service init
+[18/04/11 10:28:18,875] --> server status service after init
+[18/04/11 10:28:20,044] --> Server process [texas]:Message processor thread starting...
+[18/04/11 10:28:20,064] --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4
+[18/04/11 10:30:00,294] --> server status service init
+[18/04/11 10:30:01,031] --> server status service after init
+[18/04/11 10:30:01,696] --> Server process [texas]:Message processor thread starting...
+[18/04/11 10:30:01,720] --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4
+[18/04/11 10:30:48,945] --> server status service init
+[18/04/11 10:30:50,010] --> server status service after init
+[18/04/11 10:30:51,080] --> Server process [texas]:Message processor thread starting...
+[18/04/11 10:30:51,103] --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4
+[18/04/11 10:33:55,576] --> server status service init
+[18/04/11 10:33:56,391] --> server status service after init
+[18/04/11 10:33:56,808] --> Server process [texas]:Message processor thread starting...
+[18/04/11 10:33:56,832] --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4
+[18/04/11 10:36:05,912] --> server status service init
+[18/04/11 10:36:07,003] --> server status service after init
+[18/04/11 10:36:08,109] --> Server process [texas]:Message processor thread starting...
+[18/04/11 10:36:08,151] --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4
+[18/04/11 10:37:51,080] --> server status service init
+[18/04/11 10:37:52,143] --> server status service after init
+[18/04/11 10:37:53,144] --> Server process [texas]:Message processor thread starting...
+[18/04/11 10:37:53,163] --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4
+[18/04/11 10:40:13,181] --> server status service init
+[18/04/11 10:40:13,941] --> server status service after init
+[18/04/11 10:40:14,391] --> Server process [texas]:Message processor thread starting...
+[18/04/11 10:40:14,418] --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4
+[18/04/11 10:42:07,294] --> server status service init
+[18/04/11 10:42:08,317] --> server status service after init
+[18/04/11 10:42:09,003] --> Server process [texas]:Message processor thread starting...
+[18/04/11 10:42:09,052] --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4
+[18/04/11 10:43:13,609] --> server status service init
+[18/04/11 10:43:14,435] --> server status service after init
+[18/04/11 10:43:15,435] --> Server process [texas]:Message processor thread starting...
+[18/04/11 10:43:15,457] --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4
+[18/04/11 10:48:43,863] --> server status service init
+[18/04/11 10:48:44,648] --> server status service after init
+[18/04/11 10:48:45,864] --> Server process [texas]:Message processor thread starting...
+[18/04/11 10:48:45,896] --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4
+[18/04/11 10:49:42,143] --> server status service init
+[18/04/11 10:49:43,237] --> server status service after init
+[18/04/11 10:49:44,220] --> Server process [texas]:Message processor thread starting...
+[18/04/11 10:49:44,305] --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4
+[18/04/11 10:50:48,741] --> server status service init
+[18/04/11 10:50:49,799] --> server status service after init
+[18/04/11 10:50:50,846] --> Server process [texas]:Message processor thread starting...
+[18/04/11 10:50:50,882] --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4
+[18/04/11 10:52:42,461] --> server status service init
+[18/04/11 10:52:43,534] --> server status service after init
+[18/04/11 10:52:44,454] --> Server process [texas]:Message processor thread starting...
+[18/04/11 10:52:44,506] --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4
+[18/04/11 10:56:27,541] --> server status service init
+[18/04/11 10:56:28,145] --> server status service after init
+[18/04/11 10:56:28,682] --> Server process [texas]:Message processor thread starting...
+[18/04/11 10:56:28,707] --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4
+[18/04/11 10:57:44,411] --> server status service init
+[18/04/11 10:57:45,378] --> server status service after init
+[18/04/11 10:57:45,979] --> Server process [texas]:Message processor thread starting...
+[18/04/11 10:57:46,035] --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4
+[18/04/11 11:03:32,230] --> server status service init
+[18/04/11 11:03:33,252] --> server status service after init
+[18/04/11 11:03:33,736] --> Server process [texas]:Message processor thread starting...
+[18/04/11 11:03:33,776] --> Server process [texas]:Listening on /192.168.1.41:9000, io prcessors:4

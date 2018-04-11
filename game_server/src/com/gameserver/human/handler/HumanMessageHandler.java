@@ -43,6 +43,7 @@ import com.gameserver.human.msg.CGHumanVideoNum;
 import com.gameserver.human.msg.CGRoomBigwinGift;
 import com.gameserver.human.msg.CGSlotRoomGift;
 import com.gameserver.human.msg.CGSlotRoomPlease;
+import com.gameserver.human.msg.GCBankChangePassword;
 import com.gameserver.human.msg.GCBankMakeSureIdentifyingCode;
 import com.gameserver.human.msg.GCBankSendIdentifyingCode;
 import com.gameserver.human.msg.GCBankSetPassword;
@@ -61,6 +62,7 @@ import com.gameserver.item.template.InteractiveItemTemplate;
 import com.gameserver.player.Player;
 import com.gameserver.player.PlayerConstants;
 import com.gameserver.player.cache.PlayerCacheInfo;
+import com.gameserver.player.msg.GCNotifyException;
 import com.gameserver.slot.pojo.HumanTemporaryData;
 import com.gameserver.task.enums.ClientType;
 import com.gameserver.task.enums.RefreshType;
@@ -542,6 +544,8 @@ public class HumanMessageHandler {
 	 * 银行  查看状态
 	 * @param player
 	 * @param cgBankState
+	 * player.getHuman().sendSystemMessage(LangConstants.BANK_PASSWORD_IS_NULL);
+	 * new GCNotifyException(DisconnectReason.PLAYER_AUTH_LOGIN_INVALID.getIndex(),"")
 	 */
 	public void handleBankState(Player player, CGBankState cgBankState) {
 		
@@ -563,14 +567,14 @@ public class HumanMessageHandler {
 		String bankPassword = cgBankSetPassword.getBankPassword();
 		if(StringUtils.isEmpty(bankPassword)){
 			//密码为空
-			player.getHuman().sendSystemMessage(LangConstants.BANK_PASSWORD_IS_NULL);
+			player.sendMessage(new GCNotifyException(LangConstants.BANK_PASSWORD_IS_NULL,""));
 			return;
 		}
 		
 		//判断密码是否 是 英文 + 数字（不要特殊字符）
 		if(!bankPassword.matches("[a-zA-Z0-9]+")){
 			//只能输入 英文 和 数字
-			player.getHuman().sendSystemMessage(LangConstants.BANK_PASSWORD_IS_NOT_NUMBER_OR_ZIMU);
+			player.sendMessage(new GCNotifyException(LangConstants.BANK_PASSWORD_IS_NOT_NUMBER_OR_ZIMU,""));
 			return;
 		}
 		player.getHuman().setBankPassword(bankPassword);
@@ -587,23 +591,25 @@ public class HumanMessageHandler {
 	 * @param cgBankState
 	 */
 	public void handleBankLogin(Player player, CGBankLogin cgBankLogin) {
+		if(player.getHuman()==null)return;
+		Human human = player.getHuman();
 		String bankPassword = cgBankLogin.getBankPassword();
 		if(StringUtils.isEmpty(bankPassword)){
 			//密码为空
-			player.getHuman().sendSystemMessage(LangConstants.BANK_PASSWORD_IS_NULL);
+			player.sendMessage(new GCNotifyException(LangConstants.BANK_PASSWORD_IS_NULL,""));
 			return;
 		}
 		//密码错误
 		if(!bankPassword.equals(player.getHuman().getBankPassword())){
-			player.getHuman().sendSystemMessage(LangConstants.BANK_PASSWORD_IS_WRONG);
+			player.sendMessage(new GCNotifyException(LangConstants.BANK_PASSWORD_IS_WRONG,""));
 			return;
 		}
 		
 		
 		GCBankView gcBankView = new GCBankView();
-		gcBankView.setGold(player.getHuman().getGold());
-		gcBankView.setBankGold(player.getHuman().getBankGold());
-		gcBankView.setTotalGold(player.getHuman().getGold()+player.getHuman().getBankGold());
+		gcBankView.setGold(human.getGold());
+		gcBankView.setBankGold(human.getBankGold()==null?0:human.getBankGold());
+		gcBankView.setTotalGold(human.getGold()+(human.getBankGold()==null?0:human.getBankGold()));
 		player.getHuman().sendMessage(gcBankView);
 		
 		
@@ -624,37 +630,34 @@ public class HumanMessageHandler {
 		
 		//两个密码不能为空
 		if(StringUtils.isEmpty(oldBankPassword) || StringUtils.isEmpty(newBankPassword)){
-			player.getHuman().sendSystemMessage(LangConstants.BANK_PASSWORD_IS_NULL);
+			player.sendMessage(new GCNotifyException(LangConstants.BANK_PASSWORD_IS_NULL,""));
 			return;
 		}
 		//两个密码不能相等
 		if(oldBankPassword.equals(newBankPassword)){
-			player.getHuman().sendSystemMessage(LangConstants.BANK_PASSWORD_NEW_EQUALS_OLD);
+			player.sendMessage(new GCNotifyException(LangConstants.BANK_PASSWORD_NEW_EQUALS_OLD,""));
 			return;
 			
 		}
 		//老密码 与用户的 密码 不同
-		if(oldBankPassword.equals(player.getHuman().getBankPassword())){
-			player.getHuman().sendSystemMessage(LangConstants.BANK_PASSWORD_IS_NOT_EQUALS_OLD);
+		if(!oldBankPassword.equals(player.getHuman().getBankPassword())){
+			player.sendMessage(new GCNotifyException(LangConstants.BANK_PASSWORD_IS_NOT_EQUALS_OLD,""));
 			return;
 		}
 		
 		//判断密码是否 是 英文 + 数字（不要特殊字符）
 		if(!newBankPassword.matches("[a-zA-Z0-9]+")){
 			//只能输入 英文 和 数字
-			player.getHuman().sendSystemMessage(LangConstants.BANK_PASSWORD_IS_NOT_NUMBER_OR_ZIMU);
+			player.sendMessage(new GCNotifyException(LangConstants.BANK_PASSWORD_IS_NOT_NUMBER_OR_ZIMU,""));
 			return;
 		}
 		
 		player.getHuman().setBankPassword(newBankPassword);
 		player.getHuman().setModified();
 		
-		GCBankView gcBankView = new GCBankView();
-		gcBankView.setGold(human.getGold());
-		gcBankView.setBankGold(human.getBankGold());
-		gcBankView.setTotalGold(human.getGold()+human.getBankGold());
-		human.sendMessage(gcBankView);
-		
+		GCBankChangePassword gcBankChangePassword = new GCBankChangePassword();
+		gcBankChangePassword.setState(HumanSlotManager.success);
+		player.sendMessage(gcBankChangePassword);
 	}
 	
 	
@@ -683,6 +686,8 @@ public class HumanMessageHandler {
 			}
 			HumanTemporaryData temporary = player.getHuman().getHumanSlotManager().getHumanTemporaryData();
 			temporary.setIdentifyingCode(num);
+			temporary.setIdentifyingCodeOvertime(new Date().getTime()+5*60*1000);
+			logger.info("[当前用户 "+player.getPassportId()+"][手机号："+userInfo.getPhoneNum()+"] 验证码："+num);;
 			gcBankSendIdentifyingCode.setCodeState(HumanSlotManager.success);
 			player.sendMessage(gcBankSendIdentifyingCode);
 		} catch (ClientException e) {
@@ -702,14 +707,19 @@ public class HumanMessageHandler {
 		String passCode = cgBankMakeSureIdentifyingCode.getCode();
 		HumanTemporaryData temporary = player.getHuman().getHumanSlotManager().getHumanTemporaryData();
 		String identifyingCode = temporary.getIdentifyingCode();
-		
+		long overtime = temporary.getIdentifyingCodeOvertime();
 		if(StringUtils.isEmpty(passCode)){
-			player.getHuman().sendSystemMessage(LangConstants.BANK_IDENTIFYING_CODE_IS_NULL);
+			player.sendMessage(new GCNotifyException(LangConstants.BANK_IDENTIFYING_CODE_IS_NULL,""));
 			return;
 		}
 		
 		if(!passCode.equals(identifyingCode) ){
-			player.getHuman().sendSystemMessage(LangConstants.BANK_IDENTIFYING_CODE_IS_NOT_EQUALS);
+			player.sendMessage(new GCNotifyException(LangConstants.BANK_IDENTIFYING_CODE_IS_NOT_EQUALS,""));
+			return;
+		}
+		//过期了
+		if(new Date().getTime()>overtime){
+			player.sendMessage(new GCNotifyException(LangConstants.BANK_IDENTIFYING_CODE_IS_OVERDUE,""));
 			return;
 		}
 		
@@ -735,19 +745,19 @@ public class HumanMessageHandler {
 		if(human == null)return;
 		//金币不能小于等于零
 		if(storeGold <= 0){
-			human.sendSystemMessage(LangConstants.BANK_GOLD_IS_ZERO);
+			player.sendMessage(new GCNotifyException(LangConstants.BANK_GOLD_IS_ZERO,""));
 			return;
 		}
 		//金币 是否足够
 		long gold = human.getGold();
 		if(gold < storeGold){
-			human.sendSystemMessage(LangConstants.BANK_GOLD_IS_NOT_ENOUGH);
+			player.sendMessage(new GCNotifyException(LangConstants.BANK_GOLD_IS_NOT_ENOUGH,""));
 			return;
 		}
 		
 		//修改 两块地方 的金币数量
-		human.costMoney(storeGold, Currency.GOLD, false, LogReasons.BankLogReason.subgold, LogReasons.BankLogReason.subgold.getReasonText(), -1, 1);
-		long leftBankGold = human.getBankGold()+storeGold;
+		human.costMoney(storeGold, Currency.GOLD, false, LogReasons.GoldLogReason.subgold, LogReasons.GoldLogReason.subgold.getReasonText(), -1, 1);
+		long leftBankGold = (human.getBankGold()==null?0:human.getBankGold())+storeGold;
 		human.setBankGold(leftBankGold);
 		human.setModified();
 		
@@ -770,18 +780,18 @@ public class HumanMessageHandler {
 		if(human == null)return;
 		//金币不能小于等于零
 		if(outGold <= 0){
-			human.sendSystemMessage(LangConstants.BANK_GOLD_IS_ZERO);
+			player.sendMessage(new GCNotifyException(LangConstants.BANK_GOLD_IS_ZERO,""));
 			return;
 		}
 		//金币 是否足够
-		long bankGold = human.getBankGold();
+		long bankGold = human.getBankGold()==null?0:human.getBankGold();
 		if(bankGold < outGold){
-			human.sendSystemMessage(LangConstants.BANK_GOLD_IS_NOT_ENOUGH);
+			player.sendMessage(new GCNotifyException(LangConstants.BANK_GOLD_IS_NOT_ENOUGH,""));
 			return;
 		}
 		
 		//修改 两块地方 的金币数量
-		human.giveMoney(outGold, Currency.GOLD, false, LogReasons.BankLogReason.addgold, LogReasons.BankLogReason.addgold.getReasonText(), -1, 1);
+		human.giveMoney(outGold, Currency.GOLD, false, LogReasons.GoldLogReason.addgold, LogReasons.GoldLogReason.addgold.getReasonText(), -1, 1);
 		long leftBankGold = bankGold - outGold;
 		human.setBankGold(leftBankGold);
 		human.setModified();

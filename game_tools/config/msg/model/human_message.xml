@@ -211,7 +211,6 @@
 	    <field type="String" name="newBankPassword" comment="银行密码 新的" />
 	</message>
 	<message type="GC_BANK_CHANGE_PASSWORD" comment="修改银行密码 返回">
-	    <field type="Integer" name="state" comment="修改银行密码  是否成功  是:0,否:1" />
 	</message>
 	
 	
