@@ -88,6 +88,13 @@ public class TournamentService implements InitializeRequired {
 	private Set<Long> allOpenTournamentList = new HashSet<Long>();
 	@Override
 	public void init() {
+		/**
+		 * 这句话 不让后边执行了
+		 */
+		if(true){
+			return;
+		}
+		
 		 TemplateService templateService = Globals.getTemplateService();
 			
 		 Map<Integer,TournamentTemplate> tournamen =  templateService.getAll(TournamentTemplate.class);
@@ -499,6 +506,14 @@ public class TournamentService implements InitializeRequired {
 	 * @param tempReward
 	 */
 	public void putData(Player player,int slotType,long passportId, long tempReward){
+		
+		/**
+		 * 这句话 不让后边执行了
+		 */
+		if(true){
+			return;
+		}
+		
 		try{
 			int slotTypeSngType = getTournament(slotType);
 			

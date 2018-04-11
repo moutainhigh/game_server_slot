@@ -33,6 +33,11 @@ public class CollectServer implements InitializeRequired {
 	@Override
 	public void init() {
 		
+		/**
+		 * 这句话 不让后边执行了
+		 */
+		if(true){return;}
+		
 		TemplateService templateService = Globals.getTemplateService();
 		/**
 		 * 魅力值
@@ -98,6 +103,14 @@ public class CollectServer implements InitializeRequired {
      * 双倍经验加成 并且推送消息
      */
     public void setDoubleExpEndTime(Human human,int min){
+    	
+    	/**
+		 * 这句话 不让后边执行了
+		 */
+		if(true){
+			return;
+		}
+    	
     	long now = Globals.getTimeService().now();
 		Date endTime = human.getDoubleExpEndTime();
 		boolean pass = true;

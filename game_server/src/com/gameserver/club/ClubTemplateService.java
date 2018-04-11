@@ -26,6 +26,10 @@ public class ClubTemplateService implements InitializeRequired {
 	public final List<ClubListTemplate> GONG_XIAN_LIST = new ArrayList<>();
 	@Override
 	public void init() {
+		/**
+		 * 这句话 不让后边执行了
+		 */
+		if(true){return;}
 		
 		TemplateService templateService = Globals.getTemplateService();
 		LEVEL_CONFIG_PAIRS.clear();

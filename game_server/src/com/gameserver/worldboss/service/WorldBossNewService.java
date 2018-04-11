@@ -85,9 +85,15 @@ public class WorldBossNewService implements InitializeRequired {
 	
 	
 	
-	
 	@Override
 	public void init() {
+		
+		/**
+		 * 这句话 不让后边执行了
+		 */
+		if(true){
+			return;
+		}
 		
 		Map<Integer, BossTemplate> rBossTemplateMap = Globals.getTemplateService().getAll(BossTemplate.class);
 		for(BossTemplate bt: rBossTemplateMap.values()){
@@ -468,6 +474,16 @@ public class WorldBossNewService implements InitializeRequired {
 	
 	//击杀
 	public void  attackBoss(Human human,long gold,int curBet,Slot slot, List<SlotConnectInfo> list,List<Integer> elementList,SlotService slotService,int slotType){
+		
+		/**
+		 * 这句话 不让后边执行了
+		 */
+		if(true){
+			return;
+		}
+		
+		
+		
 		if(boss.getStatus() != Boss.running){
 			return;
 		}

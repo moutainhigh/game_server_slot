@@ -44,6 +44,12 @@ public class ClubService implements InitializeRequired,AfterInitializeRequired {
 	public static Lock clubOperationLock = new  ReentrantLock();
 	@Override
 	public void afterInit() {
+		/**
+		 * 这句话 不让后边执行了
+		 */
+		if(true){
+			return;
+		}
 		startSeason();
 	}
 
@@ -228,6 +234,15 @@ public class ClubService implements InitializeRequired,AfterInitializeRequired {
 	
 	public void addHuoYueForLaohujiWin(Human human, long reward)
 	{
+		
+		
+		/**
+		 * 这句话 不让后边执行了
+		 */
+		if(true){
+			return;
+		}
+		
 		clubOperationLock.lock();
 		try
 		{
@@ -265,6 +280,13 @@ public class ClubService implements InitializeRequired,AfterInitializeRequired {
 	
 	public void updateHumanInfoToClub(Human human)
 	{
+		
+		/**
+		 * 这句话 不让后边执行了
+		 */
+		if(true){
+			return;
+		}
 		Globals.getAsyncService().createOperationAndExecuteAtOnce(new AsyncIoOpeOnly() {
 			@Override
 			public int doIo() {
