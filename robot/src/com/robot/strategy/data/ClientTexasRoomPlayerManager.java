@@ -2,7 +2,6 @@ package com.robot.strategy.data;
 import java.util.ArrayList;
 import java.util.List;
 
-
 import com.gameserver.texas.enums.RoomPlayerState;
 
 

@@ -91,9 +91,7 @@ public class WorldBossNewService implements InitializeRequired {
 		/**
 		 * 这句话 不让后边执行了
 		 */
-		if(true){
-			return;
-		}
+		if(true){return;}
 		
 		Map<Integer, BossTemplate> rBossTemplateMap = Globals.getTemplateService().getAll(BossTemplate.class);
 		for(BossTemplate bt: rBossTemplateMap.values()){
@@ -294,6 +292,9 @@ public class WorldBossNewService implements InitializeRequired {
 	 * 主动请求 进入老虎机 刷新 30分钟的那个
 	 */
 	public void cgGCBeforeStart(Player player){
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
 		if(boss != null){
 			GCBeforeStart gCBeforeStart = new GCBeforeStart();
 			gCBeforeStart.setBossType(boss.getType());
@@ -694,6 +695,9 @@ public class WorldBossNewService implements InitializeRequired {
 	public GCBossStartEndInfo cgRefreshTime(){
 		
 		GCBossStartEndInfo gCBossStartEndInfo = new GCBossStartEndInfo();
+		/**这句话 不让后边执行了**/
+		if(true)return gCBossStartEndInfo;
+		
 		if(boss.getStatus() == Boss.overdue){
 			gCBossStartEndInfo.setStartEndRuning(1);
 			gCBossStartEndInfo.setCurBossLeftTime(0);
@@ -736,6 +740,9 @@ public class WorldBossNewService implements InitializeRequired {
 	 * 进入老虎机 调用
 	 */
 	public void refreshTime(){
+		if(true)return;
+		
+		
 		if(boss.getStatus() != Boss.running){
 			return;
 		}

@@ -48,6 +48,9 @@ public class HumanAchievementServer implements InitializeRequired, AfterInitiali
 	
 	@Override
 	public void init() {
+
+		/**这句话 不让后边执行了**/
+		if(true)return;
 		
 		primaryData = Globals.getTemplateService().getAll(AchievementTemplate.class);
 		

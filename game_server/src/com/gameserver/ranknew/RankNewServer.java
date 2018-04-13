@@ -66,6 +66,8 @@ public class RankNewServer implements InitializeRequired,AfterInitializeRequired
 	 * 组装静态配置数据
 	 */
 	public void init() {
+		/**这句话 不让后边执行了**/
+		if(true)return;
 		
 		Map<Integer, ScoreListTemplate> mapData = Globals.getTemplateService().getAll(ScoreListTemplate.class);
 		
@@ -93,6 +95,9 @@ public class RankNewServer implements InitializeRequired,AfterInitializeRequired
 	 * 装置动态数据
 	 */
 	public void afterInit() {
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
 		
 		redisService = Globals.getRedisService();
 		jedisPool = redisService.getJedisPool();
@@ -137,6 +142,9 @@ public class RankNewServer implements InitializeRequired,AfterInitializeRequired
 	 * 角色上线调用
 	 */
 	public void loginData(long charId){
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
 		RankEntity entity = Globals.getDaoService().getRankDao().getRankEntity(charId);
 		if(entity != null){
 			Rank rank = new Rank();
@@ -150,6 +158,9 @@ public class RankNewServer implements InitializeRequired,AfterInitializeRequired
 	 * 角色下线调用
 	 */
 	public void logoutData(long charId){
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
 		//获取当前排名
 		rankMap.remove(charId);
 	}
@@ -163,6 +174,9 @@ public class RankNewServer implements InitializeRequired,AfterInitializeRequired
 	 * @param uId
 	 */
 	public void addRank(String key,long score,long uId){
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
 		Jedis jedis = jedisPool.getResource();
 		if(jedis == null){
 			logger.error("更新排行版失败， jedis instance failed");
@@ -188,6 +202,10 @@ public class RankNewServer implements InitializeRequired,AfterInitializeRequired
 	 * @param viplv
 	 */
 	public void win(Human human,long win){
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
 		if(win <= 0){
 			return;
 		}
@@ -397,6 +415,9 @@ public class RankNewServer implements InitializeRequired,AfterInitializeRequired
 	 * 一周结算排行榜奖励
 	 */
 	public void execute() {
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
 		
 		if(Globals.getServerComm().isAuthority()){
 			Jedis jedis = jedisPool.getResource();

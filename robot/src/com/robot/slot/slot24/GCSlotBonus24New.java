@@ -3,7 +3,6 @@ package com.robot.slot.slot24;
 import com.core.msg.IMessage;
 import com.core.util.RandomUtil;
 import com.gameserver.slot.msg.CGSlotType24BounsGameGo;
-import com.gameserver.slot.msg.CGSlotType24BounsPrize;
 import com.gameserver.slot.msg.GCSlotType24BounsBar;
 import com.gameserver.slot.msg.GCSlotType24BounsGameStart;
 import com.gameserver.slot.msg.GCSlotType24BounsSamba;

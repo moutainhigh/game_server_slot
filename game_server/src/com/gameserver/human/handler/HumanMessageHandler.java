@@ -16,6 +16,7 @@ import com.core.util.StringUtils;
 import com.core.util.TimeUtils;
 import com.db.model.UserInfo;
 import com.gameserver.common.AliMsgUtils;
+import com.gameserver.common.BoquMsgUtils;
 import com.gameserver.common.CommonLogic;
 import com.gameserver.common.Globals;
 import com.gameserver.common.data.RandRewardData;
@@ -646,7 +647,7 @@ public class HumanMessageHandler {
 		}
 		
 		//判断密码是否 是 英文 + 数字（不要特殊字符）
-		if(!newBankPassword.matches("[a-zA-Z0-9]+")){
+		if(!newBankPassword.matches("[a-zA-Z0-9_]+")){
 			//只能输入 英文 和 数字
 			player.sendMessage(new GCNotifyException(LangConstants.BANK_PASSWORD_IS_NOT_NUMBER_OR_ZIMU,""));
 			return;
@@ -656,7 +657,6 @@ public class HumanMessageHandler {
 		player.getHuman().setModified();
 		
 		GCBankChangePassword gcBankChangePassword = new GCBankChangePassword();
-		gcBankChangePassword.setState(HumanSlotManager.success);
 		player.sendMessage(gcBankChangePassword);
 	}
 	
@@ -678,7 +678,8 @@ public class HumanMessageHandler {
 			return;
 		}
 		try {
-			String num = AliMsgUtils.sendMsg(userInfo.getPhoneNum());
+//			String num = AliMsgUtils.sendMsg(userInfo.getPhoneNum());
+			String num = BoquMsgUtils.sendMsg(userInfo.getPhoneNum());
 			GCBankSendIdentifyingCode gcBankSendIdentifyingCode = new GCBankSendIdentifyingCode();
 			if(StringUtils.isEmpty(num)){
 				gcBankSendIdentifyingCode.setCodeState(HumanSlotManager.failed);
@@ -690,7 +691,7 @@ public class HumanMessageHandler {
 			logger.info("[当前用户 "+player.getPassportId()+"][手机号："+userInfo.getPhoneNum()+"] 验证码："+num);;
 			gcBankSendIdentifyingCode.setCodeState(HumanSlotManager.success);
 			player.sendMessage(gcBankSendIdentifyingCode);
-		} catch (ClientException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		

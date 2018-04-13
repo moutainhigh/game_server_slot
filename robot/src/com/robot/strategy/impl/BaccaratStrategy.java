@@ -21,7 +21,6 @@ import com.gameserver.baccart.msg.GCBaccartSettle;
 import com.gameserver.baccart.msg.GCBaccartShuffle;
 import com.gameserver.baccart.msg.GCBaccartStand;
 import com.gameserver.baccart.msg.GCBaccartStartBet;
-
 import com.gameserver.baccart.msg.GCBaccartSyncJoin;
 import com.robot.Robot;
 import com.robot.strategy.OnceExecuteStrategy;

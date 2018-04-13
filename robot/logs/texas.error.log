@@ -1,15 +1,4 @@
-[18/04/04 11:10:27,367] --> =======>#PLATFORM.LOCAL.REQUEST.ERROR:url==>http://192.168.1.41/login/api/account/visitorLoginerror==>Unexpected end of file from server
-[18/04/04 11:10:32,217] --> =======>#PLATFORM.LOCAL.REQUEST.ERROR:url==>http://192.168.1.41/login/api/account/visitorLoginerror==>Unexpected end of file from server
-[18/04/04 11:10:37,216] --> =======>#PLATFORM.LOCAL.REQUEST.ERROR:url==>http://192.168.1.41/login/api/account/visitorLoginerror==>Unexpected end of file from server
-[18/04/04 11:10:42,232] --> =======>#PLATFORM.LOCAL.REQUEST.ERROR:url==>http://192.168.1.41/login/api/account/visitorLoginerror==>Unexpected end of file from server
-[18/04/04 11:10:47,243] --> =======>#PLATFORM.LOCAL.REQUEST.ERROR:url==>http://192.168.1.41/login/api/account/visitorLoginerror==>Unexpected end of file from server
-[18/04/04 11:16:42,349] --> =======>#PLATFORM.LOCAL.REQUEST.ERROR:url==>http://192.168.1.41/login/api/account/visitorLoginerror==>Unexpected end of file from server
-[18/04/04 11:16:47,314] --> =======>#PLATFORM.LOCAL.REQUEST.ERROR:url==>http://192.168.1.41/login/api/account/visitorLoginerror==>Unexpected end of file from server
-[18/04/04 11:16:52,319] --> =======>#PLATFORM.LOCAL.REQUEST.ERROR:url==>http://192.168.1.41/login/api/account/visitorLoginerror==>Unexpected end of file from server
-[18/04/04 11:16:57,314] --> =======>#PLATFORM.LOCAL.REQUEST.ERROR:url==>http://192.168.1.41/login/api/account/visitorLoginerror==>Unexpected end of file from server
-[18/04/04 11:18:51,300] --> =======>#PLATFORM.LOCAL.REQUEST.ERROR:url==>http://192.168.1.41/login/api/account/visitorLoginerror==>Connection refused: connect
-[18/04/04 11:18:51,301] --> =======>#PLATFORM.LOCAL.REQUEST.ERROR:url==>http://192.168.1.41/login/api/account/visitorLoginerror==>Connection refused: connect
-[18/04/04 11:18:51,303] --> =======>#PLATFORM.LOCAL.REQUEST.ERROR:url==>http://192.168.1.41/login/api/account/visitorLoginerror==>Connection refused: connect
-[18/04/04 11:18:51,304] --> =======>#PLATFORM.LOCAL.REQUEST.ERROR:url==>http://192.168.1.41/login/api/account/visitorLoginerror==>Connection refused: connect
-[18/04/04 11:18:51,911] --> =======>#PLATFORM.LOCAL.REQUEST.ERROR:url==>http://192.168.1.41/login/api/account/visitorLoginerror==>Connection refused: connect
-[18/04/04 11:18:56,923] --> =======>#PLATFORM.LOCAL.REQUEST.ERROR:url==>http://192.168.1.41/login/api/account/visitorLoginerror==>Connection refused: connect
+[18/04/11 15:50:12,198] --> =======>#PLATFORM.LOCAL.REQUEST.ERROR:url==>http://47.88.241.10:81/api/account/visitorLoginerror==>Connection refused: connect
+[18/04/11 15:51:01,402] --> =======>#PLATFORM.LOCAL.REQUEST.ERROR:url==>http://47.88.241.10:81/api/account/visitorLoginerror==>Connection refused: connect
+[18/04/11 15:54:13,790] --> =======>#PLATFORM.LOCAL.REQUEST.ERROR:url==>http://116.62.175.124:81/api/account/visitorLoginerror==>Unexpected end of file from server
+[18/04/11 15:59:39,427] --> =======>#PLATFORM.LOCAL.REQUEST.ERROR:url==>http://116.62.175.124:81/api/account/visitorLoginerror==>Unexpected end of file from server

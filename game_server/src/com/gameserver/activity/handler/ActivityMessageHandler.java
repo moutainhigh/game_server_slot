@@ -126,6 +126,8 @@ public class ActivityMessageHandler {
 	
 
 	public void handleActivityProgress(Player player, CGActivityProgress cgActivityProgress) {
+		/**这句话 不让后边执行了**/
+		if(true)return;
 		player.sendMessage(player.getHuman().getHumanActivityManager().buildGCHunamnProgress());
 	}
 

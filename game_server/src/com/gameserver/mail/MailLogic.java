@@ -3,6 +3,7 @@ package com.gameserver.mail;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 
 import com.alibaba.fastjson.JSON;
@@ -57,7 +58,6 @@ public class MailLogic {
 		{
 			MailInfoData mailInfoData=MailInfoData.convertFromMail(mail);
 			mailInfoData.setHeadName(mail.getHead());
-			
 			
 			PlayerCacheInfo playerCacheInfo= Globals.getPlayerCacheService().getPlayerCacheById(mail.getSendId());
 			if(playerCacheInfo != null){

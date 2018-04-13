@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Callable;
 
-
 import com.robot.strategy.data.ClientTexasRoom;
 
 public class ClientTexasRoomManager implements Callable<Integer> {

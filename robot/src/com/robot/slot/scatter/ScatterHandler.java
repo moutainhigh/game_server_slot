@@ -2,7 +2,6 @@ package com.robot.slot.scatter;
 
 import com.gameserver.slot.msg.GCSlotSlot;
 import com.robot.Robot;
-import com.robot.slot.RobotSlotCacheData;
 
 /**
  * 

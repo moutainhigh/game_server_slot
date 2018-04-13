@@ -1,7 +1,8 @@
 package com.robot.strategy.impl;
 
 import com.core.msg.IMessage;
-import com.gameserver.human.msg.CGBankMakeSureIdentifyingCode;
+import com.gameserver.common.data.RandRewardData;
+import com.gameserver.mail.msg.CGSendMail;
 import com.robot.Robot;
 import com.robot.slot.SlotHandlerFactory;
 import com.robot.strategy.OnceExecuteStrategy;
@@ -29,10 +30,10 @@ public class SlotStrategy extends OnceExecuteStrategy {
 		/*CGHumanChangeName CGHumanChangeName = new CGHumanChangeName();
 		CGHumanChangeName.setName("55555666666");
 		this.getRobot().sendMessage(CGHumanChangeName);*/
-		
-		/*CGBankState cgBankState = new CGBankState();
-		this.getRobot().sendMessage(cgBankState);*/
-		
+		/*
+		CGBankState cgBankState = new CGBankState();
+		this.getRobot().sendMessage(cgBankState);
+		*/
 		/*CGBankSetPassword cgBankSetPassword = new CGBankSetPassword();
 		cgBankSetPassword.setBankPassword("kkk564");
 		this.getRobot().sendMessage(cgBankSetPassword);*/
@@ -57,11 +58,28 @@ public class SlotStrategy extends OnceExecuteStrategy {
 		/*CGBankSendIdentifyingCode cgBankSendIdentifyingCode = new CGBankSendIdentifyingCode();
 		this.getRobot().sendMessage(cgBankSendIdentifyingCode);*/
 		
-		CGBankMakeSureIdentifyingCode cgBankMakeSureIdentifyingCode = new CGBankMakeSureIdentifyingCode();
+		/*CGBankMakeSureIdentifyingCode cgBankMakeSureIdentifyingCode = new CGBankMakeSureIdentifyingCode();
 		cgBankMakeSureIdentifyingCode.setCode("999999999");
-		this.getRobot().sendMessage(cgBankMakeSureIdentifyingCode);
+		this.getRobot().sendMessage(cgBankMakeSureIdentifyingCode);*/
 		
 		
+		/*CGLoadMailList cgLoadMailList = new CGLoadMailList();
+		cgLoadMailList.setMailKind(4);
+		this.getRobot().sendMessage(cgLoadMailList);*/
+		
+		CGSendMail cgSendMail =  new CGSendMail();
+		
+		cgSendMail.setRoleId(1696);
+		cgSendMail.setContent("haohaoho");
+		RandRewardData[] randRewardDataArr =  new RandRewardData[1];
+		RandRewardData randRewardData =  new RandRewardData();
+		randRewardData.setGiftNewId(8);
+		randRewardData.setRewardCount(1000000);
+		randRewardData.setRewardId(3);
+		randRewardData.setVippoint(0);
+		randRewardDataArr[0]=randRewardData;
+		cgSendMail.setRandReward(randRewardDataArr);
+		this.getRobot().sendMessage(cgSendMail);
 	}
 
 	@Override

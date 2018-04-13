@@ -1,7 +1,6 @@
 package com.robot;
 
 import java.net.URL;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -21,7 +20,6 @@ import com.game.webserver.exception.LocalException;
 import com.game.webserver.login.ILoginServerHandler;
 import com.gameserver.common.config.GameServerConfig;
 import com.robot.common.Globals;
-import com.robot.slot.slotname.SlotNameManager;
 import com.robot.strategy.impl.SlotStrategy;
 
 public class RobotSlotMain {
@@ -128,7 +126,7 @@ public class RobotSlotMain {
 	{
 		
 //			Robot robot =  createRobot("Robot_"+RandomUtil.nextInt(1, 999999999), serverId,dbService);
-			Robot robot =  createRobot("adfadfadf675", serverId,dbService);
+			Robot robot =  createRobot("Robot_173800878", serverId,dbService);
 			List<SlotListEntity> slotLists = robot.getSlotListDao().getEverySlot();
 			SlotListEntity  entity = null; 
 			for(SlotListEntity en:slotLists){

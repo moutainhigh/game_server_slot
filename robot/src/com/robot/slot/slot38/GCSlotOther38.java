@@ -1,7 +1,6 @@
 package com.robot.slot.slot38;
 
 import com.core.msg.IMessage;
-import com.gameserver.slot.msg.GCSlotType33BonusList;
 import com.gameserver.slot.msg.GCSlotType38Jackpot;
 import com.gameserver.slot.msg.GCSlotType38Pumpkin;
 import com.gameserver.slot.msg.GCSlotType38Wild;

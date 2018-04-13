@@ -1,785 +1,891 @@
-[18/04/11 10:04:09,160] --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@67688110
-[18/04/11 10:04:09,166] --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@475f5672
-[18/04/11 10:04:09,166] --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@616a06e3
-[18/04/11 10:04:09,166] --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@42297bdf
-[18/04/11 10:04:09,166] --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@66e827a8
-[18/04/11 10:04:09,167] --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@5bb911c1
-[18/04/11 10:04:09,167] --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@6a55594b
-[18/04/11 10:04:09,167] --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@632b305d
-[18/04/11 10:04:09,168] --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@57fdb8a4
-[18/04/11 10:04:09,207] --> scheduleOnce date:Thu Apr 12 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@44b940a2
-[18/04/11 10:04:09,209] --> scheduleOnce date:Thu Apr 12 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@6ffd4c0d
-[18/04/11 10:04:09,212] --> scheduleOnce date:Thu Apr 12 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@9fe720a
-[18/04/11 10:04:09,213] --> scheduleOnce date:Wed Apr 11 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@149274cb
-[18/04/11 10:04:09,214] --> scheduleOnce date:Wed Apr 11 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@118acf70
-[18/04/11 10:04:09,214] --> scheduleOnce date:Wed Apr 11 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@72557746
-[18/04/11 10:04:10,233] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@6870cfac
-[18/04/11 10:04:10,235] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@63e5b8aa
-[18/04/11 10:04:10,236] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@4270b142
-[18/04/11 10:04:10,238] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@6314df3c
-[18/04/11 10:04:10,239] --> scheduleWithFixedDelay delay:395759471 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@10b8b900
-[18/04/11 10:04:10,243] --> scheduleWithFixedDelay delay:3359471 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@2801827a
-[18/04/11 10:04:10,568] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@780cbc9
-[18/04/11 10:04:10,577] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@91de1af
-[18/04/11 10:04:10,579] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@142ef642
-[18/04/11 10:04:10,579] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@67d1fde
-[18/04/11 10:04:10,581] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@7a2525b
-[18/04/11 10:04:10,582] --> ======>start HeartBeatServer time is:2018-04-11 10:04:10
-[18/04/11 10:04:10,601] --> ======>start sendLastNetTime time is:2018-04-11 10:04:10
-[18/04/11 10:04:10,602] --> ======>start notice time is:2018-04-11 10:04:10
-[18/04/11 10:04:10,734] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@3f6c4128
-[18/04/11 10:04:10,734] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@2c4213ca
-[18/04/11 10:04:10,934] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@4769c94b
-[18/04/11 10:05:00,681] --> ======>start HeartBeatServer time is:2018-04-11 10:05:00
-[18/04/11 10:05:00,683] --> ======>start sendLastNetTime time is:2018-04-11 10:05:00
-[18/04/11 10:05:00,683] --> ======>start notice time is:2018-04-11 10:05:00
-[18/04/11 10:05:17,239] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:05:17 CST 2018 -- now::Wed Apr 11 10:05:17 CST 2018
-[18/04/11 10:05:17,240] --> scheduleOnce date:Thu Apr 12 10:05:17 CST 2018 scheduleEnum:周 月 特惠充值活动 schedule:com.gameserver.activity.ScheduleRegularTime@2848ccb3
-[18/04/11 10:05:17,244] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:05:17 CST 2018 -- now::Wed Apr 11 10:05:17 CST 2018
-[18/04/11 10:05:17,244] --> scheduleOnce date:Sat Apr 14 10:05:17 CST 2018 scheduleEnum:周 月 特惠充值活动 schedule:com.gameserver.activity.ScheduleRegularTime@1d31335e
-[18/04/11 10:06:00,728] --> ======>start HeartBeatServer time is:2018-04-11 10:06:00
-[18/04/11 10:06:00,730] --> ======>start sendLastNetTime time is:2018-04-11 10:06:00
-[18/04/11 10:06:00,730] --> ======>start notice time is:2018-04-11 10:06:00
-[18/04/11 10:07:00,646] --> ======>start HeartBeatServer time is:2018-04-11 10:07:00
-[18/04/11 10:07:00,646] --> ======>start sendLastNetTime time is:2018-04-11 10:07:00
-[18/04/11 10:07:00,647] --> ======>start notice time is:2018-04-11 10:07:00
-[18/04/11 10:08:00,613] --> ======>start HeartBeatServer time is:2018-04-11 10:08:00
-[18/04/11 10:08:00,614] --> ======>start sendLastNetTime time is:2018-04-11 10:08:00
-[18/04/11 10:08:00,614] --> ======>start notice time is:2018-04-11 10:08:00
-[18/04/11 10:09:00,581] --> ======>start HeartBeatServer time is:2018-04-11 10:09:00
-[18/04/11 10:09:00,582] --> ======>start sendLastNetTime time is:2018-04-11 10:09:00
-[18/04/11 10:09:00,582] --> ======>start notice time is:2018-04-11 10:09:00
-[18/04/11 10:09:16,043] --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@6d293993
-[18/04/11 10:09:16,045] --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@616a06e3
-[18/04/11 10:09:16,045] --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@42297bdf
-[18/04/11 10:09:16,045] --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@66e827a8
-[18/04/11 10:09:16,046] --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@5bb911c1
-[18/04/11 10:09:16,047] --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@6a55594b
-[18/04/11 10:09:16,047] --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@632b305d
-[18/04/11 10:09:16,048] --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@44598ef7
-[18/04/11 10:09:16,049] --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@17222c11
-[18/04/11 10:09:16,079] --> scheduleOnce date:Thu Apr 12 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@34c53688
-[18/04/11 10:09:16,080] --> scheduleOnce date:Thu Apr 12 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@74c9e11
-[18/04/11 10:09:16,081] --> scheduleOnce date:Thu Apr 12 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@149274cb
-[18/04/11 10:09:16,083] --> scheduleOnce date:Wed Apr 11 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@118acf70
-[18/04/11 10:09:16,083] --> scheduleOnce date:Wed Apr 11 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@72557746
-[18/04/11 10:09:16,083] --> scheduleOnce date:Wed Apr 11 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@8c12524
-[18/04/11 10:09:16,833] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@45554613
-[18/04/11 10:09:16,838] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@2c9306d3
-[18/04/11 10:09:16,841] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@2dfa02c1
-[18/04/11 10:09:16,842] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@5785e813
-[18/04/11 10:09:16,843] --> scheduleWithFixedDelay delay:395450755 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@6d294ddc
-[18/04/11 10:09:16,844] --> scheduleWithFixedDelay delay:3050755 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@50bc3219
-[18/04/11 10:09:17,179] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@296b3f8e
-[18/04/11 10:09:17,185] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@2ed780a0
-[18/04/11 10:09:17,186] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@57a09ecc
-[18/04/11 10:09:17,187] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@adc9248
-[18/04/11 10:09:17,188] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@7a3b5bd2
-[18/04/11 10:09:17,191] --> ======>start HeartBeatServer time is:2018-04-11 10:09:17
-[18/04/11 10:09:17,217] --> ======>start sendLastNetTime time is:2018-04-11 10:09:17
-[18/04/11 10:09:17,217] --> ======>start notice time is:2018-04-11 10:09:17
-[18/04/11 10:09:17,448] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@7e217de2
-[18/04/11 10:09:17,449] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@257d00b1
-[18/04/11 10:09:17,648] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@7b16c28e
-[18/04/11 10:09:34,307] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:09:34 CST 2018 -- now::Wed Apr 11 10:09:34 CST 2018
-[18/04/11 10:09:34,311] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:09:34 CST 2018 -- now::Wed Apr 11 10:09:34 CST 2018
-[18/04/11 10:10:57,684] --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@42297bdf
-[18/04/11 10:10:57,685] --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@5bb911c1
-[18/04/11 10:10:57,686] --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@6a55594b
-[18/04/11 10:10:57,686] --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@632b305d
-[18/04/11 10:10:57,686] --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@44598ef7
-[18/04/11 10:10:57,686] --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@57fdb8a4
-[18/04/11 10:10:57,686] --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@17222c11
-[18/04/11 10:10:57,687] --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@2db15f70
-[18/04/11 10:10:57,687] --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@1f15e689
-[18/04/11 10:10:57,711] --> scheduleOnce date:Thu Apr 12 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@9fe720a
-[18/04/11 10:10:57,712] --> scheduleOnce date:Thu Apr 12 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@118acf70
-[18/04/11 10:10:57,713] --> scheduleOnce date:Thu Apr 12 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@8c12524
-[18/04/11 10:10:57,714] --> scheduleOnce date:Wed Apr 11 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@f723cdb
-[18/04/11 10:10:57,714] --> scheduleOnce date:Wed Apr 11 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@4844930a
-[18/04/11 10:10:57,714] --> scheduleOnce date:Wed Apr 11 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@11f23203
-[18/04/11 10:10:58,277] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@2c9306d3
-[18/04/11 10:10:58,278] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@2dfa02c1
-[18/04/11 10:10:58,280] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@5785e813
-[18/04/11 10:10:58,281] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@6d294ddc
-[18/04/11 10:10:58,281] --> scheduleWithFixedDelay delay:395349628 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@50bc3219
-[18/04/11 10:10:58,283] --> scheduleWithFixedDelay delay:2949628 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@22791b75
-[18/04/11 10:10:58,565] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@3f000cd2
-[18/04/11 10:10:58,575] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@6755aa7a
-[18/04/11 10:10:58,575] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@1e5fc1ed
-[18/04/11 10:10:58,576] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@2ffd6fde
-[18/04/11 10:10:58,576] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@10a4906f
-[18/04/11 10:10:58,580] --> ======>start HeartBeatServer time is:2018-04-11 10:10:58
-[18/04/11 10:10:58,598] --> ======>start sendLastNetTime time is:2018-04-11 10:10:58
-[18/04/11 10:10:58,599] --> ======>start notice time is:2018-04-11 10:10:58
-[18/04/11 10:10:58,814] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@7f0bf47b
-[18/04/11 10:10:58,816] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@7c7461e2
-[18/04/11 10:10:59,016] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@8157b82
-[18/04/11 10:11:14,118] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:11:14 CST 2018 -- now::Wed Apr 11 10:11:14 CST 2018
-[18/04/11 10:11:14,122] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:11:14 CST 2018 -- now::Wed Apr 11 10:11:14 CST 2018
-[18/04/11 10:13:44,215] --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@35e98af
-[18/04/11 10:13:44,217] --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@7fbf26fc
-[18/04/11 10:13:44,217] --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@11c78080
-[18/04/11 10:13:44,217] --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@662be9f7
-[18/04/11 10:13:44,217] --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@4962b41e
-[18/04/11 10:13:44,218] --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@4fecf308
-[18/04/11 10:13:44,218] --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@6282b9f5
-[18/04/11 10:13:44,219] --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@5b5f9003
-[18/04/11 10:13:44,219] --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@2f9dda71
-[18/04/11 10:13:44,243] --> scheduleOnce date:Thu Apr 12 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@3830f918
-[18/04/11 10:13:44,244] --> scheduleOnce date:Thu Apr 12 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@739831a4
-[18/04/11 10:13:44,246] --> scheduleOnce date:Thu Apr 12 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@38a4e2b0
-[18/04/11 10:13:44,247] --> scheduleOnce date:Wed Apr 11 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@14c99bf6
-[18/04/11 10:13:44,247] --> scheduleOnce date:Wed Apr 11 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@266e9dda
-[18/04/11 10:13:44,247] --> scheduleOnce date:Wed Apr 11 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@38883a31
-[18/04/11 10:13:44,935] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@17ec335a
-[18/04/11 10:13:44,937] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@565d7d2f
-[18/04/11 10:13:44,938] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@1c6a0103
-[18/04/11 10:13:44,940] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@45c80312
-[18/04/11 10:13:44,940] --> scheduleWithFixedDelay delay:395182982 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@377dfb8d
-[18/04/11 10:13:44,942] --> scheduleWithFixedDelay delay:2782982 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@477523ba
-[18/04/11 10:13:45,032] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@4fc709ff
-[18/04/11 10:13:45,034] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@2c97e447
-[18/04/11 10:13:45,035] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@7e72c482
-[18/04/11 10:13:45,036] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@75c114a6
-[18/04/11 10:13:45,037] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@2be7310
-[18/04/11 10:13:45,038] --> ======>start HeartBeatServer time is:2018-04-11 10:13:45
-[18/04/11 10:13:45,072] --> ======>start sendLastNetTime time is:2018-04-11 10:13:45
-[18/04/11 10:13:45,073] --> ======>start notice time is:2018-04-11 10:13:45
-[18/04/11 10:13:45,149] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@29aa31ed
-[18/04/11 10:13:45,152] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@2cb4e27c
-[18/04/11 10:13:45,470] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@1d70773a
-[18/04/11 10:14:00,539] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:14:00 CST 2018 -- now::Wed Apr 11 10:14:00 CST 2018
-[18/04/11 10:14:00,544] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:14:00 CST 2018 -- now::Wed Apr 11 10:14:00 CST 2018
-[18/04/11 10:14:37,153] --> ======>start HeartBeatServer time is:2018-04-11 10:14:37
-[18/04/11 10:14:44,974] --> ======>start sendLastNetTime time is:2018-04-11 10:14:44
-[18/04/11 10:14:44,974] --> ======>start notice time is:2018-04-11 10:14:44
-[18/04/11 10:15:44,460] --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@1142d377
-[18/04/11 10:15:44,464] --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@6e1ae763
-[18/04/11 10:15:44,464] --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@62d40e31
-[18/04/11 10:15:44,464] --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@650aa077
-[18/04/11 10:15:44,464] --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@7ce29a2d
-[18/04/11 10:15:44,465] --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@457a5b2d
-[18/04/11 10:15:44,465] --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@79d7035
-[18/04/11 10:15:44,465] --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@372461a9
-[18/04/11 10:15:44,466] --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@48cb2d73
-[18/04/11 10:15:44,490] --> scheduleOnce date:Thu Apr 12 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@44598ef7
-[18/04/11 10:15:44,491] --> scheduleOnce date:Thu Apr 12 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@17222c11
-[18/04/11 10:15:44,493] --> scheduleOnce date:Thu Apr 12 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@25974207
-[18/04/11 10:15:44,493] --> scheduleOnce date:Wed Apr 11 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@1f15e689
-[18/04/11 10:15:44,493] --> scheduleOnce date:Wed Apr 11 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@195113de
-[18/04/11 10:15:44,494] --> scheduleOnce date:Wed Apr 11 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@3ebc955b
-[18/04/11 10:15:45,066] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@41aebbb4
-[18/04/11 10:15:45,068] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@5a592c70
-[18/04/11 10:15:45,116] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@11e9ac24
-[18/04/11 10:15:45,123] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@675b18ff
-[18/04/11 10:15:45,124] --> scheduleWithFixedDelay delay:395062414 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@687389a6
-[18/04/11 10:15:45,126] --> scheduleWithFixedDelay delay:2662414 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@37c7766e
-[18/04/11 10:15:45,449] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@349a4ab7
-[18/04/11 10:15:45,459] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@5eaf9de9
-[18/04/11 10:15:45,461] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@2c314812
-[18/04/11 10:15:45,463] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@7faa2aca
-[18/04/11 10:15:45,463] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@1983087a
-[18/04/11 10:15:45,469] --> ======>start HeartBeatServer time is:2018-04-11 10:15:45
-[18/04/11 10:15:45,492] --> ======>start sendLastNetTime time is:2018-04-11 10:15:45
-[18/04/11 10:15:45,492] --> ======>start notice time is:2018-04-11 10:15:45
-[18/04/11 10:15:45,806] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@534689c7
-[18/04/11 10:15:45,807] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@62a9e345
-[18/04/11 10:15:46,006] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@654c0cb3
-[18/04/11 10:16:01,250] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:16:01 CST 2018 -- now::Wed Apr 11 10:16:01 CST 2018
-[18/04/11 10:16:01,254] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:16:01 CST 2018 -- now::Wed Apr 11 10:16:01 CST 2018
-[18/04/11 10:16:48,341] --> ======>start HeartBeatServer time is:2018-04-11 10:16:48
-[18/04/11 10:16:48,346] --> ======>start sendLastNetTime time is:2018-04-11 10:16:48
-[18/04/11 10:16:48,346] --> ======>start notice time is:2018-04-11 10:16:48
-[18/04/11 10:17:37,784] --> ======>start HeartBeatServer time is:2018-04-11 10:17:37
-[18/04/11 10:17:37,785] --> ======>start sendLastNetTime time is:2018-04-11 10:17:37
-[18/04/11 10:17:45,208] --> ======>start notice time is:2018-04-11 10:17:45
-[18/04/11 10:18:37,723] --> ======>start HeartBeatServer time is:2018-04-11 10:18:37
-[18/04/11 10:18:37,724] --> ======>start sendLastNetTime time is:2018-04-11 10:18:37
-[18/04/11 10:18:45,149] --> ======>start notice time is:2018-04-11 10:18:45
-[18/04/11 10:19:37,747] --> ======>start HeartBeatServer time is:2018-04-11 10:19:37
-[18/04/11 10:19:37,774] --> ======>start sendLastNetTime time is:2018-04-11 10:19:37
-[18/04/11 10:19:45,214] --> ======>start notice time is:2018-04-11 10:19:45
-[18/04/11 10:20:37,758] --> ======>start HeartBeatServer time is:2018-04-11 10:20:37
-[18/04/11 10:20:37,760] --> ======>start sendLastNetTime time is:2018-04-11 10:20:37
-[18/04/11 10:20:45,172] --> ======>start notice time is:2018-04-11 10:20:45
-[18/04/11 10:21:37,743] --> ======>start HeartBeatServer time is:2018-04-11 10:21:37
-[18/04/11 10:21:37,744] --> ======>start sendLastNetTime time is:2018-04-11 10:21:37
-[18/04/11 10:21:45,155] --> ======>start notice time is:2018-04-11 10:21:45
-[18/04/11 10:22:37,755] --> ======>start HeartBeatServer time is:2018-04-11 10:22:37
-[18/04/11 10:22:37,756] --> ======>start sendLastNetTime time is:2018-04-11 10:22:37
-[18/04/11 10:28:18,653] --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@662be9f7
-[18/04/11 10:28:18,654] --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@4fecf308
-[18/04/11 10:28:18,655] --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@6282b9f5
-[18/04/11 10:28:18,655] --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@5b5f9003
-[18/04/11 10:28:18,655] --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@7c11d32
-[18/04/11 10:28:18,656] --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@2f9dda71
-[18/04/11 10:28:18,656] --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@58278366
-[18/04/11 10:28:18,656] --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@7f5fcfe9
-[18/04/11 10:28:18,658] --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@31f77791
-[18/04/11 10:28:18,853] --> scheduleOnce date:Thu Apr 12 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@38a4e2b0
-[18/04/11 10:28:18,857] --> scheduleOnce date:Thu Apr 12 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@266e9dda
-[18/04/11 10:28:18,859] --> scheduleOnce date:Thu Apr 12 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@27a6fef2
-[18/04/11 10:28:18,861] --> scheduleOnce date:Wed Apr 11 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@7fe8c7db
-[18/04/11 10:28:18,861] --> scheduleOnce date:Wed Apr 11 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@2dba05b1
-[18/04/11 10:28:18,861] --> scheduleOnce date:Wed Apr 11 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@541afb85
-[18/04/11 10:28:20,067] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@2bd8f7db
-[18/04/11 10:28:20,068] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@30abf79c
-[18/04/11 10:28:20,069] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@681061d6
-[18/04/11 10:28:20,070] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@3caee3a8
-[18/04/11 10:28:20,072] --> scheduleWithFixedDelay delay:394308337 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@251c90f
-[18/04/11 10:28:20,073] --> scheduleWithFixedDelay delay:1908337 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@2dd178f3
-[18/04/11 10:28:20,322] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@673def40
-[18/04/11 10:28:20,330] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@4a79ff58
-[18/04/11 10:28:20,331] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@3c1db493
-[18/04/11 10:28:20,331] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@56f87798
-[18/04/11 10:28:20,332] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@5e37c5e8
-[18/04/11 10:28:20,333] --> ======>start HeartBeatServer time is:2018-04-11 10:28:20
-[18/04/11 10:28:20,361] --> ======>start sendLastNetTime time is:2018-04-11 10:28:20
-[18/04/11 10:28:20,362] --> ======>start notice time is:2018-04-11 10:28:20
-[18/04/11 10:28:20,572] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@1e70cf48
-[18/04/11 10:28:20,572] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@609bd7c5
-[18/04/11 10:28:20,783] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@14a2ae06
-[18/04/11 10:28:35,675] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:28:35 CST 2018 -- now::Wed Apr 11 10:28:35 CST 2018
-[18/04/11 10:28:35,679] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:28:35 CST 2018 -- now::Wed Apr 11 10:28:35 CST 2018
-[18/04/11 10:29:11,670] --> ======>start HeartBeatServer time is:2018-04-11 10:29:11
-[18/04/11 10:29:11,670] --> ======>start sendLastNetTime time is:2018-04-11 10:29:11
-[18/04/11 10:29:11,671] --> ======>start notice time is:2018-04-11 10:29:11
-[18/04/11 10:30:00,964] --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@2744dcae
-[18/04/11 10:30:00,966] --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@634ca3e7
-[18/04/11 10:30:00,993] --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@ab4aa5e
-[18/04/11 10:30:00,994] --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@b14b60a
-[18/04/11 10:30:00,994] --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@1a7cb3a4
-[18/04/11 10:30:00,996] --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@1c297897
-[18/04/11 10:30:00,997] --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@33e0c716
-[18/04/11 10:30:00,997] --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@1d6a8386
-[18/04/11 10:30:00,999] --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@35cec305
-[18/04/11 10:30:01,021] --> scheduleOnce date:Thu Apr 12 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@c4d2c44
-[18/04/11 10:30:01,022] --> scheduleOnce date:Thu Apr 12 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@2eda2062
-[18/04/11 10:30:01,023] --> scheduleOnce date:Thu Apr 12 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@7fd4e815
-[18/04/11 10:30:01,024] --> scheduleOnce date:Wed Apr 11 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@5f6b53ed
-[18/04/11 10:30:01,024] --> scheduleOnce date:Wed Apr 11 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@20cdb152
-[18/04/11 10:30:01,025] --> scheduleOnce date:Wed Apr 11 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@4cffd3fd
-[18/04/11 10:30:01,726] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@4ce25e47
-[18/04/11 10:30:01,727] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@350da119
-[18/04/11 10:30:01,728] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@34c7232c
-[18/04/11 10:30:01,742] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@8b13d91
-[18/04/11 10:30:01,743] --> scheduleWithFixedDelay delay:394205486 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@2589d787
-[18/04/11 10:30:01,744] --> scheduleWithFixedDelay delay:1805486 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@16d431b4
-[18/04/11 10:30:02,035] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@8408d22
-[18/04/11 10:30:02,044] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@65ecd0af
-[18/04/11 10:30:02,045] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@1e2fdf9a
-[18/04/11 10:30:02,047] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@684e6ca9
-[18/04/11 10:30:02,048] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@646bc51f
-[18/04/11 10:30:02,051] --> ======>start HeartBeatServer time is:2018-04-11 10:30:02
-[18/04/11 10:30:02,077] --> ======>start sendLastNetTime time is:2018-04-11 10:30:02
-[18/04/11 10:30:02,078] --> ======>start notice time is:2018-04-11 10:30:02
-[18/04/11 10:30:02,308] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@58aaed71
-[18/04/11 10:30:02,308] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@574ae7f5
-[18/04/11 10:30:02,527] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@202fadbb
-[18/04/11 10:30:17,376] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:30:17 CST 2018 -- now::Wed Apr 11 10:30:17 CST 2018
-[18/04/11 10:30:17,380] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:30:17 CST 2018 -- now::Wed Apr 11 10:30:17 CST 2018
-[18/04/11 10:30:49,976] --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@4962b41e
-[18/04/11 10:30:49,977] --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@6282b9f5
-[18/04/11 10:30:49,978] --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@5b5f9003
-[18/04/11 10:30:49,978] --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@7c11d32
-[18/04/11 10:30:49,978] --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@2f9dda71
-[18/04/11 10:30:49,978] --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@58278366
-[18/04/11 10:30:49,980] --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@7f5fcfe9
-[18/04/11 10:30:49,980] --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@707865bd
-[18/04/11 10:30:49,981] --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@552fee7a
-[18/04/11 10:30:50,002] --> scheduleOnce date:Thu Apr 12 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@14c99bf6
-[18/04/11 10:30:50,003] --> scheduleOnce date:Thu Apr 12 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@38883a31
-[18/04/11 10:30:50,004] --> scheduleOnce date:Thu Apr 12 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@7fe8c7db
-[18/04/11 10:30:50,005] --> scheduleOnce date:Wed Apr 11 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@2dba05b1
-[18/04/11 10:30:50,005] --> scheduleOnce date:Wed Apr 11 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@541afb85
-[18/04/11 10:30:50,005] --> scheduleOnce date:Wed Apr 11 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@445bce9a
-[18/04/11 10:30:51,108] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@2bd8f7db
-[18/04/11 10:30:51,110] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@30abf79c
-[18/04/11 10:30:51,111] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@681061d6
-[18/04/11 10:30:51,112] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@3caee3a8
-[18/04/11 10:30:51,118] --> scheduleWithFixedDelay delay:394157251 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@251c90f
-[18/04/11 10:30:51,119] --> scheduleWithFixedDelay delay:1757251 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@2dd178f3
-[18/04/11 10:30:51,354] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@1e02fb34
-[18/04/11 10:30:51,356] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@2ca49d4
-[18/04/11 10:30:51,357] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@24ab87da
-[18/04/11 10:30:51,358] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@1f44c935
-[18/04/11 10:30:51,358] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@16965ab2
-[18/04/11 10:30:51,360] --> ======>start HeartBeatServer time is:2018-04-11 10:30:51
-[18/04/11 10:30:51,378] --> ======>start sendLastNetTime time is:2018-04-11 10:30:51
-[18/04/11 10:30:51,379] --> ======>start notice time is:2018-04-11 10:30:51
-[18/04/11 10:30:51,601] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@6e1f684c
-[18/04/11 10:30:51,602] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@4b1d104
-[18/04/11 10:30:51,801] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@68978afd
-[18/04/11 10:31:06,702] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:31:06 CST 2018 -- now::Wed Apr 11 10:31:06 CST 2018
-[18/04/11 10:31:06,707] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:31:06 CST 2018 -- now::Wed Apr 11 10:31:06 CST 2018
-[18/04/11 10:33:56,363] --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@6d293993
-[18/04/11 10:33:56,364] --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@616a06e3
-[18/04/11 10:33:56,364] --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@42297bdf
-[18/04/11 10:33:56,364] --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@66e827a8
-[18/04/11 10:33:56,364] --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@5bb911c1
-[18/04/11 10:33:56,364] --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@6a55594b
-[18/04/11 10:33:56,365] --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@632b305d
-[18/04/11 10:33:56,365] --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@44598ef7
-[18/04/11 10:33:56,366] --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@17222c11
-[18/04/11 10:33:56,384] --> scheduleOnce date:Thu Apr 12 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@34c53688
-[18/04/11 10:33:56,386] --> scheduleOnce date:Thu Apr 12 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@74c9e11
-[18/04/11 10:33:56,387] --> scheduleOnce date:Thu Apr 12 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@149274cb
-[18/04/11 10:33:56,388] --> scheduleOnce date:Wed Apr 11 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@118acf70
-[18/04/11 10:33:56,388] --> scheduleOnce date:Wed Apr 11 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@72557746
-[18/04/11 10:33:56,388] --> scheduleOnce date:Wed Apr 11 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@8c12524
-[18/04/11 10:33:56,838] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@6870cfac
-[18/04/11 10:33:56,841] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@63e5b8aa
-[18/04/11 10:33:56,842] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@4270b142
-[18/04/11 10:33:56,843] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@6314df3c
-[18/04/11 10:33:56,844] --> scheduleWithFixedDelay delay:393969971 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@10b8b900
-[18/04/11 10:33:56,845] --> scheduleWithFixedDelay delay:1569971 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@2801827a
-[18/04/11 10:33:57,270] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@407aae9f
-[18/04/11 10:33:57,274] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@26762aa6
-[18/04/11 10:33:57,275] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@48d224dd
-[18/04/11 10:33:57,276] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@45eae3ba
-[18/04/11 10:33:57,277] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@5071a3ce
-[18/04/11 10:33:57,280] --> ======>start HeartBeatServer time is:2018-04-11 10:33:57
-[18/04/11 10:33:57,301] --> ======>start sendLastNetTime time is:2018-04-11 10:33:57
-[18/04/11 10:33:57,302] --> ======>start notice time is:2018-04-11 10:33:57
-[18/04/11 10:33:57,552] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@323a0e42
-[18/04/11 10:33:57,553] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@6d2e092a
-[18/04/11 10:33:57,754] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@34ca8818
-[18/04/11 10:34:14,115] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:34:14 CST 2018 -- now::Wed Apr 11 10:34:14 CST 2018
-[18/04/11 10:34:14,119] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:34:14 CST 2018 -- now::Wed Apr 11 10:34:14 CST 2018
-[18/04/11 10:34:50,071] --> ======>start HeartBeatServer time is:2018-04-11 10:34:50
-[18/04/11 10:34:50,072] --> ======>start sendLastNetTime time is:2018-04-11 10:34:50
-[18/04/11 10:34:50,072] --> ======>start notice time is:2018-04-11 10:34:50
-[18/04/11 10:35:50,211] --> ======>start HeartBeatServer time is:2018-04-11 10:35:50
-[18/04/11 10:35:50,211] --> ======>start sendLastNetTime time is:2018-04-11 10:35:50
-[18/04/11 10:35:50,212] --> ======>start notice time is:2018-04-11 10:35:50
-[18/04/11 10:36:06,966] --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@25974207
-[18/04/11 10:36:06,967] --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@195113de
-[18/04/11 10:36:06,968] --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@3ebc955b
-[18/04/11 10:36:06,968] --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@21a46ff1
-[18/04/11 10:36:06,968] --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@11b5f4e2
-[18/04/11 10:36:06,968] --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@6bcae9
-[18/04/11 10:36:06,968] --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@5aa781f2
-[18/04/11 10:36:06,968] --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@58feb6b0
-[18/04/11 10:36:06,969] --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@3830f918
-[18/04/11 10:36:06,995] --> scheduleOnce date:Thu Apr 12 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@e91af20
-[18/04/11 10:36:06,996] --> scheduleOnce date:Thu Apr 12 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@62c3f556
-[18/04/11 10:36:06,998] --> scheduleOnce date:Thu Apr 12 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@2f95653f
-[18/04/11 10:36:06,998] --> scheduleOnce date:Wed Apr 11 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@4052b19f
-[18/04/11 10:36:06,998] --> scheduleOnce date:Wed Apr 11 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@3dc68586
-[18/04/11 10:36:06,999] --> scheduleOnce date:Wed Apr 11 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@60dc1a4e
-[18/04/11 10:36:08,154] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@599f1b7
-[18/04/11 10:36:08,155] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@64f4f12
-[18/04/11 10:36:08,156] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@7d0cd23c
-[18/04/11 10:36:08,157] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@6b0f266e
-[18/04/11 10:36:08,158] --> scheduleWithFixedDelay delay:393839952 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@53314f76
-[18/04/11 10:36:08,159] --> scheduleWithFixedDelay delay:1439952 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@70881123
-[18/04/11 10:36:08,447] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@2c0532f
-[18/04/11 10:36:08,450] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@65bb1f88
-[18/04/11 10:36:08,451] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@343b8ffa
-[18/04/11 10:36:08,455] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@306fd513
-[18/04/11 10:36:08,457] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@30b6a11a
-[18/04/11 10:36:08,464] --> ======>start HeartBeatServer time is:2018-04-11 10:36:08
-[18/04/11 10:36:08,489] --> ======>start sendLastNetTime time is:2018-04-11 10:36:08
-[18/04/11 10:36:08,489] --> ======>start notice time is:2018-04-11 10:36:08
-[18/04/11 10:36:08,610] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@7c95a67d
-[18/04/11 10:36:08,610] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@750a81f9
-[18/04/11 10:36:08,898] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@3042f19d
-[18/04/11 10:36:30,740] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:36:30 CST 2018 -- now::Wed Apr 11 10:36:30 CST 2018
-[18/04/11 10:36:30,745] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:36:30 CST 2018 -- now::Wed Apr 11 10:36:30 CST 2018
-[18/04/11 10:37:00,121] --> ======>start HeartBeatServer time is:2018-04-11 10:37:00
-[18/04/11 10:37:00,123] --> ======>start sendLastNetTime time is:2018-04-11 10:37:00
-[18/04/11 10:37:00,123] --> ======>start notice time is:2018-04-11 10:37:00
-[18/04/11 10:37:52,110] --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@25974207
-[18/04/11 10:37:52,111] --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@195113de
-[18/04/11 10:37:52,111] --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@3ebc955b
-[18/04/11 10:37:52,111] --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@21a46ff1
-[18/04/11 10:37:52,111] --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@11b5f4e2
-[18/04/11 10:37:52,111] --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@6bcae9
-[18/04/11 10:37:52,112] --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@5aa781f2
-[18/04/11 10:37:52,112] --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@58feb6b0
-[18/04/11 10:37:52,113] --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@3830f918
-[18/04/11 10:37:52,136] --> scheduleOnce date:Thu Apr 12 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@e91af20
-[18/04/11 10:37:52,137] --> scheduleOnce date:Thu Apr 12 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@62c3f556
-[18/04/11 10:37:52,139] --> scheduleOnce date:Thu Apr 12 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@2f95653f
-[18/04/11 10:37:52,139] --> scheduleOnce date:Wed Apr 11 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@4052b19f
-[18/04/11 10:37:52,139] --> scheduleOnce date:Wed Apr 11 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@3dc68586
-[18/04/11 10:37:52,140] --> scheduleOnce date:Wed Apr 11 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@60dc1a4e
-[18/04/11 10:37:53,168] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@22791b75
-[18/04/11 10:37:53,169] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@37d28938
-[18/04/11 10:37:53,170] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@17c4dc5b
-[18/04/11 10:37:53,171] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@4837f97e
-[18/04/11 10:37:53,172] --> scheduleWithFixedDelay delay:393734964 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@62a6674f
-[18/04/11 10:37:53,175] --> scheduleWithFixedDelay delay:1334964 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@703fa45
-[18/04/11 10:37:53,472] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@6d137183
-[18/04/11 10:37:53,474] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@6b4ea86b
-[18/04/11 10:37:53,474] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@17dcd125
-[18/04/11 10:37:53,475] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@65e6d7f2
-[18/04/11 10:37:53,475] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@130f2da4
-[18/04/11 10:37:53,477] --> ======>start HeartBeatServer time is:2018-04-11 10:37:53
-[18/04/11 10:37:53,496] --> ======>start sendLastNetTime time is:2018-04-11 10:37:53
-[18/04/11 10:37:53,497] --> ======>start notice time is:2018-04-11 10:37:53
-[18/04/11 10:37:53,746] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@6dec3188
-[18/04/11 10:37:53,747] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@1c9b3469
-[18/04/11 10:37:53,943] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@22f78f5e
-[18/04/11 10:38:12,731] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:38:12 CST 2018 -- now::Wed Apr 11 10:38:12 CST 2018
-[18/04/11 10:38:12,735] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:38:12 CST 2018 -- now::Wed Apr 11 10:38:12 CST 2018
-[18/04/11 10:40:13,917] --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@79d7035
-[18/04/11 10:40:13,918] --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@5fffb692
-[18/04/11 10:40:13,918] --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@48cb2d73
-[18/04/11 10:40:13,918] --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@243bf087
-[18/04/11 10:40:13,918] --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@3086f480
-[18/04/11 10:40:13,919] --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@126f8f24
-[18/04/11 10:40:13,919] --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@35e98af
-[18/04/11 10:40:13,919] --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@781aff8b
-[18/04/11 10:40:13,920] --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@11c78080
-[18/04/11 10:40:13,936] --> scheduleOnce date:Thu Apr 12 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@3ebc955b
-[18/04/11 10:40:13,937] --> scheduleOnce date:Thu Apr 12 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@11b5f4e2
-[18/04/11 10:40:13,938] --> scheduleOnce date:Thu Apr 12 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@5aa781f2
-[18/04/11 10:40:13,938] --> scheduleOnce date:Wed Apr 11 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@58feb6b0
-[18/04/11 10:40:13,938] --> scheduleOnce date:Wed Apr 11 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@66d25ba9
-[18/04/11 10:40:13,938] --> scheduleOnce date:Wed Apr 11 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@3830f918
-[18/04/11 10:40:14,424] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@34279b8a
-[18/04/11 10:40:14,428] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@8641b7d
-[18/04/11 10:40:14,429] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@3fb450d7
-[18/04/11 10:40:14,430] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@636985df
-[18/04/11 10:40:14,434] --> scheduleWithFixedDelay delay:393593393 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@723e3c17
-[18/04/11 10:40:14,438] --> scheduleWithFixedDelay delay:1193393 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@6094de13
-[18/04/11 10:40:14,820] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@1e2fdf9a
-[18/04/11 10:40:14,829] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@684e6ca9
-[18/04/11 10:40:14,830] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@646bc51f
-[18/04/11 10:40:14,831] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@67811895
-[18/04/11 10:40:14,832] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@7b2c8f0
-[18/04/11 10:40:14,833] --> ======>start HeartBeatServer time is:2018-04-11 10:40:14
-[18/04/11 10:40:14,879] --> ======>start sendLastNetTime time is:2018-04-11 10:40:14
-[18/04/11 10:40:14,879] --> ======>start notice time is:2018-04-11 10:40:14
-[18/04/11 10:40:15,187] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@574ae7f5
-[18/04/11 10:40:15,188] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@202fadbb
-[18/04/11 10:40:15,386] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@754c8674
-[18/04/11 10:40:30,561] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:40:30 CST 2018 -- now::Wed Apr 11 10:40:30 CST 2018
-[18/04/11 10:40:30,565] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:40:30 CST 2018 -- now::Wed Apr 11 10:40:30 CST 2018
-[18/04/11 10:41:06,758] --> ======>start HeartBeatServer time is:2018-04-11 10:41:06
-[18/04/11 10:41:14,577] --> ======>start sendLastNetTime time is:2018-04-11 10:41:14
-[18/04/11 10:41:14,578] --> ======>start notice time is:2018-04-11 10:41:14
-[18/04/11 10:42:08,279] --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@25974207
-[18/04/11 10:42:08,281] --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@195113de
-[18/04/11 10:42:08,281] --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@3ebc955b
-[18/04/11 10:42:08,281] --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@21a46ff1
-[18/04/11 10:42:08,282] --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@11b5f4e2
-[18/04/11 10:42:08,282] --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@6bcae9
-[18/04/11 10:42:08,283] --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@5aa781f2
-[18/04/11 10:42:08,283] --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@58feb6b0
-[18/04/11 10:42:08,284] --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@3830f918
-[18/04/11 10:42:08,308] --> scheduleOnce date:Thu Apr 12 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@e91af20
-[18/04/11 10:42:08,310] --> scheduleOnce date:Thu Apr 12 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@62c3f556
-[18/04/11 10:42:08,311] --> scheduleOnce date:Thu Apr 12 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@2f95653f
-[18/04/11 10:42:08,312] --> scheduleOnce date:Wed Apr 11 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@4052b19f
-[18/04/11 10:42:08,312] --> scheduleOnce date:Wed Apr 11 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@3dc68586
-[18/04/11 10:42:08,313] --> scheduleOnce date:Wed Apr 11 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@60dc1a4e
-[18/04/11 10:42:09,067] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@22791b75
-[18/04/11 10:42:09,068] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@37d28938
-[18/04/11 10:42:09,069] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@17c4dc5b
-[18/04/11 10:42:09,099] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@4837f97e
-[18/04/11 10:42:09,100] --> scheduleWithFixedDelay delay:393479396 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@62a6674f
-[18/04/11 10:42:09,102] --> scheduleWithFixedDelay delay:1079396 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@703fa45
-[18/04/11 10:42:09,742] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@349a4ab7
-[18/04/11 10:42:09,767] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@5eaf9de9
-[18/04/11 10:42:09,769] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@2c314812
-[18/04/11 10:42:09,772] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@7faa2aca
-[18/04/11 10:42:09,775] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@1983087a
-[18/04/11 10:42:09,776] --> ======>start HeartBeatServer time is:2018-04-11 10:42:09
-[18/04/11 10:42:09,818] --> ======>start sendLastNetTime time is:2018-04-11 10:42:09
-[18/04/11 10:42:09,819] --> ======>start notice time is:2018-04-11 10:42:09
-[18/04/11 10:42:10,068] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@534689c7
-[18/04/11 10:42:10,069] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@62a9e345
-[18/04/11 10:42:10,281] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@654c0cb3
-[18/04/11 10:42:22,511] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:42:22 CST 2018 -- now::Wed Apr 11 10:42:22 CST 2018
-[18/04/11 10:42:22,514] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:42:22 CST 2018 -- now::Wed Apr 11 10:42:22 CST 2018
-[18/04/11 10:43:14,377] --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@372461a9
-[18/04/11 10:43:14,378] --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@48cb2d73
-[18/04/11 10:43:14,378] --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@243bf087
-[18/04/11 10:43:14,378] --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@3086f480
-[18/04/11 10:43:14,378] --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@126f8f24
-[18/04/11 10:43:14,378] --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@35e98af
-[18/04/11 10:43:14,378] --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@781aff8b
-[18/04/11 10:43:14,379] --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@7fbf26fc
-[18/04/11 10:43:14,379] --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@662be9f7
-[18/04/11 10:43:14,407] --> scheduleOnce date:Thu Apr 12 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@21a46ff1
-[18/04/11 10:43:14,409] --> scheduleOnce date:Thu Apr 12 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@6bcae9
-[18/04/11 10:43:14,410] --> scheduleOnce date:Thu Apr 12 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@58feb6b0
-[18/04/11 10:43:14,411] --> scheduleOnce date:Wed Apr 11 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@66d25ba9
-[18/04/11 10:43:14,412] --> scheduleOnce date:Wed Apr 11 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@3830f918
-[18/04/11 10:43:14,412] --> scheduleOnce date:Wed Apr 11 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@5efe47fd
-[18/04/11 10:43:15,462] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@4a22e4d7
-[18/04/11 10:43:15,463] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@16681017
-[18/04/11 10:43:15,466] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@37775bb1
-[18/04/11 10:43:15,466] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@2d206a71
-[18/04/11 10:43:15,467] --> scheduleWithFixedDelay delay:393404540 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@3a40bb52
-[18/04/11 10:43:15,468] --> scheduleWithFixedDelay delay:1004540 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@1e2445f6
-[18/04/11 10:43:15,677] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@690b3d6d
-[18/04/11 10:43:15,679] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@695bd51d
-[18/04/11 10:43:15,680] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@5fc6d8af
-[18/04/11 10:43:15,681] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@63c7d0e3
-[18/04/11 10:43:15,682] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@531779a3
-[18/04/11 10:43:15,683] --> ======>start HeartBeatServer time is:2018-04-11 10:43:15
-[18/04/11 10:43:15,700] --> ======>start sendLastNetTime time is:2018-04-11 10:43:15
-[18/04/11 10:43:15,700] --> ======>start notice time is:2018-04-11 10:43:15
-[18/04/11 10:43:15,956] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@64dd191d
-[18/04/11 10:43:15,958] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@6721f861
-[18/04/11 10:43:16,204] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@445ac872
-[18/04/11 10:43:29,852] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:43:29 CST 2018 -- now::Wed Apr 11 10:43:29 CST 2018
-[18/04/11 10:43:29,856] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:43:29 CST 2018 -- now::Wed Apr 11 10:43:29 CST 2018
-[18/04/11 10:44:15,653] --> ======>start HeartBeatServer time is:2018-04-11 10:44:15
-[18/04/11 10:44:15,654] --> ======>start sendLastNetTime time is:2018-04-11 10:44:15
-[18/04/11 10:44:15,654] --> ======>start notice time is:2018-04-11 10:44:15
-[18/04/11 10:45:15,616] --> ======>start HeartBeatServer time is:2018-04-11 10:45:15
-[18/04/11 10:45:15,617] --> ======>start sendLastNetTime time is:2018-04-11 10:45:15
-[18/04/11 10:45:15,618] --> ======>start notice time is:2018-04-11 10:45:15
-[18/04/11 10:48:44,612] --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@781aff8b
-[18/04/11 10:48:44,614] --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@11c78080
-[18/04/11 10:48:44,614] --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@662be9f7
-[18/04/11 10:48:44,614] --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@4962b41e
-[18/04/11 10:48:44,615] --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@4fecf308
-[18/04/11 10:48:44,615] --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@6282b9f5
-[18/04/11 10:48:44,616] --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@5b5f9003
-[18/04/11 10:48:44,616] --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@7c11d32
-[18/04/11 10:48:44,619] --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@58278366
-[18/04/11 10:48:44,641] --> scheduleOnce date:Thu Apr 12 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@5efe47fd
-[18/04/11 10:48:44,642] --> scheduleOnce date:Thu Apr 12 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@7e3236d
-[18/04/11 10:48:44,643] --> scheduleOnce date:Thu Apr 12 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@14c99bf6
-[18/04/11 10:48:44,644] --> scheduleOnce date:Wed Apr 11 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@266e9dda
-[18/04/11 10:48:44,644] --> scheduleOnce date:Wed Apr 11 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@38883a31
-[18/04/11 10:48:44,644] --> scheduleOnce date:Wed Apr 11 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@27a6fef2
-[18/04/11 10:48:45,899] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@4ffced4e
-[18/04/11 10:48:45,900] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@bbb6f0
-[18/04/11 10:48:45,902] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@2bd8f7db
-[18/04/11 10:48:45,902] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@30abf79c
-[18/04/11 10:48:45,903] --> scheduleWithFixedDelay delay:393082521 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@681061d6
-[18/04/11 10:48:45,904] --> scheduleWithFixedDelay delay:682521 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@3caee3a8
-[18/04/11 10:48:46,145] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@3d48eaf4
-[18/04/11 10:48:46,152] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@177169bc
-[18/04/11 10:48:46,153] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@d75a700
-[18/04/11 10:48:46,155] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@28f2caac
-[18/04/11 10:48:46,155] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@52979a0c
-[18/04/11 10:48:46,156] --> ======>start HeartBeatServer time is:2018-04-11 10:48:46
-[18/04/11 10:48:46,192] --> ======>start sendLastNetTime time is:2018-04-11 10:48:46
-[18/04/11 10:48:46,192] --> ======>start notice time is:2018-04-11 10:48:46
-[18/04/11 10:48:46,401] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@74e8cbc6
-[18/04/11 10:48:46,401] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@584f933b
-[18/04/11 10:48:46,601] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@23b93323
-[18/04/11 10:48:59,831] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:48:59 CST 2018 -- now::Wed Apr 11 10:48:59 CST 2018
-[18/04/11 10:48:59,835] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:48:59 CST 2018 -- now::Wed Apr 11 10:48:59 CST 2018
-[18/04/11 10:49:43,163] --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@616a06e3
-[18/04/11 10:49:43,202] --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@66e827a8
-[18/04/11 10:49:43,202] --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@5bb911c1
-[18/04/11 10:49:43,202] --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@6a55594b
-[18/04/11 10:49:43,202] --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@632b305d
-[18/04/11 10:49:43,203] --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@44598ef7
-[18/04/11 10:49:43,203] --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@57fdb8a4
-[18/04/11 10:49:43,203] --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@17222c11
-[18/04/11 10:49:43,204] --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@25974207
-[18/04/11 10:49:43,229] --> scheduleOnce date:Thu Apr 12 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@74c9e11
-[18/04/11 10:49:43,230] --> scheduleOnce date:Thu Apr 12 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@149274cb
-[18/04/11 10:49:43,232] --> scheduleOnce date:Thu Apr 12 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@72557746
-[18/04/11 10:49:43,232] --> scheduleOnce date:Wed Apr 11 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@8c12524
-[18/04/11 10:49:43,233] --> scheduleOnce date:Wed Apr 11 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@f723cdb
-[18/04/11 10:49:43,233] --> scheduleOnce date:Wed Apr 11 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@4844930a
-[18/04/11 10:49:44,310] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@2c9306d3
-[18/04/11 10:49:44,313] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@2dfa02c1
-[18/04/11 10:49:44,315] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@5785e813
-[18/04/11 10:49:44,317] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@6d294ddc
-[18/04/11 10:49:44,318] --> scheduleWithFixedDelay delay:393024267 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@50bc3219
-[18/04/11 10:49:44,318] --> scheduleWithFixedDelay delay:624267 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@22791b75
-[18/04/11 10:49:44,553] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@6d545ee9
-[18/04/11 10:49:44,554] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@5f04e22f
-[18/04/11 10:49:44,555] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@29345997
-[18/04/11 10:49:44,556] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@4da26c6a
-[18/04/11 10:49:44,557] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@2cec021
-[18/04/11 10:49:44,557] --> ======>start HeartBeatServer time is:2018-04-11 10:49:44
-[18/04/11 10:49:44,575] --> ======>start sendLastNetTime time is:2018-04-11 10:49:44
-[18/04/11 10:49:44,576] --> ======>start notice time is:2018-04-11 10:49:44
-[18/04/11 10:49:44,785] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@7514cf5e
-[18/04/11 10:49:44,787] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@356d44f4
-[18/04/11 10:49:44,985] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@1964de8a
-[18/04/11 10:50:49,754] --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@67f9cb52
-[18/04/11 10:50:49,767] --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@59018eed
-[18/04/11 10:50:49,768] --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@2ee39e73
-[18/04/11 10:50:49,768] --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@76973a6
-[18/04/11 10:50:49,768] --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@71a4f441
-[18/04/11 10:50:49,768] --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@24876a7e
-[18/04/11 10:50:49,768] --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@1625789b
-[18/04/11 10:50:49,769] --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@5a1dddba
-[18/04/11 10:50:49,769] --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@13866329
-[18/04/11 10:50:49,790] --> scheduleOnce date:Thu Apr 12 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@5b5f9003
-[18/04/11 10:50:49,791] --> scheduleOnce date:Thu Apr 12 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@2f9dda71
-[18/04/11 10:50:49,793] --> scheduleOnce date:Thu Apr 12 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@7f5fcfe9
-[18/04/11 10:50:49,793] --> scheduleOnce date:Wed Apr 11 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@707865bd
-[18/04/11 10:50:49,793] --> scheduleOnce date:Wed Apr 11 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@31f77791
-[18/04/11 10:50:49,794] --> scheduleOnce date:Wed Apr 11 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@552fee7a
-[18/04/11 10:50:50,888] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@4c4c7d6c
-[18/04/11 10:50:50,890] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@1e56bc9b
-[18/04/11 10:50:50,891] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@403364e9
-[18/04/11 10:50:50,892] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@2fde9469
-[18/04/11 10:50:50,893] --> scheduleWithFixedDelay delay:392957843 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@458031da
-[18/04/11 10:50:50,894] --> scheduleWithFixedDelay delay:557843 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@20cff21e
-[18/04/11 10:50:51,173] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@142d8110
-[18/04/11 10:50:51,174] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@1e99a2ca
-[18/04/11 10:50:51,175] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@1c1fa40b
-[18/04/11 10:50:51,176] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@781024df
-[18/04/11 10:50:51,177] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@cd1fcc
-[18/04/11 10:50:51,178] --> ======>start HeartBeatServer time is:2018-04-11 10:50:51
-[18/04/11 10:50:51,197] --> ======>start sendLastNetTime time is:2018-04-11 10:50:51
-[18/04/11 10:50:51,198] --> ======>start notice time is:2018-04-11 10:50:51
-[18/04/11 10:50:51,473] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@6d4cad1c
-[18/04/11 10:50:51,474] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@74b18522
-[18/04/11 10:50:51,683] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@666c9e80
-[18/04/11 10:51:05,936] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:51:05 CST 2018 -- now::Wed Apr 11 10:51:05 CST 2018
-[18/04/11 10:51:05,940] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:51:05 CST 2018 -- now::Wed Apr 11 10:51:05 CST 2018
-[18/04/11 10:51:42,252] --> ======>start HeartBeatServer time is:2018-04-11 10:51:42
-[18/04/11 10:51:42,252] --> ======>start sendLastNetTime time is:2018-04-11 10:51:42
-[18/04/11 10:51:51,076] --> ======>start notice time is:2018-04-11 10:51:51
-[18/04/11 10:52:43,495] --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@6a3fbcb1
-[18/04/11 10:52:43,496] --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@15d3793b
-[18/04/11 10:52:43,496] --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@55e1192
-[18/04/11 10:52:43,497] --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@1213ffbc
-[18/04/11 10:52:43,498] --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@68a305eb
-[18/04/11 10:52:43,499] --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@6637a365
-[18/04/11 10:52:43,499] --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@1310fcb0
-[18/04/11 10:52:43,499] --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@1ef31f71
-[18/04/11 10:52:43,500] --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@35787726
-[18/04/11 10:52:43,526] --> scheduleOnce date:Thu Apr 12 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@153cb763
-[18/04/11 10:52:43,528] --> scheduleOnce date:Thu Apr 12 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@412ebe64
-[18/04/11 10:52:43,529] --> scheduleOnce date:Thu Apr 12 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@1f84327b
-[18/04/11 10:52:43,529] --> scheduleOnce date:Wed Apr 11 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@39549f33
-[18/04/11 10:52:43,530] --> scheduleOnce date:Wed Apr 11 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@dbddbe3
-[18/04/11 10:52:43,530] --> scheduleOnce date:Wed Apr 11 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@7a83ccd2
-[18/04/11 10:52:44,544] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@3b088163
-[18/04/11 10:52:44,545] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@611d0763
-[18/04/11 10:52:44,548] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@1e226bcd
-[18/04/11 10:52:44,549] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@2322e56f
-[18/04/11 10:52:44,550] --> scheduleWithFixedDelay delay:392843280 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@38732364
-[18/04/11 10:52:44,551] --> scheduleWithFixedDelay delay:443280 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@48cd319d
-[18/04/11 10:52:44,864] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@781d1b68
-[18/04/11 10:52:44,866] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@71fbb58e
-[18/04/11 10:52:44,867] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@45926ff1
-[18/04/11 10:52:44,868] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@2ea0c824
-[18/04/11 10:52:44,868] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@3e7650c3
-[18/04/11 10:52:44,872] --> ======>start HeartBeatServer time is:2018-04-11 10:52:44
-[18/04/11 10:52:44,893] --> ======>start sendLastNetTime time is:2018-04-11 10:52:44
-[18/04/11 10:52:44,894] --> ======>start notice time is:2018-04-11 10:52:44
-[18/04/11 10:52:45,105] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@72c8d8ee
-[18/04/11 10:52:45,106] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@293e2322
-[18/04/11 10:52:45,312] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@773b53f2
-[18/04/11 10:52:59,565] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:52:59 CST 2018 -- now::Wed Apr 11 10:52:59 CST 2018
-[18/04/11 10:52:59,569] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:52:59 CST 2018 -- now::Wed Apr 11 10:52:59 CST 2018
-[18/04/11 10:53:44,583] --> ======>start HeartBeatServer time is:2018-04-11 10:53:44
-[18/04/11 10:53:44,584] --> ======>start sendLastNetTime time is:2018-04-11 10:53:44
-[18/04/11 10:53:44,584] --> ======>start notice time is:2018-04-11 10:53:44
-[18/04/11 10:54:44,546] --> ======>start HeartBeatServer time is:2018-04-11 10:54:44
-[18/04/11 10:54:44,547] --> ======>start sendLastNetTime time is:2018-04-11 10:54:44
-[18/04/11 10:54:44,746] --> ======>start notice time is:2018-04-11 10:54:44
-[18/04/11 10:56:28,110] --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@6e1ae763
-[18/04/11 10:56:28,111] --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@650aa077
-[18/04/11 10:56:28,111] --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@7ce29a2d
-[18/04/11 10:56:28,111] --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@457a5b2d
-[18/04/11 10:56:28,111] --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@79d7035
-[18/04/11 10:56:28,112] --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@372461a9
-[18/04/11 10:56:28,112] --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@5fffb692
-[18/04/11 10:56:28,112] --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@48cb2d73
-[18/04/11 10:56:28,113] --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@3086f480
-[18/04/11 10:56:28,138] --> scheduleOnce date:Thu Apr 12 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@17222c11
-[18/04/11 10:56:28,139] --> scheduleOnce date:Thu Apr 12 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@25974207
-[18/04/11 10:56:28,140] --> scheduleOnce date:Thu Apr 12 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@195113de
-[18/04/11 10:56:28,141] --> scheduleOnce date:Wed Apr 11 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@3ebc955b
-[18/04/11 10:56:28,141] --> scheduleOnce date:Wed Apr 11 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@21a46ff1
-[18/04/11 10:56:28,141] --> scheduleOnce date:Wed Apr 11 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@11b5f4e2
-[18/04/11 10:56:28,710] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@5a592c70
-[18/04/11 10:56:28,713] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@11e9ac24
-[18/04/11 10:56:28,720] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@675b18ff
-[18/04/11 10:56:28,721] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@687389a6
-[18/04/11 10:56:28,722] --> scheduleWithFixedDelay delay:392619397 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@37c7766e
-[18/04/11 10:56:28,723] --> scheduleWithFixedDelay delay:219397 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@4b7ed03e
-[18/04/11 10:56:28,987] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@7da1f9ca
-[18/04/11 10:56:28,998] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@498ab2da
-[18/04/11 10:56:29,003] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@5ddda29f
-[18/04/11 10:56:29,004] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@4097cf5d
-[18/04/11 10:56:29,004] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@328a112c
-[18/04/11 10:56:29,009] --> ======>start HeartBeatServer time is:2018-04-11 10:56:29
-[18/04/11 10:56:29,032] --> ======>start sendLastNetTime time is:2018-04-11 10:56:29
-[18/04/11 10:56:29,033] --> ======>start notice time is:2018-04-11 10:56:29
-[18/04/11 10:56:29,245] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@328f74f
-[18/04/11 10:56:29,246] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@7a6d287f
-[18/04/11 10:56:29,447] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@3e8f7a0b
-[18/04/11 10:56:44,494] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:56:44 CST 2018 -- now::Wed Apr 11 10:56:44 CST 2018
-[18/04/11 10:56:44,498] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:56:44 CST 2018 -- now::Wed Apr 11 10:56:44 CST 2018
-[18/04/11 10:57:20,714] --> ======>start HeartBeatServer time is:2018-04-11 10:57:20
-[18/04/11 10:57:20,715] --> ======>start sendLastNetTime time is:2018-04-11 10:57:20
-[18/04/11 10:57:28,727] --> ======>start notice time is:2018-04-11 10:57:28
-[18/04/11 10:57:45,344] --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@446e7065
-[18/04/11 10:57:45,345] --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@3b78c683
-[18/04/11 10:57:45,345] --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@7f5614f9
-[18/04/11 10:57:45,346] --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@480cbe2e
-[18/04/11 10:57:45,346] --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@6c3f1658
-[18/04/11 10:57:45,346] --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@110e9982
-[18/04/11 10:57:45,346] --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@5eb0a686
-[18/04/11 10:57:45,347] --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@73608eb0
-[18/04/11 10:57:45,348] --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@2de9ca6
-[18/04/11 10:57:45,371] --> scheduleOnce date:Thu Apr 12 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@126f8f24
-[18/04/11 10:57:45,372] --> scheduleOnce date:Thu Apr 12 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@781aff8b
-[18/04/11 10:57:45,374] --> scheduleOnce date:Thu Apr 12 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@11c78080
-[18/04/11 10:57:45,374] --> scheduleOnce date:Wed Apr 11 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@662be9f7
-[18/04/11 10:57:45,374] --> scheduleOnce date:Wed Apr 11 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@4962b41e
-[18/04/11 10:57:45,375] --> scheduleOnce date:Wed Apr 11 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@4fecf308
-[18/04/11 10:57:46,039] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@71936a92
-[18/04/11 10:57:46,040] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@2dc39b53
-[18/04/11 10:57:46,041] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@2f2e4bde
-[18/04/11 10:57:46,042] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@538a2f0e
-[18/04/11 10:57:46,045] --> scheduleWithFixedDelay delay:392542488 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@508ad266
-[18/04/11 10:57:46,046] --> scheduleWithFixedDelay delay:142488 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@216372b7
-[18/04/11 10:57:46,348] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@5a4a3f5e
-[18/04/11 10:57:46,382] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@3ae27976
-[18/04/11 10:57:46,385] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@4ffd4c17
-[18/04/11 10:57:46,386] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@20adab06
-[18/04/11 10:57:46,387] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@2b16c082
-[18/04/11 10:57:46,387] --> ======>start HeartBeatServer time is:2018-04-11 10:57:46
-[18/04/11 10:57:46,461] --> ======>start sendLastNetTime time is:2018-04-11 10:57:46
-[18/04/11 10:57:46,462] --> ======>start notice time is:2018-04-11 10:57:46
-[18/04/11 10:57:46,564] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@57767ae8
-[18/04/11 10:57:46,564] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@7f7cc2cd
-[18/04/11 10:57:46,867] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@7f4d9471
-[18/04/11 10:58:02,164] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:58:02 CST 2018 -- now::Wed Apr 11 10:58:02 CST 2018
-[18/04/11 10:58:02,168] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 10:58:02 CST 2018 -- now::Wed Apr 11 10:58:02 CST 2018
-[18/04/11 11:03:33,219] --> scheduleWithFixedDelay delay:0 period:1380000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@5fffb692
-[18/04/11 11:03:33,220] --> scheduleWithFixedDelay delay:0 period:1440000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@243bf087
-[18/04/11 11:03:33,220] --> scheduleWithFixedDelay delay:0 period:1500000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@3086f480
-[18/04/11 11:03:33,220] --> scheduleWithFixedDelay delay:0 period:1560000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@126f8f24
-[18/04/11 11:03:33,220] --> scheduleWithFixedDelay delay:0 period:1620000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@35e98af
-[18/04/11 11:03:33,220] --> scheduleWithFixedDelay delay:0 period:1680000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@781aff8b
-[18/04/11 11:03:33,220] --> scheduleWithFixedDelay delay:0 period:1740000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@7fbf26fc
-[18/04/11 11:03:33,220] --> scheduleWithFixedDelay delay:0 period:1800000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentStart@11c78080
-[18/04/11 11:03:33,221] --> scheduleWithFixedDelay delay:0 period:18000 scheduleEnum:老虎机排名结算 schedule:com.gameserver.slot.TournamentRefresh@4962b41e
-[18/04/11 11:03:33,242] --> scheduleOnce date:Thu Apr 12 03:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@11b5f4e2
-[18/04/11 11:03:33,244] --> scheduleOnce date:Thu Apr 12 03:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@5aa781f2
-[18/04/11 11:03:33,245] --> scheduleOnce date:Thu Apr 12 04:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@66d25ba9
-[18/04/11 11:03:33,246] --> scheduleOnce date:Wed Apr 11 19:30:00 CST 2018 scheduleEnum:世界boss的 boss 赛前 30分钟 通知 schedule:com.gameserver.worldboss.schedule.ScheduleBossNoticeBefore@3830f918
-[18/04/11 11:03:33,246] --> scheduleOnce date:Wed Apr 11 19:55:00 CST 2018 scheduleEnum:世界boss的 boss 通知用户的跑马灯 开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossNotice@5efe47fd
-[18/04/11 11:03:33,246] --> scheduleOnce date:Wed Apr 11 20:00:00 CST 2018 scheduleEnum:世界boss的开始 schedule:com.gameserver.worldboss.schedule.ScheduleBossStart@739831a4
-[18/04/11 11:03:33,779] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@8641b7d
-[18/04/11 11:03:33,780] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@3fb450d7
-[18/04/11 11:03:33,781] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@636985df
-[18/04/11 11:03:33,782] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@723e3c17
-[18/04/11 11:03:33,783] --> scheduleWithFixedDelay delay:392193916 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@6094de13
-[18/04/11 11:03:33,784] --> scheduleWithFixedDelay delay:3393916 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@3e6ec74
-[18/04/11 11:03:34,206] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@5cb4ea51
-[18/04/11 11:03:34,219] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@477df86d
-[18/04/11 11:03:34,221] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@68a00740
-[18/04/11 11:03:34,221] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@39152cd5
-[18/04/11 11:03:34,222] --> scheduleOnce delay:900000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@4288afc4
-[18/04/11 11:03:34,237] --> ======>start HeartBeatServer time is:2018-04-11 11:03:34
-[18/04/11 11:03:34,325] --> ======>start sendLastNetTime time is:2018-04-11 11:03:34
-[18/04/11 11:03:34,325] --> ======>start notice time is:2018-04-11 11:03:34
-[18/04/11 11:03:34,602] --> scheduleOnce delay:1200000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@517c3bb4
-[18/04/11 11:03:34,602] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@40342607
-[18/04/11 11:03:34,815] --> scheduleOnce delay:1080000 scheduleEnum:老虎机竞赛等待时间 schedule:com.gameserver.slot.TournamentStartSng@7a9a97aa
-[18/04/11 11:03:55,236] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 11:03:55 CST 2018 -- now::Wed Apr 11 11:03:55 CST 2018
-[18/04/11 11:03:55,240] --> +++开始  消息发送(周特惠礼包) 当当当++::Wed Apr 11 11:03:55 CST 2018 -- now::Wed Apr 11 11:03:55 CST 2018
+[18/04/13 11:41:25,756] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@2c9d90fc
+[18/04/13 11:41:25,763] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@3d3c886f
+[18/04/13 11:41:25,765] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@666618d6
+[18/04/13 11:41:25,766] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@2bab618
+[18/04/13 11:41:25,768] --> scheduleWithFixedDelay delay:217123077 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@1eca3ea7
+[18/04/13 11:41:25,770] --> scheduleWithFixedDelay delay:1123077 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@73a6cc79
+[18/04/13 11:41:25,985] --> ======>start HeartBeatServer time is:2018-04-13 11:41:25
+[18/04/13 11:41:26,064] --> ======>start sendLastNetTime time is:2018-04-13 11:41:26
+[18/04/13 11:41:26,065] --> ======>start notice time is:2018-04-13 11:41:26
+[18/04/13 11:42:16,991] --> ======>start HeartBeatServer time is:2018-04-13 11:42:16
+[18/04/13 11:42:16,992] --> ======>start sendLastNetTime time is:2018-04-13 11:42:16
+[18/04/13 11:42:16,992] --> ======>start notice time is:2018-04-13 11:42:16
+[18/04/13 11:42:36,576] --> +++开始  消息发送(周特惠礼包) 当当当++::Fri Apr 13 11:42:36 CST 2018 -- now::Fri Apr 13 11:42:36 CST 2018
+[18/04/13 11:42:36,577] --> scheduleOnce date:Sat Apr 14 11:42:36 CST 2018 scheduleEnum:周 月 特惠充值活动 schedule:com.gameserver.activity.ScheduleRegularTime@1c340ad0
+[18/04/13 11:42:36,581] --> +++开始  消息发送(周特惠礼包) 当当当++::Fri Apr 13 11:42:36 CST 2018 -- now::Fri Apr 13 11:42:36 CST 2018
+[18/04/13 11:42:36,581] --> scheduleOnce date:Mon Apr 16 11:42:36 CST 2018 scheduleEnum:周 月 特惠充值活动 schedule:com.gameserver.activity.ScheduleRegularTime@6b07d3de
+[18/04/13 11:43:16,960] --> ======>start HeartBeatServer time is:2018-04-13 11:43:16
+[18/04/13 11:43:16,960] --> ======>start sendLastNetTime time is:2018-04-13 11:43:16
+[18/04/13 11:43:16,960] --> ======>start notice time is:2018-04-13 11:43:16
+[18/04/13 11:44:16,584] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@59c43561
+[18/04/13 11:44:16,594] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@7b18658a
+[18/04/13 11:44:16,596] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@1a1f79ce
+[18/04/13 11:44:16,596] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@52abed9d
+[18/04/13 11:44:16,597] --> scheduleWithFixedDelay delay:216949914 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@492be039
+[18/04/13 11:44:16,598] --> scheduleWithFixedDelay delay:949914 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@1118d539
+[18/04/13 11:44:16,779] --> ======>start HeartBeatServer time is:2018-04-13 11:44:16
+[18/04/13 11:44:16,975] --> ======>start sendLastNetTime time is:2018-04-13 11:44:16
+[18/04/13 11:44:16,976] --> ======>start notice time is:2018-04-13 11:44:16
+[18/04/13 11:44:53,593] --> +++开始  消息发送(周特惠礼包) 当当当++::Fri Apr 13 11:44:53 CST 2018 -- now::Fri Apr 13 11:44:53 CST 2018
+[18/04/13 11:44:53,594] --> scheduleOnce date:Sat Apr 14 11:44:53 CST 2018 scheduleEnum:周 月 特惠充值活动 schedule:com.gameserver.activity.ScheduleRegularTime@1d2be0cd
+[18/04/13 11:44:53,598] --> +++开始  消息发送(周特惠礼包) 当当当++::Fri Apr 13 11:44:53 CST 2018 -- now::Fri Apr 13 11:44:53 CST 2018
+[18/04/13 11:44:53,598] --> scheduleOnce date:Mon Apr 16 11:44:53 CST 2018 scheduleEnum:周 月 特惠充值活动 schedule:com.gameserver.activity.ScheduleRegularTime@7292d6dc
+[18/04/13 11:47:09,727] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@1e76afeb
+[18/04/13 11:47:09,729] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@73f6e07
+[18/04/13 11:47:09,730] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@1511d157
+[18/04/13 11:47:09,731] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@3d3c886f
+[18/04/13 11:47:09,734] --> scheduleWithFixedDelay delay:216776684 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@666618d6
+[18/04/13 11:47:09,735] --> scheduleWithFixedDelay delay:776684 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@2bab618
+[18/04/13 11:47:09,908] --> ======>start HeartBeatServer time is:2018-04-13 11:47:09
+[18/04/13 11:47:09,962] --> ======>start sendLastNetTime time is:2018-04-13 11:47:09
+[18/04/13 11:47:09,963] --> ======>start notice time is:2018-04-13 11:47:09
+[18/04/13 11:47:39,534] --> +++开始  消息发送(周特惠礼包) 当当当++::Fri Apr 13 11:47:39 CST 2018 -- now::Fri Apr 13 11:47:39 CST 2018
+[18/04/13 11:47:39,536] --> scheduleOnce date:Sat Apr 14 11:47:39 CST 2018 scheduleEnum:周 月 特惠充值活动 schedule:com.gameserver.activity.ScheduleRegularTime@4befc070
+[18/04/13 11:47:39,541] --> +++开始  消息发送(周特惠礼包) 当当当++::Fri Apr 13 11:47:39 CST 2018 -- now::Fri Apr 13 11:47:39 CST 2018
+[18/04/13 11:47:39,542] --> scheduleOnce date:Mon Apr 16 11:47:39 CST 2018 scheduleEnum:周 月 特惠充值活动 schedule:com.gameserver.activity.ScheduleRegularTime@3ff18bd2
+[18/04/13 11:48:03,408] --> ======>start HeartBeatServer time is:2018-04-13 11:48:03
+[18/04/13 11:48:03,408] --> ======>start sendLastNetTime time is:2018-04-13 11:48:03
+[18/04/13 11:48:03,409] --> ======>start notice time is:2018-04-13 11:48:03
+[18/04/13 11:49:03,406] --> ======>start HeartBeatServer time is:2018-04-13 11:49:03
+[18/04/13 11:49:03,407] --> ======>start sendLastNetTime time is:2018-04-13 11:49:03
+[18/04/13 11:49:03,407] --> ======>start notice time is:2018-04-13 11:49:03
+[18/04/13 11:50:03,377] --> ======>start HeartBeatServer time is:2018-04-13 11:50:03
+[18/04/13 11:50:03,377] --> ======>start sendLastNetTime time is:2018-04-13 11:50:03
+[18/04/13 11:50:03,377] --> ======>start notice time is:2018-04-13 11:50:03
+[18/04/13 11:51:03,509] --> ======>start HeartBeatServer time is:2018-04-13 11:51:03
+[18/04/13 11:51:03,509] --> ======>start sendLastNetTime time is:2018-04-13 11:51:03
+[18/04/13 11:51:03,509] --> ======>start notice time is:2018-04-13 11:51:03
+[18/04/13 11:52:03,456] --> ======>start HeartBeatServer time is:2018-04-13 11:52:03
+[18/04/13 11:52:03,457] --> ======>start sendLastNetTime time is:2018-04-13 11:52:03
+[18/04/13 11:52:03,457] --> ======>start notice time is:2018-04-13 11:52:03
+[18/04/13 11:53:03,403] --> ======>start HeartBeatServer time is:2018-04-13 11:53:03
+[18/04/13 11:53:03,408] --> ======>start sendLastNetTime time is:2018-04-13 11:53:03
+[18/04/13 11:53:03,409] --> ======>start notice time is:2018-04-13 11:53:03
+[18/04/13 11:54:03,322] --> ======>start HeartBeatServer time is:2018-04-13 11:54:03
+[18/04/13 11:54:03,323] --> ======>start sendLastNetTime time is:2018-04-13 11:54:03
+[18/04/13 11:54:03,323] --> ======>start notice time is:2018-04-13 11:54:03
+[18/04/13 11:55:03,467] --> ======>start HeartBeatServer time is:2018-04-13 11:55:03
+[18/04/13 11:55:03,468] --> ======>start sendLastNetTime time is:2018-04-13 11:55:03
+[18/04/13 11:55:03,468] --> ======>start notice time is:2018-04-13 11:55:03
+[18/04/13 11:55:20,894] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@6d5f4900
+[18/04/13 11:55:20,898] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@9e02f84
+[18/04/13 11:55:20,906] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@7e49ded
+[18/04/13 11:55:20,907] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@2478b629
+[18/04/13 11:55:20,908] --> scheduleWithFixedDelay delay:216285600 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@1a2ac487
+[18/04/13 11:55:20,909] --> scheduleWithFixedDelay delay:285600 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@36224f93
+[18/04/13 11:55:21,104] --> ======>start HeartBeatServer time is:2018-04-13 11:55:21
+[18/04/13 11:55:21,143] --> ======>start sendLastNetTime time is:2018-04-13 11:55:21
+[18/04/13 11:55:21,143] --> ======>start notice time is:2018-04-13 11:55:21
+[18/04/13 11:56:14,491] --> ======>start HeartBeatServer time is:2018-04-13 11:56:14
+[18/04/13 11:56:20,906] --> ======>start sendLastNetTime time is:2018-04-13 11:56:20
+[18/04/13 11:56:20,906] --> ======>start notice time is:2018-04-13 11:56:20
+[18/04/13 11:57:14,426] --> ======>start HeartBeatServer time is:2018-04-13 11:57:14
+[18/04/13 11:57:21,038] --> ======>start sendLastNetTime time is:2018-04-13 11:57:21
+[18/04/13 11:57:21,038] --> ======>start notice time is:2018-04-13 11:57:21
+[18/04/13 11:58:14,549] --> ======>start HeartBeatServer time is:2018-04-13 11:58:14
+[18/04/13 11:58:20,959] --> ======>start sendLastNetTime time is:2018-04-13 11:58:20
+[18/04/13 11:58:20,959] --> ======>start notice time is:2018-04-13 11:58:20
+[18/04/13 11:59:14,488] --> ======>start HeartBeatServer time is:2018-04-13 11:59:14
+[18/04/13 11:59:20,902] --> ======>start sendLastNetTime time is:2018-04-13 11:59:20
+[18/04/13 11:59:20,902] --> ======>start notice time is:2018-04-13 11:59:20
+[18/04/13 12:00:14,440] --> ======>start HeartBeatServer time is:2018-04-13 12:00:14
+[18/04/13 12:00:21,050] --> ======>start sendLastNetTime time is:2018-04-13 12:00:21
+[18/04/13 12:00:21,050] --> ======>start notice time is:2018-04-13 12:00:21
+[18/04/13 12:01:14,579] --> ======>start HeartBeatServer time is:2018-04-13 12:01:14
+[18/04/13 12:01:20,991] --> ======>start sendLastNetTime time is:2018-04-13 12:01:20
+[18/04/13 12:01:20,991] --> ======>start notice time is:2018-04-13 12:01:20
+[18/04/13 12:02:14,547] --> ======>start HeartBeatServer time is:2018-04-13 12:02:14
+[18/04/13 12:02:20,958] --> ======>start sendLastNetTime time is:2018-04-13 12:02:20
+[18/04/13 12:02:20,958] --> ======>start notice time is:2018-04-13 12:02:20
+[18/04/13 12:03:14,523] --> ======>start HeartBeatServer time is:2018-04-13 12:03:14
+[18/04/13 12:03:20,937] --> ======>start sendLastNetTime time is:2018-04-13 12:03:20
+[18/04/13 12:03:20,937] --> ======>start notice time is:2018-04-13 12:03:20
+[18/04/13 12:04:14,474] --> ======>start HeartBeatServer time is:2018-04-13 12:04:14
+[18/04/13 12:04:21,084] --> ======>start sendLastNetTime time is:2018-04-13 12:04:21
+[18/04/13 12:04:21,084] --> ======>start notice time is:2018-04-13 12:04:21
+[18/04/13 12:05:14,402] --> ======>start HeartBeatServer time is:2018-04-13 12:05:14
+[18/04/13 12:05:21,012] --> ======>start sendLastNetTime time is:2018-04-13 12:05:21
+[18/04/13 12:05:21,012] --> ======>start notice time is:2018-04-13 12:05:21
+[18/04/13 12:06:14,589] --> ======>start HeartBeatServer time is:2018-04-13 12:06:14
+[18/04/13 12:06:21,001] --> ======>start sendLastNetTime time is:2018-04-13 12:06:21
+[18/04/13 12:06:21,001] --> ======>start notice time is:2018-04-13 12:06:21
+[18/04/13 12:07:14,524] --> ======>start HeartBeatServer time is:2018-04-13 12:07:14
+[18/04/13 12:07:20,936] --> ======>start sendLastNetTime time is:2018-04-13 12:07:20
+[18/04/13 12:07:20,936] --> ======>start notice time is:2018-04-13 12:07:20
+[18/04/13 12:08:14,454] --> ======>start HeartBeatServer time is:2018-04-13 12:08:14
+[18/04/13 12:08:21,068] --> ======>start sendLastNetTime time is:2018-04-13 12:08:21
+[18/04/13 12:08:21,068] --> ======>start notice time is:2018-04-13 12:08:21
+[18/04/13 12:09:14,417] --> ======>start HeartBeatServer time is:2018-04-13 12:09:14
+[18/04/13 12:09:21,027] --> ======>start sendLastNetTime time is:2018-04-13 12:09:21
+[18/04/13 12:09:21,027] --> ======>start notice time is:2018-04-13 12:09:21
+[18/04/13 12:10:14,570] --> ======>start HeartBeatServer time is:2018-04-13 12:10:14
+[18/04/13 12:10:20,985] --> ======>start sendLastNetTime time is:2018-04-13 12:10:20
+[18/04/13 12:10:20,985] --> ======>start notice time is:2018-04-13 12:10:20
+[18/04/13 12:11:14,516] --> ======>start HeartBeatServer time is:2018-04-13 12:11:14
+[18/04/13 12:11:20,927] --> ======>start sendLastNetTime time is:2018-04-13 12:11:20
+[18/04/13 12:11:20,927] --> ======>start notice time is:2018-04-13 12:11:20
+[18/04/13 12:12:14,429] --> ======>start HeartBeatServer time is:2018-04-13 12:12:14
+[18/04/13 12:12:21,040] --> ======>start sendLastNetTime time is:2018-04-13 12:12:21
+[18/04/13 12:12:21,040] --> ======>start notice time is:2018-04-13 12:12:21
+[18/04/13 12:13:14,577] --> ======>start HeartBeatServer time is:2018-04-13 12:13:14
+[18/04/13 12:13:20,987] --> ======>start sendLastNetTime time is:2018-04-13 12:13:20
+[18/04/13 12:13:20,987] --> ======>start notice time is:2018-04-13 12:13:20
+[18/04/13 12:14:14,497] --> ======>start HeartBeatServer time is:2018-04-13 12:14:14
+[18/04/13 12:14:20,908] --> ======>start sendLastNetTime time is:2018-04-13 12:14:20
+[18/04/13 12:14:20,908] --> ======>start notice time is:2018-04-13 12:14:20
+[18/04/13 12:15:14,442] --> ======>start HeartBeatServer time is:2018-04-13 12:15:14
+[18/04/13 12:15:21,055] --> ======>start sendLastNetTime time is:2018-04-13 12:15:21
+[18/04/13 12:15:21,055] --> ======>start notice time is:2018-04-13 12:15:21
+[18/04/13 12:16:14,551] --> ======>start HeartBeatServer time is:2018-04-13 12:16:14
+[18/04/13 12:16:20,963] --> ======>start sendLastNetTime time is:2018-04-13 12:16:20
+[18/04/13 12:16:20,963] --> ======>start notice time is:2018-04-13 12:16:20
+[18/04/13 12:17:14,467] --> ======>start HeartBeatServer time is:2018-04-13 12:17:14
+[18/04/13 12:17:21,080] --> ======>start sendLastNetTime time is:2018-04-13 12:17:21
+[18/04/13 12:17:21,080] --> ======>start notice time is:2018-04-13 12:17:21
+[18/04/13 12:18:14,591] --> ======>start HeartBeatServer time is:2018-04-13 12:18:14
+[18/04/13 12:18:21,000] --> ======>start sendLastNetTime time is:2018-04-13 12:18:21
+[18/04/13 12:18:21,000] --> ======>start notice time is:2018-04-13 12:18:21
+[18/04/13 12:19:14,520] --> ======>start HeartBeatServer time is:2018-04-13 12:19:14
+[18/04/13 12:19:20,927] --> ======>start sendLastNetTime time is:2018-04-13 12:19:20
+[18/04/13 12:19:20,927] --> ======>start notice time is:2018-04-13 12:19:20
+[18/04/13 12:20:14,487] --> ======>start HeartBeatServer time is:2018-04-13 12:20:14
+[18/04/13 12:20:20,926] --> ======>start sendLastNetTime time is:2018-04-13 12:20:20
+[18/04/13 12:20:20,926] --> ======>start notice time is:2018-04-13 12:20:20
+[18/04/13 12:21:14,491] --> ======>start HeartBeatServer time is:2018-04-13 12:21:14
+[18/04/13 12:21:20,902] --> ======>start sendLastNetTime time is:2018-04-13 12:21:20
+[18/04/13 12:21:20,903] --> ======>start notice time is:2018-04-13 12:21:20
+[18/04/13 12:22:14,532] --> ======>start HeartBeatServer time is:2018-04-13 12:22:14
+[18/04/13 12:22:20,947] --> ======>start sendLastNetTime time is:2018-04-13 12:22:20
+[18/04/13 12:22:20,947] --> ======>start notice time is:2018-04-13 12:22:20
+[18/04/13 12:23:14,477] --> ======>start HeartBeatServer time is:2018-04-13 12:23:14
+[18/04/13 12:23:21,091] --> ======>start sendLastNetTime time is:2018-04-13 12:23:21
+[18/04/13 12:23:21,091] --> ======>start notice time is:2018-04-13 12:23:21
+[18/04/13 12:24:14,436] --> ======>start HeartBeatServer time is:2018-04-13 12:24:14
+[18/04/13 12:24:21,052] --> ======>start sendLastNetTime time is:2018-04-13 12:24:21
+[18/04/13 12:24:21,052] --> ======>start notice time is:2018-04-13 12:24:21
+[18/04/13 12:25:14,567] --> ======>start HeartBeatServer time is:2018-04-13 12:25:14
+[18/04/13 12:25:20,983] --> ======>start sendLastNetTime time is:2018-04-13 12:25:20
+[18/04/13 12:25:20,983] --> ======>start notice time is:2018-04-13 12:25:20
+[18/04/13 12:26:14,501] --> ======>start HeartBeatServer time is:2018-04-13 12:26:14
+[18/04/13 12:26:20,911] --> ======>start sendLastNetTime time is:2018-04-13 12:26:20
+[18/04/13 12:26:20,911] --> ======>start notice time is:2018-04-13 12:26:20
+[18/04/13 12:27:14,459] --> ======>start HeartBeatServer time is:2018-04-13 12:27:14
+[18/04/13 12:27:21,072] --> ======>start sendLastNetTime time is:2018-04-13 12:27:21
+[18/04/13 12:27:21,072] --> ======>start notice time is:2018-04-13 12:27:21
+[18/04/13 12:28:14,425] --> ======>start HeartBeatServer time is:2018-04-13 12:28:14
+[18/04/13 12:28:21,036] --> ======>start sendLastNetTime time is:2018-04-13 12:28:21
+[18/04/13 12:28:21,036] --> ======>start notice time is:2018-04-13 12:28:21
+[18/04/13 12:29:14,407] --> ======>start HeartBeatServer time is:2018-04-13 12:29:14
+[18/04/13 12:29:21,022] --> ======>start sendLastNetTime time is:2018-04-13 12:29:21
+[18/04/13 12:29:21,023] --> ======>start notice time is:2018-04-13 12:29:21
+[18/04/13 12:30:14,402] --> ======>start HeartBeatServer time is:2018-04-13 12:30:14
+[18/04/13 12:30:21,011] --> ======>start sendLastNetTime time is:2018-04-13 12:30:21
+[18/04/13 12:30:21,011] --> ======>start notice time is:2018-04-13 12:30:21
+[18/04/13 12:31:14,560] --> ======>start HeartBeatServer time is:2018-04-13 12:31:14
+[18/04/13 12:31:20,973] --> ======>start sendLastNetTime time is:2018-04-13 12:31:20
+[18/04/13 12:31:20,973] --> ======>start notice time is:2018-04-13 12:31:20
+[18/04/13 12:32:14,528] --> ======>start HeartBeatServer time is:2018-04-13 12:32:14
+[18/04/13 12:32:20,936] --> ======>start sendLastNetTime time is:2018-04-13 12:32:20
+[18/04/13 12:32:20,936] --> ======>start notice time is:2018-04-13 12:32:20
+[18/04/13 12:33:14,450] --> ======>start HeartBeatServer time is:2018-04-13 12:33:14
+[18/04/13 12:33:21,064] --> ======>start sendLastNetTime time is:2018-04-13 12:33:21
+[18/04/13 12:33:21,064] --> ======>start notice time is:2018-04-13 12:33:21
+[18/04/13 12:34:14,413] --> ======>start HeartBeatServer time is:2018-04-13 12:34:14
+[18/04/13 12:34:21,024] --> ======>start sendLastNetTime time is:2018-04-13 12:34:21
+[18/04/13 12:34:21,024] --> ======>start notice time is:2018-04-13 12:34:21
+[18/04/13 12:35:14,545] --> ======>start HeartBeatServer time is:2018-04-13 12:35:14
+[18/04/13 12:35:20,955] --> ======>start sendLastNetTime time is:2018-04-13 12:35:20
+[18/04/13 12:35:20,955] --> ======>start notice time is:2018-04-13 12:35:20
+[18/04/13 12:36:14,459] --> ======>start HeartBeatServer time is:2018-04-13 12:36:14
+[18/04/13 12:36:21,071] --> ======>start sendLastNetTime time is:2018-04-13 12:36:21
+[18/04/13 12:36:21,071] --> ======>start notice time is:2018-04-13 12:36:21
+[18/04/13 12:37:14,565] --> ======>start HeartBeatServer time is:2018-04-13 12:37:14
+[18/04/13 12:37:20,975] --> ======>start sendLastNetTime time is:2018-04-13 12:37:20
+[18/04/13 12:37:20,975] --> ======>start notice time is:2018-04-13 12:37:20
+[18/04/13 12:38:14,482] --> ======>start HeartBeatServer time is:2018-04-13 12:38:14
+[18/04/13 12:38:21,092] --> ======>start sendLastNetTime time is:2018-04-13 12:38:21
+[18/04/13 12:38:21,092] --> ======>start notice time is:2018-04-13 12:38:21
+[18/04/13 12:39:14,474] --> ======>start HeartBeatServer time is:2018-04-13 12:39:14
+[18/04/13 12:39:21,086] --> ======>start sendLastNetTime time is:2018-04-13 12:39:21
+[18/04/13 12:39:21,086] --> ======>start notice time is:2018-04-13 12:39:21
+[18/04/13 12:40:14,411] --> ======>start HeartBeatServer time is:2018-04-13 12:40:14
+[18/04/13 12:40:21,023] --> ======>start sendLastNetTime time is:2018-04-13 12:40:21
+[18/04/13 12:40:21,023] --> ======>start notice time is:2018-04-13 12:40:21
+[18/04/13 12:41:14,553] --> ======>start HeartBeatServer time is:2018-04-13 12:41:14
+[18/04/13 12:41:20,965] --> ======>start sendLastNetTime time is:2018-04-13 12:41:20
+[18/04/13 12:41:20,965] --> ======>start notice time is:2018-04-13 12:41:20
+[18/04/13 12:42:14,529] --> ======>start HeartBeatServer time is:2018-04-13 12:42:14
+[18/04/13 12:42:20,942] --> ======>start sendLastNetTime time is:2018-04-13 12:42:20
+[18/04/13 12:42:20,942] --> ======>start notice time is:2018-04-13 12:42:20
+[18/04/13 12:43:14,537] --> ======>start HeartBeatServer time is:2018-04-13 12:43:14
+[18/04/13 12:43:20,949] --> ======>start sendLastNetTime time is:2018-04-13 12:43:20
+[18/04/13 12:43:20,949] --> ======>start notice time is:2018-04-13 12:43:20
+[18/04/13 12:44:14,472] --> ======>start HeartBeatServer time is:2018-04-13 12:44:14
+[18/04/13 12:44:21,083] --> ======>start sendLastNetTime time is:2018-04-13 12:44:21
+[18/04/13 12:44:21,083] --> ======>start notice time is:2018-04-13 12:44:21
+[18/04/13 12:45:14,406] --> ======>start HeartBeatServer time is:2018-04-13 12:45:14
+[18/04/13 12:45:21,018] --> ======>start sendLastNetTime time is:2018-04-13 12:45:21
+[18/04/13 12:45:21,018] --> ======>start notice time is:2018-04-13 12:45:21
+[18/04/13 12:46:14,544] --> ======>start HeartBeatServer time is:2018-04-13 12:46:14
+[18/04/13 12:46:20,955] --> ======>start sendLastNetTime time is:2018-04-13 12:46:20
+[18/04/13 12:46:20,955] --> ======>start notice time is:2018-04-13 12:46:20
+[18/04/13 12:47:14,464] --> ======>start HeartBeatServer time is:2018-04-13 12:47:14
+[18/04/13 12:47:20,954] --> ======>start sendLastNetTime time is:2018-04-13 12:47:20
+[18/04/13 12:47:20,954] --> ======>start notice time is:2018-04-13 12:47:20
+[18/04/13 12:48:14,427] --> ======>start HeartBeatServer time is:2018-04-13 12:48:14
+[18/04/13 12:48:20,905] --> ======>start sendLastNetTime time is:2018-04-13 12:48:20
+[18/04/13 12:48:20,911] --> ======>start notice time is:2018-04-13 12:48:20
+[18/04/13 12:49:14,429] --> ======>start HeartBeatServer time is:2018-04-13 12:49:14
+[18/04/13 12:49:21,070] --> ======>start sendLastNetTime time is:2018-04-13 12:49:21
+[18/04/13 12:49:21,070] --> ======>start notice time is:2018-04-13 12:49:21
+[18/04/13 12:50:14,594] --> ======>start HeartBeatServer time is:2018-04-13 12:50:14
+[18/04/13 12:50:21,015] --> ======>start sendLastNetTime time is:2018-04-13 12:50:21
+[18/04/13 12:50:21,015] --> ======>start notice time is:2018-04-13 12:50:21
+[18/04/13 12:51:14,512] --> ======>start HeartBeatServer time is:2018-04-13 12:51:14
+[18/04/13 12:51:20,940] --> ======>start sendLastNetTime time is:2018-04-13 12:51:20
+[18/04/13 12:51:20,940] --> ======>start notice time is:2018-04-13 12:51:20
+[18/04/13 12:52:14,527] --> ======>start HeartBeatServer time is:2018-04-13 12:52:14
+[18/04/13 12:52:20,983] --> ======>start sendLastNetTime time is:2018-04-13 12:52:20
+[18/04/13 12:52:20,983] --> ======>start notice time is:2018-04-13 12:52:20
+[18/04/13 12:53:14,474] --> ======>start HeartBeatServer time is:2018-04-13 12:53:14
+[18/04/13 12:53:21,094] --> ======>start sendLastNetTime time is:2018-04-13 12:53:21
+[18/04/13 12:53:21,095] --> ======>start notice time is:2018-04-13 12:53:21
+[18/04/13 12:54:14,589] --> ======>start HeartBeatServer time is:2018-04-13 12:54:14
+[18/04/13 12:54:21,015] --> ======>start sendLastNetTime time is:2018-04-13 12:54:21
+[18/04/13 12:54:21,015] --> ======>start notice time is:2018-04-13 12:54:21
+[18/04/13 12:55:14,505] --> ======>start HeartBeatServer time is:2018-04-13 12:55:14
+[18/04/13 12:55:20,944] --> ======>start sendLastNetTime time is:2018-04-13 12:55:20
+[18/04/13 12:55:20,944] --> ======>start notice time is:2018-04-13 12:55:20
+[18/04/13 12:56:14,472] --> ======>start HeartBeatServer time is:2018-04-13 12:56:14
+[18/04/13 12:56:20,902] --> ======>start sendLastNetTime time is:2018-04-13 12:56:20
+[18/04/13 12:56:20,902] --> ======>start notice time is:2018-04-13 12:56:20
+[18/04/13 12:57:14,471] --> ======>start HeartBeatServer time is:2018-04-13 12:57:14
+[18/04/13 12:57:20,924] --> ======>start sendLastNetTime time is:2018-04-13 12:57:20
+[18/04/13 12:57:20,924] --> ======>start notice time is:2018-04-13 12:57:20
+[18/04/13 12:58:14,465] --> ======>start HeartBeatServer time is:2018-04-13 12:58:14
+[18/04/13 12:58:21,085] --> ======>start sendLastNetTime time is:2018-04-13 12:58:21
+[18/04/13 12:58:21,085] --> ======>start notice time is:2018-04-13 12:58:21
+[18/04/13 12:59:14,593] --> ======>start HeartBeatServer time is:2018-04-13 12:59:14
+[18/04/13 12:59:21,038] --> ======>start sendLastNetTime time is:2018-04-13 12:59:21
+[18/04/13 12:59:21,038] --> ======>start notice time is:2018-04-13 12:59:21
+[18/04/13 13:00:14,572] --> ======>start HeartBeatServer time is:2018-04-13 13:00:14
+[18/04/13 13:00:21,027] --> ======>start sendLastNetTime time is:2018-04-13 13:00:21
+[18/04/13 13:00:21,027] --> ======>start notice time is:2018-04-13 13:00:21
+[18/04/13 13:01:14,533] --> ======>start HeartBeatServer time is:2018-04-13 13:01:14
+[18/04/13 13:01:20,952] --> ======>start sendLastNetTime time is:2018-04-13 13:01:20
+[18/04/13 13:01:20,952] --> ======>start notice time is:2018-04-13 13:01:20
+[18/04/13 13:02:14,470] --> ======>start HeartBeatServer time is:2018-04-13 13:02:14
+[18/04/13 13:02:20,937] --> ======>start sendLastNetTime time is:2018-04-13 13:02:20
+[18/04/13 13:02:20,938] --> ======>start notice time is:2018-04-13 13:02:20
+[18/04/13 13:03:14,487] --> ======>start HeartBeatServer time is:2018-04-13 13:03:14
+[18/04/13 13:03:20,910] --> ======>start sendLastNetTime time is:2018-04-13 13:03:20
+[18/04/13 13:03:20,910] --> ======>start notice time is:2018-04-13 13:03:20
+[18/04/13 13:04:14,451] --> ======>start HeartBeatServer time is:2018-04-13 13:04:14
+[18/04/13 13:04:20,899] --> ======>start sendLastNetTime time is:2018-04-13 13:04:20
+[18/04/13 13:04:20,899] --> ======>start notice time is:2018-04-13 13:04:20
+[18/04/13 13:05:14,461] --> ======>start HeartBeatServer time is:2018-04-13 13:05:14
+[18/04/13 13:05:20,930] --> ======>start sendLastNetTime time is:2018-04-13 13:05:20
+[18/04/13 13:05:20,931] --> ======>start notice time is:2018-04-13 13:05:20
+[18/04/13 13:06:14,456] --> ======>start HeartBeatServer time is:2018-04-13 13:06:14
+[18/04/13 13:06:21,074] --> ======>start sendLastNetTime time is:2018-04-13 13:06:21
+[18/04/13 13:06:21,074] --> ======>start notice time is:2018-04-13 13:06:21
+[18/04/13 13:07:14,580] --> ======>start HeartBeatServer time is:2018-04-13 13:07:14
+[18/04/13 13:07:21,019] --> ======>start sendLastNetTime time is:2018-04-13 13:07:21
+[18/04/13 13:07:21,019] --> ======>start notice time is:2018-04-13 13:07:21
+[18/04/13 13:08:14,538] --> ======>start HeartBeatServer time is:2018-04-13 13:08:14
+[18/04/13 13:08:20,979] --> ======>start sendLastNetTime time is:2018-04-13 13:08:20
+[18/04/13 13:08:20,979] --> ======>start notice time is:2018-04-13 13:08:20
+[18/04/13 13:09:14,505] --> ======>start HeartBeatServer time is:2018-04-13 13:09:14
+[18/04/13 13:09:20,924] --> ======>start sendLastNetTime time is:2018-04-13 13:09:20
+[18/04/13 13:09:20,924] --> ======>start notice time is:2018-04-13 13:09:20
+[18/04/13 13:10:14,440] --> ======>start HeartBeatServer time is:2018-04-13 13:10:14
+[18/04/13 13:10:21,053] --> ======>start sendLastNetTime time is:2018-04-13 13:10:21
+[18/04/13 13:10:21,053] --> ======>start notice time is:2018-04-13 13:10:21
+[18/04/13 13:11:14,561] --> ======>start HeartBeatServer time is:2018-04-13 13:11:14
+[18/04/13 13:11:21,018] --> ======>start sendLastNetTime time is:2018-04-13 13:11:21
+[18/04/13 13:11:21,018] --> ======>start notice time is:2018-04-13 13:11:21
+[18/04/13 13:12:14,550] --> ======>start HeartBeatServer time is:2018-04-13 13:12:14
+[18/04/13 13:12:20,971] --> ======>start sendLastNetTime time is:2018-04-13 13:12:20
+[18/04/13 13:12:20,971] --> ======>start notice time is:2018-04-13 13:12:20
+[18/04/13 13:13:14,541] --> ======>start HeartBeatServer time is:2018-04-13 13:13:14
+[18/04/13 13:13:20,969] --> ======>start sendLastNetTime time is:2018-04-13 13:13:20
+[18/04/13 13:13:20,969] --> ======>start notice time is:2018-04-13 13:13:20
+[18/04/13 13:14:14,523] --> ======>start HeartBeatServer time is:2018-04-13 13:14:14
+[18/04/13 13:14:20,948] --> ======>start sendLastNetTime time is:2018-04-13 13:14:20
+[18/04/13 13:14:20,948] --> ======>start notice time is:2018-04-13 13:14:20
+[18/04/13 13:15:14,448] --> ======>start HeartBeatServer time is:2018-04-13 13:15:14
+[18/04/13 13:15:21,086] --> ======>start sendLastNetTime time is:2018-04-13 13:15:21
+[18/04/13 13:15:21,086] --> ======>start notice time is:2018-04-13 13:15:21
+[18/04/13 13:16:14,593] --> ======>start HeartBeatServer time is:2018-04-13 13:16:14
+[18/04/13 13:16:21,010] --> ======>start sendLastNetTime time is:2018-04-13 13:16:21
+[18/04/13 13:16:21,010] --> ======>start notice time is:2018-04-13 13:16:21
+[18/04/13 13:17:14,580] --> ======>start HeartBeatServer time is:2018-04-13 13:17:14
+[18/04/13 13:17:21,007] --> ======>start sendLastNetTime time is:2018-04-13 13:17:21
+[18/04/13 13:17:21,007] --> ======>start notice time is:2018-04-13 13:17:21
+[18/04/13 13:18:14,531] --> ======>start HeartBeatServer time is:2018-04-13 13:18:14
+[18/04/13 13:18:20,973] --> ======>start sendLastNetTime time is:2018-04-13 13:18:20
+[18/04/13 13:18:20,973] --> ======>start notice time is:2018-04-13 13:18:20
+[18/04/13 13:19:14,474] --> ======>start HeartBeatServer time is:2018-04-13 13:19:14
+[18/04/13 13:19:20,927] --> ======>start sendLastNetTime time is:2018-04-13 13:19:20
+[18/04/13 13:19:20,928] --> ======>start notice time is:2018-04-13 13:19:20
+[18/04/13 13:20:14,433] --> ======>start HeartBeatServer time is:2018-04-13 13:20:14
+[18/04/13 13:20:21,080] --> ======>start sendLastNetTime time is:2018-04-13 13:20:21
+[18/04/13 13:20:21,080] --> ======>start notice time is:2018-04-13 13:20:21
+[18/04/13 13:21:14,580] --> ======>start HeartBeatServer time is:2018-04-13 13:21:14
+[18/04/13 13:21:21,009] --> ======>start sendLastNetTime time is:2018-04-13 13:21:21
+[18/04/13 13:21:21,009] --> ======>start notice time is:2018-04-13 13:21:21
+[18/04/13 13:22:14,511] --> ======>start HeartBeatServer time is:2018-04-13 13:22:14
+[18/04/13 13:22:20,965] --> ======>start sendLastNetTime time is:2018-04-13 13:22:20
+[18/04/13 13:22:20,965] --> ======>start notice time is:2018-04-13 13:22:20
+[18/04/13 13:23:14,485] --> ======>start HeartBeatServer time is:2018-04-13 13:23:14
+[18/04/13 13:23:20,965] --> ======>start sendLastNetTime time is:2018-04-13 13:23:20
+[18/04/13 13:23:20,965] --> ======>start notice time is:2018-04-13 13:23:20
+[18/04/13 13:24:14,460] --> ======>start HeartBeatServer time is:2018-04-13 13:24:14
+[18/04/13 13:24:20,899] --> ======>start sendLastNetTime time is:2018-04-13 13:24:20
+[18/04/13 13:24:20,900] --> ======>start notice time is:2018-04-13 13:24:20
+[18/04/13 13:25:14,408] --> ======>start HeartBeatServer time is:2018-04-13 13:25:14
+[18/04/13 13:25:21,042] --> ======>start sendLastNetTime time is:2018-04-13 13:25:21
+[18/04/13 13:25:21,042] --> ======>start notice time is:2018-04-13 13:25:21
+[18/04/13 13:26:14,574] --> ======>start HeartBeatServer time is:2018-04-13 13:26:14
+[18/04/13 13:26:21,011] --> ======>start sendLastNetTime time is:2018-04-13 13:26:21
+[18/04/13 13:26:21,012] --> ======>start notice time is:2018-04-13 13:26:21
+[18/04/13 13:27:14,515] --> ======>start HeartBeatServer time is:2018-04-13 13:27:14
+[18/04/13 13:27:20,970] --> ======>start sendLastNetTime time is:2018-04-13 13:27:20
+[18/04/13 13:27:20,970] --> ======>start notice time is:2018-04-13 13:27:20
+[18/04/13 13:28:14,457] --> ======>start HeartBeatServer time is:2018-04-13 13:28:14
+[18/04/13 13:28:21,094] --> ======>start sendLastNetTime time is:2018-04-13 13:28:21
+[18/04/13 13:28:21,094] --> ======>start notice time is:2018-04-13 13:28:21
+[18/04/13 13:29:14,471] --> ======>start HeartBeatServer time is:2018-04-13 13:29:14
+[18/04/13 13:29:20,901] --> ======>start sendLastNetTime time is:2018-04-13 13:29:20
+[18/04/13 13:29:20,902] --> ======>start notice time is:2018-04-13 13:29:20
+[18/04/13 13:30:14,436] --> ======>start HeartBeatServer time is:2018-04-13 13:30:14
+[18/04/13 13:30:21,075] --> ======>start sendLastNetTime time is:2018-04-13 13:30:21
+[18/04/13 13:30:21,075] --> ======>start notice time is:2018-04-13 13:30:21
+[18/04/13 13:31:14,563] --> ======>start HeartBeatServer time is:2018-04-13 13:31:14
+[18/04/13 13:31:21,006] --> ======>start sendLastNetTime time is:2018-04-13 13:31:21
+[18/04/13 13:31:21,006] --> ======>start notice time is:2018-04-13 13:31:21
+[18/04/13 13:32:14,527] --> ======>start HeartBeatServer time is:2018-04-13 13:32:14
+[18/04/13 13:32:20,975] --> ======>start sendLastNetTime time is:2018-04-13 13:32:20
+[18/04/13 13:32:20,975] --> ======>start notice time is:2018-04-13 13:32:20
+[18/04/13 13:33:14,499] --> ======>start HeartBeatServer time is:2018-04-13 13:33:14
+[18/04/13 13:33:20,937] --> ======>start sendLastNetTime time is:2018-04-13 13:33:20
+[18/04/13 13:33:20,937] --> ======>start notice time is:2018-04-13 13:33:20
+[18/04/13 13:34:14,454] --> ======>start HeartBeatServer time is:2018-04-13 13:34:14
+[18/04/13 13:34:21,080] --> ======>start sendLastNetTime time is:2018-04-13 13:34:21
+[18/04/13 13:34:21,080] --> ======>start notice time is:2018-04-13 13:34:21
+[18/04/13 13:35:14,582] --> ======>start HeartBeatServer time is:2018-04-13 13:35:14
+[18/04/13 13:35:21,016] --> ======>start sendLastNetTime time is:2018-04-13 13:35:21
+[18/04/13 13:35:21,016] --> ======>start notice time is:2018-04-13 13:35:21
+[18/04/13 13:36:14,537] --> ======>start HeartBeatServer time is:2018-04-13 13:36:14
+[18/04/13 13:36:20,979] --> ======>start sendLastNetTime time is:2018-04-13 13:36:20
+[18/04/13 13:36:20,980] --> ======>start notice time is:2018-04-13 13:36:20
+[18/04/13 13:37:14,521] --> ======>start HeartBeatServer time is:2018-04-13 13:37:14
+[18/04/13 13:37:20,964] --> ======>start sendLastNetTime time is:2018-04-13 13:37:20
+[18/04/13 13:37:20,964] --> ======>start notice time is:2018-04-13 13:37:20
+[18/04/13 13:38:14,459] --> ======>start HeartBeatServer time is:2018-04-13 13:38:14
+[18/04/13 13:38:20,961] --> ======>start sendLastNetTime time is:2018-04-13 13:38:20
+[18/04/13 13:38:20,961] --> ======>start notice time is:2018-04-13 13:38:20
+[18/04/13 13:39:14,454] --> ======>start HeartBeatServer time is:2018-04-13 13:39:14
+[18/04/13 13:39:21,076] --> ======>start sendLastNetTime time is:2018-04-13 13:39:21
+[18/04/13 13:39:21,076] --> ======>start notice time is:2018-04-13 13:39:21
+[18/04/13 13:40:14,598] --> ======>start HeartBeatServer time is:2018-04-13 13:40:14
+[18/04/13 13:40:21,053] --> ======>start sendLastNetTime time is:2018-04-13 13:40:21
+[18/04/13 13:40:21,053] --> ======>start notice time is:2018-04-13 13:40:21
+[18/04/13 13:41:14,591] --> ======>start HeartBeatServer time is:2018-04-13 13:41:14
+[18/04/13 13:41:21,010] --> ======>start sendLastNetTime time is:2018-04-13 13:41:21
+[18/04/13 13:41:21,010] --> ======>start notice time is:2018-04-13 13:41:21
+[18/04/13 13:42:14,597] --> ======>start HeartBeatServer time is:2018-04-13 13:42:14
+[18/04/13 13:42:21,019] --> ======>start sendLastNetTime time is:2018-04-13 13:42:21
+[18/04/13 13:42:21,019] --> ======>start notice time is:2018-04-13 13:42:21
+[18/04/13 13:43:14,539] --> ======>start HeartBeatServer time is:2018-04-13 13:43:14
+[18/04/13 13:43:20,952] --> ======>start sendLastNetTime time is:2018-04-13 13:43:20
+[18/04/13 13:43:20,952] --> ======>start notice time is:2018-04-13 13:43:20
+[18/04/13 13:44:14,459] --> ======>start HeartBeatServer time is:2018-04-13 13:44:14
+[18/04/13 13:44:21,088] --> ======>start sendLastNetTime time is:2018-04-13 13:44:21
+[18/04/13 13:44:21,088] --> ======>start notice time is:2018-04-13 13:44:21
+[18/04/13 13:45:14,414] --> ======>start HeartBeatServer time is:2018-04-13 13:45:14
+[18/04/13 13:45:21,068] --> ======>start sendLastNetTime time is:2018-04-13 13:45:21
+[18/04/13 13:45:21,068] --> ======>start notice time is:2018-04-13 13:45:21
+[18/04/13 13:46:14,598] --> ======>start HeartBeatServer time is:2018-04-13 13:46:14
+[18/04/13 13:46:21,040] --> ======>start sendLastNetTime time is:2018-04-13 13:46:21
+[18/04/13 13:46:21,040] --> ======>start notice time is:2018-04-13 13:46:21
+[18/04/13 13:47:14,576] --> ======>start HeartBeatServer time is:2018-04-13 13:47:14
+[18/04/13 13:47:21,016] --> ======>start sendLastNetTime time is:2018-04-13 13:47:21
+[18/04/13 13:47:21,016] --> ======>start notice time is:2018-04-13 13:47:21
+[18/04/13 13:48:14,538] --> ======>start HeartBeatServer time is:2018-04-13 13:48:14
+[18/04/13 13:48:20,973] --> ======>start sendLastNetTime time is:2018-04-13 13:48:20
+[18/04/13 13:48:20,973] --> ======>start notice time is:2018-04-13 13:48:20
+[18/04/13 13:49:14,473] --> ======>start HeartBeatServer time is:2018-04-13 13:49:14
+[18/04/13 13:49:21,092] --> ======>start sendLastNetTime time is:2018-04-13 13:49:21
+[18/04/13 13:49:21,092] --> ======>start notice time is:2018-04-13 13:49:21
+[18/04/13 13:50:14,480] --> ======>start HeartBeatServer time is:2018-04-13 13:50:14
+[18/04/13 13:50:20,922] --> ======>start sendLastNetTime time is:2018-04-13 13:50:20
+[18/04/13 13:50:20,922] --> ======>start notice time is:2018-04-13 13:50:20
+[18/04/13 13:51:14,460] --> ======>start HeartBeatServer time is:2018-04-13 13:51:14
+[18/04/13 13:51:21,088] --> ======>start sendLastNetTime time is:2018-04-13 13:51:21
+[18/04/13 13:51:21,088] --> ======>start notice time is:2018-04-13 13:51:21
+[18/04/13 13:52:14,404] --> ======>start HeartBeatServer time is:2018-04-13 13:52:14
+[18/04/13 13:52:21,035] --> ======>start sendLastNetTime time is:2018-04-13 13:52:21
+[18/04/13 13:52:21,035] --> ======>start notice time is:2018-04-13 13:52:21
+[18/04/13 13:53:14,560] --> ======>start HeartBeatServer time is:2018-04-13 13:53:14
+[18/04/13 13:53:21,006] --> ======>start sendLastNetTime time is:2018-04-13 13:53:21
+[18/04/13 13:53:21,006] --> ======>start notice time is:2018-04-13 13:53:21
+[18/04/13 13:54:14,522] --> ======>start HeartBeatServer time is:2018-04-13 13:54:14
+[18/04/13 13:54:20,963] --> ======>start sendLastNetTime time is:2018-04-13 13:54:20
+[18/04/13 13:54:20,963] --> ======>start notice time is:2018-04-13 13:54:20
+[18/04/13 13:55:14,476] --> ======>start HeartBeatServer time is:2018-04-13 13:55:14
+[18/04/13 13:55:20,906] --> ======>start sendLastNetTime time is:2018-04-13 13:55:20
+[18/04/13 13:55:20,907] --> ======>start notice time is:2018-04-13 13:55:20
+[18/04/13 13:56:14,452] --> ======>start HeartBeatServer time is:2018-04-13 13:56:14
+[18/04/13 13:56:21,082] --> ======>start sendLastNetTime time is:2018-04-13 13:56:21
+[18/04/13 13:56:21,082] --> ======>start notice time is:2018-04-13 13:56:21
+[18/04/13 13:57:14,443] --> ======>start HeartBeatServer time is:2018-04-13 13:57:14
+[18/04/13 13:57:21,057] --> ======>start sendLastNetTime time is:2018-04-13 13:57:21
+[18/04/13 13:57:21,057] --> ======>start notice time is:2018-04-13 13:57:21
+[18/04/13 13:58:14,551] --> ======>start HeartBeatServer time is:2018-04-13 13:58:14
+[18/04/13 13:58:20,982] --> ======>start sendLastNetTime time is:2018-04-13 13:58:20
+[18/04/13 13:58:20,983] --> ======>start notice time is:2018-04-13 13:58:20
+[18/04/13 13:59:14,491] --> ======>start HeartBeatServer time is:2018-04-13 13:59:14
+[18/04/13 13:59:20,904] --> ======>start sendLastNetTime time is:2018-04-13 13:59:20
+[18/04/13 13:59:20,906] --> ======>start notice time is:2018-04-13 13:59:20
+[18/04/13 14:00:14,404] --> ======>start HeartBeatServer time is:2018-04-13 14:00:14
+[18/04/13 14:00:21,032] --> ======>start sendLastNetTime time is:2018-04-13 14:00:21
+[18/04/13 14:00:21,033] --> ======>start notice time is:2018-04-13 14:00:21
+[18/04/13 14:01:14,532] --> ======>start HeartBeatServer time is:2018-04-13 14:01:14
+[18/04/13 14:01:20,992] --> ======>start sendLastNetTime time is:2018-04-13 14:01:20
+[18/04/13 14:01:20,992] --> ======>start notice time is:2018-04-13 14:01:20
+[18/04/13 14:02:14,555] --> ======>start HeartBeatServer time is:2018-04-13 14:02:14
+[18/04/13 14:02:20,995] --> ======>start sendLastNetTime time is:2018-04-13 14:02:20
+[18/04/13 14:02:20,996] --> ======>start notice time is:2018-04-13 14:02:20
+[18/04/13 14:03:14,592] --> ======>start HeartBeatServer time is:2018-04-13 14:03:14
+[18/04/13 14:03:21,046] --> ======>start sendLastNetTime time is:2018-04-13 14:03:21
+[18/04/13 14:03:21,046] --> ======>start notice time is:2018-04-13 14:03:21
+[18/04/13 14:04:14,413] --> ======>start HeartBeatServer time is:2018-04-13 14:04:14
+[18/04/13 14:04:21,048] --> ======>start sendLastNetTime time is:2018-04-13 14:04:21
+[18/04/13 14:04:21,048] --> ======>start notice time is:2018-04-13 14:04:21
+[18/04/13 14:05:14,428] --> ======>start HeartBeatServer time is:2018-04-13 14:05:14
+[18/04/13 14:05:21,044] --> ======>start sendLastNetTime time is:2018-04-13 14:05:21
+[18/04/13 14:05:21,045] --> ======>start notice time is:2018-04-13 14:05:21
+[18/04/13 14:06:14,587] --> ======>start HeartBeatServer time is:2018-04-13 14:06:14
+[18/04/13 14:06:21,013] --> ======>start sendLastNetTime time is:2018-04-13 14:06:21
+[18/04/13 14:06:21,013] --> ======>start notice time is:2018-04-13 14:06:21
+[18/04/13 14:07:14,575] --> ======>start HeartBeatServer time is:2018-04-13 14:07:14
+[18/04/13 14:07:21,033] --> ======>start sendLastNetTime time is:2018-04-13 14:07:21
+[18/04/13 14:07:21,033] --> ======>start notice time is:2018-04-13 14:07:21
+[18/04/13 14:08:14,570] --> ======>start HeartBeatServer time is:2018-04-13 14:08:14
+[18/04/13 14:08:21,017] --> ======>start sendLastNetTime time is:2018-04-13 14:08:21
+[18/04/13 14:08:21,018] --> ======>start notice time is:2018-04-13 14:08:21
+[18/04/13 14:09:14,524] --> ======>start HeartBeatServer time is:2018-04-13 14:09:14
+[18/04/13 14:09:20,953] --> ======>start sendLastNetTime time is:2018-04-13 14:09:20
+[18/04/13 14:09:20,953] --> ======>start notice time is:2018-04-13 14:09:20
+[18/04/13 14:10:14,455] --> ======>start HeartBeatServer time is:2018-04-13 14:10:14
+[18/04/13 14:10:21,073] --> ======>start sendLastNetTime time is:2018-04-13 14:10:21
+[18/04/13 14:10:21,073] --> ======>start notice time is:2018-04-13 14:10:21
+[18/04/13 14:11:14,418] --> ======>start HeartBeatServer time is:2018-04-13 14:11:14
+[18/04/13 14:11:21,070] --> ======>start sendLastNetTime time is:2018-04-13 14:11:21
+[18/04/13 14:11:21,070] --> ======>start notice time is:2018-04-13 14:11:21
+[18/04/13 14:12:14,588] --> ======>start HeartBeatServer time is:2018-04-13 14:12:14
+[18/04/13 14:12:21,023] --> ======>start sendLastNetTime time is:2018-04-13 14:12:21
+[18/04/13 14:12:21,023] --> ======>start notice time is:2018-04-13 14:12:21
+[18/04/13 14:13:14,524] --> ======>start HeartBeatServer time is:2018-04-13 14:13:14
+[18/04/13 14:13:20,963] --> ======>start sendLastNetTime time is:2018-04-13 14:13:20
+[18/04/13 14:13:20,963] --> ======>start notice time is:2018-04-13 14:13:20
+[18/04/13 14:14:14,510] --> ======>start HeartBeatServer time is:2018-04-13 14:14:14
+[18/04/13 14:14:20,945] --> ======>start sendLastNetTime time is:2018-04-13 14:14:20
+[18/04/13 14:14:20,946] --> ======>start notice time is:2018-04-13 14:14:20
+[18/04/13 14:15:14,481] --> ======>start HeartBeatServer time is:2018-04-13 14:15:14
+[18/04/13 14:15:20,925] --> ======>start sendLastNetTime time is:2018-04-13 14:15:20
+[18/04/13 14:15:20,925] --> ======>start notice time is:2018-04-13 14:15:20
+[18/04/13 14:16:14,440] --> ======>start HeartBeatServer time is:2018-04-13 14:16:14
+[18/04/13 14:16:21,076] --> ======>start sendLastNetTime time is:2018-04-13 14:16:21
+[18/04/13 14:16:21,076] --> ======>start notice time is:2018-04-13 14:16:21
+[18/04/13 14:17:14,581] --> ======>start HeartBeatServer time is:2018-04-13 14:17:14
+[18/04/13 14:17:21,024] --> ======>start sendLastNetTime time is:2018-04-13 14:17:21
+[18/04/13 14:17:21,024] --> ======>start notice time is:2018-04-13 14:17:21
+[18/04/13 14:18:14,581] --> ======>start HeartBeatServer time is:2018-04-13 14:18:14
+[18/04/13 14:18:21,018] --> ======>start sendLastNetTime time is:2018-04-13 14:18:21
+[18/04/13 14:18:21,018] --> ======>start notice time is:2018-04-13 14:18:21
+[18/04/13 14:19:14,540] --> ======>start HeartBeatServer time is:2018-04-13 14:19:14
+[18/04/13 14:19:20,966] --> ======>start sendLastNetTime time is:2018-04-13 14:19:20
+[18/04/13 14:19:20,967] --> ======>start notice time is:2018-04-13 14:19:20
+[18/04/13 14:20:14,512] --> ======>start HeartBeatServer time is:2018-04-13 14:20:14
+[18/04/13 14:20:20,982] --> ======>start sendLastNetTime time is:2018-04-13 14:20:20
+[18/04/13 14:20:20,982] --> ======>start notice time is:2018-04-13 14:20:20
+[18/04/13 14:21:14,499] --> ======>start HeartBeatServer time is:2018-04-13 14:21:14
+[18/04/13 14:21:20,958] --> ======>start sendLastNetTime time is:2018-04-13 14:21:20
+[18/04/13 14:21:20,958] --> ======>start notice time is:2018-04-13 14:21:20
+[18/04/13 14:22:14,502] --> ======>start HeartBeatServer time is:2018-04-13 14:22:14
+[18/04/13 14:22:20,919] --> ======>start sendLastNetTime time is:2018-04-13 14:22:20
+[18/04/13 14:22:20,919] --> ======>start notice time is:2018-04-13 14:22:20
+[18/04/13 14:23:14,444] --> ======>start HeartBeatServer time is:2018-04-13 14:23:14
+[18/04/13 14:23:21,079] --> ======>start sendLastNetTime time is:2018-04-13 14:23:21
+[18/04/13 14:23:21,079] --> ======>start notice time is:2018-04-13 14:23:21
+[18/04/13 14:24:14,594] --> ======>start HeartBeatServer time is:2018-04-13 14:24:14
+[18/04/13 14:24:21,048] --> ======>start sendLastNetTime time is:2018-04-13 14:24:21
+[18/04/13 14:24:21,048] --> ======>start notice time is:2018-04-13 14:24:21
+[18/04/13 14:25:14,565] --> ======>start HeartBeatServer time is:2018-04-13 14:25:14
+[18/04/13 14:25:21,004] --> ======>start sendLastNetTime time is:2018-04-13 14:25:21
+[18/04/13 14:25:21,004] --> ======>start notice time is:2018-04-13 14:25:21
+[18/04/13 14:26:14,557] --> ======>start HeartBeatServer time is:2018-04-13 14:26:14
+[18/04/13 14:26:20,991] --> ======>start sendLastNetTime time is:2018-04-13 14:26:20
+[18/04/13 14:26:20,992] --> ======>start notice time is:2018-04-13 14:26:20
+[18/04/13 14:27:14,547] --> ======>start HeartBeatServer time is:2018-04-13 14:27:14
+[18/04/13 14:27:20,997] --> ======>start sendLastNetTime time is:2018-04-13 14:27:20
+[18/04/13 14:27:20,997] --> ======>start notice time is:2018-04-13 14:27:20
+[18/04/13 14:28:14,517] --> ======>start HeartBeatServer time is:2018-04-13 14:28:14
+[18/04/13 14:28:20,960] --> ======>start sendLastNetTime time is:2018-04-13 14:28:20
+[18/04/13 14:28:20,960] --> ======>start notice time is:2018-04-13 14:28:20
+[18/04/13 14:29:14,461] --> ======>start HeartBeatServer time is:2018-04-13 14:29:14
+[18/04/13 14:29:20,905] --> ======>start sendLastNetTime time is:2018-04-13 14:29:20
+[18/04/13 14:29:20,905] --> ======>start notice time is:2018-04-13 14:29:20
+[18/04/13 14:30:14,445] --> ======>start HeartBeatServer time is:2018-04-13 14:30:14
+[18/04/13 14:30:21,061] --> ======>start sendLastNetTime time is:2018-04-13 14:30:21
+[18/04/13 14:30:21,062] --> ======>start notice time is:2018-04-13 14:30:21
+[18/04/13 14:31:14,564] --> ======>start HeartBeatServer time is:2018-04-13 14:31:14
+[18/04/13 14:31:20,991] --> ======>start sendLastNetTime time is:2018-04-13 14:31:20
+[18/04/13 14:31:20,991] --> ======>start notice time is:2018-04-13 14:31:20
+[18/04/13 14:32:14,560] --> ======>start HeartBeatServer time is:2018-04-13 14:32:14
+[18/04/13 14:32:21,022] --> ======>start sendLastNetTime time is:2018-04-13 14:32:21
+[18/04/13 14:32:21,022] --> ======>start notice time is:2018-04-13 14:32:21
+[18/04/13 14:33:14,591] --> ======>start HeartBeatServer time is:2018-04-13 14:33:14
+[18/04/13 14:33:21,007] --> ======>start sendLastNetTime time is:2018-04-13 14:33:21
+[18/04/13 14:33:21,007] --> ======>start notice time is:2018-04-13 14:33:21
+[18/04/13 14:34:14,568] --> ======>start HeartBeatServer time is:2018-04-13 14:34:14
+[18/04/13 14:34:20,985] --> ======>start sendLastNetTime time is:2018-04-13 14:34:20
+[18/04/13 14:34:20,985] --> ======>start notice time is:2018-04-13 14:34:20
+[18/04/13 14:35:14,484] --> ======>start HeartBeatServer time is:2018-04-13 14:35:14
+[18/04/13 14:35:21,096] --> ======>start sendLastNetTime time is:2018-04-13 14:35:21
+[18/04/13 14:35:21,097] --> ======>start notice time is:2018-04-13 14:35:21
+[18/04/13 14:36:14,418] --> ======>start HeartBeatServer time is:2018-04-13 14:36:14
+[18/04/13 14:36:21,035] --> ======>start sendLastNetTime time is:2018-04-13 14:36:21
+[18/04/13 14:36:21,035] --> ======>start notice time is:2018-04-13 14:36:21
+[18/04/13 14:37:14,579] --> ======>start HeartBeatServer time is:2018-04-13 14:37:14
+[18/04/13 14:37:20,995] --> ======>start sendLastNetTime time is:2018-04-13 14:37:20
+[18/04/13 14:37:20,995] --> ======>start notice time is:2018-04-13 14:37:20
+[18/04/13 14:38:14,500] --> ======>start HeartBeatServer time is:2018-04-13 14:38:14
+[18/04/13 14:38:20,914] --> ======>start sendLastNetTime time is:2018-04-13 14:38:20
+[18/04/13 14:38:20,914] --> ======>start notice time is:2018-04-13 14:38:20
+[18/04/13 14:39:14,429] --> ======>start HeartBeatServer time is:2018-04-13 14:39:14
+[18/04/13 14:39:21,054] --> ======>start sendLastNetTime time is:2018-04-13 14:39:21
+[18/04/13 14:39:21,054] --> ======>start notice time is:2018-04-13 14:39:21
+[18/04/13 14:40:14,416] --> ======>start HeartBeatServer time is:2018-04-13 14:40:14
+[18/04/13 14:40:21,030] --> ======>start sendLastNetTime time is:2018-04-13 14:40:21
+[18/04/13 14:40:21,030] --> ======>start notice time is:2018-04-13 14:40:21
+[18/04/13 14:41:14,511] --> ======>start HeartBeatServer time is:2018-04-13 14:41:14
+[18/04/13 14:41:20,932] --> ======>start sendLastNetTime time is:2018-04-13 14:41:20
+[18/04/13 14:41:20,932] --> ======>start notice time is:2018-04-13 14:41:20
+[18/04/13 14:42:14,439] --> ======>start HeartBeatServer time is:2018-04-13 14:42:14
+[18/04/13 14:42:21,069] --> ======>start sendLastNetTime time is:2018-04-13 14:42:21
+[18/04/13 14:42:21,069] --> ======>start notice time is:2018-04-13 14:42:21
+[18/04/13 14:43:14,408] --> ======>start HeartBeatServer time is:2018-04-13 14:43:14
+[18/04/13 14:43:21,036] --> ======>start sendLastNetTime time is:2018-04-13 14:43:21
+[18/04/13 14:43:21,036] --> ======>start notice time is:2018-04-13 14:43:21
+[18/04/13 14:44:14,539] --> ======>start HeartBeatServer time is:2018-04-13 14:44:14
+[18/04/13 14:44:20,974] --> ======>start sendLastNetTime time is:2018-04-13 14:44:20
+[18/04/13 14:44:20,974] --> ======>start notice time is:2018-04-13 14:44:20
+[18/04/13 14:45:14,495] --> ======>start HeartBeatServer time is:2018-04-13 14:45:14
+[18/04/13 14:45:20,967] --> ======>start sendLastNetTime time is:2018-04-13 14:45:20
+[18/04/13 14:45:20,967] --> ======>start notice time is:2018-04-13 14:45:20
+[18/04/13 14:46:14,499] --> ======>start HeartBeatServer time is:2018-04-13 14:46:14
+[18/04/13 14:46:20,919] --> ======>start sendLastNetTime time is:2018-04-13 14:46:20
+[18/04/13 14:46:20,919] --> ======>start notice time is:2018-04-13 14:46:20
+[18/04/13 14:47:14,447] --> ======>start HeartBeatServer time is:2018-04-13 14:47:14
+[18/04/13 14:47:21,058] --> ======>start sendLastNetTime time is:2018-04-13 14:47:21
+[18/04/13 14:47:21,058] --> ======>start notice time is:2018-04-13 14:47:21
+[18/04/13 14:48:14,548] --> ======>start HeartBeatServer time is:2018-04-13 14:48:14
+[18/04/13 14:48:21,006] --> ======>start sendLastNetTime time is:2018-04-13 14:48:21
+[18/04/13 14:48:21,006] --> ======>start notice time is:2018-04-13 14:48:21
+[18/04/13 14:49:14,525] --> ======>start HeartBeatServer time is:2018-04-13 14:49:14
+[18/04/13 14:49:20,971] --> ======>start sendLastNetTime time is:2018-04-13 14:49:20
+[18/04/13 14:49:20,971] --> ======>start notice time is:2018-04-13 14:49:20
+[18/04/13 14:50:14,476] --> ======>start HeartBeatServer time is:2018-04-13 14:50:14
+[18/04/13 14:50:20,941] --> ======>start sendLastNetTime time is:2018-04-13 14:50:20
+[18/04/13 14:50:20,941] --> ======>start notice time is:2018-04-13 14:50:20
+[18/04/13 14:51:14,436] --> ======>start HeartBeatServer time is:2018-04-13 14:51:14
+[18/04/13 14:51:21,082] --> ======>start sendLastNetTime time is:2018-04-13 14:51:21
+[18/04/13 14:51:21,083] --> ======>start notice time is:2018-04-13 14:51:21
+[18/04/13 14:52:14,585] --> ======>start HeartBeatServer time is:2018-04-13 14:52:14
+[18/04/13 14:52:21,015] --> ======>start sendLastNetTime time is:2018-04-13 14:52:21
+[18/04/13 14:52:21,015] --> ======>start notice time is:2018-04-13 14:52:21
+[18/04/13 14:53:14,551] --> ======>start HeartBeatServer time is:2018-04-13 14:53:14
+[18/04/13 14:53:20,978] --> ======>start sendLastNetTime time is:2018-04-13 14:53:20
+[18/04/13 14:53:20,978] --> ======>start notice time is:2018-04-13 14:53:20
+[18/04/13 14:54:14,577] --> ======>start HeartBeatServer time is:2018-04-13 14:54:14
+[18/04/13 14:54:21,017] --> ======>start sendLastNetTime time is:2018-04-13 14:54:21
+[18/04/13 14:54:21,017] --> ======>start notice time is:2018-04-13 14:54:21
+[18/04/13 14:55:14,593] --> ======>start HeartBeatServer time is:2018-04-13 14:55:14
+[18/04/13 14:55:21,033] --> ======>start sendLastNetTime time is:2018-04-13 14:55:21
+[18/04/13 14:55:21,033] --> ======>start notice time is:2018-04-13 14:55:21
+[18/04/13 14:56:14,588] --> ======>start HeartBeatServer time is:2018-04-13 14:56:14
+[18/04/13 14:56:21,028] --> ======>start sendLastNetTime time is:2018-04-13 14:56:21
+[18/04/13 14:56:21,028] --> ======>start notice time is:2018-04-13 14:56:21
+[18/04/13 14:57:14,572] --> ======>start HeartBeatServer time is:2018-04-13 14:57:14
+[18/04/13 14:57:21,006] --> ======>start sendLastNetTime time is:2018-04-13 14:57:21
+[18/04/13 14:57:21,006] --> ======>start notice time is:2018-04-13 14:57:21
+[18/04/13 14:58:14,498] --> ======>start HeartBeatServer time is:2018-04-13 14:58:14
+[18/04/13 14:58:20,953] --> ======>start sendLastNetTime time is:2018-04-13 14:58:20
+[18/04/13 14:58:20,953] --> ======>start notice time is:2018-04-13 14:58:20
+[18/04/13 14:59:14,442] --> ======>start HeartBeatServer time is:2018-04-13 14:59:14
+[18/04/13 14:59:21,083] --> ======>start sendLastNetTime time is:2018-04-13 14:59:21
+[18/04/13 14:59:21,083] --> ======>start notice time is:2018-04-13 14:59:21
+[18/04/13 15:00:14,422] --> ======>start HeartBeatServer time is:2018-04-13 15:00:14
+[18/04/13 15:00:21,087] --> ======>start sendLastNetTime time is:2018-04-13 15:00:21
+[18/04/13 15:00:21,087] --> ======>start notice time is:2018-04-13 15:00:21
+[18/04/13 15:01:14,421] --> ======>start HeartBeatServer time is:2018-04-13 15:01:14
+[18/04/13 15:01:21,049] --> ======>start sendLastNetTime time is:2018-04-13 15:01:21
+[18/04/13 15:01:21,049] --> ======>start notice time is:2018-04-13 15:01:21
+[18/04/13 15:02:14,474] --> ======>start HeartBeatServer time is:2018-04-13 15:02:14
+[18/04/13 15:02:20,904] --> ======>start sendLastNetTime time is:2018-04-13 15:02:20
+[18/04/13 15:02:20,904] --> ======>start notice time is:2018-04-13 15:02:20
+[18/04/13 15:03:14,474] --> ======>start HeartBeatServer time is:2018-04-13 15:03:14
+[18/04/13 15:03:20,908] --> ======>start sendLastNetTime time is:2018-04-13 15:03:20
+[18/04/13 15:03:20,908] --> ======>start notice time is:2018-04-13 15:03:20
+[18/04/13 15:04:14,428] --> ======>start HeartBeatServer time is:2018-04-13 15:04:14
+[18/04/13 15:04:21,064] --> ======>start sendLastNetTime time is:2018-04-13 15:04:21
+[18/04/13 15:04:21,064] --> ======>start notice time is:2018-04-13 15:04:21
+[18/04/13 15:05:14,565] --> ======>start HeartBeatServer time is:2018-04-13 15:05:14
+[18/04/13 15:05:21,027] --> ======>start sendLastNetTime time is:2018-04-13 15:05:21
+[18/04/13 15:05:21,027] --> ======>start notice time is:2018-04-13 15:05:21
+[18/04/13 15:06:14,560] --> ======>start HeartBeatServer time is:2018-04-13 15:06:14
+[18/04/13 15:06:21,017] --> ======>start sendLastNetTime time is:2018-04-13 15:06:21
+[18/04/13 15:06:21,017] --> ======>start notice time is:2018-04-13 15:06:21
+[18/04/13 15:07:14,532] --> ======>start HeartBeatServer time is:2018-04-13 15:07:14
+[18/04/13 15:07:20,944] --> ======>start sendLastNetTime time is:2018-04-13 15:07:20
+[18/04/13 15:07:20,944] --> ======>start notice time is:2018-04-13 15:07:20
+[18/04/13 15:08:14,483] --> ======>start HeartBeatServer time is:2018-04-13 15:08:14
+[18/04/13 15:08:20,904] --> ======>start sendLastNetTime time is:2018-04-13 15:08:20
+[18/04/13 15:08:20,904] --> ======>start notice time is:2018-04-13 15:08:20
+[18/04/13 15:09:14,482] --> ======>start HeartBeatServer time is:2018-04-13 15:09:14
+[18/04/13 15:09:20,921] --> ======>start sendLastNetTime time is:2018-04-13 15:09:20
+[18/04/13 15:09:20,921] --> ======>start notice time is:2018-04-13 15:09:20
+[18/04/13 15:10:14,522] --> ======>start HeartBeatServer time is:2018-04-13 15:10:14
+[18/04/13 15:10:20,969] --> ======>start sendLastNetTime time is:2018-04-13 15:10:20
+[18/04/13 15:10:20,969] --> ======>start notice time is:2018-04-13 15:10:20
+[18/04/13 15:11:14,471] --> ======>start HeartBeatServer time is:2018-04-13 15:11:14
+[18/04/13 15:11:21,093] --> ======>start sendLastNetTime time is:2018-04-13 15:11:21
+[18/04/13 15:11:21,093] --> ======>start notice time is:2018-04-13 15:11:21
+[18/04/13 15:12:14,581] --> ======>start HeartBeatServer time is:2018-04-13 15:12:14
+[18/04/13 15:12:20,993] --> ======>start sendLastNetTime time is:2018-04-13 15:12:20
+[18/04/13 15:12:20,993] --> ======>start notice time is:2018-04-13 15:12:20
+[18/04/13 15:13:14,496] --> ======>start HeartBeatServer time is:2018-04-13 15:13:14
+[18/04/13 15:13:20,926] --> ======>start sendLastNetTime time is:2018-04-13 15:13:20
+[18/04/13 15:13:20,926] --> ======>start notice time is:2018-04-13 15:13:20
+[18/04/13 15:14:14,533] --> ======>start HeartBeatServer time is:2018-04-13 15:14:14
+[18/04/13 15:14:20,980] --> ======>start sendLastNetTime time is:2018-04-13 15:14:20
+[18/04/13 15:14:20,980] --> ======>start notice time is:2018-04-13 15:14:20
+[18/04/13 15:15:14,472] --> ======>start HeartBeatServer time is:2018-04-13 15:15:14
+[18/04/13 15:15:20,912] --> ======>start sendLastNetTime time is:2018-04-13 15:15:20
+[18/04/13 15:15:20,912] --> ======>start notice time is:2018-04-13 15:15:20
+[18/04/13 15:16:14,410] --> ======>start HeartBeatServer time is:2018-04-13 15:16:14
+[18/04/13 15:16:21,026] --> ======>start sendLastNetTime time is:2018-04-13 15:16:21
+[18/04/13 15:16:21,027] --> ======>start notice time is:2018-04-13 15:16:21
+[18/04/13 15:17:14,532] --> ======>start HeartBeatServer time is:2018-04-13 15:17:14
+[18/04/13 15:17:20,982] --> ======>start sendLastNetTime time is:2018-04-13 15:17:20
+[18/04/13 15:17:20,982] --> ======>start notice time is:2018-04-13 15:17:20
+[18/04/13 15:18:14,537] --> ======>start HeartBeatServer time is:2018-04-13 15:18:14
+[18/04/13 15:18:20,989] --> ======>start sendLastNetTime time is:2018-04-13 15:18:20
+[18/04/13 15:18:20,989] --> ======>start notice time is:2018-04-13 15:18:20
+[18/04/13 15:19:14,494] --> ======>start HeartBeatServer time is:2018-04-13 15:19:14
+[18/04/13 15:19:20,911] --> ======>start sendLastNetTime time is:2018-04-13 15:19:20
+[18/04/13 15:19:20,911] --> ======>start notice time is:2018-04-13 15:19:20
+[18/04/13 15:20:14,440] --> ======>start HeartBeatServer time is:2018-04-13 15:20:14
+[18/04/13 15:20:21,069] --> ======>start sendLastNetTime time is:2018-04-13 15:20:21
+[18/04/13 15:20:21,069] --> ======>start notice time is:2018-04-13 15:20:21
+[18/04/13 15:21:14,403] --> ======>start HeartBeatServer time is:2018-04-13 15:21:14
+[18/04/13 15:21:21,034] --> ======>start sendLastNetTime time is:2018-04-13 15:21:21
+[18/04/13 15:21:21,034] --> ======>start notice time is:2018-04-13 15:21:21
+[18/04/13 15:22:14,411] --> ======>start HeartBeatServer time is:2018-04-13 15:22:14
+[18/04/13 15:22:21,068] --> ======>start sendLastNetTime time is:2018-04-13 15:22:21
+[18/04/13 15:22:21,068] --> ======>start notice time is:2018-04-13 15:22:21
+[18/04/13 15:23:14,449] --> ======>start HeartBeatServer time is:2018-04-13 15:23:14
+[18/04/13 15:23:21,092] --> ======>start sendLastNetTime time is:2018-04-13 15:23:21
+[18/04/13 15:23:21,092] --> ======>start notice time is:2018-04-13 15:23:21
+[18/04/13 15:24:14,447] --> ======>start HeartBeatServer time is:2018-04-13 15:24:14
+[18/04/13 15:24:21,077] --> ======>start sendLastNetTime time is:2018-04-13 15:24:21
+[18/04/13 15:24:21,077] --> ======>start notice time is:2018-04-13 15:24:21
+[18/04/13 15:25:14,443] --> ======>start HeartBeatServer time is:2018-04-13 15:25:14
+[18/04/13 15:25:21,093] --> ======>start sendLastNetTime time is:2018-04-13 15:25:21
+[18/04/13 15:25:21,093] --> ======>start notice time is:2018-04-13 15:25:21
+[18/04/13 15:26:14,446] --> ======>start HeartBeatServer time is:2018-04-13 15:26:14
+[18/04/13 15:26:21,081] --> ======>start sendLastNetTime time is:2018-04-13 15:26:21
+[18/04/13 15:26:21,082] --> ======>start notice time is:2018-04-13 15:26:21
+[18/04/13 15:27:14,478] --> ======>start HeartBeatServer time is:2018-04-13 15:27:14
+[18/04/13 15:27:20,897] --> ======>start sendLastNetTime time is:2018-04-13 15:27:20
+[18/04/13 15:27:20,897] --> ======>start notice time is:2018-04-13 15:27:20
+[18/04/13 15:28:14,468] --> ======>start HeartBeatServer time is:2018-04-13 15:28:14
+[18/04/13 15:28:20,905] --> ======>start sendLastNetTime time is:2018-04-13 15:28:20
+[18/04/13 15:28:20,905] --> ======>start notice time is:2018-04-13 15:28:20
+[18/04/13 15:29:14,440] --> ======>start HeartBeatServer time is:2018-04-13 15:29:14
+[18/04/13 15:29:21,085] --> ======>start sendLastNetTime time is:2018-04-13 15:29:21
+[18/04/13 15:29:21,085] --> ======>start notice time is:2018-04-13 15:29:21
+[18/04/13 15:30:14,477] --> ======>start HeartBeatServer time is:2018-04-13 15:30:14
+[18/04/13 15:30:20,925] --> ======>start sendLastNetTime time is:2018-04-13 15:30:20
+[18/04/13 15:30:20,925] --> ======>start notice time is:2018-04-13 15:30:20
+[18/04/13 15:31:14,433] --> ======>start HeartBeatServer time is:2018-04-13 15:31:14
+[18/04/13 15:31:21,094] --> ======>start sendLastNetTime time is:2018-04-13 15:31:21
+[18/04/13 15:31:21,094] --> ======>start notice time is:2018-04-13 15:31:21
+[18/04/13 15:32:14,404] --> ======>start HeartBeatServer time is:2018-04-13 15:32:14
+[18/04/13 15:32:21,041] --> ======>start sendLastNetTime time is:2018-04-13 15:32:21
+[18/04/13 15:32:21,042] --> ======>start notice time is:2018-04-13 15:32:21
+[18/04/13 15:33:14,558] --> ======>start HeartBeatServer time is:2018-04-13 15:33:14
+[18/04/13 15:33:21,000] --> ======>start sendLastNetTime time is:2018-04-13 15:33:21
+[18/04/13 15:33:21,000] --> ======>start notice time is:2018-04-13 15:33:21
+[18/04/13 15:34:14,521] --> ======>start HeartBeatServer time is:2018-04-13 15:34:14
+[18/04/13 15:34:21,056] --> ======>start sendLastNetTime time is:2018-04-13 15:34:21
+[18/04/13 15:34:21,056] --> ======>start notice time is:2018-04-13 15:34:21
+[18/04/13 15:35:14,589] --> ======>start HeartBeatServer time is:2018-04-13 15:35:14
+[18/04/13 15:35:21,036] --> ======>start sendLastNetTime time is:2018-04-13 15:35:21
+[18/04/13 15:35:21,036] --> ======>start notice time is:2018-04-13 15:35:21
+[18/04/13 15:36:14,568] --> ======>start HeartBeatServer time is:2018-04-13 15:36:14
+[18/04/13 15:36:21,051] --> ======>start sendLastNetTime time is:2018-04-13 15:36:21
+[18/04/13 15:36:21,051] --> ======>start notice time is:2018-04-13 15:36:21
+[18/04/13 15:37:14,565] --> ======>start HeartBeatServer time is:2018-04-13 15:37:14
+[18/04/13 15:37:21,001] --> ======>start sendLastNetTime time is:2018-04-13 15:37:21
+[18/04/13 15:37:21,002] --> ======>start notice time is:2018-04-13 15:37:21
+[18/04/13 15:38:14,567] --> ======>start HeartBeatServer time is:2018-04-13 15:38:14
+[18/04/13 15:38:21,008] --> ======>start sendLastNetTime time is:2018-04-13 15:38:21
+[18/04/13 15:38:21,008] --> ======>start notice time is:2018-04-13 15:38:21
+[18/04/13 15:39:14,403] --> ======>start HeartBeatServer time is:2018-04-13 15:39:14
+[18/04/13 15:39:21,019] --> ======>start sendLastNetTime time is:2018-04-13 15:39:21
+[18/04/13 15:39:21,019] --> ======>start notice time is:2018-04-13 15:39:21
+[18/04/13 15:40:14,400] --> ======>start HeartBeatServer time is:2018-04-13 15:40:14
+[18/04/13 15:40:21,077] --> ======>start sendLastNetTime time is:2018-04-13 15:40:21
+[18/04/13 15:40:21,077] --> ======>start notice time is:2018-04-13 15:40:21
+[18/04/13 15:41:14,580] --> ======>start HeartBeatServer time is:2018-04-13 15:41:14
+[18/04/13 15:41:21,016] --> ======>start sendLastNetTime time is:2018-04-13 15:41:21
+[18/04/13 15:41:21,016] --> ======>start notice time is:2018-04-13 15:41:21
+[18/04/13 15:42:14,578] --> ======>start HeartBeatServer time is:2018-04-13 15:42:14
+[18/04/13 15:42:21,016] --> ======>start sendLastNetTime time is:2018-04-13 15:42:21
+[18/04/13 15:42:21,016] --> ======>start notice time is:2018-04-13 15:42:21
+[18/04/13 15:43:14,565] --> ======>start HeartBeatServer time is:2018-04-13 15:43:14
+[18/04/13 15:43:21,019] --> ======>start sendLastNetTime time is:2018-04-13 15:43:21
+[18/04/13 15:43:21,019] --> ======>start notice time is:2018-04-13 15:43:21
+[18/04/13 17:02:49,179] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@340cb97f
+[18/04/13 17:02:49,193] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@1b37fbec
+[18/04/13 17:02:49,194] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@bb3ecfe
+[18/04/13 17:02:49,196] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@7a04f730
+[18/04/13 17:02:49,197] --> scheduleWithFixedDelay delay:197830851 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@2fd1ad8a
+[18/04/13 17:02:49,198] --> scheduleWithFixedDelay delay:3430851 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@689faf79
+[18/04/13 17:02:49,203] --> ======>start HeartBeatServer time is:2018-04-13 17:02:49
+[18/04/13 17:02:49,709] --> ======>start sendLastNetTime time is:2018-04-13 17:02:49
+[18/04/13 17:02:49,709] --> ======>start notice time is:2018-04-13 17:02:49
+[18/04/13 17:03:49,194] --> ======>start HeartBeatServer time is:2018-04-13 17:03:49
+[18/04/13 17:03:49,194] --> ======>start sendLastNetTime time is:2018-04-13 17:03:49
+[18/04/13 17:03:49,195] --> ======>start notice time is:2018-04-13 17:03:49
+[18/04/13 17:04:19,673] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@26c8b296
+[18/04/13 17:04:19,683] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@7f27f59b
+[18/04/13 17:04:19,687] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@45801322
+[18/04/13 17:04:19,689] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@3520958b
+[18/04/13 17:04:19,690] --> scheduleWithFixedDelay delay:197748106 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@291a4791
+[18/04/13 17:04:19,691] --> scheduleWithFixedDelay delay:3348106 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@340cb97f
+[18/04/13 17:04:19,900] --> ======>start HeartBeatServer time is:2018-04-13 17:04:19
+[18/04/13 17:04:19,941] --> ======>start sendLastNetTime time is:2018-04-13 17:04:19
+[18/04/13 17:04:19,943] --> ======>start notice time is:2018-04-13 17:04:19
+[18/04/13 17:05:41,361] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@291a4791
+[18/04/13 17:05:41,365] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@6a1568d6
+[18/04/13 17:05:41,366] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@1b37fbec
+[18/04/13 17:05:41,368] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@bb3ecfe
+[18/04/13 17:05:41,370] --> scheduleWithFixedDelay delay:197666564 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@7a04f730
+[18/04/13 17:05:41,374] --> scheduleWithFixedDelay delay:3266564 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@2fd1ad8a
+[18/04/13 17:05:41,383] --> ======>start HeartBeatServer time is:2018-04-13 17:05:41
+[18/04/13 17:05:41,697] --> ======>start sendLastNetTime time is:2018-04-13 17:05:41
+[18/04/13 17:05:41,698] --> ======>start notice time is:2018-04-13 17:05:41
+[18/04/13 17:06:33,494] --> ======>start HeartBeatServer time is:2018-04-13 17:06:33
+[18/04/13 17:06:33,494] --> ======>start sendLastNetTime time is:2018-04-13 17:06:33
+[18/04/13 17:06:33,495] --> ======>start notice time is:2018-04-13 17:06:33
+[18/04/13 17:07:01,081] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@7a31ca20
+[18/04/13 17:07:01,083] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@de579ff
+[18/04/13 17:07:01,084] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@2fd39436
+[18/04/13 17:07:01,085] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@46394f65
+[18/04/13 17:07:01,086] --> scheduleWithFixedDelay delay:197586556 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@26be9a6
+[18/04/13 17:07:01,086] --> scheduleWithFixedDelay delay:3186556 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@411fa0ce
+[18/04/13 17:07:01,440] --> ======>start HeartBeatServer time is:2018-04-13 17:07:01
+[18/04/13 17:07:01,470] --> ======>start sendLastNetTime time is:2018-04-13 17:07:01
+[18/04/13 17:07:01,470] --> ======>start notice time is:2018-04-13 17:07:01
+[18/04/13 17:16:24,994] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时ping schedule:com.gameserver.common.schedule.ScheduleHeartBeatServer@340cb97f
+[18/04/13 17:16:25,004] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:定时检测网络时间 schedule:com.gameserver.player.ScheduleLastNetTime@1b37fbec
+[18/04/13 17:16:25,006] --> scheduleWithFixedDelay delay:0 period:60000 scheduleEnum:跑马灯 schedule:com.gameserver.notice.schedule.ScheduleNotice@bb3ecfe
+[18/04/13 17:16:25,007] --> scheduleWithFixedDelay delay:0 period:1000 scheduleEnum:百家乐房间 schedule:com.gameserver.baccart.ScheduleBaccartRoom@7a04f730
+[18/04/13 17:16:25,008] --> scheduleWithFixedDelay delay:197023386 period:604800000 scheduleEnum:排行榜奖励结算 schedule:com.gameserver.ranknew.ScheduleRandNew@2fd1ad8a
+[18/04/13 17:16:25,010] --> scheduleWithFixedDelay delay:2623386 period:3600000 scheduleEnum:在线人数统计 schedule:com.gameserver.player.OnlinePlayerLog@689faf79
+[18/04/13 17:16:25,213] --> ======>start HeartBeatServer time is:2018-04-13 17:16:25
+[18/04/13 17:16:25,324] --> ======>start sendLastNetTime time is:2018-04-13 17:16:25
+[18/04/13 17:16:25,325] --> ======>start notice time is:2018-04-13 17:16:25
+[18/04/13 17:17:12,883] --> +++开始  消息发送(周特惠礼包) 当当当++::Fri Apr 13 17:17:12 CST 2018 -- now::Fri Apr 13 17:17:12 CST 2018
+[18/04/13 17:17:25,138] --> ======>start HeartBeatServer time is:2018-04-13 17:17:25
+[18/04/13 17:17:25,139] --> ======>start sendLastNetTime time is:2018-04-13 17:17:25
+[18/04/13 17:17:25,139] --> ======>start notice time is:2018-04-13 17:17:25
+[18/04/13 17:18:24,999] --> ======>start HeartBeatServer time is:2018-04-13 17:18:24
+[18/04/13 17:18:25,000] --> ======>start sendLastNetTime time is:2018-04-13 17:18:25
+[18/04/13 17:18:25,001] --> ======>start notice time is:2018-04-13 17:18:25
+[18/04/13 17:18:32,776] --> +++开始  消息发送(周特惠礼包) 当当当++::Fri Apr 13 17:18:32 CST 2018 -- now::Fri Apr 13 17:18:32 CST 2018
+[18/04/13 17:19:25,014] --> ======>start HeartBeatServer time is:2018-04-13 17:19:25
+[18/04/13 17:19:25,014] --> ======>start sendLastNetTime time is:2018-04-13 17:19:25
+[18/04/13 17:19:25,015] --> ======>start notice time is:2018-04-13 17:19:25
+[18/04/13 17:20:24,989] --> ======>start HeartBeatServer time is:2018-04-13 17:20:24
+[18/04/13 17:20:24,989] --> ======>start sendLastNetTime time is:2018-04-13 17:20:24
+[18/04/13 17:20:24,990] --> ======>start notice time is:2018-04-13 17:20:24
+[18/04/13 17:21:24,967] --> ======>start HeartBeatServer time is:2018-04-13 17:21:24
+[18/04/13 17:21:24,968] --> ======>start sendLastNetTime time is:2018-04-13 17:21:24
+[18/04/13 17:21:24,968] --> ======>start notice time is:2018-04-13 17:21:24
+[18/04/13 17:22:25,037] --> ======>start HeartBeatServer time is:2018-04-13 17:22:25
+[18/04/13 17:22:25,037] --> ======>start sendLastNetTime time is:2018-04-13 17:22:25
+[18/04/13 17:22:25,038] --> ======>start notice time is:2018-04-13 17:22:25
+[18/04/13 17:23:25,024] --> ======>start HeartBeatServer time is:2018-04-13 17:23:25
+[18/04/13 17:23:25,025] --> ======>start sendLastNetTime time is:2018-04-13 17:23:25
+[18/04/13 17:23:25,025] --> ======>start notice time is:2018-04-13 17:23:25
+[18/04/13 17:24:25,062] --> ======>start HeartBeatServer time is:2018-04-13 17:24:25
+[18/04/13 17:24:25,063] --> ======>start sendLastNetTime time is:2018-04-13 17:24:25
+[18/04/13 17:24:25,063] --> ======>start notice time is:2018-04-13 17:24:25
+[18/04/13 17:25:11,874] --> +++开始  消息发送(周特惠礼包) 当当当++::Fri Apr 13 17:25:11 CST 2018 -- now::Fri Apr 13 17:25:11 CST 2018
+[18/04/13 17:25:11,875] --> scheduleOnce date:Sat Apr 14 17:25:11 CST 2018 scheduleEnum:周 月 特惠充值活动 schedule:com.gameserver.activity.ScheduleRegularTime@34fbfe8b
+[18/04/13 17:25:11,879] --> +++开始  消息发送(周特惠礼包) 当当当++::Fri Apr 13 17:25:11 CST 2018 -- now::Fri Apr 13 17:25:11 CST 2018
+[18/04/13 17:25:11,879] --> scheduleOnce date:Mon Apr 16 17:25:11 CST 2018 scheduleEnum:周 月 特惠充值活动 schedule:com.gameserver.activity.ScheduleRegularTime@4db641d6
+[18/04/13 17:25:24,962] --> ======>start HeartBeatServer time is:2018-04-13 17:25:24
+[18/04/13 17:25:24,962] --> ======>start sendLastNetTime time is:2018-04-13 17:25:24
+[18/04/13 17:25:24,962] --> ======>start notice time is:2018-04-13 17:25:24
+[18/04/13 17:26:22,439] --> +++开始  消息发送(周特惠礼包) 当当当++::Fri Apr 13 17:26:22 CST 2018 -- now::Fri Apr 13 17:26:22 CST 2018
+[18/04/13 17:26:25,109] --> ======>start HeartBeatServer time is:2018-04-13 17:26:25
+[18/04/13 17:26:25,110] --> ======>start sendLastNetTime time is:2018-04-13 17:26:25
+[18/04/13 17:26:25,111] --> ======>start notice time is:2018-04-13 17:26:25
+[18/04/13 17:26:45,882] --> +++开始  消息发送(周特惠礼包) 当当当++::Fri Apr 13 17:26:45 CST 2018 -- now::Fri Apr 13 17:26:45 CST 2018
+[18/04/13 17:27:33,948] --> ======>start HeartBeatServer time is:2018-04-13 17:27:33
+[18/04/13 17:27:33,952] --> ======>start sendLastNetTime time is:2018-04-13 17:27:33
+[18/04/13 17:27:33,954] --> ======>start notice time is:2018-04-13 17:27:33
+[18/04/13 17:27:59,144] --> +++开始  消息发送(周特惠礼包) 当当当++::Fri Apr 13 17:27:59 CST 2018 -- now::Fri Apr 13 17:27:59 CST 2018
+[18/04/13 17:29:58,741] --> ======>start HeartBeatServer time is:2018-04-13 17:29:58
+[18/04/13 17:29:58,744] --> ======>start sendLastNetTime time is:2018-04-13 17:29:58
+[18/04/13 17:29:58,745] --> ======>start notice time is:2018-04-13 17:29:58
+[18/04/13 17:29:58,941] --> ======>start HeartBeatServer time is:2018-04-13 17:29:58
+[18/04/13 17:29:58,942] --> ======>start sendLastNetTime time is:2018-04-13 17:29:58
+[18/04/13 17:29:58,943] --> ======>start notice time is:2018-04-13 17:29:58
+[18/04/13 17:30:25,054] --> ======>start HeartBeatServer time is:2018-04-13 17:30:25
+[18/04/13 17:30:25,055] --> ======>start sendLastNetTime time is:2018-04-13 17:30:25
+[18/04/13 17:30:25,055] --> ======>start notice time is:2018-04-13 17:30:25
+[18/04/13 17:31:24,967] --> ======>start HeartBeatServer time is:2018-04-13 17:31:24
+[18/04/13 17:31:24,968] --> ======>start sendLastNetTime time is:2018-04-13 17:31:24
+[18/04/13 17:31:24,968] --> ======>start notice time is:2018-04-13 17:31:24
+[18/04/13 17:32:24,967] --> ======>start HeartBeatServer time is:2018-04-13 17:32:24
+[18/04/13 17:32:24,968] --> ======>start sendLastNetTime time is:2018-04-13 17:32:24
+[18/04/13 17:32:24,968] --> ======>start notice time is:2018-04-13 17:32:24
+[18/04/13 17:33:25,135] --> ======>start HeartBeatServer time is:2018-04-13 17:33:25
+[18/04/13 17:33:25,136] --> ======>start sendLastNetTime time is:2018-04-13 17:33:25
+[18/04/13 17:33:25,136] --> ======>start notice time is:2018-04-13 17:33:25
+[18/04/13 17:34:25,133] --> ======>start HeartBeatServer time is:2018-04-13 17:34:25
+[18/04/13 17:34:25,134] --> ======>start sendLastNetTime time is:2018-04-13 17:34:25
+[18/04/13 17:34:25,134] --> ======>start notice time is:2018-04-13 17:34:25
+[18/04/13 17:35:25,058] --> ======>start HeartBeatServer time is:2018-04-13 17:35:25
+[18/04/13 17:35:25,059] --> ======>start sendLastNetTime time is:2018-04-13 17:35:25
+[18/04/13 17:35:25,065] --> ======>start notice time is:2018-04-13 17:35:25
+[18/04/13 17:36:25,071] --> ======>start HeartBeatServer time is:2018-04-13 17:36:25
+[18/04/13 17:36:25,072] --> ======>start sendLastNetTime time is:2018-04-13 17:36:25
+[18/04/13 17:36:25,073] --> ======>start notice time is:2018-04-13 17:36:25
+[18/04/13 17:37:25,005] --> ======>start HeartBeatServer time is:2018-04-13 17:37:25
+[18/04/13 17:37:25,006] --> ======>start sendLastNetTime time is:2018-04-13 17:37:25
+[18/04/13 17:37:25,006] --> ======>start notice time is:2018-04-13 17:37:25
+[18/04/13 17:38:24,987] --> ======>start HeartBeatServer time is:2018-04-13 17:38:24
+[18/04/13 17:38:24,988] --> ======>start sendLastNetTime time is:2018-04-13 17:38:24
+[18/04/13 17:38:24,988] --> ======>start notice time is:2018-04-13 17:38:24
+[18/04/13 17:39:25,137] --> ======>start HeartBeatServer time is:2018-04-13 17:39:25
+[18/04/13 17:39:25,139] --> ======>start sendLastNetTime time is:2018-04-13 17:39:25
+[18/04/13 17:39:25,140] --> ======>start notice time is:2018-04-13 17:39:25

@@ -1,0 +1,2 @@
+println "This is executed during the initialization phase."
+include 'game_core', 'game_db','game_webserver_interface',"game_log",'game_server','robot'

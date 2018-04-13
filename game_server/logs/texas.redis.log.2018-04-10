@@ -1,0 +1,10 @@
+[18/04/10 09:52:46,099] --> redis service init
+[18/04/10 09:52:46,140] --> redis[127.0.0.1:6379 service init successfully
+[18/04/10 09:52:46,145] --> ServerRedisMsgProcessor initialized successfully!
+[18/04/10 09:52:46,858] --> redis service after init
+[18/04/10 09:52:47,838] --> begin start redis sub thread
+[18/04/10 09:52:47,838] --> end start redis sub thread
+[18/04/10 09:52:48,197] --> subscribe [server.100001],server.100001=1
+[18/04/10 09:52:48,197] --> subscribe [broadcast],broadcast=2
+[18/04/10 10:10:10,375] --> received: jpush=>{"id":1,"isTooAll":false,"passportIds":[],"title":"邮件推送","content":"邮件推送"}
+[18/04/10 10:10:10,376] --> will process: jpush=>{"id":1,"isTooAll":false,"passportIds":[],"title":"邮件推送","content":"邮件推送"}

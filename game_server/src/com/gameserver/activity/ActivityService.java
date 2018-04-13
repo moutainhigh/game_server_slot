@@ -64,6 +64,10 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 
 	@Override
 	public void init() {
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
+		
 		loadActivityFromDB();
 		loadPublicActivity();
 	}
@@ -211,6 +215,13 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 * @return
 	 */
 	public GCActivityList buildActivityList(Human human){
+		
+		GCActivityList rr = new GCActivityList();
+		/**这句话 不让后边执行了**/
+		if(true)return rr;
+		
+		
+		
 	//	ActivityData[] activityDataArr = new ActivityData[activityList.size()];
 		long now = Globals.getTimeService().now();
 		List<ActivityData> tempActivityDataList = new ArrayList<ActivityData>();
@@ -284,6 +295,10 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	@Override
 	public void onRecharge(Human human, int productId) {
 	
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
+		
 		for(Activity activity : Globals.getActivityService().getActivityList()){
 			//活动没激活
 			if(!activity.isActive())
@@ -310,6 +325,10 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 * @param win 赢得钱数
 	 */
 	private void onBigWinnerActivity(Activity activity,Human human,HumanActivity humanActivity,int roomId,int win){
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
 		if(win<=0)return;
 		
 		TexasRoomTemplate texasRoomTemplate= Globals.getTemplateService().get(roomId, TexasRoomTemplate.class);
@@ -343,6 +362,9 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 * @param activity
 	 */
 	private void sendChange(Human human,Activity activity){
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
 		HumanActivityManager manager = human.getHumanActivityManager();
 		GCUpdateHumanActivityReward gcupdate = manager.buildGCHumanActivityRewardData(activity);
 		GCHunamnProgressSingle gcprogress = manager.buildGCHunamnProgressSingle(activity);
@@ -356,6 +378,10 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 */
 	@SuppressWarnings("unused")
 	private void sendPublicChange(Human human,Activity activity){
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
+		
 		HumanActivityManager manager = human.getHumanActivityManager();
 		GCUpdateHumanActivityReward gcupdate = manager.pubBuildGCHumanActivityRewardData(activity);
 		GCHunamnProgressSingle gcprogress = manager.buildGCHunamnProgressSingle(activity);
@@ -372,7 +398,10 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 */
 	private void onLuckyCardActivity(Activity activity,Human human,HumanActivity humanActivity,int roomId,int handCardType){
 		
-	
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
+		
 		TexasRoomTemplate texasRoomTemplate= Globals.getTemplateService().get(roomId, TexasRoomTemplate.class);
 		
 		HumanActivityData tempLuckyCardHumanActivityData = humanActivity.getHumanActivityData();
@@ -402,6 +431,9 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 */
 	private void onRechargeActivity(Activity activity,Human human,HumanActivity humanActivity,int productId){
 	
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
 		HumanActivityData tempHumanActivityData = humanActivity.getHumanActivityData();
 		
 		for(int i=0;i<activity.getRuleList().size();i++){
@@ -429,6 +461,10 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 * @param productId
 	 */
 	public void onGrandRechargeDollarActivity(Human human, int dollar) {
+		
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
 		try{
 			for(Activity activity : Globals.getActivityService().getActivityList()){
 				//活动没激活
@@ -470,6 +506,9 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 * @param productId
 	 */
 	public void onGrandRechargeActivity(Human human) {
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
 		try{
 			for(Activity activity : Globals.getActivityService().getActivityList()){
 				//活动没激活
@@ -513,6 +552,10 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 * @param productId
 	 */
 	public void onSeriesRechargeActivity(Human human, int gold) {
+		
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
 		try{
 			for(Activity activity : Globals.getActivityService().getActivityList()){
 				//活动没激活
@@ -578,6 +621,9 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 * @param productId
 	 */
 	public void onCommonSeriesRechargeActivity(Human human, long gold) {
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
 		try{
 			for(Activity activity : Globals.getActivityService().getActivityList()){
 				//活动没激活
@@ -657,6 +703,9 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 * 如果是个人的累计金币 tempHumanActivityData 这个就改成个人的，如果是 全体的 tempHumanActivityData这个就改成全体的
 	 */
 	private void sendUpdateActivitList(Activity activity,HumanActivityData tempHumanActivityData,Player player){
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
 		List<Long> playCountList  = tempHumanActivityData.getPlayCountList();
 		if(playCountList != null && playCountList.size() >0){
 			GCActivityList gCActivityList = new GCActivityList();
@@ -685,6 +734,8 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 * @param human
 	 */
 	public void changLevel(Human human){
+		/**这句话 不让后边执行了**/
+		if(true)return;
 		for(Activity activity : Globals.getActivityService().getActivityList()){
 			//活动没激活
 			if(!activity.isActive())
@@ -727,6 +778,8 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 * @param human
 	 */
 	public void changLevelNew(Human human){
+		/**这句话 不让后边执行了**/
+		if(true)return;
 		for(Activity activity : Globals.getActivityService().getActivityList()){
 			//活动没激活
 			if(!activity.isActive())
@@ -772,6 +825,9 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 * @param human
 	 */
 	public void everyDay(Human human){
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
 		for(Activity activity : Globals.getActivityService().getActivityList()){
 			//活动没激活
 			if(!activity.isActive())
@@ -814,6 +870,10 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 * @param slotType
 	 */
 	public void luckySlot(Human human,int slotType){
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
+		
 		for(Activity activity : Globals.getActivityService().getActivityList()){
 			//活动没激活
 			if(!activity.isActive())
@@ -858,6 +918,9 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 * @return
 	 */
 	public  int isExpActivity(Human human){
+		/**这句话 不让后边执行了**/
+		if(true)return 0;
+		
 		int num  = 0;
 		for(Activity activity : Globals.getActivityService().getActivityList()){
 			//活动没激活
@@ -953,6 +1016,9 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 * @return
 	 */
 	public  int[] getDrawTypeForActivityNew(HumanActivity humanActivity){
+		int[] rr = new int[0];
+		/**这句话 不让后边执行了**/
+		if(true)return rr;
 		
 		 List<Integer> list = new ArrayList<Integer>();
 		
@@ -993,6 +1059,11 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 * @param slotType
 	 */
 	public void continuousPlayForGift(Human human){
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
+		
 		for(Activity activity : Globals.getActivityService().getActivityList()){
 			//活动没激活
 			if(!activity.isActive())
@@ -1033,6 +1104,10 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 * @param slotType
 	 */
 	public void ConsumeForGift(Human human){
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
+		
 		for(Activity activity : Globals.getActivityService().getActivityList()){
 			//活动没激活
 			if(!activity.isActive())
@@ -1088,6 +1163,9 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 */
 	public void loginCheckRequestFriend(Human human){
 		
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
 		List<Friend> friends = human.getHumanRelationManager().getFriendList();
 		//申请的好友同意的个数
 		List<Long> requestfriends = new ArrayList<Long>();
@@ -1112,6 +1190,9 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 * @param slotType
 	 */
 	public void MakeFriendsForGift(Human human, long friendPassportId){
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
 		for(Activity activity : Globals.getActivityService().getActivityList()){
 			//活动没激活
 			if(!activity.isActive())
@@ -1160,6 +1241,9 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 * @param slotType
 	 */
 	public void preferenceFavorForGift(Human human,int slotType){
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
 		for(Activity activity : Globals.getActivityService().getActivityList()){
 			//活动没激活
 			if(!activity.isActive())
@@ -1213,6 +1297,9 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 * @param slotType
 	 */
 	public void IAmWinnerForGift(Human human,int freeTimes,int tempReward){
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
 		for(Activity activity : Globals.getActivityService().getActivityList()){
 			//活动没激活
 			if(!activity.isActive())
@@ -1260,6 +1347,9 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 * @param slotType
 	 */
 	public void extremePursuitForGift(Human human,int slotType,List<Integer> AppearedTurns){
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
 		for(Activity activity : Globals.getActivityService().getActivityList()){
 			//活动没激活
 			if(!activity.isActive())
@@ -1376,6 +1466,7 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 	 * 测试用例
 	 */
 	public void addLuckyCardActivity(){
+		
 		long now = Globals.getTimeService().now();
 		Activity activity = new Activity();
 		activity.setTitle("测试幸运牌型");
@@ -1437,7 +1528,8 @@ public class ActivityService implements InitializeRequired,DestroyRequired,After
 
 	//检查公共的单个活动
 	public HumanActivity checkPubActivity(Activity activity,Human owner){
-	
+		/**这句话 不让后边执行了**/
+		if(true)return null;
 		try{
 		
 			//判断是否过期一星期

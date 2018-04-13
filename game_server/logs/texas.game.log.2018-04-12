@@ -1,0 +1,51 @@
+[18/04/12 09:56:30,134] --> Starting Game Server
+[18/04/12 09:56:30,147] --> Free memory 1781 Mb of 1797 Mb
+[18/04/12 09:56:30,989] --> Begin to initialize Globals
+[18/04/12 09:56:33,910] --> DBService instance:com.core.orm.HibernateDBServcieImpl@10358c32
+[18/04/12 09:56:40,216] --> Globals initialized
+[18/04/12 09:56:40,468] --> Begin to start Server Process
+[18/04/12 09:56:40,490] --> Server Process started
+[18/04/12 09:56:40,490] --> Begin to start Globals
+[18/04/12 09:56:40,492] --> heartbeatEnum:时间同步 heartRunner:com.core.heartbeat.LLTimeRunner@17ff8810
+[18/04/12 09:56:40,493] --> heartbeatEnum:定时任务 heartRunner:com.core.heartbeat.LLScheduleRunner@6c951ada
+[18/04/12 09:56:40,493] --> Globals started
+[18/04/12 09:56:40,493] --> Begin to schedule fixed rate task
+[18/04/12 09:56:40,502] --> 警告：枚举类com.core.schedule.LLScheduleEnum中有索引超过1000的索引，如果有很多索引空缺，可能会造成空间浪费
+[18/04/12 09:56:40,771] --> Free memory 1767 Mb of 1797 Mb
+[18/04/12 09:56:40,772] --> <<-------------------------------- Game Server started version:1.0.0.1----------------------------------->>
+[18/04/12 09:56:40,772] --> 服务器启动时间 : 10625毫秒
+[18/04/12 18:27:36,719] --> Starting Game Server
+[18/04/12 18:27:36,729] --> Free memory 1781 Mb of 1797 Mb
+[18/04/12 18:27:37,639] --> Begin to initialize Globals
+[18/04/12 18:27:40,673] --> DBService instance:com.core.orm.HibernateDBServcieImpl@10358c32
+[18/04/12 18:27:46,250] --> Globals initialized
+[18/04/12 18:27:46,507] --> Begin to start Server Process
+[18/04/12 18:27:46,527] --> Server Process started
+[18/04/12 18:27:46,527] --> Begin to start Globals
+[18/04/12 18:27:46,529] --> heartbeatEnum:时间同步 heartRunner:com.core.heartbeat.LLTimeRunner@22a6d75c
+[18/04/12 18:27:46,529] --> heartbeatEnum:定时任务 heartRunner:com.core.heartbeat.LLScheduleRunner@5a9840f3
+[18/04/12 18:27:46,529] --> Globals started
+[18/04/12 18:27:46,530] --> Begin to schedule fixed rate task
+[18/04/12 18:27:46,535] --> 警告：枚举类com.core.schedule.LLScheduleEnum中有索引超过1000的索引，如果有很多索引空缺，可能会造成空间浪费
+[18/04/12 18:27:46,702] --> Free memory 1766 Mb of 1797 Mb
+[18/04/12 18:27:46,703] --> <<-------------------------------- Game Server started version:1.0.0.1----------------------------------->>
+[18/04/12 18:27:46,703] --> 服务器启动时间 : 9973毫秒
+[18/04/12 18:36:45,799] --> Starting Game Server
+[18/04/12 18:36:45,803] --> Free memory 1781 Mb of 1797 Mb
+[18/04/12 18:36:46,622] --> Begin to initialize Globals
+[18/04/12 18:36:49,419] --> DBService instance:com.core.orm.HibernateDBServcieImpl@10358c32
+[18/04/12 18:36:53,628] --> Globals initialized
+[18/04/12 18:36:53,838] --> Begin to start Server Process
+[18/04/12 18:36:53,861] --> Server Process started
+[18/04/12 18:36:53,861] --> Begin to start Globals
+[18/04/12 18:36:53,863] --> heartbeatEnum:时间同步 heartRunner:com.core.heartbeat.LLTimeRunner@3fde2209
+[18/04/12 18:36:53,864] --> heartbeatEnum:定时任务 heartRunner:com.core.heartbeat.LLScheduleRunner@1f916219
+[18/04/12 18:36:53,864] --> Globals started
+[18/04/12 18:36:53,864] --> Begin to schedule fixed rate task
+[18/04/12 18:36:53,869] --> 警告：枚举类com.core.schedule.LLScheduleEnum中有索引超过1000的索引，如果有很多索引空缺，可能会造成空间浪费
+[18/04/12 18:36:54,211] --> Free memory 1770 Mb of 1797 Mb
+[18/04/12 18:36:54,217] --> <<-------------------------------- Game Server started version:1.0.0.1----------------------------------->>
+[18/04/12 18:36:54,217] --> 服务器启动时间 : 8413毫秒
+[18/04/12 18:36:54,269] --> runnerId:2 is busy
+[18/04/12 18:41:07,708] --> Session opened: (SOCKET, R: /192.168.1.41:57477, L: /192.168.1.41:9000, S: /192.168.1.41:9000)
+[18/04/12 18:41:08,568] --> 警告：枚举类com.common.LogReasons$GoldLogReason中有索引超过1000的索引，如果有很多索引空缺，可能会造成空间浪费

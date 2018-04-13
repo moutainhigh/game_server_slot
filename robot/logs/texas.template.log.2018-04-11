@@ -1,0 +1,588 @@
+[18/04/11 10:05:06,691] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 10:05:06,693] --> loading template bonusOcean.xls
+[18/04/11 10:05:06,980] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 10:05:06,981] --> loading template slotsList.xls
+[18/04/11 10:05:07,163] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 10:05:07,166] --> loading template scatterGame.xls
+[18/04/11 10:05:07,273] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 10:05:07,274] --> loading template scatterCrystal.xls
+[18/04/11 10:05:07,290] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 10:05:07,291] --> loading template scatterCowboy.xls
+[18/04/11 10:05:07,336] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 10:05:07,337] --> loading template scatterMultiple.xls
+[18/04/11 10:05:07,359] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 10:05:07,361] --> loading template bonusAztec.xls
+[18/04/11 10:09:23,356] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 10:09:23,357] --> loading template bonusOcean.xls
+[18/04/11 10:09:23,695] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 10:09:23,695] --> loading template slotsList.xls
+[18/04/11 10:09:24,009] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 10:09:24,011] --> loading template scatterGame.xls
+[18/04/11 10:09:24,096] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 10:09:24,160] --> loading template scatterCrystal.xls
+[18/04/11 10:09:24,171] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 10:09:24,171] --> loading template scatterCowboy.xls
+[18/04/11 10:09:24,177] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 10:09:24,177] --> loading template scatterMultiple.xls
+[18/04/11 10:09:24,189] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 10:09:24,189] --> loading template bonusAztec.xls
+[18/04/11 10:11:03,829] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 10:11:03,830] --> loading template bonusOcean.xls
+[18/04/11 10:11:04,071] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 10:11:04,071] --> loading template slotsList.xls
+[18/04/11 10:11:04,230] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 10:11:04,230] --> loading template scatterGame.xls
+[18/04/11 10:11:04,267] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 10:11:04,267] --> loading template scatterCrystal.xls
+[18/04/11 10:11:04,272] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 10:11:04,272] --> loading template scatterCowboy.xls
+[18/04/11 10:11:04,279] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 10:11:04,280] --> loading template scatterMultiple.xls
+[18/04/11 10:11:04,284] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 10:11:04,284] --> loading template bonusAztec.xls
+[18/04/11 10:13:50,847] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 10:13:50,848] --> loading template bonusOcean.xls
+[18/04/11 10:13:51,169] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 10:13:51,169] --> loading template slotsList.xls
+[18/04/11 10:13:51,331] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 10:13:51,331] --> loading template scatterGame.xls
+[18/04/11 10:13:51,375] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 10:13:51,375] --> loading template scatterCrystal.xls
+[18/04/11 10:13:51,386] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 10:13:51,387] --> loading template scatterCowboy.xls
+[18/04/11 10:13:51,392] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 10:13:51,392] --> loading template scatterMultiple.xls
+[18/04/11 10:13:51,398] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 10:13:51,399] --> loading template bonusAztec.xls
+[18/04/11 10:15:50,714] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 10:15:50,715] --> loading template bonusOcean.xls
+[18/04/11 10:15:51,064] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 10:15:51,064] --> loading template slotsList.xls
+[18/04/11 10:15:51,248] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 10:15:51,250] --> loading template scatterGame.xls
+[18/04/11 10:15:51,300] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 10:15:51,301] --> loading template scatterCrystal.xls
+[18/04/11 10:15:51,307] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 10:15:51,308] --> loading template scatterCowboy.xls
+[18/04/11 10:15:51,312] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 10:15:51,312] --> loading template scatterMultiple.xls
+[18/04/11 10:15:51,316] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 10:15:51,316] --> loading template bonusAztec.xls
+[18/04/11 10:28:25,241] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 10:28:25,244] --> loading template bonusOcean.xls
+[18/04/11 10:28:25,658] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 10:28:25,658] --> loading template slotsList.xls
+[18/04/11 10:28:25,915] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 10:28:25,915] --> loading template scatterGame.xls
+[18/04/11 10:28:25,987] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 10:28:25,988] --> loading template scatterCrystal.xls
+[18/04/11 10:28:26,039] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 10:28:26,041] --> loading template scatterCowboy.xls
+[18/04/11 10:28:26,065] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 10:28:26,066] --> loading template scatterMultiple.xls
+[18/04/11 10:28:26,112] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 10:28:26,112] --> loading template bonusAztec.xls
+[18/04/11 10:30:07,850] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 10:30:07,851] --> loading template bonusOcean.xls
+[18/04/11 10:30:08,142] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 10:30:08,142] --> loading template slotsList.xls
+[18/04/11 10:30:08,295] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 10:30:08,296] --> loading template scatterGame.xls
+[18/04/11 10:30:08,331] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 10:30:08,331] --> loading template scatterCrystal.xls
+[18/04/11 10:30:08,336] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 10:30:08,337] --> loading template scatterCowboy.xls
+[18/04/11 10:30:08,345] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 10:30:08,345] --> loading template scatterMultiple.xls
+[18/04/11 10:30:08,349] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 10:30:08,349] --> loading template bonusAztec.xls
+[18/04/11 10:30:56,911] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 10:30:56,911] --> loading template bonusOcean.xls
+[18/04/11 10:30:57,205] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 10:30:57,206] --> loading template slotsList.xls
+[18/04/11 10:30:57,396] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 10:30:57,397] --> loading template scatterGame.xls
+[18/04/11 10:30:57,427] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 10:30:57,428] --> loading template scatterCrystal.xls
+[18/04/11 10:30:57,432] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 10:30:57,432] --> loading template scatterCowboy.xls
+[18/04/11 10:30:57,445] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 10:30:57,445] --> loading template scatterMultiple.xls
+[18/04/11 10:30:57,449] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 10:30:57,450] --> loading template bonusAztec.xls
+[18/04/11 10:34:03,762] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 10:34:03,762] --> loading template bonusOcean.xls
+[18/04/11 10:34:04,059] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 10:34:04,059] --> loading template slotsList.xls
+[18/04/11 10:34:04,222] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 10:34:04,222] --> loading template scatterGame.xls
+[18/04/11 10:34:04,261] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 10:34:04,262] --> loading template scatterCrystal.xls
+[18/04/11 10:34:04,267] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 10:34:04,268] --> loading template scatterCowboy.xls
+[18/04/11 10:34:04,273] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 10:34:04,273] --> loading template scatterMultiple.xls
+[18/04/11 10:34:04,279] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 10:34:04,280] --> loading template bonusAztec.xls
+[18/04/11 10:36:20,609] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 10:36:20,609] --> loading template bonusOcean.xls
+[18/04/11 10:36:20,914] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 10:36:20,914] --> loading template slotsList.xls
+[18/04/11 10:36:21,083] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 10:36:21,084] --> loading template scatterGame.xls
+[18/04/11 10:36:21,114] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 10:36:21,115] --> loading template scatterCrystal.xls
+[18/04/11 10:36:21,121] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 10:36:21,122] --> loading template scatterCowboy.xls
+[18/04/11 10:36:21,130] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 10:36:21,130] --> loading template scatterMultiple.xls
+[18/04/11 10:36:21,135] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 10:36:21,136] --> loading template bonusAztec.xls
+[18/04/11 10:38:02,188] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 10:38:02,189] --> loading template bonusOcean.xls
+[18/04/11 10:38:02,513] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 10:38:02,513] --> loading template slotsList.xls
+[18/04/11 10:38:02,736] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 10:38:02,737] --> loading template scatterGame.xls
+[18/04/11 10:38:02,823] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 10:38:02,824] --> loading template scatterCrystal.xls
+[18/04/11 10:38:02,845] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 10:38:02,846] --> loading template scatterCowboy.xls
+[18/04/11 10:38:02,859] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 10:38:02,859] --> loading template scatterMultiple.xls
+[18/04/11 10:38:02,868] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 10:38:02,868] --> loading template bonusAztec.xls
+[18/04/11 10:40:20,412] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 10:40:20,412] --> loading template bonusOcean.xls
+[18/04/11 10:40:20,767] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 10:40:20,767] --> loading template slotsList.xls
+[18/04/11 10:40:20,948] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 10:40:20,948] --> loading template scatterGame.xls
+[18/04/11 10:40:20,995] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 10:40:20,997] --> loading template scatterCrystal.xls
+[18/04/11 10:40:21,027] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 10:40:21,027] --> loading template scatterCowboy.xls
+[18/04/11 10:40:21,037] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 10:40:21,037] --> loading template scatterMultiple.xls
+[18/04/11 10:40:21,044] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 10:40:21,044] --> loading template bonusAztec.xls
+[18/04/11 10:42:12,885] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 10:42:12,885] --> loading template bonusOcean.xls
+[18/04/11 10:42:13,178] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 10:42:13,179] --> loading template slotsList.xls
+[18/04/11 10:42:13,347] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 10:42:13,348] --> loading template scatterGame.xls
+[18/04/11 10:42:13,390] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 10:42:13,390] --> loading template scatterCrystal.xls
+[18/04/11 10:42:13,395] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 10:42:13,395] --> loading template scatterCowboy.xls
+[18/04/11 10:42:13,403] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 10:42:13,403] --> loading template scatterMultiple.xls
+[18/04/11 10:42:13,407] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 10:42:13,407] --> loading template bonusAztec.xls
+[18/04/11 10:43:19,906] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 10:43:19,906] --> loading template bonusOcean.xls
+[18/04/11 10:43:20,245] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 10:43:20,246] --> loading template slotsList.xls
+[18/04/11 10:43:20,429] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 10:43:20,430] --> loading template scatterGame.xls
+[18/04/11 10:43:20,486] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 10:43:20,486] --> loading template scatterCrystal.xls
+[18/04/11 10:43:20,491] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 10:43:20,491] --> loading template scatterCowboy.xls
+[18/04/11 10:43:20,495] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 10:43:20,495] --> loading template scatterMultiple.xls
+[18/04/11 10:43:20,518] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 10:43:20,520] --> loading template bonusAztec.xls
+[18/04/11 10:48:50,113] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 10:48:50,113] --> loading template bonusOcean.xls
+[18/04/11 10:48:50,408] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 10:48:50,408] --> loading template slotsList.xls
+[18/04/11 10:48:50,576] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 10:48:50,576] --> loading template scatterGame.xls
+[18/04/11 10:48:50,606] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 10:48:50,606] --> loading template scatterCrystal.xls
+[18/04/11 10:48:50,615] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 10:48:50,615] --> loading template scatterCowboy.xls
+[18/04/11 10:48:50,626] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 10:48:50,626] --> loading template scatterMultiple.xls
+[18/04/11 10:48:50,631] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 10:48:50,631] --> loading template bonusAztec.xls
+[18/04/11 10:50:56,154] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 10:50:56,154] --> loading template bonusOcean.xls
+[18/04/11 10:50:56,449] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 10:50:56,450] --> loading template slotsList.xls
+[18/04/11 10:50:56,621] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 10:50:56,621] --> loading template scatterGame.xls
+[18/04/11 10:50:56,650] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 10:50:56,651] --> loading template scatterCrystal.xls
+[18/04/11 10:50:56,655] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 10:50:56,656] --> loading template scatterCowboy.xls
+[18/04/11 10:50:56,667] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 10:50:56,667] --> loading template scatterMultiple.xls
+[18/04/11 10:50:56,683] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 10:50:56,684] --> loading template bonusAztec.xls
+[18/04/11 10:52:49,929] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 10:52:49,933] --> loading template bonusOcean.xls
+[18/04/11 10:52:50,223] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 10:52:50,223] --> loading template slotsList.xls
+[18/04/11 10:52:50,395] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 10:52:50,396] --> loading template scatterGame.xls
+[18/04/11 10:52:50,433] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 10:52:50,433] --> loading template scatterCrystal.xls
+[18/04/11 10:52:50,441] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 10:52:50,442] --> loading template scatterCowboy.xls
+[18/04/11 10:52:50,456] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 10:52:50,456] --> loading template scatterMultiple.xls
+[18/04/11 10:52:50,460] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 10:52:50,460] --> loading template bonusAztec.xls
+[18/04/11 10:56:34,499] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 10:56:34,499] --> loading template bonusOcean.xls
+[18/04/11 10:56:34,809] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 10:56:34,809] --> loading template slotsList.xls
+[18/04/11 10:56:34,970] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 10:56:34,971] --> loading template scatterGame.xls
+[18/04/11 10:56:35,000] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 10:56:35,000] --> loading template scatterCrystal.xls
+[18/04/11 10:56:35,005] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 10:56:35,005] --> loading template scatterCowboy.xls
+[18/04/11 10:56:35,014] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 10:56:35,015] --> loading template scatterMultiple.xls
+[18/04/11 10:56:35,018] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 10:56:35,019] --> loading template bonusAztec.xls
+[18/04/11 10:57:51,904] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 10:57:51,905] --> loading template bonusOcean.xls
+[18/04/11 10:57:52,199] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 10:57:52,199] --> loading template slotsList.xls
+[18/04/11 10:57:52,367] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 10:57:52,368] --> loading template scatterGame.xls
+[18/04/11 10:57:52,400] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 10:57:52,402] --> loading template scatterCrystal.xls
+[18/04/11 10:57:52,411] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 10:57:52,411] --> loading template scatterCowboy.xls
+[18/04/11 10:57:52,416] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 10:57:52,416] --> loading template scatterMultiple.xls
+[18/04/11 10:57:52,423] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 10:57:52,423] --> loading template bonusAztec.xls
+[18/04/11 11:03:45,237] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 11:03:45,238] --> loading template bonusOcean.xls
+[18/04/11 11:03:45,531] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 11:03:45,531] --> loading template slotsList.xls
+[18/04/11 11:03:45,704] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 11:03:45,705] --> loading template scatterGame.xls
+[18/04/11 11:03:45,742] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 11:03:45,742] --> loading template scatterCrystal.xls
+[18/04/11 11:03:45,790] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 11:03:45,790] --> loading template scatterCowboy.xls
+[18/04/11 11:03:45,805] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 11:03:45,806] --> loading template scatterMultiple.xls
+[18/04/11 11:03:45,812] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 11:03:45,812] --> loading template bonusAztec.xls
+[18/04/11 14:39:49,704] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 14:39:49,705] --> loading template bonusOcean.xls
+[18/04/11 14:39:50,092] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 14:39:50,092] --> loading template slotsList.xls
+[18/04/11 14:39:50,287] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 14:39:50,289] --> loading template scatterGame.xls
+[18/04/11 14:39:50,315] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 14:39:50,315] --> loading template scatterCrystal.xls
+[18/04/11 14:39:50,364] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 14:39:50,364] --> loading template scatterCowboy.xls
+[18/04/11 14:39:50,371] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 14:39:50,371] --> loading template scatterMultiple.xls
+[18/04/11 14:39:50,378] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 14:39:50,378] --> loading template bonusAztec.xls
+[18/04/11 14:43:04,253] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 14:43:04,254] --> loading template bonusOcean.xls
+[18/04/11 14:43:04,591] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 14:43:04,592] --> loading template slotsList.xls
+[18/04/11 14:43:04,782] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 14:43:04,783] --> loading template scatterGame.xls
+[18/04/11 14:43:04,811] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 14:43:04,811] --> loading template scatterCrystal.xls
+[18/04/11 14:43:04,816] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 14:43:04,816] --> loading template scatterCowboy.xls
+[18/04/11 14:43:04,858] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 14:43:04,858] --> loading template scatterMultiple.xls
+[18/04/11 14:43:04,865] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 14:43:04,865] --> loading template bonusAztec.xls
+[18/04/11 14:44:55,680] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 14:44:55,680] --> loading template bonusOcean.xls
+[18/04/11 14:44:55,982] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 14:44:55,982] --> loading template slotsList.xls
+[18/04/11 14:44:56,146] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 14:44:56,147] --> loading template scatterGame.xls
+[18/04/11 14:44:56,175] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 14:44:56,175] --> loading template scatterCrystal.xls
+[18/04/11 14:44:56,180] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 14:44:56,180] --> loading template scatterCowboy.xls
+[18/04/11 14:44:56,184] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 14:44:56,193] --> loading template scatterMultiple.xls
+[18/04/11 14:44:56,200] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 14:44:56,200] --> loading template bonusAztec.xls
+[18/04/11 14:47:02,683] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 14:47:02,683] --> loading template bonusOcean.xls
+[18/04/11 14:47:03,044] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 14:47:03,044] --> loading template slotsList.xls
+[18/04/11 14:47:03,235] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 14:47:03,236] --> loading template scatterGame.xls
+[18/04/11 14:47:03,289] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 14:47:03,293] --> loading template scatterCrystal.xls
+[18/04/11 14:47:03,298] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 14:47:03,298] --> loading template scatterCowboy.xls
+[18/04/11 14:47:03,303] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 14:47:03,303] --> loading template scatterMultiple.xls
+[18/04/11 14:47:03,307] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 14:47:03,307] --> loading template bonusAztec.xls
+[18/04/11 14:47:57,798] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 14:47:57,799] --> loading template bonusOcean.xls
+[18/04/11 14:47:58,130] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 14:47:58,130] --> loading template slotsList.xls
+[18/04/11 14:47:58,284] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 14:47:58,284] --> loading template scatterGame.xls
+[18/04/11 14:47:58,329] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 14:47:58,330] --> loading template scatterCrystal.xls
+[18/04/11 14:47:58,334] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 14:47:58,334] --> loading template scatterCowboy.xls
+[18/04/11 14:47:58,342] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 14:47:58,343] --> loading template scatterMultiple.xls
+[18/04/11 14:47:58,347] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 14:47:58,347] --> loading template bonusAztec.xls
+[18/04/11 14:48:50,726] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 14:48:50,726] --> loading template bonusOcean.xls
+[18/04/11 14:48:50,973] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 14:48:50,973] --> loading template slotsList.xls
+[18/04/11 14:48:51,146] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 14:48:51,147] --> loading template scatterGame.xls
+[18/04/11 14:48:51,192] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 14:48:51,192] --> loading template scatterCrystal.xls
+[18/04/11 14:48:51,203] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 14:48:51,203] --> loading template scatterCowboy.xls
+[18/04/11 14:48:51,208] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 14:48:51,208] --> loading template scatterMultiple.xls
+[18/04/11 14:48:51,219] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 14:48:51,219] --> loading template bonusAztec.xls
+[18/04/11 14:53:04,294] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 14:53:04,295] --> loading template bonusOcean.xls
+[18/04/11 14:53:04,610] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 14:53:04,610] --> loading template slotsList.xls
+[18/04/11 14:53:04,773] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 14:53:04,773] --> loading template scatterGame.xls
+[18/04/11 14:53:04,809] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 14:53:04,810] --> loading template scatterCrystal.xls
+[18/04/11 14:53:04,819] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 14:53:04,819] --> loading template scatterCowboy.xls
+[18/04/11 14:53:04,828] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 14:53:04,828] --> loading template scatterMultiple.xls
+[18/04/11 14:53:04,832] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 14:53:04,833] --> loading template bonusAztec.xls
+[18/04/11 15:50:02,551] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 15:50:02,552] --> loading template bonusOcean.xls
+[18/04/11 15:50:03,046] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 15:50:03,046] --> loading template slotsList.xls
+[18/04/11 15:50:03,207] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 15:50:03,207] --> loading template scatterGame.xls
+[18/04/11 15:50:03,248] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 15:50:03,249] --> loading template scatterCrystal.xls
+[18/04/11 15:50:03,265] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 15:50:03,265] --> loading template scatterCowboy.xls
+[18/04/11 15:50:03,272] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 15:50:03,275] --> loading template scatterMultiple.xls
+[18/04/11 15:50:03,280] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 15:50:03,280] --> loading template bonusAztec.xls
+[18/04/11 15:50:51,786] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 15:50:51,786] --> loading template bonusOcean.xls
+[18/04/11 15:50:52,070] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 15:50:52,070] --> loading template slotsList.xls
+[18/04/11 15:50:52,277] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 15:50:52,278] --> loading template scatterGame.xls
+[18/04/11 15:50:52,302] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 15:50:52,302] --> loading template scatterCrystal.xls
+[18/04/11 15:50:52,309] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 15:50:52,309] --> loading template scatterCowboy.xls
+[18/04/11 15:50:52,340] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 15:50:52,341] --> loading template scatterMultiple.xls
+[18/04/11 15:50:52,353] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 15:50:52,354] --> loading template bonusAztec.xls
+[18/04/11 15:54:04,576] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 15:54:04,576] --> loading template bonusOcean.xls
+[18/04/11 15:54:05,019] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 15:54:05,019] --> loading template slotsList.xls
+[18/04/11 15:54:05,295] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 15:54:05,296] --> loading template scatterGame.xls
+[18/04/11 15:54:05,340] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 15:54:05,341] --> loading template scatterCrystal.xls
+[18/04/11 15:54:05,346] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 15:54:05,346] --> loading template scatterCowboy.xls
+[18/04/11 15:54:05,371] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 15:54:05,371] --> loading template scatterMultiple.xls
+[18/04/11 15:54:05,389] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 15:54:05,389] --> loading template bonusAztec.xls
+[18/04/11 15:59:30,847] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 15:59:30,847] --> loading template bonusOcean.xls
+[18/04/11 15:59:31,218] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 15:59:31,218] --> loading template slotsList.xls
+[18/04/11 15:59:31,402] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 15:59:31,402] --> loading template scatterGame.xls
+[18/04/11 15:59:31,444] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 15:59:31,445] --> loading template scatterCrystal.xls
+[18/04/11 15:59:31,454] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 15:59:31,454] --> loading template scatterCowboy.xls
+[18/04/11 15:59:31,472] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 15:59:31,472] --> loading template scatterMultiple.xls
+[18/04/11 15:59:31,479] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 15:59:31,480] --> loading template bonusAztec.xls
+[18/04/11 16:01:25,320] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 16:01:25,324] --> loading template bonusOcean.xls
+[18/04/11 16:01:25,792] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 16:01:25,792] --> loading template slotsList.xls
+[18/04/11 16:01:26,038] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 16:01:26,038] --> loading template scatterGame.xls
+[18/04/11 16:01:26,090] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 16:01:26,090] --> loading template scatterCrystal.xls
+[18/04/11 16:01:26,096] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 16:01:26,096] --> loading template scatterCowboy.xls
+[18/04/11 16:01:26,104] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 16:01:26,104] --> loading template scatterMultiple.xls
+[18/04/11 16:01:26,131] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 16:01:26,132] --> loading template bonusAztec.xls
+[18/04/11 16:11:28,525] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 16:11:28,526] --> loading template bonusOcean.xls
+[18/04/11 16:11:28,905] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 16:11:28,905] --> loading template slotsList.xls
+[18/04/11 16:11:29,119] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 16:11:29,120] --> loading template scatterGame.xls
+[18/04/11 16:11:29,153] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 16:11:29,154] --> loading template scatterCrystal.xls
+[18/04/11 16:11:29,158] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 16:11:29,159] --> loading template scatterCowboy.xls
+[18/04/11 16:11:29,200] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 16:11:29,200] --> loading template scatterMultiple.xls
+[18/04/11 16:11:29,216] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 16:11:29,216] --> loading template bonusAztec.xls
+[18/04/11 16:20:11,628] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 16:20:11,631] --> loading template bonusOcean.xls
+[18/04/11 16:20:12,067] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 16:20:12,067] --> loading template slotsList.xls
+[18/04/11 16:20:12,277] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 16:20:12,278] --> loading template scatterGame.xls
+[18/04/11 16:20:12,302] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 16:20:12,303] --> loading template scatterCrystal.xls
+[18/04/11 16:20:12,332] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 16:20:12,332] --> loading template scatterCowboy.xls
+[18/04/11 16:20:12,336] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 16:20:12,336] --> loading template scatterMultiple.xls
+[18/04/11 16:20:12,340] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 16:20:12,340] --> loading template bonusAztec.xls
+[18/04/11 16:21:20,406] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 16:21:20,406] --> loading template bonusOcean.xls
+[18/04/11 16:21:20,809] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 16:21:20,810] --> loading template slotsList.xls
+[18/04/11 16:21:21,050] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 16:21:21,050] --> loading template scatterGame.xls
+[18/04/11 16:21:21,095] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 16:21:21,095] --> loading template scatterCrystal.xls
+[18/04/11 16:21:21,112] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 16:21:21,114] --> loading template scatterCowboy.xls
+[18/04/11 16:21:21,124] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 16:21:21,124] --> loading template scatterMultiple.xls
+[18/04/11 16:21:21,129] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 16:21:21,130] --> loading template bonusAztec.xls
+[18/04/11 16:23:14,004] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 16:23:14,005] --> loading template bonusOcean.xls
+[18/04/11 16:23:14,308] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 16:23:14,308] --> loading template slotsList.xls
+[18/04/11 16:23:14,512] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 16:23:14,513] --> loading template scatterGame.xls
+[18/04/11 16:23:14,563] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 16:23:14,563] --> loading template scatterCrystal.xls
+[18/04/11 16:23:14,575] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 16:23:14,575] --> loading template scatterCowboy.xls
+[18/04/11 16:23:14,579] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 16:23:14,580] --> loading template scatterMultiple.xls
+[18/04/11 16:23:14,584] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 16:23:14,584] --> loading template bonusAztec.xls
+[18/04/11 16:33:45,590] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 16:33:45,591] --> loading template bonusOcean.xls
+[18/04/11 16:33:46,001] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 16:33:46,001] --> loading template slotsList.xls
+[18/04/11 16:33:46,193] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 16:33:46,193] --> loading template scatterGame.xls
+[18/04/11 16:33:46,250] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 16:33:46,250] --> loading template scatterCrystal.xls
+[18/04/11 16:33:46,255] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 16:33:46,255] --> loading template scatterCowboy.xls
+[18/04/11 16:33:46,262] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 16:33:46,263] --> loading template scatterMultiple.xls
+[18/04/11 16:33:46,284] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 16:33:46,285] --> loading template bonusAztec.xls
+[18/04/11 16:37:27,365] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 16:37:27,366] --> loading template bonusOcean.xls
+[18/04/11 16:37:27,839] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 16:37:27,839] --> loading template slotsList.xls
+[18/04/11 16:37:28,202] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 16:37:28,204] --> loading template scatterGame.xls
+[18/04/11 16:37:28,253] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 16:37:28,253] --> loading template scatterCrystal.xls
+[18/04/11 16:37:28,261] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 16:37:28,261] --> loading template scatterCowboy.xls
+[18/04/11 16:37:28,265] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 16:37:28,265] --> loading template scatterMultiple.xls
+[18/04/11 16:37:28,270] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 16:37:28,271] --> loading template bonusAztec.xls
+[18/04/11 16:37:51,884] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 16:37:51,884] --> loading template bonusOcean.xls
+[18/04/11 16:37:52,203] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 16:37:52,203] --> loading template slotsList.xls
+[18/04/11 16:37:52,377] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 16:37:52,377] --> loading template scatterGame.xls
+[18/04/11 16:37:52,406] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 16:37:52,406] --> loading template scatterCrystal.xls
+[18/04/11 16:37:52,410] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 16:37:52,411] --> loading template scatterCowboy.xls
+[18/04/11 16:37:52,421] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 16:37:52,422] --> loading template scatterMultiple.xls
+[18/04/11 16:37:52,426] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 16:37:52,426] --> loading template bonusAztec.xls
+[18/04/11 16:39:13,095] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 16:39:13,095] --> loading template bonusOcean.xls
+[18/04/11 16:39:13,425] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 16:39:13,425] --> loading template slotsList.xls
+[18/04/11 16:39:13,640] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 16:39:13,640] --> loading template scatterGame.xls
+[18/04/11 16:39:13,665] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 16:39:13,666] --> loading template scatterCrystal.xls
+[18/04/11 16:39:13,684] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 16:39:13,685] --> loading template scatterCowboy.xls
+[18/04/11 16:39:13,689] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 16:39:13,690] --> loading template scatterMultiple.xls
+[18/04/11 16:39:13,737] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 16:39:13,737] --> loading template bonusAztec.xls
+[18/04/11 16:44:22,229] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 16:44:22,230] --> loading template bonusOcean.xls
+[18/04/11 16:44:22,588] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 16:44:22,589] --> loading template slotsList.xls
+[18/04/11 16:44:22,796] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 16:44:22,796] --> loading template scatterGame.xls
+[18/04/11 16:44:22,843] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 16:44:22,844] --> loading template scatterCrystal.xls
+[18/04/11 16:44:22,864] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 16:44:22,864] --> loading template scatterCowboy.xls
+[18/04/11 16:44:22,873] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 16:44:22,873] --> loading template scatterMultiple.xls
+[18/04/11 16:44:22,877] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 16:44:22,878] --> loading template bonusAztec.xls
+[18/04/11 16:47:34,112] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusOceanTemplate, class com.gameserver.slot.template.BonusOceanRewardTemplate], fileName=bonusOcean.xls]
+[18/04/11 16:47:34,112] --> loading template bonusOcean.xls
+[18/04/11 16:47:34,487] --> TemplateConfig [classes=[class com.gameserver.slot.template.SlotsListTemplate], fileName=slotsList.xls]
+[18/04/11 16:47:34,487] --> loading template slotsList.xls
+[18/04/11 16:47:34,815] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterTemplate, class com.gameserver.slot.template.BoxTemplate], fileName=scatterGame.xls]
+[18/04/11 16:47:34,816] --> loading template scatterGame.xls
+[18/04/11 16:47:34,921] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCrastalTemplate], fileName=scatterCrystal.xls]
+[18/04/11 16:47:34,921] --> loading template scatterCrystal.xls
+[18/04/11 16:47:34,926] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterCowboyTemplate], fileName=scatterCowboy.xls]
+[18/04/11 16:47:34,926] --> loading template scatterCowboy.xls
+[18/04/11 16:47:34,942] --> TemplateConfig [classes=[class com.gameserver.slot.template.ScatterMultipleTemplate], fileName=scatterMultiple.xls]
+[18/04/11 16:47:34,942] --> loading template scatterMultiple.xls
+[18/04/11 16:47:34,949] --> TemplateConfig [classes=[class com.gameserver.slot.template.BonusAztecTemplate], fileName=bonusAztec.xls]
+[18/04/11 16:47:34,949] --> loading template bonusAztec.xls

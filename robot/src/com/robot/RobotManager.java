@@ -8,13 +8,10 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.mina.common.IoSession;
-
-import com.game.webserver.exception.LocalException;
-import com.google.common.collect.Maps;
-import com.robot.common.Globals;
 import com.core.session.MinaSession;
 import com.core.util.RandomUtil;
+import com.google.common.collect.Maps;
+import com.robot.common.Globals;
 
 /**
  * 机器人管理类

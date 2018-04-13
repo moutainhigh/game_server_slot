@@ -1,9 +1,7 @@
 package com.robot.strategy.impl;
 
-import com.common.model.Card;
 import com.core.enums.IndexedEnum;
 import com.core.msg.IMessage;
-import com.core.util.Assert;
 import com.gameserver.common.msg.GCSystemMessage;
 import com.gameserver.relation.msg.CGApplyFriend;
 import com.gameserver.relation.msg.CGLoadFriendList;
@@ -11,26 +9,8 @@ import com.gameserver.relation.msg.CGLoadFriendRequestList;
 import com.gameserver.relation.msg.CGRequestFriend;
 import com.gameserver.relation.msg.GCLoadFriendList;
 import com.gameserver.relation.msg.GCLoadFriendRequestList;
-import com.gameserver.texas.data.TexasRoomPlayerInfoData;
-import com.gameserver.texas.msg.GCJoinTexas;
-import com.gameserver.texas.msg.GCLeaveTexas;
-import com.gameserver.texas.msg.GCSyncJoinTexas;
-import com.gameserver.texas.msg.GCTexasAddBet;
-import com.gameserver.texas.msg.GCTexasAllIn;
-import com.gameserver.texas.msg.GCTexasBankerPos;
-import com.gameserver.texas.msg.GCTexasButtomDeal;
-import com.gameserver.texas.msg.GCTexasFlop;
-import com.gameserver.texas.msg.GCTexasFollow;
-import com.gameserver.texas.msg.GCTexasGiveUp;
-import com.gameserver.texas.msg.GCTexasList;
-import com.gameserver.texas.msg.GCTexasLook;
-import com.gameserver.texas.msg.GCTexasPlayerTurn;
-import com.gameserver.texas.msg.GCTexasRiver;
-import com.gameserver.texas.msg.GCTexasTurn;
 import com.robot.Robot;
 import com.robot.strategy.LoopExecuteStrategy;
-import com.robot.strategy.data.ClientRoomPlayer;
-import com.robot.strategy.data.ClientTexasRoom;
 
 public class RelationStrategy extends LoopExecuteStrategy{
 	

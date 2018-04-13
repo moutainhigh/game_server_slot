@@ -5,7 +5,6 @@ import org.slf4j.Logger;
 import com.common.constants.Loggers;
 import com.core.msg.IMessage;
 import com.gameserver.slot.data.Bonus29Data;
-import com.gameserver.slot.msg.CGSlotType29Bouns;
 import com.gameserver.slot.msg.GCSlotType29BounsInfo;
 import com.robot.Robot;
 import com.robot.slot.GCSlotBonusBase;

@@ -1,7 +1,6 @@
 package com.robot.strategy.data;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map.Entry;
@@ -10,7 +9,6 @@ import org.slf4j.Logger;
 
 import com.common.constants.Loggers;
 import com.common.model.Card;
-import com.common.model.Card.CardTypeEnum;
 import com.common.model.Card.CardValueEnum;
 import com.core.enums.IndexedEnum;
 import com.core.heartbeat.ITickable;
@@ -18,11 +16,10 @@ import com.core.util.ArrayUtils;
 import com.core.util.EnumUtil;
 import com.core.util.MathUtils;
 import com.core.util.RandomUtil;
-import com.gameserver.player.Player;
 import com.gameserver.texas.data.TexasHandCard;
+import com.gameserver.texas.data.TexasHandCard.TexasHandCardEnum;
 import com.gameserver.texas.data.TexasPoolSettleInfoData;
 import com.gameserver.texas.data.TexasRoomPlayerSettleCardsInfoData;
-import com.gameserver.texas.data.TexasHandCard.TexasHandCardEnum;
 import com.gameserver.texas.enums.RoomPlayerState;
 import com.gameserver.texas.enums.TexasRoomEnum;
 import com.gameserver.texas.enums.TexasRoomState;

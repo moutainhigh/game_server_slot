@@ -331,12 +331,10 @@ public class HumanGCMessage:AbstractMessageReceiver
  
   	/**
 	 * 修改银行密码 返回
-	 * @param state 修改银行密码  是否成功  是:0,否:1
 	 */
 	public void GC_BANK_CHANGE_PASSWORD(InputMessage data) 
 	{
-		int state = data.GetInt();		
-		HumanHandler.Instance().GC_BANK_CHANGE_PASSWORD(state);
+		HumanHandler.Instance().GC_BANK_CHANGE_PASSWORD();
 	}
  
   	/**

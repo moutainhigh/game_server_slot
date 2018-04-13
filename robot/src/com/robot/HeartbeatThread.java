@@ -4,11 +4,6 @@ package com.robot;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-
-
-
-
-
 import org.slf4j.Logger;
 
 import com.common.constants.Loggers;

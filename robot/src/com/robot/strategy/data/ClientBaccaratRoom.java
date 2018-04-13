@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import com.core.util.MathUtils;
 import com.gameserver.baccart.data.BaccartBetData;
 import com.gameserver.baccart.data.BaccartPlayerData;
 import com.gameserver.baccart.data.BaccartSettleData;

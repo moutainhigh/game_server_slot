@@ -63,6 +63,8 @@ public class HumanActivityManager implements RoleDataHolder, InitializeRequired{
 	}
 	
 	public void load(){
+		/**这句话 不让后边执行了**/
+		if(true)return;
 		List<HumanActivityEntity> humanActivityEntityList = Globals.getDaoService().getHumanActivityDao().getAllHumanActivities(owner.getPassportId());
 		
 		if(humanActivityEntityList!=null&&humanActivityEntityList.size()>0){
@@ -103,6 +105,9 @@ public class HumanActivityManager implements RoleDataHolder, InitializeRequired{
 	 * 看看是否还有 活动 的奖励未领取， 有的话通知用户，没有 拉倒
 	 */
 	public void buildStillActivityGold(){
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
 		boolean existActivityStillGold = false;
 		for(HumanActivity humanActivity: humanActivityList){
 			List<HumanRewardActivityDetailData> humanRewardActivityDetailDataList = humanActivity.getHumanRewardActivityDetailDataList();
@@ -121,7 +126,8 @@ public class HumanActivityManager implements RoleDataHolder, InitializeRequired{
 	
 	//检查活动
 	public void checkAllActivity(){
-	
+		/**这句话 不让后边执行了**/
+		if(true)return;
 		for(Activity activity : Globals.getActivityService().getActivityList()){
 			checkActivity(activity);
 		}
@@ -131,7 +137,8 @@ public class HumanActivityManager implements RoleDataHolder, InitializeRequired{
 	
 	//检查单个活动
 	public void checkActivity(Activity activity){
-	
+		/**这句话 不让后边执行了**/
+		if(true)return;
 		//判断是否过期一星期
 		if(activity.isEnd()){
 			
@@ -222,6 +229,10 @@ public class HumanActivityManager implements RoleDataHolder, InitializeRequired{
 	 * @param activity true:已经删除
 	 */
 	private boolean ifShouldDelete(Activity activity){
+		/**这句话 不让后边执行了**/
+		if(true)return true;
+		
+		
 		long now = Globals.getTimeService().now();
 	
 		long expire = now-activity.getEndTime();
@@ -278,6 +289,12 @@ public class HumanActivityManager implements RoleDataHolder, InitializeRequired{
 	 * @return
 	 */
 	public GCHunamnProgress buildGCHunamnProgress(){
+		
+		
+		GCHunamnProgress rr = new GCHunamnProgress();
+		/**这句话 不让后边执行了**/
+		if(true)return rr;
+		
 		GCHunamnProgress progress = new GCHunamnProgress();
 		//大家 共有的活动
 		List<HumanActivity> pubHumanActivityList = Globals.getActivityService().getPublicActivityList();
@@ -318,6 +335,12 @@ public class HumanActivityManager implements RoleDataHolder, InitializeRequired{
 	 * @return
 	 */
 	public GCHunamnProgressSingle buildGCHunamnProgressSingle(Activity activity){
+		
+		
+		GCHunamnProgressSingle rr = new GCHunamnProgressSingle();
+		/**这句话 不让后边执行了**/
+		if(true)return rr;
+		
 		GCHunamnProgressSingle progress = new GCHunamnProgressSingle();
 		HumanActivity humanActivity = this.getActivityById(activity.getDbId());
 		
@@ -342,6 +365,12 @@ public class HumanActivityManager implements RoleDataHolder, InitializeRequired{
 	 * @return
 	 */
 	public GCUpdateHumanActivityReward buildGCHumanActivityRewardData(Activity activity){
+		
+		GCUpdateHumanActivityReward rr = new GCUpdateHumanActivityReward();
+		/**这句话 不让后边执行了**/
+		if(true)return rr;
+		
+		
 		GCUpdateHumanActivityReward gcUpdateHumanActivityReward = new GCUpdateHumanActivityReward();
 		HumanActivity humanActivity = this.getActivityById(activity.getDbId());
 		HumanSimpleRewardInfoData info = new HumanSimpleRewardInfoData();
@@ -355,6 +384,9 @@ public class HumanActivityManager implements RoleDataHolder, InitializeRequired{
 	 * @return
 	 */
 	public GCUpdateHumanActivityReward pubBuildGCHumanActivityRewardData(Activity activity){
+		
+		
+		
 		GCUpdateHumanActivityReward gcUpdateHumanActivityReward = new GCUpdateHumanActivityReward();
 		HumanActivity humanActivity = Globals.getActivityService().getPubActivityByActivityId(activity.getDbId());
 		HumanSimpleRewardInfoData info = new HumanSimpleRewardInfoData();
@@ -379,6 +411,9 @@ public class HumanActivityManager implements RoleDataHolder, InitializeRequired{
 		return null;
 	}
 	public HumanActivity getActivityById(long activityId,Activity activity){
+		
+		
+		
 		for(HumanActivity humanActivity : humanActivityList){
 			if(humanActivity.getActivityId() == activityId)
 				return humanActivity;

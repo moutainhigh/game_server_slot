@@ -5,7 +5,6 @@ import org.slf4j.Logger;
 import com.common.constants.Loggers;
 import com.gameserver.slot.msg.CGFreeSlotReward;
 import com.gameserver.slot.msg.CGSlotSlot;
-import com.gameserver.slot.template.BoxTemplate;
 import com.robot.Robot;
 
 /**

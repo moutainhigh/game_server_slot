@@ -7,7 +7,6 @@ import org.slf4j.Logger;
 import com.common.constants.Loggers;
 import com.core.msg.IMessage;
 import com.gameserver.slot.msg.CGSlotType12Choose;
-import com.gameserver.slot.msg.CGSlotType12Free;
 import com.gameserver.slot.msg.GCSlotType12;
 import com.gameserver.slot.msg.GCSlotType12Choose;
 import com.gameserver.slot.msg.GCSlotType12Free;

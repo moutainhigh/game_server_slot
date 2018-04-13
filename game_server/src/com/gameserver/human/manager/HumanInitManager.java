@@ -262,26 +262,26 @@ public final class HumanInitManager
 		human.sendMessage(new GCHumanDetailInfo(data));
 		
 		//发送德州数据
-		human.sendMessage(human.getHumanTexasManager().buildHumanTexasInfoData());
+//		human.sendMessage(human.getHumanTexasManager().buildHumanTexasInfoData());
 		//发送德州sng数据
 		//human.sendMessage(human.getHumanTexasManager().buildHumanTexasSNGInfoData());
 		//发送背包数据
-		human.sendMessage(human.getHumanBagManager().buildHumanBagInfoData());
+//		human.sendMessage(human.getHumanBagManager().buildHumanBagInfoData());
 		//发送月卡数据
-		human.sendMessage(human.getHumanMonthCardManager().buildHumanMonthCardInfoData());
+//		human.sendMessage(human.getHumanMonthCardManager().buildHumanMonthCardInfoData());
 		//发送周卡数据
-		human.sendMessage(human.getHumanWeekCardManager().buildHumanWeekCardInfoData());
+//		human.sendMessage(human.getHumanWeekCardManager().buildHumanWeekCardInfoData());
 		//发送签到数据
-		human.sendMessage(human.getHumanWeekSignInManager().buildHumanWeekSignInInfoData());
+//		human.sendMessage(human.getHumanWeekSignInManager().buildHumanWeekSignInInfoData());
 		//发送misc
-		human.sendMessage(human.getHumanMiscManager().buildGCMiscInfoData());
+//		human.sendMessage(human.getHumanMiscManager().buildGCMiscInfoData());
 		//发送 fb misc
-		human.sendMessage(human.getHumanMiscManager().buildGCMiscFBInfoData());
+//		human.sendMessage(human.getHumanMiscManager().buildGCMiscFBInfoData());
 		//发送vip
 	    //human.sendMessage(human.getHumanVipManager().buildHumanVipInfoData());
 		
 		//发送VIP新系统数据
-		human.sendMessage(human.getHumanVipNewManager().buildVipData());
+//		human.sendMessage(human.getHumanVipNewManager().buildVipData());
 		
 		//发送邮件数据
 		human.sendMessage(human.getHumanMailManager().buildHumanMailInfoData(MailTypeEnum.SYSTEM));
@@ -296,22 +296,22 @@ public final class HumanInitManager
 		//发送订单数据
 //		human.sendMessage(human.getHumanRechargeManager().buildOrderInfoDataList());
 		//发送任务
-		human.sendMessage(human.getHumanTaskManager().buildTaskInfoData());
-		human.sendMessage(human.getHumanTaskManager().buildTaskData());
+//		human.sendMessage(human.getHumanTaskManager().buildTaskInfoData());
+//		human.sendMessage(human.getHumanTaskManager().buildTaskData());
 		
 		
 		//发送活动数据
-		human.sendMessage(Globals.getActivityService().buildActivityList(human));
+//		human.sendMessage(Globals.getActivityService().buildActivityList(human));
 		//发送用户活动领取数据 显示前端   go-clam 自个的
-		human.sendMessage(human.getHumanActivityManager().buildGCHumanActivityRewardDataList());
+//		human.sendMessage(human.getHumanActivityManager().buildGCHumanActivityRewardDataList());
 		//发送用户活动进度数据  显示前端的 go-clam 整个条的
-		human.sendMessage(human.getHumanActivityManager().buildGCHunamnProgress());
+//		human.sendMessage(human.getHumanActivityManager().buildGCHunamnProgress());
 		//用户登录的时候发送一下 功能
 		Globals.getFunctionService().getFunction(human.getPlayer());
 		
 		
 		//发送幸运转盘数据
-		human.sendMessage(human.getHumanLuckySpinManager().buildGCLuckySpinInfoData());
+//		human.sendMessage(human.getHumanLuckySpinManager().buildGCLuckySpinInfoData());
 		
 		/*if(outTime == 0 || !TimeUtils.isSameDay(outTime, Globals.getTimeService().now()) ){
 			

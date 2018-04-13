@@ -1,7 +1,5 @@
 package com.robot.slot.slot24;
 
-import java.util.Random;
-
 import com.core.msg.IMessage;
 import com.gameserver.slot.handler.slot13.SmallGameType13;
 import com.gameserver.slot.msg.CGSlotType24BounsPrize;

@@ -70,6 +70,9 @@ public class GameServerConfig extends ServerConfig
 	
 	private int httpDataPort;
 	private String httpDataAddress;
+	private String boquSendMsgUrl;
+	private Integer clientId;
+	private String clientSecret;
 	
 	
 	
@@ -390,6 +393,30 @@ public class GameServerConfig extends ServerConfig
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public String getBoquSendMsgUrl() {
+		return boquSendMsgUrl;
+	}
+
+	public void setBoquSendMsgUrl(String boquSendMsgUrl) {
+		this.boquSendMsgUrl = boquSendMsgUrl;
+	}
+
+	public Integer getClientId() {
+		return clientId;
+	}
+
+	public void setClientId(Integer clientId) {
+		this.clientId = clientId;
+	}
+
+	public String getClientSecret() {
+		return clientSecret;
+	}
+
+	public void setClientSecret(String clientSecret) {
+		this.clientSecret = clientSecret;
 	}
 
 	

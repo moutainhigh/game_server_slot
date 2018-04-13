@@ -1,0 +1,139 @@
+[18/04/09 18:06:02,767] --> Global Logic process message error!
+java.lang.NullPointerException
+	at com.gameserver.player.handler.PlayerMessageHandler.handlePlayerCloseSession(PlayerMessageHandler.java:300)
+	at com.gameserver.player.msg.GameClientSessionClosedMsg.execute(GameClientSessionClosedMsg.java:25)
+	at com.gameserver.common.GlobalLogicRunner.processMessage(GlobalLogicRunner.java:72)
+	at com.gameserver.common.GlobalLogicRunner.tick(GlobalLogicRunner.java:54)
+	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:43)
+	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[18/04/09 18:06:16,188] --> Global Logic process message error!
+java.lang.NullPointerException
+	at com.gameserver.player.handler.PlayerMessageHandler.handlePlayerCloseSession(PlayerMessageHandler.java:300)
+	at com.gameserver.player.msg.GameClientSessionClosedMsg.execute(GameClientSessionClosedMsg.java:25)
+	at com.gameserver.common.GlobalLogicRunner.processMessage(GlobalLogicRunner.java:72)
+	at com.gameserver.common.GlobalLogicRunner.tick(GlobalLogicRunner.java:54)
+	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:43)
+	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[18/04/09 18:06:58,107] --> Global Logic process message error!
+java.lang.NullPointerException
+	at com.gameserver.player.handler.PlayerMessageHandler.handlePlayerCloseSession(PlayerMessageHandler.java:300)
+	at com.gameserver.player.msg.GameClientSessionClosedMsg.execute(GameClientSessionClosedMsg.java:25)
+	at com.gameserver.common.GlobalLogicRunner.processMessage(GlobalLogicRunner.java:72)
+	at com.gameserver.common.GlobalLogicRunner.tick(GlobalLogicRunner.java:54)
+	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:43)
+	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[18/04/09 18:08:25,739] --> Global Logic process message error!
+java.lang.NullPointerException
+	at com.gameserver.player.handler.PlayerMessageHandler.handlePlayerCloseSession(PlayerMessageHandler.java:300)
+	at com.gameserver.player.msg.GameClientSessionClosedMsg.execute(GameClientSessionClosedMsg.java:25)
+	at com.gameserver.common.GlobalLogicRunner.processMessage(GlobalLogicRunner.java:72)
+	at com.gameserver.common.GlobalLogicRunner.tick(GlobalLogicRunner.java:54)
+	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:43)
+	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[18/04/09 18:10:17,892] --> AsyncOperation.IIoOperation=com.gameserver.player.async.LoadPlayerRoleOperation@3f17fa3f[class com.gameserver.player.async.LoadPlayerRoleOperation],ioLastTime=49822,IO_ALLOW_MAX_TIME=500,uuid=-1
+[18/04/09 18:10:17,990] --> Global Logic process message error!
+java.lang.NullPointerException
+	at com.gameserver.player.handler.PlayerMessageHandler.handlePlayerCloseSession(PlayerMessageHandler.java:300)
+	at com.gameserver.player.msg.GameClientSessionClosedMsg.execute(GameClientSessionClosedMsg.java:25)
+	at com.gameserver.common.GlobalLogicRunner.processMessage(GlobalLogicRunner.java:72)
+	at com.gameserver.common.GlobalLogicRunner.tick(GlobalLogicRunner.java:54)
+	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:43)
+	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[18/04/09 18:12:43,725] --> AsyncOperation.IIoOperation=com.gameserver.player.async.LoadPlayerRoleOperation@69cacad9[class com.gameserver.player.async.LoadPlayerRoleOperation],ioLastTime=139921,IO_ALLOW_MAX_TIME=500,uuid=-1
+[18/04/09 18:12:43,857] --> Global Logic process message error!
+java.lang.NullPointerException
+	at com.gameserver.player.handler.PlayerMessageHandler.handlePlayerCloseSession(PlayerMessageHandler.java:300)
+	at com.gameserver.player.msg.GameClientSessionClosedMsg.execute(GameClientSessionClosedMsg.java:25)
+	at com.gameserver.common.GlobalLogicRunner.processMessage(GlobalLogicRunner.java:72)
+	at com.gameserver.common.GlobalLogicRunner.tick(GlobalLogicRunner.java:54)
+	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:43)
+	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[18/04/09 18:15:23,382] --> AsyncOperation.IIoOperation=com.gameserver.player.async.LoadPlayerRoleOperation@32a4cc15[class com.gameserver.player.async.LoadPlayerRoleOperation],ioLastTime=62724,IO_ALLOW_MAX_TIME=500,uuid=-1
+[18/04/09 18:15:23,400] --> Global Logic process message error!
+java.lang.NullPointerException
+	at com.gameserver.player.handler.PlayerMessageHandler.handlePlayerCloseSession(PlayerMessageHandler.java:300)
+	at com.gameserver.player.msg.GameClientSessionClosedMsg.execute(GameClientSessionClosedMsg.java:25)
+	at com.gameserver.common.GlobalLogicRunner.processMessage(GlobalLogicRunner.java:72)
+	at com.gameserver.common.GlobalLogicRunner.tick(GlobalLogicRunner.java:54)
+	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:43)
+	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[18/04/09 18:22:04,212] --> AsyncOperation.IIoOperation=com.gameserver.player.async.LoadPlayerRoleOperation@26eabd88[class com.gameserver.player.async.LoadPlayerRoleOperation],ioLastTime=78936,IO_ALLOW_MAX_TIME=500,uuid=-1
+[18/04/09 18:22:04,228] --> Global Logic process message error!
+java.lang.NullPointerException
+	at com.gameserver.player.handler.PlayerMessageHandler.handlePlayerCloseSession(PlayerMessageHandler.java:300)
+	at com.gameserver.player.msg.GameClientSessionClosedMsg.execute(GameClientSessionClosedMsg.java:25)
+	at com.gameserver.common.GlobalLogicRunner.processMessage(GlobalLogicRunner.java:72)
+	at com.gameserver.common.GlobalLogicRunner.tick(GlobalLogicRunner.java:54)
+	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:43)
+	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[18/04/09 18:22:44,579] --> AsyncOperation.IIoOperation=com.gameserver.player.async.LoadPlayerRoleOperation@3085aec2[class com.gameserver.player.async.LoadPlayerRoleOperation],ioLastTime=7281,IO_ALLOW_MAX_TIME=500,uuid=-1
+[18/04/09 18:22:44,704] --> Global Logic process message error!
+java.lang.NullPointerException
+	at com.gameserver.player.handler.PlayerMessageHandler.handlePlayerCloseSession(PlayerMessageHandler.java:300)
+	at com.gameserver.player.msg.GameClientSessionClosedMsg.execute(GameClientSessionClosedMsg.java:25)
+	at com.gameserver.common.GlobalLogicRunner.processMessage(GlobalLogicRunner.java:72)
+	at com.gameserver.common.GlobalLogicRunner.tick(GlobalLogicRunner.java:54)
+	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:43)
+	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[18/04/09 18:24:06,488] --> Global Logic process message error!
+java.lang.NullPointerException
+	at com.gameserver.player.handler.PlayerMessageHandler.handlePlayerCloseSession(PlayerMessageHandler.java:300)
+	at com.gameserver.player.msg.GameClientSessionClosedMsg.execute(GameClientSessionClosedMsg.java:25)
+	at com.gameserver.common.GlobalLogicRunner.processMessage(GlobalLogicRunner.java:72)
+	at com.gameserver.common.GlobalLogicRunner.tick(GlobalLogicRunner.java:54)
+	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:43)
+	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[18/04/09 18:24:53,157] --> Global Logic process message error!
+java.lang.NullPointerException
+	at com.gameserver.player.handler.PlayerMessageHandler.handlePlayerCloseSession(PlayerMessageHandler.java:300)
+	at com.gameserver.player.msg.GameClientSessionClosedMsg.execute(GameClientSessionClosedMsg.java:25)
+	at com.gameserver.common.GlobalLogicRunner.processMessage(GlobalLogicRunner.java:72)
+	at com.gameserver.common.GlobalLogicRunner.tick(GlobalLogicRunner.java:54)
+	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:43)
+	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[18/04/09 18:28:41,376] --> AsyncOperation.IIoOperation=com.gameserver.player.async.LoadPlayerRoleOperation@46140a28[class com.gameserver.player.async.LoadPlayerRoleOperation],ioLastTime=7122,IO_ALLOW_MAX_TIME=500,uuid=-1
+[18/04/09 19:07:20,860] --> AsyncOperation.IIoOperation=com.gameserver.player.async.LoadPlayerRoleOperation@29df6c26[class com.gameserver.player.async.LoadPlayerRoleOperation],ioLastTime=14455,IO_ALLOW_MAX_TIME=500,uuid=-1

@@ -1,0 +1,596 @@
+[18/04/12 09:56:40,469] --> Message processor thread started [Thread[MessageProcessor Thread,5,main]]
+[18/04/12 09:56:40,809] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:14us Total:1
+[18/04/12 09:56:40,812] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:10us Total:2
+[18/04/12 09:56:40,818] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:3
+[18/04/12 09:56:40,821] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:4
+[18/04/12 09:56:40,828] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:5
+[18/04/12 09:56:40,829] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:6
+[18/04/12 09:56:40,831] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:7
+[18/04/12 09:56:40,835] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:8
+[18/04/12 09:56:40,843] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:9
+[18/04/12 09:56:40,844] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:10
+[18/04/12 09:56:40,846] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:11
+[18/04/12 09:56:40,859] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:12
+[18/04/12 09:56:40,859] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:13
+[18/04/12 09:56:40,861] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:14
+[18/04/12 09:56:40,861] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:15
+[18/04/12 09:56:40,868] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:16
+[18/04/12 09:56:40,871] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:17
+[18/04/12 09:56:40,881] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:18
+[18/04/12 09:56:40,886] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:19
+[18/04/12 09:56:40,888] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:20
+[18/04/12 09:56:40,892] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:21
+[18/04/12 09:56:40,901] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:22
+[18/04/12 09:56:40,901] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:23
+[18/04/12 09:56:40,903] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:24
+[18/04/12 09:56:40,912] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:10us Total:25
+[18/04/12 09:56:40,912] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:26
+[18/04/12 09:56:40,913] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:27
+[18/04/12 09:56:40,914] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:28
+[18/04/12 09:56:40,921] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:29
+[18/04/12 09:56:40,923] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:30
+[18/04/12 09:56:40,927] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:31
+[18/04/12 09:56:40,928] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:32
+[18/04/12 09:56:40,933] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:33
+[18/04/12 09:56:40,934] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:34
+[18/04/12 09:56:40,940] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:35
+[18/04/12 09:56:40,941] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:36
+[18/04/12 09:56:40,944] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:37
+[18/04/12 09:56:40,974] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:38
+[18/04/12 09:56:40,974] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:39
+[18/04/12 09:56:40,974] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:40
+[18/04/12 09:56:40,985] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:41
+[18/04/12 09:56:40,987] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:42
+[18/04/12 09:56:40,991] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:43
+[18/04/12 09:56:40,994] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:44
+[18/04/12 09:56:40,996] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:45
+[18/04/12 09:56:41,001] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:5us Total:46
+[18/04/12 09:56:41,003] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:47
+[18/04/12 09:56:41,007] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:48
+[18/04/12 09:56:41,010] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:49
+[18/04/12 09:56:41,013] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:50
+[18/04/12 09:56:41,014] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:51
+[18/04/12 09:56:41,017] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:52
+[18/04/12 09:56:41,020] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:53
+[18/04/12 09:56:41,029] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:54
+[18/04/12 09:56:41,030] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:55
+[18/04/12 09:56:41,032] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:18us Total:56
+[18/04/12 09:56:41,036] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:57
+[18/04/12 09:56:41,037] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:58
+[18/04/12 09:56:41,040] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:59
+[18/04/12 09:56:41,043] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:60
+[18/04/12 09:56:41,046] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:61
+[18/04/12 09:56:41,050] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:62
+[18/04/12 09:56:41,051] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:63
+[18/04/12 09:56:41,055] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:64
+[18/04/12 09:56:41,057] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:65
+[18/04/12 09:56:41,063] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:16us Total:66
+[18/04/12 09:56:41,064] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:67
+[18/04/12 09:56:41,067] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:68
+[18/04/12 09:56:41,071] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:69
+[18/04/12 09:56:41,075] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:70
+[18/04/12 09:56:41,076] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:71
+[18/04/12 09:56:41,079] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:72
+[18/04/12 09:56:41,081] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:73
+[18/04/12 09:56:41,085] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:74
+[18/04/12 09:56:41,092] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:75
+[18/04/12 09:56:41,093] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:76
+[18/04/12 09:56:41,096] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:77
+[18/04/12 09:56:41,099] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:78
+[18/04/12 09:56:41,103] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:79
+[18/04/12 09:56:41,105] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:80
+[18/04/12 09:56:41,108] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:81
+[18/04/12 09:56:41,110] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:82
+[18/04/12 09:56:41,113] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:83
+[18/04/12 09:56:41,117] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:84
+[18/04/12 09:56:41,120] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:85
+[18/04/12 09:56:41,122] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:86
+[18/04/12 09:56:41,125] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:87
+[18/04/12 09:56:41,128] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:88
+[18/04/12 09:56:41,131] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:89
+[18/04/12 09:56:41,134] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:90
+[18/04/12 09:56:41,136] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:6us Total:91
+[18/04/12 09:56:41,139] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:92
+[18/04/12 09:56:41,142] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:93
+[18/04/12 09:56:41,144] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:94
+[18/04/12 09:56:41,147] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:95
+[18/04/12 09:56:41,150] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:96
+[18/04/12 09:56:41,152] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:97
+[18/04/12 09:56:41,155] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:98
+[18/04/12 09:56:41,157] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:99
+[18/04/12 09:56:41,160] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:100
+[18/04/12 09:56:41,162] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:101
+[18/04/12 09:56:41,165] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:102
+[18/04/12 09:56:41,169] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:103
+[18/04/12 09:56:41,170] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:104
+[18/04/12 09:56:41,174] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:105
+[18/04/12 09:56:41,176] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:7us Total:106
+[18/04/12 09:56:41,179] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:107
+[18/04/12 09:56:41,182] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:108
+[18/04/12 09:56:41,185] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:109
+[18/04/12 09:56:41,188] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:110
+[18/04/12 09:56:41,191] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:111
+[18/04/12 09:56:41,194] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:112
+[18/04/12 09:56:41,198] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:113
+[18/04/12 09:56:41,199] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:114
+[18/04/12 09:56:41,202] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:115
+[18/04/12 09:56:41,206] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:116
+[18/04/12 09:56:41,208] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:117
+[18/04/12 09:56:41,210] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:118
+[18/04/12 09:56:41,213] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:119
+[18/04/12 09:56:41,216] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:120
+[18/04/12 09:56:41,218] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:121
+[18/04/12 09:56:41,221] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:122
+[18/04/12 09:56:41,223] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:123
+[18/04/12 09:56:41,227] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:124
+[18/04/12 18:27:46,508] --> Message processor thread started [Thread[MessageProcessor Thread,5,main]]
+[18/04/12 18:27:46,725] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:17us Total:1
+[18/04/12 18:27:46,729] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:2
+[18/04/12 18:27:46,735] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:3
+[18/04/12 18:27:46,738] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:49us Total:4
+[18/04/12 18:27:46,742] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:5
+[18/04/12 18:27:46,745] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:6
+[18/04/12 18:27:46,754] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:7
+[18/04/12 18:27:46,755] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:8
+[18/04/12 18:27:46,759] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:9
+[18/04/12 18:27:46,768] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:10
+[18/04/12 18:27:46,769] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:11
+[18/04/12 18:27:46,771] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:12
+[18/04/12 18:27:46,777] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:13
+[18/04/12 18:27:46,781] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:14
+[18/04/12 18:27:46,786] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:15
+[18/04/12 18:27:46,789] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:16
+[18/04/12 18:27:46,795] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:17
+[18/04/12 18:27:46,797] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:18
+[18/04/12 18:27:46,800] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:19
+[18/04/12 18:27:46,814] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:20
+[18/04/12 18:27:46,815] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:21
+[18/04/12 18:27:46,815] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:22
+[18/04/12 18:27:46,822] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:23
+[18/04/12 18:27:46,825] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:24
+[18/04/12 18:27:46,827] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:5us Total:25
+[18/04/12 18:27:46,831] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:26
+[18/04/12 18:27:46,836] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:27
+[18/04/12 18:27:46,836] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:28
+[18/04/12 18:27:46,841] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:393us Total:29
+[18/04/12 18:27:46,843] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:30
+[18/04/12 18:27:46,846] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:31
+[18/04/12 18:27:46,849] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:32
+[18/04/12 18:27:46,860] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:33
+[18/04/12 18:27:46,860] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:34
+[18/04/12 18:27:46,860] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:35
+[18/04/12 18:27:46,861] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:36
+[18/04/12 18:27:46,863] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:37
+[18/04/12 18:27:46,866] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:38
+[18/04/12 18:27:46,868] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:39
+[18/04/12 18:27:46,872] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:40
+[18/04/12 18:27:46,874] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:41
+[18/04/12 18:27:46,878] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:42
+[18/04/12 18:27:46,881] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:43
+[18/04/12 18:27:46,885] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:44
+[18/04/12 18:27:46,888] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:45
+[18/04/12 18:27:46,890] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:46
+[18/04/12 18:27:46,892] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:47
+[18/04/12 18:27:46,895] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:48
+[18/04/12 18:27:46,897] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:49
+[18/04/12 18:27:46,901] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:50
+[18/04/12 18:27:46,903] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:51
+[18/04/12 18:27:46,910] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:52
+[18/04/12 18:27:46,910] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:53
+[18/04/12 18:27:46,911] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:54
+[18/04/12 18:27:46,914] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:55
+[18/04/12 18:27:46,916] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:56
+[18/04/12 18:27:46,919] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:57
+[18/04/12 18:27:46,921] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:58
+[18/04/12 18:27:46,923] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:59
+[18/04/12 18:27:46,925] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:60
+[18/04/12 18:27:46,927] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:61
+[18/04/12 18:27:46,930] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:62
+[18/04/12 18:27:46,933] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:63
+[18/04/12 18:27:46,936] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:64
+[18/04/12 18:27:46,938] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:65
+[18/04/12 18:27:46,941] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:14us Total:66
+[18/04/12 18:27:46,947] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:25us Total:67
+[18/04/12 18:27:46,947] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:24us Total:68
+[18/04/12 18:27:46,950] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:69
+[18/04/12 18:27:46,953] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:70
+[18/04/12 18:27:46,956] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:71
+[18/04/12 18:27:46,958] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:72
+[18/04/12 18:27:46,960] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:73
+[18/04/12 18:27:46,964] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:266us Total:74
+[18/04/12 18:27:46,966] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:75
+[18/04/12 18:27:46,968] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:76
+[18/04/12 18:27:46,970] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:77
+[18/04/12 18:27:46,972] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:78
+[18/04/12 18:27:46,974] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:79
+[18/04/12 18:27:46,977] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:80
+[18/04/12 18:27:46,979] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:81
+[18/04/12 18:27:46,981] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:82
+[18/04/12 18:27:46,984] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:83
+[18/04/12 18:27:46,986] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:84
+[18/04/12 18:27:46,988] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:85
+[18/04/12 18:27:46,990] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:86
+[18/04/12 18:27:46,992] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:87
+[18/04/12 18:27:46,995] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:706us Total:88
+[18/04/12 18:27:46,997] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:89
+[18/04/12 18:27:46,999] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:90
+[18/04/12 18:27:47,002] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:91
+[18/04/12 18:27:47,004] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:92
+[18/04/12 18:27:47,013] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:93
+[18/04/12 18:27:47,015] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:94
+[18/04/12 18:27:47,017] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:95
+[18/04/12 18:27:47,020] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:96
+[18/04/12 18:27:47,023] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:97
+[18/04/12 18:27:47,026] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:98
+[18/04/12 18:27:47,030] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:99
+[18/04/12 18:27:47,031] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:100
+[18/04/12 18:27:47,033] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:101
+[18/04/12 18:27:47,035] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:102
+[18/04/12 18:27:47,037] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:103
+[18/04/12 18:27:47,040] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:104
+[18/04/12 18:27:47,043] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:105
+[18/04/12 18:27:47,046] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:106
+[18/04/12 18:27:47,048] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:107
+[18/04/12 18:27:47,051] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:108
+[18/04/12 18:27:47,055] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:11us Total:109
+[18/04/12 18:27:47,059] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:110
+[18/04/12 18:27:47,060] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:111
+[18/04/12 18:27:47,063] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:112
+[18/04/12 18:27:47,065] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:113
+[18/04/12 18:27:47,067] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:114
+[18/04/12 18:27:47,070] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:115
+[18/04/12 18:27:47,074] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:116
+[18/04/12 18:27:47,077] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:117
+[18/04/12 18:27:47,079] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:118
+[18/04/12 18:27:47,082] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:119
+[18/04/12 18:27:47,085] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:120
+[18/04/12 18:27:47,087] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:121
+[18/04/12 18:27:47,089] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:122
+[18/04/12 18:27:47,092] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:123
+[18/04/12 18:27:47,094] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:124
+[18/04/12 18:36:53,839] --> Message processor thread started [Thread[MessageProcessor Thread,5,main]]
+[18/04/12 18:36:54,328] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:14us Total:1
+[18/04/12 18:36:54,331] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:2
+[18/04/12 18:36:54,336] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:3
+[18/04/12 18:36:54,341] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:4
+[18/04/12 18:36:54,343] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:5
+[18/04/12 18:36:54,345] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:6
+[18/04/12 18:36:54,349] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:7
+[18/04/12 18:36:54,351] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:8
+[18/04/12 18:36:54,354] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:9
+[18/04/12 18:36:54,356] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:10
+[18/04/12 18:36:54,361] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:11
+[18/04/12 18:36:54,364] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:12
+[18/04/12 18:36:54,368] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:13
+[18/04/12 18:36:54,374] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:14
+[18/04/12 18:36:54,378] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:15
+[18/04/12 18:36:54,381] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:16
+[18/04/12 18:36:54,385] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:17
+[18/04/12 18:36:54,388] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:18
+[18/04/12 18:36:54,391] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:19
+[18/04/12 18:36:54,395] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:20
+[18/04/12 18:36:54,400] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:21
+[18/04/12 18:36:54,404] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:6us Total:22
+[18/04/12 18:36:54,407] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:23
+[18/04/12 18:36:54,410] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:24
+[18/04/12 18:36:54,413] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:25
+[18/04/12 18:36:54,417] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:26
+[18/04/12 18:36:54,421] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:8us Total:27
+[18/04/12 18:36:54,424] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:28
+[18/04/12 18:36:54,429] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:29
+[18/04/12 18:36:54,438] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:30
+[18/04/12 18:36:54,485] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:31
+[18/04/12 18:36:54,488] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:32
+[18/04/12 18:36:54,494] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:33
+[18/04/12 18:36:54,498] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:34
+[18/04/12 18:36:54,501] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:35
+[18/04/12 18:36:54,504] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:36
+[18/04/12 18:36:54,507] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:37
+[18/04/12 18:36:54,511] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:38
+[18/04/12 18:36:54,513] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:39
+[18/04/12 18:36:54,516] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:40
+[18/04/12 18:36:54,519] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:41
+[18/04/12 18:36:54,522] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:42
+[18/04/12 18:36:54,528] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:43
+[18/04/12 18:36:54,532] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:44
+[18/04/12 18:36:54,534] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:45
+[18/04/12 18:36:54,539] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:46
+[18/04/12 18:36:54,543] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:47
+[18/04/12 18:36:54,546] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:48
+[18/04/12 18:36:54,549] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:49
+[18/04/12 18:36:54,551] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:50
+[18/04/12 18:36:54,554] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:51
+[18/04/12 18:36:54,558] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:52
+[18/04/12 18:36:54,560] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:53
+[18/04/12 18:36:54,563] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:54
+[18/04/12 18:36:54,566] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:55
+[18/04/12 18:36:54,569] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:56
+[18/04/12 18:36:54,572] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:57
+[18/04/12 18:36:54,575] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:58
+[18/04/12 18:36:54,578] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:59
+[18/04/12 18:36:54,580] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:60
+[18/04/12 18:36:54,583] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:61
+[18/04/12 18:36:54,585] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:62
+[18/04/12 18:36:54,589] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:63
+[18/04/12 18:36:54,591] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:64
+[18/04/12 18:36:54,594] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:65
+[18/04/12 18:36:54,596] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:66
+[18/04/12 18:36:54,598] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:16us Total:67
+[18/04/12 18:36:54,601] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:68
+[18/04/12 18:36:54,604] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:69
+[18/04/12 18:36:54,606] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:70
+[18/04/12 18:36:54,609] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:71
+[18/04/12 18:36:54,611] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:72
+[18/04/12 18:36:54,614] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:73
+[18/04/12 18:36:54,617] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:74
+[18/04/12 18:36:54,620] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:75
+[18/04/12 18:36:54,623] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:76
+[18/04/12 18:36:54,626] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:77
+[18/04/12 18:36:54,628] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:78
+[18/04/12 18:36:54,630] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:79
+[18/04/12 18:36:54,633] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:80
+[18/04/12 18:36:54,635] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:81
+[18/04/12 18:36:54,638] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:82
+[18/04/12 18:36:54,641] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:83
+[18/04/12 18:36:54,644] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:84
+[18/04/12 18:36:54,646] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:85
+[18/04/12 18:36:54,649] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:86
+[18/04/12 18:36:54,652] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:87
+[18/04/12 18:36:54,654] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:88
+[18/04/12 18:36:54,657] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:89
+[18/04/12 18:36:54,659] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:90
+[18/04/12 18:36:54,662] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:91
+[18/04/12 18:36:54,665] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:92
+[18/04/12 18:36:54,667] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:93
+[18/04/12 18:36:54,670] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:94
+[18/04/12 18:36:54,672] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:95
+[18/04/12 18:36:54,675] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:96
+[18/04/12 18:36:54,678] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:97
+[18/04/12 18:36:54,680] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:98
+[18/04/12 18:36:54,684] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:99
+[18/04/12 18:36:54,686] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:100
+[18/04/12 18:36:54,690] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:101
+[18/04/12 18:36:54,693] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:102
+[18/04/12 18:36:54,698] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:103
+[18/04/12 18:36:54,703] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:104
+[18/04/12 18:36:54,706] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:105
+[18/04/12 18:36:54,721] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:106
+[18/04/12 18:36:54,723] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:107
+[18/04/12 18:36:54,726] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:108
+[18/04/12 18:36:54,729] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:109
+[18/04/12 18:36:54,732] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:110
+[18/04/12 18:36:54,734] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:111
+[18/04/12 18:36:54,737] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:112
+[18/04/12 18:36:54,740] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:113
+[18/04/12 18:36:54,743] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:114
+[18/04/12 18:36:54,754] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:115
+[18/04/12 18:36:54,757] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:116
+[18/04/12 18:36:54,759] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:117
+[18/04/12 18:36:54,762] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:118
+[18/04/12 18:36:54,765] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:119
+[18/04/12 18:36:54,767] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:120
+[18/04/12 18:36:54,770] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:121
+[18/04/12 18:36:54,772] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:122
+[18/04/12 18:36:54,774] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:123
+[18/04/12 18:36:54,777] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:124
+[18/04/12 18:41:07,730] --> 【Receive】SessionOpenedMessage
+[18/04/12 18:41:07,734] --> Message:SYS_SESSION_OPEN Type:1 Time:2921us Total:125
+[18/04/12 18:41:07,923] --> CGHandshake[id=0,fly=0,deviceId=]506
+[18/04/12 18:41:07,924] --> 【Receive】CGHandshake[id=0,fly=0,deviceId=]506
+[18/04/12 18:41:07,939] --> [[ Send ]] GCHandshake[]507
+[18/04/12 18:41:07,951] --> [[ length ]] 4
+[18/04/12 18:41:07,952] --> Message:CG_HANDSHAKE Type:506 Time:28106us Total:126
+[18/04/12 18:41:08,014] --> CGCheckPlayerLogin[userId=1698,userCode=1523529667002,deviceId=,deviceType=,deviceModel=,osVersion=,channelType=1,clientVersion=,resourceVersion=0,countries=]851
+[18/04/12 18:41:08,014] --> 【Receive】CGCheckPlayerLogin[userId=1698,userCode=1523529667002,deviceId=,deviceType=,deviceModel=,osVersion=,channelType=1,clientVersion=,resourceVersion=0,countries=]851
+[18/04/12 18:41:08,249] --> [[ Send ]] GCCheckPlayerLogin[loginId=1698,facebookId=-1,accountId=-1698,img=head_8.png,utcOffset=28800000,playerRole=2]852
+[18/04/12 18:41:08,250] --> [[ length ]] 47
+[18/04/12 18:41:08,253] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.player.async.PlayerAuthOperation]] Type:10 Time:12982us Total:127
+[18/04/12 18:41:08,277] --> CGPlayerEnter[]854
+[18/04/12 18:41:08,277] --> 【Receive】CGPlayerEnter[]854
+[18/04/12 18:41:08,313] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.player.async.SaveDeviceOperation]] Type:10 Time:5us Total:128
+[18/04/12 18:41:08,355] --> 【Receive】ScheduleGlobalLogicAsyncFinishMessage[operation=class com.core.async.AsyncOperation operation[com.gameserver.player.async.PlayerRolesLoad],future=<null>,state=0,createTimestamp=1523529668352,trigerTimestamp=0] uuid : -2
+[18/04/12 18:41:08,646] --> 【Receive】ScheduleGlobalLogicAsyncFinishMessage[operation=class com.core.async.AsyncOperation operation[com.gameserver.player.async.CreateRoleOperation],future=<null>,state=0,createTimestamp=1523529668646,trigerTimestamp=0] uuid : -2
+[18/04/12 18:41:09,132] --> [[ Send ]] GCMonthOrWeek[mwtype=0,startOrEnd=0,leftTime=86400]6810 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,132] --> [[ length ]] 20
+[18/04/12 18:41:09,140] --> [[ Send ]] GCMonthOrWeek[mwtype=1,startOrEnd=0,leftTime=259200]6810 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,141] --> [[ length ]] 20
+[18/04/12 18:41:09,153] --> [[ Send ]] GCHumanDetailInfo[human=com.gameserver.human.data.HumanInfoData@ce41273]1551 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,154] --> [[ length ]] 110
+[18/04/12 18:41:09,154] --> [[ Send ]] GCHumanTexasInfoData[totalCount=0,winCount=0,isAuto=1,people=6,weekWinCoins=0,dayBiggestWinCoins=0,biggestHandCardList={}]1230 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,155] --> [[ length ]] 30
+[18/04/12 18:41:09,156] --> [[ Send ]] GCHumanBagInfoData[itemList={com.gameserver.item.data.ItemInfoData@550b7fa7,com.gameserver.item.data.ItemInfoData@74853d00,com.gameserver.item.data.ItemInfoData@1aaaf110}]2951 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,157] --> [[ length ]] 141
+[18/04/12 18:41:09,158] --> [[ Send ]] GCHumanMonthCardInfoData[monthCardInfoData=com.gameserver.monthcard.data.HumanMonthCardInfoData@22931f72]2601 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,159] --> [[ length ]] 28
+[18/04/12 18:41:09,160] --> [[ Send ]] GCHumanWeekCardInfoData[weekCardInfoData=com.gameserver.weekcard.data.HumanWeekCardInfoData@5ebfe529]2251 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,161] --> [[ length ]] 28
+[18/04/12 18:41:09,161] --> [[ Send ]] GCSignInInfoData[dayList={}]4353 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,162] --> [[ length ]] 6
+[18/04/12 18:41:09,163] --> [[ Send ]] GCMiscInfoData[humanMiscInfoData=com.gameserver.misc.data.HumanMiscInfoData@5e12b2d8]5053 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,164] --> [[ length ]] 32
+[18/04/12 18:41:09,165] --> [[ Send ]] GCMiscFbInfoData[humanMiscFBInfoData=com.gameserver.misc.data.HumanMiscFBInfoData@7cc08403]5062 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,166] --> [[ length ]] 36
+[18/04/12 18:41:09,167] --> [[ Send ]] GCVipNewData[humanVipNewInfoData=com.gameserver.vipnew.data.HumanVipNewInfoData@64edc439]8201 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,167] --> [[ length ]] 12
+[18/04/12 18:41:09,173] --> [[ Send ]] GCLoadMailList[mailKind=0,mailInfoDataList={}]3652 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,173] --> [[ length ]] 10
+[18/04/12 18:41:09,174] --> [[ Send ]] GCLoadMailList[mailKind=1,mailInfoDataList={}]3652 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,174] --> [[ length ]] 10
+[18/04/12 18:41:09,174] --> [[ Send ]] GCLoadMailList[mailKind=2,mailInfoDataList={}]3652 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,174] --> [[ length ]] 10
+[18/04/12 18:41:09,175] --> [[ Send ]] GCLoadMailList[mailKind=3,mailInfoDataList={}]3652 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,175] --> [[ length ]] 10
+[18/04/12 18:41:09,191] --> [[ Send ]] GCLoadFriendGiftList[friendGiftInfoDataList={}]4014 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,191] --> [[ length ]] 6
+[18/04/12 18:41:09,193] --> [[ Send ]] GCLoadFriendRequestList[friendRequestInfoDataList={}]4004 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,193] --> [[ length ]] 6
+[18/04/12 18:41:09,194] --> [[ Send ]] GCTaskInfoData[dailyTaskDataList={com.gameserver.task.data.TaskData@7b26106d,com.gameserver.task.data.TaskData@242c5b05,com.gameserver.task.data.TaskData@4312804c,com.gameserver.task.data.TaskData@267a0681,com.gameserver.task.data.TaskData@6d94cf5b,com.gameserver.task.data.TaskData@2ba6559f,com.gameserver.task.data.TaskData@7c61a047,com.gameserver.task.data.TaskData@a59ff44,com.gameserver.task.data.TaskData@41fc1743}]6103 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,194] --> [[ length ]] 114
+[18/04/12 18:41:09,195] --> [[ Send ]] GCTaskProgress[boxId=0,taskNum=0,taskProcges=]6106 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,196] --> [[ length ]] 14
+[18/04/12 18:41:09,199] --> [[ Send ]] GCActivityList[activityDataList={}]6801 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,199] --> [[ length ]] 6
+[18/04/12 18:41:09,202] --> [[ Send ]] GCHumanActivityRewardDataList[humanSimpleRewardInfoData={}]6802 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,202] --> [[ length ]] 6
+[18/04/12 18:41:09,204] --> [[ Send ]] GCHunamnProgress[humanActivitySmallData={}]6807 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,204] --> [[ length ]] 6
+[18/04/12 18:41:09,206] --> [[ Send ]] GCFunctionLeftTime[img=,leftTime=0,functionType={0}]6817 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,207] --> [[ length ]] 20
+[18/04/12 18:41:09,208] --> [[ Send ]] GCBigZhuanpan[isFree=1,loginPoint=0]7508 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,209] --> [[ length ]] 12
+[18/04/12 18:41:09,244] --> player[6390146582877733890] enter scene[1]
+[18/04/12 18:41:09,245] --> [[ Send ]] GCEnterScene[]856 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,246] --> [[ length ]] 4
+[18/04/12 18:41:09,246] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.player.async.LoadPlayerRoleOperation]] Type:10 Time:151543us Total:129
+[18/04/12 18:41:09,352] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:24us Total:130
+[18/04/12 18:41:09,353] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.player.async.SavePlayerRoleOperation]] Type:10 Time:29us Total:131
+[18/04/12 18:41:09,365] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:132
+[18/04/12 18:41:09,366] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:133
+[18/04/12 18:41:09,388] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:153us Total:134
+[18/04/12 18:41:09,401] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:135
+[18/04/12 18:41:09,402] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:136
+[18/04/12 18:41:09,402] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:137
+[18/04/12 18:41:09,402] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:138
+[18/04/12 18:41:09,406] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:139
+[18/04/12 18:41:09,410] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:140
+[18/04/12 18:41:09,413] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:141
+[18/04/12 18:41:09,416] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:142
+[18/04/12 18:41:09,423] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:143
+[18/04/12 18:41:09,427] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:144
+[18/04/12 18:41:09,430] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:43us Total:145
+[18/04/12 18:41:09,433] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:146
+[18/04/12 18:41:09,436] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:147
+[18/04/12 18:41:09,438] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:148
+[18/04/12 18:41:09,441] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:149
+[18/04/12 18:41:09,445] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:150
+[18/04/12 18:41:09,445] --> CGBankState[]1579
+[18/04/12 18:41:09,447] --> 【Receive】CGBankState[]1579 from player : 1698,roleUUID : 6390146582877733890, sceneRoleId : -283474942
+[18/04/12 18:41:09,448] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:41us Total:151
+[18/04/12 18:41:09,450] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:152
+[18/04/12 18:41:09,453] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:153
+[18/04/12 18:41:09,457] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:154
+[18/04/12 18:41:09,460] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:155
+[18/04/12 18:41:09,463] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:156
+[18/04/12 18:41:09,464] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:157
+[18/04/12 18:41:09,470] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:158
+[18/04/12 18:41:09,471] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:159
+[18/04/12 18:41:09,485] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:160
+[18/04/12 18:41:09,486] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:161
+[18/04/12 18:41:09,490] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:162
+[18/04/12 18:41:09,490] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:163
+[18/04/12 18:41:09,494] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:164
+[18/04/12 18:41:09,500] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:165
+[18/04/12 18:41:09,500] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:166
+[18/04/12 18:41:09,502] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:167
+[18/04/12 18:41:09,508] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:168
+[18/04/12 18:41:09,509] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:169
+[18/04/12 18:41:09,515] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:170
+[18/04/12 18:41:09,516] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:89us Total:171
+[18/04/12 18:41:09,516] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:172
+[18/04/12 18:41:09,518] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:173
+[18/04/12 18:41:09,520] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:174
+[18/04/12 18:41:09,530] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:175
+[18/04/12 18:41:09,530] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:176
+[18/04/12 18:41:09,534] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:177
+[18/04/12 18:41:09,535] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:47us Total:178
+[18/04/12 18:41:09,537] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:179
+[18/04/12 18:41:09,539] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:180
+[18/04/12 18:41:09,543] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:181
+[18/04/12 18:41:09,546] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:182
+[18/04/12 18:41:09,547] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:183
+[18/04/12 18:41:09,549] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:184
+[18/04/12 18:41:09,552] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:185
+[18/04/12 18:41:09,554] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:186
+[18/04/12 18:41:09,558] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:187
+[18/04/12 18:41:09,560] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:188
+[18/04/12 18:41:09,562] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:189
+[18/04/12 18:41:09,567] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:190
+[18/04/12 18:41:09,568] --> [[ Send ]] GCBankState[state=1]1580 to player : 1698, uuid : 6390146582877733890, id : -283474942
+[18/04/12 18:41:09,569] --> [[ length ]] 8
+[18/04/12 18:41:09,569] --> Message:CG_BANK_STATE Type:1579Class:class com.gameserver.human.msg.CGBankState Time:15771us Total:1 Error:0
+[18/04/12 18:41:09,571] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:191
+[18/04/12 18:41:09,571] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:192
+[18/04/12 18:41:09,574] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:5us Total:193
+[18/04/12 18:41:09,576] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:194
+[18/04/12 18:41:09,579] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:195
+[18/04/12 18:41:09,581] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:196
+[18/04/12 18:41:09,585] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:40us Total:197
+[18/04/12 18:41:09,586] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:5us Total:198
+[18/04/12 18:41:09,592] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:199
+[18/04/12 18:41:09,592] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:200
+[18/04/12 18:41:09,595] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:201
+[18/04/12 18:41:09,598] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:202
+[18/04/12 18:41:09,601] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:203
+[18/04/12 18:41:09,605] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:204
+[18/04/12 18:41:09,608] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:205
+[18/04/12 18:41:09,610] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:206
+[18/04/12 18:41:09,612] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:207
+[18/04/12 18:41:09,614] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:208
+[18/04/12 18:41:09,616] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:209
+[18/04/12 18:41:09,620] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:210
+[18/04/12 18:41:09,622] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:211
+[18/04/12 18:41:09,624] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:212
+[18/04/12 18:41:09,626] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:213
+[18/04/12 18:41:09,629] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:214
+[18/04/12 18:41:09,631] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:215
+[18/04/12 18:41:09,633] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:216
+[18/04/12 18:41:09,636] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:217
+[18/04/12 18:41:09,637] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:218
+[18/04/12 18:41:09,640] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:219
+[18/04/12 18:41:09,642] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:220
+[18/04/12 18:41:09,645] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:221
+[18/04/12 18:41:09,648] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:222
+[18/04/12 18:41:09,651] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:223
+[18/04/12 18:41:09,653] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:224
+[18/04/12 18:41:09,656] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:225
+[18/04/12 18:41:09,658] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:226
+[18/04/12 18:41:09,660] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:56us Total:227
+[18/04/12 18:41:09,663] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:228
+[18/04/12 18:41:09,665] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:229
+[18/04/12 18:41:09,667] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:230
+[18/04/12 18:41:09,671] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:231
+[18/04/12 18:41:09,673] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:232
+[18/04/12 18:41:09,675] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:233
+[18/04/12 18:41:09,677] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:234
+[18/04/12 18:41:09,679] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:235
+[18/04/12 18:41:09,682] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:236
+[18/04/12 18:41:09,684] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:237
+[18/04/12 18:41:09,686] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:238
+[18/04/12 18:41:09,688] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:239
+[18/04/12 18:41:09,690] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:240
+[18/04/12 18:41:09,692] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:241
+[18/04/12 18:41:09,695] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:242
+[18/04/12 18:41:09,700] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:243
+[18/04/12 18:41:09,702] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:244
+[18/04/12 18:41:09,704] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:245
+[18/04/12 18:41:09,707] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:7us Total:246
+[18/04/12 18:41:09,709] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:247
+[18/04/12 18:41:09,713] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:248
+[18/04/12 18:41:09,716] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:249
+[18/04/12 18:41:09,719] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:250
+[18/04/12 18:41:09,722] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:251
+[18/04/12 18:41:09,724] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:252
+[18/04/12 18:41:09,726] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:253
+[18/04/12 18:41:09,732] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:4us Total:254
+[18/04/12 18:41:09,735] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:255
+[18/04/12 18:41:09,737] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:3us Total:256
+[18/04/12 18:41:09,739] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:257
+[18/04/12 18:41:09,741] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:29us Total:258
+[18/04/12 18:41:09,747] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:32us Total:259
+[18/04/12 18:41:09,749] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:260
+[18/04/12 18:41:09,751] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:261
+[18/04/12 18:41:09,753] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:262
+[18/04/12 18:41:09,755] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:263
+[18/04/12 18:41:09,757] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:264
+[18/04/12 18:41:09,759] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:265
+[18/04/12 18:41:09,760] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:266
+[18/04/12 18:41:09,763] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:267
+[18/04/12 18:41:09,766] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:23us Total:268
+[18/04/12 18:41:09,768] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:269
+[18/04/12 18:41:09,770] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:270
+[18/04/12 18:41:09,774] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:271
+[18/04/12 18:41:09,776] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:272
+[18/04/12 18:41:09,778] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:273
+[18/04/12 18:41:09,781] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:274
+[18/04/12 18:41:09,783] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:1us Total:275
+[18/04/12 18:41:09,786] --> Message:SCHD_ASYNC_FINISH [class com.gameserver.common.db.operation.IoCheckAsyncOperation operation[com.gameserver.common.db.operation.SaveObjectOperation]] Type:10 Time:2us Total:276

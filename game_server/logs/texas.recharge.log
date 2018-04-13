@@ -1,60 +1,27 @@
-[18/04/11 10:04:09,252] --> recharge service after init
-[18/04/11 10:05:17,222] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
-[18/04/11 10:09:16,122] --> recharge service after init
-[18/04/11 10:09:34,295] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
-[18/04/11 10:09:34,300] --> ---[1696]-新手礼包-pid:58
-[18/04/11 10:10:57,754] --> recharge service after init
-[18/04/11 10:11:14,106] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
-[18/04/11 10:11:14,111] --> ---[1696]-新手礼包-pid:58
-[18/04/11 10:13:44,282] --> recharge service after init
-[18/04/11 10:14:00,526] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
-[18/04/11 10:14:00,532] --> ---[1696]-新手礼包-pid:58
-[18/04/11 10:15:44,519] --> recharge service after init
-[18/04/11 10:16:01,238] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
-[18/04/11 10:16:01,242] --> ---[1696]-新手礼包-pid:58
-[18/04/11 10:28:18,991] --> recharge service after init
-[18/04/11 10:28:35,663] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
-[18/04/11 10:28:35,668] --> ---[1696]-新手礼包-pid:58
-[18/04/11 10:30:01,080] --> recharge service after init
-[18/04/11 10:30:17,365] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
-[18/04/11 10:30:17,370] --> ---[1696]-新手礼包-pid:58
-[18/04/11 10:30:50,052] --> recharge service after init
-[18/04/11 10:31:06,690] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
-[18/04/11 10:31:06,694] --> ---[1696]-新手礼包-pid:58
-[18/04/11 10:33:56,401] --> recharge service after init
-[18/04/11 10:34:14,105] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
-[18/04/11 10:34:14,109] --> ---[1696]-新手礼包-pid:58
-[18/04/11 10:36:07,057] --> recharge service after init
-[18/04/11 10:36:30,730] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
-[18/04/11 10:36:30,734] --> ---[1696]-新手礼包-pid:58
-[18/04/11 10:37:52,186] --> recharge service after init
-[18/04/11 10:38:12,719] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
-[18/04/11 10:38:12,723] --> ---[1696]-新手礼包-pid:58
-[18/04/11 10:40:13,951] --> recharge service after init
-[18/04/11 10:40:30,547] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
-[18/04/11 10:40:30,553] --> ---[1696]-新手礼包-pid:58
-[18/04/11 10:42:08,335] --> recharge service after init
-[18/04/11 10:42:22,498] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
-[18/04/11 10:42:22,503] --> ---[1696]-新手礼包-pid:58
-[18/04/11 10:43:14,488] --> recharge service after init
-[18/04/11 10:43:29,840] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
-[18/04/11 10:43:29,845] --> ---[1696]-新手礼包-pid:58
-[18/04/11 10:48:44,718] --> recharge service after init
-[18/04/11 10:48:59,818] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
-[18/04/11 10:48:59,824] --> ---[1696]-新手礼包-pid:58
-[18/04/11 10:49:43,279] --> recharge service after init
-[18/04/11 10:50:49,823] --> recharge service after init
-[18/04/11 10:51:05,924] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
-[18/04/11 10:51:05,929] --> ---[1696]-新手礼包-pid:58
-[18/04/11 10:52:43,556] --> recharge service after init
-[18/04/11 10:52:59,553] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
-[18/04/11 10:52:59,558] --> ---[1696]-新手礼包-pid:58
-[18/04/11 10:56:28,165] --> recharge service after init
-[18/04/11 10:56:44,483] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
-[18/04/11 10:56:44,487] --> ---[1696]-新手礼包-pid:58
-[18/04/11 10:57:45,414] --> recharge service after init
-[18/04/11 10:58:02,154] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
-[18/04/11 10:58:02,159] --> ---[1696]-新手礼包-pid:58
-[18/04/11 11:03:33,263] --> recharge service after init
-[18/04/11 11:03:55,224] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
-[18/04/11 11:03:55,229] --> ---[1696]-新手礼包-pid:58
+[18/04/13 11:41:24,951] --> recharge service after init
+[18/04/13 11:42:36,557] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
+[18/04/13 11:44:16,085] --> recharge service after init
+[18/04/13 11:44:53,573] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
+[18/04/13 11:47:09,151] --> recharge service after init
+[18/04/13 11:47:39,510] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
+[18/04/13 11:55:20,459] --> recharge service after init
+[18/04/13 17:02:48,432] --> recharge service after init
+[18/04/13 17:03:09,612] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
+[18/04/13 17:03:09,624] --> ---[1692]-新手礼包-pid:58
+[18/04/13 17:04:19,134] --> recharge service after init
+[18/04/13 17:05:40,687] --> recharge service after init
+[18/04/13 17:07:00,370] --> recharge service after init
+[18/04/13 17:16:24,273] --> recharge service after init
+[18/04/13 17:16:51,818] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
+[18/04/13 17:16:51,829] --> ---[1692]-新手礼包-pid:58
+[18/04/13 17:17:12,865] --> ------用户登录-订单这边-ChannelType==DEFAULT
+[18/04/13 17:17:12,870] --> ---[1696]-新手礼包-pid:58
+[18/04/13 17:18:32,760] --> ------用户登录-订单这边-ChannelType==DEFAULT
+[18/04/13 17:18:32,766] --> ---[1696]-新手礼包-pid:58
+[18/04/13 17:25:11,866] --> ------用户登录-订单这边-ChannelType==GOOGLEPLAY
+[18/04/13 17:26:22,429] --> ------用户登录-订单这边-ChannelType==DEFAULT
+[18/04/13 17:26:22,431] --> ---[1696]-新手礼包-pid:58
+[18/04/13 17:26:45,869] --> ------用户登录-订单这边-ChannelType==DEFAULT
+[18/04/13 17:26:45,874] --> ---[1696]-新手礼包-pid:58
+[18/04/13 17:27:59,131] --> ------用户登录-订单这边-ChannelType==DEFAULT
+[18/04/13 17:27:59,133] --> ---[1696]-新手礼包-pid:58

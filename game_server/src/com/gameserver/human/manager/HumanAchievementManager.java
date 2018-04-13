@@ -39,6 +39,9 @@ public class HumanAchievementManager implements RoleDataHolder ,InitializeRequir
 	 * 加载数据库数据到内存
 	 */
 	public void load() {
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
 		HumanAchievementEntity entity =  Globals.getDaoService().getHumanAchievementDao().getAchievementEntity(owner.getPassportId());
 		
 		achievement = new HumanAchievement();
@@ -69,6 +72,10 @@ public class HumanAchievementManager implements RoleDataHolder ,InitializeRequir
 	 */
 	@Override
 	public void init() {
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
 		
         Map<Integer, CompleteState> achValue = achievement.getAchValueMap();
 		
@@ -133,6 +140,10 @@ public class HumanAchievementManager implements RoleDataHolder ,InitializeRequir
 	 * 登陆的时候调用
 	 */
 	public void updateLogin(){
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
 		//判断是否是同一天登陆
 		long lastLoginTime = this.owner.getLastLogoutTime();
 		if(lastLoginTime == 0){
@@ -179,6 +190,10 @@ public class HumanAchievementManager implements RoleDataHolder ,InitializeRequir
 	 * 登陆的时候查看昨天的排行榜
 	 */
 	public void updateRank(){
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
 		//判断是否是同一天登陆
 		long lastLoginTime = this.owner.getLastLoginTime();
 		long now = Globals.getTimeService().now();	
@@ -224,6 +239,7 @@ public class HumanAchievementManager implements RoleDataHolder ,InitializeRequir
 	 * 领取礼物
 	 */
 	public void updateReceiveGiving(){
+		
 		changeAchDateMap(ServerType.ServerType51.getIndex(),SmalType.SmalType22.getIndex(),"","");
 	}
 	
@@ -231,6 +247,7 @@ public class HumanAchievementManager implements RoleDataHolder ,InitializeRequir
 	 * FB 邀请
 	 */
 	public void updateFaceBook(){
+		
 		changeAchDateMap(ServerType.ServerType51.getIndex(),SmalType.SmalType23.getIndex(),"","");
 	}
 	
@@ -238,6 +255,7 @@ public class HumanAchievementManager implements RoleDataHolder ,InitializeRequir
 	 * 单发道具
 	 */
 	public void updateSingleProps(){
+		
 		changeAchDateMap(ServerType.ServerType51.getIndex(),SmalType.SmalType18.getIndex(),"","");
 	}
 	
@@ -245,6 +263,11 @@ public class HumanAchievementManager implements RoleDataHolder ,InitializeRequir
 	 * 群发道具
 	 */
 	public void updateAllProps(){
+		
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
 		changeAchDateMap(ServerType.ServerType51.getIndex(),SmalType.SmalType19.getIndex(),"","");
 	}
 	
@@ -255,6 +278,12 @@ public class HumanAchievementManager implements RoleDataHolder ,InitializeRequir
 	 * @param win
 	 */
 	public void updateAllGameWin(long win){
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
+		
+		
+		
 		changeAchDateMap(ServerType.ServerType52.getIndex(),SmalType.SmalType7.getIndex(),String.valueOf(win),"");
 	}
 	
@@ -263,6 +292,13 @@ public class HumanAchievementManager implements RoleDataHolder ,InitializeRequir
 	 * @param win
 	 */
 	public void updateAllGameBet(long bet){
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
+		
+		
+		
 		changeAchDateMap(ServerType.ServerType52.getIndex(),SmalType.SmalType8.getIndex(),String.valueOf(bet),"");
 	}
 	
@@ -271,6 +307,10 @@ public class HumanAchievementManager implements RoleDataHolder ,InitializeRequir
 	 * @param win
 	 */
 	public void updateAllGamePlay(){
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
 		changeAchDateMap(ServerType.ServerType52.getIndex(),SmalType.SmalType9.getIndex(),"","");
 	}
 	
@@ -280,6 +320,11 @@ public class HumanAchievementManager implements RoleDataHolder ,InitializeRequir
 	 * @param win
 	 */
 	public void updateAllGameWinNum(){
+		
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
 		changeAchDateMap(ServerType.ServerType52.getIndex(),SmalType.SmalType10.getIndex(),"","");
 	}
 	
@@ -288,6 +333,11 @@ public class HumanAchievementManager implements RoleDataHolder ,InitializeRequir
 	 * @param win
 	 */
 	public void updateAllGameSingleWin(long win){
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
+		
 		changeAchDateMap(ServerType.ServerType52.getIndex(),SmalType.SmalType11.getIndex(),"",String.valueOf(win));
 	}
 	
@@ -296,6 +346,11 @@ public class HumanAchievementManager implements RoleDataHolder ,InitializeRequir
 	 * @param win
 	 */
 	public void updateAllGameBigWin(){
+		
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
 		changeAchDateMap(ServerType.ServerType52.getIndex(),SmalType.SmalType12.getIndex(),"","");
 	}
 	/**
@@ -303,6 +358,10 @@ public class HumanAchievementManager implements RoleDataHolder ,InitializeRequir
 	 * @param win
 	 */
 	public void updateAllGameMega(){
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
 		changeAchDateMap(ServerType.ServerType52.getIndex(),SmalType.SmalType13.getIndex(),"","");
 	}
 	/**
@@ -310,6 +369,10 @@ public class HumanAchievementManager implements RoleDataHolder ,InitializeRequir
 	 * @param win
 	 */
 	public void updateAllGameSuper(){
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
 		changeAchDateMap(ServerType.ServerType52.getIndex(),SmalType.SmalType14.getIndex(),"","");
 	}
 	/**
@@ -412,6 +475,11 @@ public class HumanAchievementManager implements RoleDataHolder ,InitializeRequir
 	 * @param win
 	 */
 	public void updateSlotCumulativeWin(int slotType,long win){
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
+		
 		//大厅类型和ServerType 一样
 		int slotLobbType = Globals.getJackpotServer().getSlotType(slotType);
 		
@@ -424,6 +492,11 @@ public class HumanAchievementManager implements RoleDataHolder ,InitializeRequir
 	 * @param win
 	 */
 	public void updateSlotCumulativeWinNum(int slotType){
+		
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
 		//大厅类型和ServerType 一样
 		int slotLobbType = Globals.getJackpotServer().getSlotType(slotType);
 		changeAchDateMap(slotLobbType,SmalType.SmalType10.getIndex(),"","");
@@ -550,6 +623,11 @@ public class HumanAchievementManager implements RoleDataHolder ,InitializeRequir
 	 * @param value2
 	 */
 	public void changeAchDateMap(int serverType,int smallType,String value1,String value2){
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
+		
 		
 		//累计数据 （大类型  小类型   数据）
 		Map<Integer, Map<Integer, String>> achDate = achievement.getAchDateMap();
@@ -778,6 +856,11 @@ public class HumanAchievementManager implements RoleDataHolder ,InitializeRequir
 	 * @param smallType
 	 */
 	public void changeAchValueMap(int serverType,int smallType){
+		
+		/**这句话 不让后边执行了**/
+		if(true)return;
+		
+		
 		Map<Integer, Map<Integer, String>> achDate = achievement.getAchDateMap();
 		
 		Map<Integer, CompleteState> achValue = achievement.getAchValueMap();

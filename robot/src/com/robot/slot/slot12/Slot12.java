@@ -3,7 +3,6 @@ package com.robot.slot.slot12;
 import org.slf4j.Logger;
 
 import com.common.constants.Loggers;
-import com.gameserver.slot.msg.CGSlotType12Free;
 import com.gameserver.slot.msg.GCSlotSlot;
 import com.robot.Robot;
 import com.robot.slot.GCSlotBase;

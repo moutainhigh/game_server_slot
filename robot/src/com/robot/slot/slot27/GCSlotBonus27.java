@@ -1,7 +1,6 @@
 package com.robot.slot.slot27;
 
 import com.core.msg.IMessage;
-import com.gameserver.slot.msg.CGSlotType29Bouns;
 import com.gameserver.slot.msg.GCSlotType27BounsInfo;
 import com.robot.Robot;
 import com.robot.slot.GCSlotBonusBase;

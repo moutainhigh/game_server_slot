@@ -4,7 +4,6 @@ import org.slf4j.Logger;
 
 import com.common.constants.Loggers;
 import com.core.msg.IMessage;
-import com.gameserver.slot.msg.CGFreeSlotReward;
 import com.gameserver.slot.msg.GCSlotType10Scatter;
 import com.robot.Robot;
 import com.robot.slot.GCSlotBonusBase;

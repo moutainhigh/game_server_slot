@@ -3,8 +3,6 @@ package com.robot.rpc.impl;
 import org.apache.log4j.Logger;
 import org.apache.thrift.TException;
 
-
-
 import com.robot.common.Globals;
 import com.rpc.RPC.Iface;
 import com.rpc.RobotExitRequest;

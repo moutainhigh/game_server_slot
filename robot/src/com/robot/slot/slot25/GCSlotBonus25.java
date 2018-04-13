@@ -4,7 +4,6 @@ import java.util.Random;
 
 import com.core.msg.IMessage;
 import com.gameserver.slot.msg.CGSlotType25Bouns;
-import com.gameserver.slot.msg.GCSlotType25BounsInfo;
 import com.gameserver.slot.msg.GCSlotType25Bouns;
 import com.gameserver.slot.msg.GCSlotType25BounsInfo;
 import com.robot.Robot;

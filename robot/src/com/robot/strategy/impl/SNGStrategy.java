@@ -1,10 +1,8 @@
 package com.robot.strategy.impl;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
-import com.common.model.Card;
 import com.core.msg.IMessage;
 import com.core.util.Assert;
 import com.gameserver.common.msg.GCSystemMessage;
@@ -13,7 +11,6 @@ import com.gameserver.texas.data.sng.TexasSngInfoData;
 import com.gameserver.texas.enums.TexasRoomEnum;
 import com.gameserver.texas.msg.CGJoinTexasSng;
 import com.gameserver.texas.msg.CGLeaveTexas;
-import com.gameserver.texas.msg.CGTexasQuickStart;
 import com.gameserver.texas.msg.CGTexasSngList;
 import com.gameserver.texas.msg.GCJoinTexas;
 import com.gameserver.texas.msg.GCLeaveTexas;

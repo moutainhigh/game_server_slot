@@ -20,7 +20,6 @@
 	<classpathentry kind="lib" path="/code_libs/libs/commons-pool-1.5.2.jar"/>
 	<classpathentry kind="lib" path="/code_libs/libs/dom4j-1.6.1.jar"/>
 	<classpathentry kind="lib" path="/code_libs/libs/ezmorph-1.0.6.jar"/>
-	<classpathentry kind="lib" path="/code_libs/libs/fastjson-1.1.33.jar"/>
 	<classpathentry kind="lib" path="/code_libs/libs/geronimo-jpa_3.0_spec-1.1.jar"/>
 	<classpathentry kind="lib" path="/code_libs/libs/google-api-client-1.18.0-rc.jar"/>
 	<classpathentry kind="lib" path="/code_libs/libs/google-api-services-androidpublisher-v1.1-rev22-1.18.0-rc.jar"/>
@@ -70,5 +69,6 @@
 	<classpathentry kind="lib" path="/code_libs/libs/httpclient-4.5.2.jar"/>
 	<classpathentry kind="lib" path="/code_libs/libs/commons-logging-1.2.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/code_libs/libs/fastjson-1.2.23.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

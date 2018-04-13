@@ -423,7 +423,9 @@ public class LangConstants {
 	public static final Integer BANK_IDENTIFYING_CODE_IS_NOT_EQUALS = ++BANK_BASE;
 	@SysI18nString(content = "验证码已过期")
 	public static final Integer BANK_IDENTIFYING_CODE_IS_OVERDUE = ++BANK_BASE;
-	
-	
+	/**礼物（其实就是 邮件）**/
+	public static Integer GIFT_BASE = 20000000;
+	@SysI18nString(content = "礼物")
+	public static final Integer GIFT_MAIL_TITLE = ++BANK_BASE;
 	
 }

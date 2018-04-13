@@ -3,7 +3,6 @@ package com.robot.strategy.impl;
 
 import java.util.HashMap;
 
-import com.common.model.Card;
 import com.core.msg.IMessage;
 import com.core.util.Assert;
 import com.gameserver.common.msg.GCSystemMessage;
