@@ -170,6 +170,9 @@ public class Human extends Role implements PersistanceObject<Long, HumanEntity>,
 	private String clientVersion;
 	
 	
+	 /**兑换随机码 某一天兑换的次数  **/
+    private String receivecodeTime;
+	
 	/**
 	 * 用户的银行
 	 */
@@ -695,6 +698,7 @@ public class Human extends Role implements PersistanceObject<Long, HumanEntity>,
 		entity.setClientVersion(clientVersion);
 		entity.setBankGold(bankGold);
 		entity.setBankPassword(bankPassword);
+		entity.setReceivecodeTime(receivecodeTime);
 		return entity;
 	}
 
@@ -1760,6 +1764,14 @@ public class Human extends Role implements PersistanceObject<Long, HumanEntity>,
 
 	public void setUserInfo(UserInfo userInfo) {
 		this.userInfo = userInfo;
+	}
+
+	public String getReceivecodeTime() {
+		return receivecodeTime;
+	}
+
+	public void setReceivecodeTime(String receivecodeTime) {
+		this.receivecodeTime = receivecodeTime;
 	}
 
 

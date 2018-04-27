@@ -202,6 +202,15 @@ public class HumanMailManager implements RoleDataHolder, InitializeRequired{
 			}
 		}
 	}
+	public void removeSendMailById(long mailId) {
+		// TODO Auto-generated method stub
+		for(Mail mail:sendMailList){
+			if(mail.getDbId()==mailId){
+				sendMailList.remove(mail);
+				break;
+			}
+		}
+	}
 	
 	public void buildHumanMailInfoData(Player player,MailTypeEnum mailType,String sor){
 		List<Mail> mailList= new ArrayList<Mail>();

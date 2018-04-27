@@ -126,7 +126,7 @@ public class RobotSlotMain {
 	{
 		
 //			Robot robot =  createRobot("Robot_"+RandomUtil.nextInt(1, 999999999), serverId,dbService);
-			Robot robot =  createRobot("Robot_173800878", serverId,dbService);
+			Robot robot =  createRobot("Robot_173800998", serverId,dbService);
 			List<SlotListEntity> slotLists = robot.getSlotListDao().getEverySlot();
 			SlotListEntity  entity = null; 
 			for(SlotListEntity en:slotLists){

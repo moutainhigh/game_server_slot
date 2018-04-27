@@ -72,6 +72,8 @@ public class HumanEntity implements BaseEntity<Long>
     private String addfriendIds;
     /**兑换随机码 **/
     private String receivecode;
+    /**兑换随机码 某一天兑换的次数  **/
+    private String receivecodeTime;
     /**视频观看次数 **/
     private int watchNum;
     /**视频观看时间 **/
@@ -556,6 +558,14 @@ public class HumanEntity implements BaseEntity<Long>
 
 	public void setBankPassword(String bankPassword) {
 		this.bankPassword = bankPassword;
+	}
+
+	public String getReceivecodeTime() {
+		return receivecodeTime;
+	}
+
+	public void setReceivecodeTime(String receivecodeTime) {
+		this.receivecodeTime = receivecodeTime;
 	}
 
 	

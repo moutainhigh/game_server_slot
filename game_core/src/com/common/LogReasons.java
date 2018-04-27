@@ -1591,8 +1591,11 @@ public interface LogReasons
 		
 		
 		
-		addgold(20000, "老虎机 银行 增加金币"),
-		subgold(20001, "老虎机 银行 减少金币"),
+		addgold(20000, "银行 增加金币"),
+		subgold(20001, "银行 减少金币"),
+		
+		initaddgold(20002, "初始化 左上角 金币 增加"),
+		initsubgold(20003, "初始化 左上角 金币 减少 "),
 		;
 		
 		/** 原因序号 */

@@ -1,8 +1,7 @@
 package com.robot.strategy.impl;
 
 import com.core.msg.IMessage;
-import com.gameserver.common.data.RandRewardData;
-import com.gameserver.mail.msg.CGSendMail;
+import com.gameserver.human.msg.CGHumanChangeName;
 import com.robot.Robot;
 import com.robot.slot.SlotHandlerFactory;
 import com.robot.strategy.OnceExecuteStrategy;
@@ -27,11 +26,11 @@ public class SlotStrategy extends OnceExecuteStrategy {
 		message.setSlotId(this.getRobot().getRobotSlotCacheData().getSlotId());
 		this.getRobot().sendMessage(message);*/
 		
-		/*CGHumanChangeName CGHumanChangeName = new CGHumanChangeName();
-		CGHumanChangeName.setName("55555666666");
-		this.getRobot().sendMessage(CGHumanChangeName);*/
-		/*
-		CGBankState cgBankState = new CGBankState();
+		CGHumanChangeName CGHumanChangeName = new CGHumanChangeName();
+		CGHumanChangeName.setName("好啊好1");
+		this.getRobot().sendMessage(CGHumanChangeName);
+		
+	/*	CGBankState cgBankState = new CGBankState();
 		this.getRobot().sendMessage(cgBankState);
 		*/
 		/*CGBankSetPassword cgBankSetPassword = new CGBankSetPassword();
@@ -67,9 +66,9 @@ public class SlotStrategy extends OnceExecuteStrategy {
 		cgLoadMailList.setMailKind(4);
 		this.getRobot().sendMessage(cgLoadMailList);*/
 		
-		CGSendMail cgSendMail =  new CGSendMail();
+	/*	CGSendMail cgSendMail =  new CGSendMail();
 		
-		cgSendMail.setRoleId(1696);
+		cgSendMail.setRoleId(1702);
 		cgSendMail.setContent("haohaoho");
 		RandRewardData[] randRewardDataArr =  new RandRewardData[1];
 		RandRewardData randRewardData =  new RandRewardData();
@@ -79,7 +78,7 @@ public class SlotStrategy extends OnceExecuteStrategy {
 		randRewardData.setVippoint(0);
 		randRewardDataArr[0]=randRewardData;
 		cgSendMail.setRandReward(randRewardDataArr);
-		this.getRobot().sendMessage(cgSendMail);
+		this.getRobot().sendMessage(cgSendMail);*/
 	}
 
 	@Override

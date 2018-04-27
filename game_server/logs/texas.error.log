@@ -1,25 +1,28 @@
-[18/04/13 17:16:51,801] --> AsyncOperation.IIoOperation=com.gameserver.player.async.LoadPlayerRoleOperation@28a8607e[class com.gameserver.player.async.LoadPlayerRoleOperation],ioLastTime=7176,IO_ALLOW_MAX_TIME=500,uuid=-1
-[18/04/13 17:22:01,578] --> Global Logic process message error!
+[18/04/16 14:46:17,792] --> Process input message error!
 java.lang.NullPointerException
-	at com.gameserver.player.handler.PlayerMessageHandler.handlePlayerCloseSession(PlayerMessageHandler.java:300)
-	at com.gameserver.player.msg.GameClientSessionClosedMsg.execute(GameClientSessionClosedMsg.java:25)
-	at com.gameserver.common.GlobalLogicRunner.processMessage(GlobalLogicRunner.java:72)
-	at com.gameserver.common.GlobalLogicRunner.tick(GlobalLogicRunner.java:54)
-	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:43)
-	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:1)
+	at com.gameserver.mail.handler.MailMessageHandler.handleDeleteSendCancelMail(MailMessageHandler.java:459)
+	at com.gameserver.mail.msg.CGDeleteSendCancelMail.execute(CGDeleteSendCancelMail.java:73)
+	at com.gameserver.player.Player.processMessage(Player.java:259)
+	at com.gameserver.scene.manager.ScenePlayerManager.tick(ScenePlayerManager.java:91)
+	at com.gameserver.scene.Scene.tick(Scene.java:227)
+	at com.gameserver.scene.SceneRunner.call(SceneRunner.java:24)
+	at com.gameserver.scene.SceneRunner.call(SceneRunner.java:1)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-[18/04/13 17:24:11,435] --> Global Logic process message error!
+[18/04/16 14:53:22,558] --> Process input message error!
 java.lang.NullPointerException
-	at com.gameserver.player.handler.PlayerMessageHandler.handlePlayerCloseSession(PlayerMessageHandler.java:300)
-	at com.gameserver.player.msg.GameClientSessionClosedMsg.execute(GameClientSessionClosedMsg.java:25)
-	at com.gameserver.common.GlobalLogicRunner.processMessage(GlobalLogicRunner.java:72)
-	at com.gameserver.common.GlobalLogicRunner.tick(GlobalLogicRunner.java:54)
-	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:43)
-	at com.gameserver.common.GlobalLogicRunner.call(GlobalLogicRunner.java:1)
+	at com.gameserver.mail.handler.MailMessageHandler.handleDeleteSendCancelMail(MailMessageHandler.java:457)
+	at com.gameserver.mail.msg.CGDeleteSendCancelMail.execute(CGDeleteSendCancelMail.java:73)
+	at com.gameserver.player.Player.processMessage(Player.java:259)
+	at com.gameserver.scene.manager.ScenePlayerManager.tick(ScenePlayerManager.java:91)
+	at com.gameserver.scene.Scene.tick(Scene.java:227)
+	at com.gameserver.scene.SceneRunner.call(SceneRunner.java:24)
+	at com.gameserver.scene.SceneRunner.call(SceneRunner.java:1)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
+[18/04/16 14:55:57,149] --> AsyncOperation.IIoOperation=com.gameserver.player.async.LoadPlayerRoleOperation@6ee9b51c[class com.gameserver.player.async.LoadPlayerRoleOperation],ioLastTime=51630,IO_ALLOW_MAX_TIME=500,uuid=-1
+[18/04/16 14:58:04,706] --> AsyncOperation.IIoOperation=com.gameserver.player.async.LoadPlayerRoleOperation@18f78932[class com.gameserver.player.async.LoadPlayerRoleOperation],ioLastTime=5184,IO_ALLOW_MAX_TIME=500,uuid=-1

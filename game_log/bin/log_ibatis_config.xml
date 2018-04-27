@@ -21,7 +21,7 @@
 		<dataSource type="SIMPLE">
 			<property name="JDBC.Driver" value="com.mysql.jdbc.Driver" />
 			<property name="JDBC.ConnectionURL"
-				value="jdbc:mysql://47.88.241.10:3306/texas_log?useUnicode=true&amp;characterEncoding=utf-8" />
+				value="jdbc:mysql://127.0.0.1:3306/texas_log?useUnicode=true&amp;characterEncoding=utf-8" />
 			<property name="JDBC.Username" value="root" />
 			<property name="JDBC.Password" value="root" />
 			<property name="Pool.MaximumActiveConnections" value="50" />

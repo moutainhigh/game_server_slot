@@ -1,18 +1,17 @@
-[18/04/13 11:41:24,325] --> slot service init
-[18/04/13 11:41:24,984] --> slot service  after init
-[18/04/13 11:44:15,307] --> slot service init
-[18/04/13 11:44:16,122] --> slot service  after init
-[18/04/13 11:47:08,488] --> slot service init
-[18/04/13 11:47:09,178] --> slot service  after init
-[18/04/13 11:55:19,709] --> slot service init
-[18/04/13 11:55:20,487] --> slot service  after init
-[18/04/13 17:02:47,461] --> slot service init
-[18/04/13 17:02:48,474] --> slot service  after init
-[18/04/13 17:04:18,319] --> slot service init
-[18/04/13 17:04:19,161] --> slot service  after init
-[18/04/13 17:05:39,921] --> slot service init
-[18/04/13 17:05:40,723] --> slot service  after init
-[18/04/13 17:06:59,729] --> slot service init
-[18/04/13 17:07:00,411] --> slot service  after init
-[18/04/13 17:16:23,219] --> slot service init
-[18/04/13 17:16:24,305] --> slot service  after init
+[18/04/26 13:44:13,139] --> slot service init
+[18/04/26 13:44:14,407] --> slot service  after init
+[18/04/26 14:12:29,867] --> slot service init
+[18/04/26 14:12:30,520] --> slot service  after init
+[18/04/26 14:17:07,730] --> 玩家 ID 【1706】 退出老虎机IDslotRoomID17】 房间号 【1】 失败
+[18/04/26 14:20:14,952] --> slot service init
+[18/04/26 14:20:15,411] --> slot service  after init
+[18/04/26 14:23:41,092] --> slot service init
+[18/04/26 14:23:41,734] --> slot service  after init
+[18/04/26 14:25:17,847] --> slot service init
+[18/04/26 14:25:18,283] --> slot service  after init
+[18/04/26 14:32:03,131] --> slot service init
+[18/04/26 14:32:03,582] --> slot service  after init
+[18/04/26 14:44:57,540] --> 玩家 ID 【1706】 退出老虎机IDslotRoomID5】 房间号 【1】 失败
+[18/04/26 15:05:28,366] --> slot service init
+[18/04/26 15:05:29,017] --> slot service  after init
+[18/04/26 15:16:35,324] --> 玩家 ID 【1706】 退出老虎机IDslotRoomID5】 房间号 【1】 失败

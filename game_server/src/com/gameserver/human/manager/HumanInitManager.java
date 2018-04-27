@@ -15,6 +15,7 @@ import com.core.util.StringUtils;
 import com.core.util.TimeUtils;
 import com.db.model.HumanEntity;
 import com.gameserver.common.Globals;
+import com.gameserver.currency.Currency;
 import com.gameserver.human.Human;
 import com.gameserver.human.data.HumanInfoData;
 import com.gameserver.human.msg.GCHumanDetailInfo;
@@ -125,6 +126,7 @@ public final class HumanInitManager
 			human.setReceivecode(JSON.parseObject(receivecode,new TypeReference<HashSet<String>>() {}));
 			
 		}
+		human.setReceivecodeTime(entity.getReceivecodeTime());
 		human.setWatchTime(entity.getWatchTime());
 		human.setWatchNum(entity.getWatchNum());
 		human.setAge(entity.getAge());
@@ -260,6 +262,12 @@ public final class HumanInitManager
 		
 		//发送角色详细信息
 		human.sendMessage(new GCHumanDetailInfo(data));
+		
+		//为了 新用户 初始化 金币 为 0， 推两次消息 让它 显示 出来
+		human.giveMoney(1, Currency.GOLD, true, LogReasons.GoldLogReason.initaddgold, LogReasons.GoldLogReason.initaddgold.getReasonText(), -1, 1);
+		human.costMoney(1, Currency.GOLD, true,LogReasons.GoldLogReason.initsubgold, LogReasons.GoldLogReason.initsubgold.getReasonText(), -1, 1);
+		
+		
 		
 		//发送德州数据
 //		human.sendMessage(human.getHumanTexasManager().buildHumanTexasInfoData());

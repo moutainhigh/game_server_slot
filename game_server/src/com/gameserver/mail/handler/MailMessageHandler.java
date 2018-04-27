@@ -20,6 +20,7 @@ import com.gameserver.human.Human;
 import com.gameserver.item.template.ItemTemplate;
 import com.gameserver.mail.Mail;
 import com.gameserver.mail.MailLogic;
+import com.gameserver.mail.data.MailInfoData;
 import com.gameserver.mail.enums.MailHasAttachment;
 import com.gameserver.mail.enums.MailStatus;
 import com.gameserver.mail.enums.MailTypeEnum;
@@ -35,6 +36,7 @@ import com.gameserver.mail.msg.CGSendMail;
 import com.gameserver.mail.msg.GCDealWithReward;
 import com.gameserver.mail.msg.GCDeleteMail;
 import com.gameserver.mail.msg.GCLoadMailList;
+import com.gameserver.mail.msg.GCLoadSendList;
 import com.gameserver.mail.msg.GCReadMail;
 import com.gameserver.mail.msg.GCReceiveAll;
 import com.gameserver.mail.msg.GCSendFinish;
@@ -160,6 +162,14 @@ public class MailMessageHandler {
 		//如果是 用户发送的礼物 就 设置成礼物类型
 		if(cgSendMail.getRandReward() != null && cgSendMail.getRandReward().length>0 && cgSendMail.getRandReward()[0].getGiftNewId() > 0){
 			RandRewardData randRewardData = cgSendMail.getRandReward()[0];
+			
+			//校验如果低于 150000=15万 就不让发
+			if(randRewardData.getRewardCount()<150000){
+				logger.warn("玩家id["+player.getHuman().getCharId()+"]玩家名称["+player.getHuman().getName()+"],玩家礼物金币["+randRewardData.getRewardCount()+"],玩家发送礼物的金币小于15万");
+				player.getHuman().sendSystemMessage(LangConstants.GIFT_NOT_ENOUGH);
+				return;
+			}
+			
 			//扣除2%的金币
 			int changeGold = randRewardData.getRewardCount()*2/100;//2%
 			
@@ -447,13 +457,11 @@ public class MailMessageHandler {
 		if(player.getHuman()==null) return;
 		logger.debug("玩家id["+player.getHuman().getCharId()+"]玩家名称["+player.getHuman().getName()+"]玩家删除邮件");
 		long[] mailIds=cgDeleteSendCancelMail.getMailIdList();
-		if(!MailLogic.getInstance().checkSendMailDelete(player,mailIds)) return;
-		MailLogic.getInstance().deleteSendMails(player, mailIds);
 		
 		//查询 接收邮件的用户
 		for(long mailId:mailIds){
-			
 			Mail mail = MailLogic.getInstance().getSendMail(player, mailId);
+			
 			Player toPlayer = Globals.getOnlinePlayerService().getPlayerByPassportId(mail.getRecId());
 			if(toPlayer != null){
 				
@@ -461,14 +469,34 @@ public class MailMessageHandler {
 					continue;
 				}
 				MailLogic.getInstance().deleteMails(toPlayer, mailIds);
-				GCDeleteMail gcDeleteMail1=new GCDeleteMail();
-				toPlayer.getHuman().sendMessage(gcDeleteMail1);
+				//每种类型 推送一次
+				for(int i=0;i<MailTypeEnum.values().length;i++){
+					MailTypeEnum mailType = MailTypeEnum.valueOf(i);
+					List<Mail> mailList=player.getHuman().getHumanMailManager().getMailListByMailKind(mailType);
+					List<MailInfoData> mailInfoDataList=MailLogic.getInstance().buildMailInfoDataList(player.getHuman(), mailList);
+					GCLoadMailList gcLoadMailList=new GCLoadMailList();
+					gcLoadMailList.setMailKind(mailType.getIndex());
+					gcLoadMailList.setMailInfoDataList(mailInfoDataList.toArray(new MailInfoData[mailInfoDataList.size()]));
+					toPlayer.sendMessage(gcLoadMailList);
+				}
 			}
 		}
 		
+		if(!MailLogic.getInstance().checkSendMailDelete(player,mailIds)) return;
+			MailLogic.getInstance().deleteSendMails(player, mailIds);
 		
-		GCDeleteMail gcDeleteMail=new GCDeleteMail();
-		player.getHuman().sendMessage(gcDeleteMail);
+		
+		//每种类型 推送一次
+		for(int i=0;i<MailTypeEnum.values().length;i++){
+			MailTypeEnum mailType = MailTypeEnum.valueOf(i);
+			List<Mail> mailList=player.getHuman().getHumanMailManager().getSendMailListByMailKind(mailType);
+			List<MailInfoData> mailInfoDataList=MailLogic.getInstance().buildMailInfoDataList(player.getHuman(), mailList);
+			GCLoadSendList gcLoadSendList=new GCLoadSendList();
+			gcLoadSendList.setMailKind(mailType.getIndex());
+			gcLoadSendList.setMailInfoDataList(mailInfoDataList.toArray(new MailInfoData[mailInfoDataList.size()]));
+			player.sendMessage(gcLoadSendList);
+		}
+		
 		
 	}
 

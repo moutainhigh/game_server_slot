@@ -11,9 +11,9 @@ public class PlayerConstants
 {
 
 	/** 角色姓名最小允许英文字符数 */
-	public static final int MIN_NAME_LENGTH_ENG = 4;
+	public static final int MIN_NAME_LENGTH_ENG = 2;
 	/** 角色姓名最大允许英文字符数 */
-	public static final int MAX_NAME_LENGTH_ENG = 14;
+	public static final int MAX_NAME_LENGTH_ENG = 10;
 
 
 	/* 角色信息保存的Mask定义 ： 通过Mask保存相应的数据 */

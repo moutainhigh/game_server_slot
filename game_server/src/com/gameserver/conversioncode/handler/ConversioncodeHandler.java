@@ -2,12 +2,16 @@ package com.gameserver.conversioncode.handler;
 
 import java.text.MessageFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Set;
+
+import org.apache.commons.lang.time.DateUtils;
 
 import com.common.LogReasons;
 import com.common.constants.LangConstants;
 import com.core.util.StringUtils;
+import com.core.util.TimeUtils;
 import com.gameserver.common.Globals;
 import com.gameserver.common.data.RandRewardData;
 import com.gameserver.conversioncode.ConversioncodeData;
@@ -35,7 +39,30 @@ public class ConversioncodeHandler {
 				human.sendSystemMessage(LangConstants.Conversion4);
 				return;
 			}
+			
+			
 			if(!receivecode.contains(code)){
+				String receivecodeTime = human.getReceivecodeTime();
+				if(StringUtils.isEmpty(receivecodeTime)){//如果是空的 说明是第一次 兑换
+					String dateStr = TimeUtils.formatYMDTime(new Date().getTime())+":1";
+					human.setReceivecodeTime(dateStr);
+				}else{
+					String[] dateTime = receivecodeTime.split(":");
+					String oldDateStr = dateTime[0];
+					int time = Integer.valueOf(dateTime[1]);
+					String nowDateStr = TimeUtils.formatYMDTime(new Date().getTime());
+					String dateStr="";
+					if(oldDateStr.equals(nowDateStr) && time>=2){//说明还在同一天,已经 兑换过两次了
+						player.getHuman().sendSystemMessage(LangConstants.RECEIVECODE_TIME_MORE);
+						return;
+					}else if(oldDateStr.equals(nowDateStr)&& time<2){//说明还在同一天, 没有超过两次
+						dateStr=nowDateStr+":"+(time+1);
+					}else{//说明已经跨天了 更新回到一次
+						dateStr=nowDateStr+":1";
+					}
+					human.setReceivecodeTime(dateStr);
+				}
+				
 				long time = Globals.getTimeService().now();
 				long endTime = cData.getEndTime();
 				if(endTime > time && cData.getIsdelete() == 0){

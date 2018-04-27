@@ -1,73 +1,59 @@
-[18/04/13 11:41:24,159] --> redis service init
-[18/04/13 11:41:24,182] --> redis[127.0.0.1:6379 service init successfully
-[18/04/13 11:41:24,184] --> ServerRedisMsgProcessor initialized successfully!
-[18/04/13 11:41:24,933] --> redis service after init
-[18/04/13 11:41:25,614] --> begin start redis sub thread
-[18/04/13 11:41:25,614] --> end start redis sub thread
-[18/04/13 11:41:25,975] --> subscribe [server.100001],server.100001=1
-[18/04/13 11:41:25,987] --> subscribe [broadcast],broadcast=2
-[18/04/13 11:44:15,145] --> redis service init
-[18/04/13 11:44:15,178] --> redis[127.0.0.1:6379 service init successfully
-[18/04/13 11:44:15,180] --> ServerRedisMsgProcessor initialized successfully!
-[18/04/13 11:44:16,067] --> redis service after init
-[18/04/13 11:44:16,557] --> begin start redis sub thread
-[18/04/13 11:44:16,557] --> end start redis sub thread
-[18/04/13 11:44:16,775] --> subscribe [server.100001],server.100001=1
-[18/04/13 11:44:16,775] --> subscribe [broadcast],broadcast=2
-[18/04/13 11:47:08,347] --> redis service init
-[18/04/13 11:47:08,375] --> redis[127.0.0.1:6379 service init successfully
-[18/04/13 11:47:08,378] --> ServerRedisMsgProcessor initialized successfully!
-[18/04/13 11:47:09,133] --> redis service after init
-[18/04/13 11:47:09,709] --> begin start redis sub thread
-[18/04/13 11:47:09,710] --> end start redis sub thread
-[18/04/13 11:47:09,923] --> subscribe [server.100001],server.100001=1
-[18/04/13 11:47:09,926] --> subscribe [broadcast],broadcast=2
-[18/04/13 11:55:19,553] --> redis service init
-[18/04/13 11:55:19,588] --> redis[127.0.0.1:6379 service init successfully
-[18/04/13 11:55:19,591] --> ServerRedisMsgProcessor initialized successfully!
-[18/04/13 11:55:20,447] --> redis service after init
-[18/04/13 11:55:20,872] --> begin start redis sub thread
-[18/04/13 11:55:20,872] --> end start redis sub thread
-[18/04/13 11:55:21,121] --> subscribe [server.100001],server.100001=1
-[18/04/13 11:55:21,122] --> subscribe [broadcast],broadcast=2
-[18/04/13 17:02:47,209] --> redis service init
-[18/04/13 17:02:47,253] --> redis[127.0.0.1:6379 service init successfully
-[18/04/13 17:02:47,260] --> ServerRedisMsgProcessor initialized successfully!
-[18/04/13 17:02:48,418] --> redis service after init
-[18/04/13 17:02:49,133] --> begin start redis sub thread
-[18/04/13 17:02:49,133] --> end start redis sub thread
-[18/04/13 17:02:49,737] --> subscribe [server.100001],server.100001=1
-[18/04/13 17:02:49,738] --> subscribe [broadcast],broadcast=2
-[18/04/13 17:04:18,101] --> redis service init
-[18/04/13 17:04:18,150] --> redis[127.0.0.1:6379 service init successfully
-[18/04/13 17:04:18,161] --> ServerRedisMsgProcessor initialized successfully!
-[18/04/13 17:04:19,116] --> redis service after init
-[18/04/13 17:04:19,643] --> begin start redis sub thread
-[18/04/13 17:04:19,643] --> end start redis sub thread
-[18/04/13 17:04:19,930] --> subscribe [server.100001],server.100001=1
-[18/04/13 17:04:19,931] --> subscribe [broadcast],broadcast=2
-[18/04/13 17:05:39,803] --> redis service init
-[18/04/13 17:05:39,829] --> redis[127.0.0.1:6379 service init successfully
-[18/04/13 17:05:39,830] --> ServerRedisMsgProcessor initialized successfully!
-[18/04/13 17:05:40,667] --> redis service after init
-[18/04/13 17:05:41,345] --> begin start redis sub thread
-[18/04/13 17:05:41,345] --> end start redis sub thread
-[18/04/13 17:05:41,696] --> subscribe [server.100001],server.100001=1
-[18/04/13 17:05:41,696] --> subscribe [broadcast],broadcast=2
-[18/04/13 17:06:59,616] --> redis service init
-[18/04/13 17:06:59,641] --> redis[127.0.0.1:6379 service init successfully
-[18/04/13 17:06:59,644] --> ServerRedisMsgProcessor initialized successfully!
-[18/04/13 17:07:00,347] --> redis service after init
-[18/04/13 17:07:01,058] --> begin start redis sub thread
-[18/04/13 17:07:01,058] --> end start redis sub thread
-[18/04/13 17:07:01,470] --> subscribe [server.100001],server.100001=1
-[18/04/13 17:07:01,470] --> subscribe [broadcast],broadcast=2
-[18/04/13 17:16:23,073] --> redis service init
-[18/04/13 17:16:23,105] --> redis[127.0.0.1:6379 service init successfully
-[18/04/13 17:16:23,108] --> ServerRedisMsgProcessor initialized successfully!
-[18/04/13 17:16:24,220] --> redis service after init
-[18/04/13 17:16:24,953] --> begin start redis sub thread
-[18/04/13 17:16:24,953] --> end start redis sub thread
-[18/04/13 17:16:25,324] --> subscribe [server.100001],server.100001=1
-[18/04/13 17:16:25,324] --> subscribe [broadcast],broadcast=2
-[18/04/13 17:25:12,425] --> server.100001={"cmd":"MailAddRedisMessage","payload":"{\"mailEntity\":{\"attachmentPack\":\"[{\\\"giftNewId\\\":8,\\\"rewardCount\\\":980000,\\\"rewardId\\\":3,\\\"vippoint\\\":0}]\",\"charId\":1696,\"content\":\"haohaoho\",\"createTime\":1523611512334,\"deleted\":0,\"hasAttachment\":1,\"head\":\"head_3.png\",\"id\":6390489860630283266,\"mailStatus\":0,\"mailType\":4,\"recId\":1696,\"recName\":\"\",\"sendId\":1407,\"sendName\":\"Guest1407\",\"title\":\"\",\"updateTime\":0}}"}
+[18/04/26 13:44:13,012] --> redis service init
+[18/04/26 13:44:13,038] --> redis[127.0.0.1:6379 service init successfully
+[18/04/26 13:44:13,040] --> ServerRedisMsgProcessor initialized successfully!
+[18/04/26 13:44:13,977] --> redis service after init
+[18/04/26 13:44:15,115] --> begin start redis sub thread
+[18/04/26 13:44:15,115] --> end start redis sub thread
+[18/04/26 13:44:15,428] --> subscribe [server.100001],server.100001=1
+[18/04/26 13:44:15,428] --> subscribe [broadcast],broadcast=2
+[18/04/26 14:12:29,747] --> redis service init
+[18/04/26 14:12:29,775] --> redis[127.0.0.1:6379 service init successfully
+[18/04/26 14:12:29,777] --> ServerRedisMsgProcessor initialized successfully!
+[18/04/26 14:12:30,457] --> redis service after init
+[18/04/26 14:12:30,880] --> begin start redis sub thread
+[18/04/26 14:12:30,880] --> end start redis sub thread
+[18/04/26 14:12:31,067] --> subscribe [server.100001],server.100001=1
+[18/04/26 14:12:31,067] --> subscribe [broadcast],broadcast=2
+[18/04/26 14:20:14,862] --> redis service init
+[18/04/26 14:20:14,884] --> redis[127.0.0.1:6379 service init successfully
+[18/04/26 14:20:14,886] --> ServerRedisMsgProcessor initialized successfully!
+[18/04/26 14:20:15,371] --> redis service after init
+[18/04/26 14:20:15,871] --> begin start redis sub thread
+[18/04/26 14:20:15,872] --> end start redis sub thread
+[18/04/26 14:20:16,205] --> subscribe [server.100001],server.100001=1
+[18/04/26 14:20:16,205] --> subscribe [broadcast],broadcast=2
+[18/04/26 14:23:40,968] --> redis service init
+[18/04/26 14:23:41,004] --> redis[127.0.0.1:6379 service init successfully
+[18/04/26 14:23:41,006] --> ServerRedisMsgProcessor initialized successfully!
+[18/04/26 14:23:41,698] --> redis service after init
+[18/04/26 14:23:42,062] --> begin start redis sub thread
+[18/04/26 14:23:42,062] --> end start redis sub thread
+[18/04/26 14:23:42,288] --> subscribe [server.100001],server.100001=1
+[18/04/26 14:23:42,289] --> subscribe [broadcast],broadcast=2
+[18/04/26 14:25:17,745] --> redis service init
+[18/04/26 14:25:17,775] --> redis[127.0.0.1:6379 service init successfully
+[18/04/26 14:25:17,776] --> ServerRedisMsgProcessor initialized successfully!
+[18/04/26 14:25:18,246] --> redis service after init
+[18/04/26 14:25:18,611] --> begin start redis sub thread
+[18/04/26 14:25:18,611] --> end start redis sub thread
+[18/04/26 14:25:18,902] --> subscribe [server.100001],server.100001=1
+[18/04/26 14:25:18,904] --> subscribe [broadcast],broadcast=2
+[18/04/26 14:27:24,929] --> server.100001={"cmd":"FriendRequestRedisMessage","payload":"{\"friendRequestEntity\":{\"charId\":1702,\"createTime\":1524724044915,\"id\":6395156160484901890,\"sendId\":1706,\"updateTime\":1524724044915}}"}
+[18/04/26 14:32:03,018] --> redis service init
+[18/04/26 14:32:03,041] --> redis[127.0.0.1:6379 service init successfully
+[18/04/26 14:32:03,042] --> ServerRedisMsgProcessor initialized successfully!
+[18/04/26 14:32:03,545] --> redis service after init
+[18/04/26 14:32:03,919] --> begin start redis sub thread
+[18/04/26 14:32:03,919] --> end start redis sub thread
+[18/04/26 14:32:04,319] --> subscribe [server.100001],server.100001=1
+[18/04/26 14:32:04,320] --> subscribe [broadcast],broadcast=2
+[18/04/26 15:05:28,235] --> redis service init
+[18/04/26 15:05:28,268] --> redis[127.0.0.1:6379 service init successfully
+[18/04/26 15:05:28,270] --> ServerRedisMsgProcessor initialized successfully!
+[18/04/26 15:05:28,984] --> redis service after init
+[18/04/26 15:05:29,387] --> begin start redis sub thread
+[18/04/26 15:05:29,387] --> end start redis sub thread
+[18/04/26 15:05:29,591] --> subscribe [server.100001],server.100001=1
+[18/04/26 15:05:29,592] --> subscribe [broadcast],broadcast=2
+[18/04/26 15:07:50,664] --> server.100001={"cmd":"MailAddRedisMessage","payload":"{\"mailEntity\":{\"attachmentPack\":\"[{\\\"giftNewId\\\":1,\\\"rewardCount\\\":147000,\\\"rewardId\\\":3,\\\"vippoint\\\":0}]\",\"charId\":1706,\"content\":\"\",\"createTime\":1524726470646,\"deleted\":0,\"hasAttachment\":1,\"head\":\"head_3.png\",\"id\":6395166334738138114,\"mailStatus\":0,\"mailType\":4,\"recId\":1706,\"recName\":\"1706\",\"sendId\":1702,\"sendName\":\"1702\",\"title\":\"\",\"updateTime\":0}}"}
+[18/04/26 15:09:37,557] --> server.100001={"cmd":"MailAddRedisMessage","payload":"{\"mailEntity\":{\"attachmentPack\":\"[{\\\"giftNewId\\\":2,\\\"rewardCount\\\":196000,\\\"rewardId\\\":3,\\\"vippoint\\\":0}]\",\"charId\":1706,\"content\":\"\",\"createTime\":1524726577550,\"deleted\":0,\"hasAttachment\":1,\"head\":\"head_3.png\",\"id\":6395166783126012931,\"mailStatus\":0,\"mailType\":4,\"recId\":1706,\"recName\":\"1706\",\"sendId\":1702,\"sendName\":\"1702\",\"title\":\"\",\"updateTime\":0}}"}

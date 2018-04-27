@@ -1,121 +1,149 @@
-[18/04/13 11:42:35,655] --> loadPlayerRoleList begin
-[18/04/13 11:42:35,664] --> loadPlayerRoleList over
-[18/04/13 11:42:35,913] --> create human for: 1699>>>1699>>>null
-[18/04/13 11:42:36,321] --> Player login, passportId: 1699
-[18/04/13 11:42:36,323] --> player 1699 loadAccountInfo
-[18/04/13 11:42:36,331] --> 1699>>>false
-[18/04/13 11:42:36,331] --> player 1699 human.fromEntity(entity)
-[18/04/13 11:42:36,543] --> player 1699 doStop
-[18/04/13 11:42:36,544] --> 1699 in select role and will humanlogin
-[18/04/13 11:44:53,009] --> loadPlayerRoleList begin
-[18/04/13 11:44:53,016] --> loadPlayerRoleList over
-[18/04/13 11:44:53,194] --> create human for: 1700>>>1700>>>null
-[18/04/13 11:44:53,426] --> Player login, passportId: 1700
-[18/04/13 11:44:53,428] --> player 1700 loadAccountInfo
-[18/04/13 11:44:53,436] --> 1700>>>false
-[18/04/13 11:44:53,436] --> player 1700 human.fromEntity(entity)
-[18/04/13 11:44:53,561] --> player 1700 doStop
-[18/04/13 11:44:53,562] --> 1700 in select role and will humanlogin
-[18/04/13 11:47:38,929] --> loadPlayerRoleList begin
-[18/04/13 11:47:38,937] --> loadPlayerRoleList over
-[18/04/13 11:47:39,137] --> create human for: 1701>>>1701>>>null
-[18/04/13 11:47:39,361] --> Player login, passportId: 1701
-[18/04/13 11:47:39,362] --> player 1701 loadAccountInfo
-[18/04/13 11:47:39,368] --> 1701>>>false
-[18/04/13 11:47:39,368] --> player 1701 human.fromEntity(entity)
-[18/04/13 11:47:39,498] --> player 1701 doStop
-[18/04/13 11:47:39,498] --> 1701 in select role and will humanlogin
-[18/04/13 12:00:06,603] --> 当前的时间戳-------：1523592006600 ----- timeDian:12
-[18/04/13 13:00:06,556] --> 当前的时间戳-------：1523595606555 ----- timeDian:13
-[18/04/13 14:00:06,591] --> 当前的时间戳-------：1523599206590 ----- timeDian:14
-[18/04/13 15:00:06,610] --> 当前的时间戳-------：1523602806609 ----- timeDian:15
-[18/04/13 17:03:08,901] --> loadPlayerRoleList begin
-[18/04/13 17:03:08,916] --> loadPlayerRoleList over
-[18/04/13 17:03:09,199] --> Player login, passportId: 1692
-[18/04/13 17:03:09,204] --> player 1692 loadAccountInfo
-[18/04/13 17:03:09,213] --> 1692>>>false
-[18/04/13 17:03:09,213] --> player 1692 human.fromEntity(entity)
-[18/04/13 17:03:09,596] --> player 1692 doStop
-[18/04/13 17:03:09,596] --> 1692 in select role and will humanlogin
-[18/04/13 17:04:44,757] --> loadPlayerRoleList begin
-[18/04/13 17:04:44,765] --> loadPlayerRoleList over
-[18/04/13 17:04:45,011] --> Player login, passportId: 1692
-[18/04/13 17:04:45,012] --> player 1692 loadAccountInfo
-[18/04/13 17:04:45,022] --> 1692>>>false
-[18/04/13 17:04:45,022] --> player 1692 human.fromEntity(entity)
-[18/04/13 17:07:19,862] --> loadPlayerRoleList begin
-[18/04/13 17:07:19,869] --> loadPlayerRoleList over
-[18/04/13 17:07:20,108] --> Player login, passportId: 1692
-[18/04/13 17:07:20,109] --> player 1692 loadAccountInfo
-[18/04/13 17:07:20,116] --> 1692>>>false
-[18/04/13 17:07:20,116] --> player 1692 human.fromEntity(entity)
-[18/04/13 17:16:44,383] --> loadPlayerRoleList begin
-[18/04/13 17:16:44,392] --> loadPlayerRoleList over
-[18/04/13 17:16:44,623] --> Player login, passportId: 1692
-[18/04/13 17:16:44,625] --> player 1692 loadAccountInfo
-[18/04/13 17:16:44,633] --> 1692>>>false
-[18/04/13 17:16:44,633] --> player 1692 human.fromEntity(entity)
-[18/04/13 17:16:51,801] --> player 1692 doStop
-[18/04/13 17:16:51,801] --> 1692 in select role and will humanlogin
-[18/04/13 17:17:12,504] --> loadPlayerRoleList begin
-[18/04/13 17:17:12,509] --> loadPlayerRoleList over
-[18/04/13 17:17:12,704] --> Player login, passportId: 1696
-[18/04/13 17:17:12,705] --> player 1696 loadAccountInfo
-[18/04/13 17:17:12,709] --> 1696>>>false
-[18/04/13 17:17:12,709] --> player 1696 human.fromEntity(entity)
-[18/04/13 17:17:12,864] --> player 1696 doStop
-[18/04/13 17:17:12,864] --> 1696 in select role and will humanlogin
-[18/04/13 17:18:31,963] --> removePlayerMandatory ::::Player exit, passportId: 1696
-[18/04/13 17:18:32,411] --> loadPlayerRoleList begin
-[18/04/13 17:18:32,414] --> loadPlayerRoleList over
-[18/04/13 17:18:32,612] --> Player login, passportId: 1696
-[18/04/13 17:18:32,612] --> player 1696 loadAccountInfo
-[18/04/13 17:18:32,622] --> 1696>>>false
-[18/04/13 17:18:32,622] --> player 1696 human.fromEntity(entity)
-[18/04/13 17:18:32,750] --> player 1696 doStop
-[18/04/13 17:18:32,750] --> 1696 in select role and will humanlogin
-[18/04/13 17:22:01,177] --> loadPlayerRoleList begin
-[18/04/13 17:22:01,180] --> loadPlayerRoleList over
-[18/04/13 17:24:11,034] --> loadPlayerRoleList begin
-[18/04/13 17:24:11,036] --> loadPlayerRoleList over
-[18/04/13 17:25:11,525] --> loadPlayerRoleList begin
-[18/04/13 17:25:11,535] --> loadPlayerRoleList over
-[18/04/13 17:25:11,728] --> Player login, passportId: 1407
-[18/04/13 17:25:11,728] --> player Guest1407 loadAccountInfo
-[18/04/13 17:25:11,731] --> 1407>>>false
-[18/04/13 17:25:11,731] --> player Guest1407 human.fromEntity(entity)
-[18/04/13 17:25:11,862] --> player Guest1407 doStop
-[18/04/13 17:25:11,862] --> Guest1407 in select role and will humanlogin
-[18/04/13 17:26:21,660] --> removePlayerMandatory ::::Player exit, passportId: 1696
-[18/04/13 17:26:22,101] --> loadPlayerRoleList begin
-[18/04/13 17:26:22,105] --> loadPlayerRoleList over
-[18/04/13 17:26:22,302] --> Player login, passportId: 1696
-[18/04/13 17:26:22,302] --> player 1696 loadAccountInfo
-[18/04/13 17:26:22,305] --> 1696>>>false
-[18/04/13 17:26:22,305] --> player 1696 human.fromEntity(entity)
-[18/04/13 17:26:22,428] --> player 1696 doStop
-[18/04/13 17:26:22,428] --> 1696 in select role and will humanlogin
-[18/04/13 17:26:45,124] --> removePlayerMandatory ::::Player exit, passportId: 1696
-[18/04/13 17:26:45,560] --> loadPlayerRoleList begin
-[18/04/13 17:26:45,562] --> loadPlayerRoleList over
-[18/04/13 17:26:45,760] --> Player login, passportId: 1696
-[18/04/13 17:26:45,763] --> player 1696 loadAccountInfo
-[18/04/13 17:26:45,766] --> 1696>>>false
-[18/04/13 17:26:45,766] --> player 1696 human.fromEntity(entity)
-[18/04/13 17:26:45,868] --> player 1696 doStop
-[18/04/13 17:26:45,868] --> 1696 in select role and will humanlogin
-[18/04/13 17:27:33,952] --> PlayerOffline.passportId[1692],State=gaming
-[18/04/13 17:27:33,952] --> Player exit, passportId: 1692
-[18/04/13 17:27:33,954] --> PlayerOffline.passportId[1692].offlinePlayer.SavePlayerRoleOperation
-[18/04/13 17:27:58,521] --> removePlayerMandatory ::::Player exit, passportId: 1696
-[18/04/13 17:27:58,799] --> loadPlayerRoleList begin
-[18/04/13 17:27:58,802] --> loadPlayerRoleList over
-[18/04/13 17:27:58,999] --> Player login, passportId: 1696
-[18/04/13 17:27:59,000] --> player 1696 loadAccountInfo
-[18/04/13 17:27:59,010] --> 1696>>>false
-[18/04/13 17:27:59,010] --> player 1696 human.fromEntity(entity)
-[18/04/13 17:27:59,129] --> player 1696 doStop
-[18/04/13 17:27:59,129] --> 1696 in select role and will humanlogin
-[18/04/13 17:35:25,059] --> PlayerOffline.passportId[1407],State=gaming
-[18/04/13 17:35:25,060] --> Player exit, passportId: 1407
-[18/04/13 17:35:25,062] --> PlayerOffline.passportId[1407].offlinePlayer.SavePlayerRoleOperation
+[18/04/26 14:17:07,364] --> loadPlayerRoleList begin
+[18/04/26 14:17:07,374] --> loadPlayerRoleList over
+[18/04/26 14:17:07,630] --> Player login, passportId: 1706
+[18/04/26 14:17:07,636] --> player 1706 loadAccountInfo
+[18/04/26 14:17:07,643] --> 1706>>>false
+[18/04/26 14:17:07,643] --> player 1706 human.fromEntity(entity)
+[18/04/26 14:17:07,883] --> player 1706 doStop
+[18/04/26 14:17:07,883] --> 1706 in select role and will humanlogin
+[18/04/26 14:20:43,324] --> loadPlayerRoleList begin
+[18/04/26 14:20:43,331] --> loadPlayerRoleList over
+[18/04/26 14:20:43,562] --> Player login, passportId: 1706
+[18/04/26 14:20:43,563] --> player 1706 loadAccountInfo
+[18/04/26 14:20:43,568] --> 1706>>>false
+[18/04/26 14:20:43,569] --> player 1706 human.fromEntity(entity)
+[18/04/26 14:20:43,676] --> player 1706 doStop
+[18/04/26 14:20:43,676] --> 1706 in select role and will humanlogin
+[18/04/26 14:22:43,463] --> removePlayerMandatory ::::Player exit, passportId: 1706
+[18/04/26 14:22:43,787] --> loadPlayerRoleList begin
+[18/04/26 14:22:43,795] --> loadPlayerRoleList over
+[18/04/26 14:22:43,987] --> Player login, passportId: 1706
+[18/04/26 14:22:43,987] --> player 1706 loadAccountInfo
+[18/04/26 14:22:43,989] --> 1706>>>false
+[18/04/26 14:22:43,989] --> player 1706 human.fromEntity(entity)
+[18/04/26 14:22:44,053] --> player 1706 doStop
+[18/04/26 14:22:44,053] --> 1706 in select role and will humanlogin
+[18/04/26 14:23:53,534] --> loadPlayerRoleList begin
+[18/04/26 14:23:53,540] --> loadPlayerRoleList over
+[18/04/26 14:23:53,774] --> Player login, passportId: 1706
+[18/04/26 14:23:53,775] --> player 1706 loadAccountInfo
+[18/04/26 14:23:53,780] --> 1706>>>false
+[18/04/26 14:23:53,781] --> player 1706 human.fromEntity(entity)
+[18/04/26 14:23:53,887] --> player 1706 doStop
+[18/04/26 14:23:53,888] --> 1706 in select role and will humanlogin
+[18/04/26 14:25:28,610] --> loadPlayerRoleList begin
+[18/04/26 14:25:28,616] --> loadPlayerRoleList over
+[18/04/26 14:25:28,839] --> Player login, passportId: 1706
+[18/04/26 14:25:28,840] --> player 1706 loadAccountInfo
+[18/04/26 14:25:28,846] --> 1706>>>false
+[18/04/26 14:25:28,846] --> player 1706 human.fromEntity(entity)
+[18/04/26 14:25:28,956] --> player 1706 doStop
+[18/04/26 14:25:28,957] --> 1706 in select role and will humanlogin
+[18/04/26 14:32:19,032] --> loadPlayerRoleList begin
+[18/04/26 14:32:19,039] --> loadPlayerRoleList over
+[18/04/26 14:32:19,261] --> Player login, passportId: 1706
+[18/04/26 14:32:19,263] --> player 1706 loadAccountInfo
+[18/04/26 14:32:19,268] --> 1706>>>false
+[18/04/26 14:32:19,268] --> player 1706 human.fromEntity(entity)
+[18/04/26 14:32:19,377] --> player 1706 doStop
+[18/04/26 14:32:19,377] --> 1706 in select role and will humanlogin
+[18/04/26 14:44:57,535] --> PlayerOffline.passportId[1706],State=gaming
+[18/04/26 14:44:57,535] --> Player exit, passportId: 1706
+[18/04/26 14:44:57,539] --> PlayerOffline.passportId[1706].offlinePlayer.SavePlayerRoleOperation
+[18/04/26 15:05:56,896] --> loadPlayerRoleList begin
+[18/04/26 15:05:56,903] --> loadPlayerRoleList over
+[18/04/26 15:05:57,155] --> Player login, passportId: 1702
+[18/04/26 15:05:57,156] --> player 1702 loadAccountInfo
+[18/04/26 15:05:57,164] --> 1702>>>false
+[18/04/26 15:05:57,164] --> player 1702 human.fromEntity(entity)
+[18/04/26 15:05:57,288] --> player 1702 doStop
+[18/04/26 15:05:57,289] --> 1702 in select role and will humanlogin
+[18/04/26 15:09:03,950] --> removePlayerMandatory ::::Player exit, passportId: 1702
+[18/04/26 15:09:04,263] --> loadPlayerRoleList begin
+[18/04/26 15:09:04,266] --> loadPlayerRoleList over
+[18/04/26 15:09:04,464] --> Player login, passportId: 1702
+[18/04/26 15:09:04,464] --> player 1702 loadAccountInfo
+[18/04/26 15:09:04,467] --> 1702>>>false
+[18/04/26 15:09:04,467] --> player 1702 human.fromEntity(entity)
+[18/04/26 15:09:04,527] --> player 1702 doStop
+[18/04/26 15:09:04,528] --> 1702 in select role and will humanlogin
+[18/04/26 15:16:35,114] --> loadPlayerRoleList begin
+[18/04/26 15:16:35,116] --> loadPlayerRoleList over
+[18/04/26 15:16:35,316] --> Player login, passportId: 1706
+[18/04/26 15:16:35,316] --> player 1706 loadAccountInfo
+[18/04/26 15:16:35,321] --> 1706>>>false
+[18/04/26 15:16:35,322] --> player 1706 human.fromEntity(entity)
+[18/04/26 15:16:35,397] --> player 1706 doStop
+[18/04/26 15:16:35,397] --> 1706 in select role and will humanlogin
+[18/04/26 15:19:55,248] --> removePlayerMandatory ::::Player exit, passportId: 1706
+[18/04/26 15:19:55,639] --> loadPlayerRoleList begin
+[18/04/26 15:19:55,641] --> loadPlayerRoleList over
+[18/04/26 15:19:55,840] --> Player login, passportId: 1706
+[18/04/26 15:19:55,840] --> player 1706 loadAccountInfo
+[18/04/26 15:19:55,846] --> 1706>>>false
+[18/04/26 15:19:55,846] --> player 1706 human.fromEntity(entity)
+[18/04/26 15:19:55,903] --> player 1706 doStop
+[18/04/26 15:19:55,903] --> 1706 in select role and will humanlogin
+[18/04/26 15:20:29,531] --> PlayerOffline.passportId[1702],State=gaming
+[18/04/26 15:20:29,532] --> Player exit, passportId: 1702
+[18/04/26 15:20:29,532] --> PlayerOffline.passportId[1702].offlinePlayer.SavePlayerRoleOperation
+[18/04/26 15:31:29,592] --> PlayerOffline.passportId[1706],State=gaming
+[18/04/26 15:31:29,592] --> Player exit, passportId: 1706
+[18/04/26 15:31:29,594] --> PlayerOffline.passportId[1706].offlinePlayer.SavePlayerRoleOperation
+[18/04/26 15:32:24,149] --> loadPlayerRoleList begin
+[18/04/26 15:32:24,152] --> loadPlayerRoleList over
+[18/04/26 15:32:24,354] --> create human for: 1707>>>1707>>>null
+[18/04/26 15:32:24,550] --> Player login, passportId: 1707
+[18/04/26 15:32:24,550] --> player 1707 loadAccountInfo
+[18/04/26 15:32:24,553] --> 1707>>>false
+[18/04/26 15:32:24,553] --> player 1707 human.fromEntity(entity)
+[18/04/26 15:32:24,621] --> player 1707 doStop
+[18/04/26 15:32:24,621] --> 1707 in select role and will humanlogin
+[18/04/26 15:41:53,004] --> loadPlayerRoleList begin
+[18/04/26 15:41:53,006] --> loadPlayerRoleList over
+[18/04/26 15:41:53,207] --> create human for: 1708>>>1708>>>null
+[18/04/26 15:41:53,405] --> Player login, passportId: 1708
+[18/04/26 15:41:53,405] --> player 1708 loadAccountInfo
+[18/04/26 15:41:53,408] --> 1708>>>false
+[18/04/26 15:41:53,408] --> player 1708 human.fromEntity(entity)
+[18/04/26 15:41:53,464] --> player 1708 doStop
+[18/04/26 15:41:53,465] --> 1708 in select role and will humanlogin
+[18/04/26 15:44:10,424] --> loadPlayerRoleList begin
+[18/04/26 15:44:10,426] --> loadPlayerRoleList over
+[18/04/26 15:44:10,628] --> create human for: 10001>>>10001>>>null
+[18/04/26 15:44:10,825] --> Player login, passportId: 10001
+[18/04/26 15:44:10,825] --> player 10001 loadAccountInfo
+[18/04/26 15:44:10,827] --> 10001>>>false
+[18/04/26 15:44:10,827] --> player 10001 human.fromEntity(entity)
+[18/04/26 15:44:10,867] --> player 10001 doStop
+[18/04/26 15:44:10,867] --> 10001 in select role and will humanlogin
+[18/04/26 15:44:48,754] --> loadPlayerRoleList begin
+[18/04/26 15:44:48,756] --> loadPlayerRoleList over
+[18/04/26 15:44:48,958] --> create human for: 10002>>>10002>>>null
+[18/04/26 15:44:49,155] --> Player login, passportId: 10002
+[18/04/26 15:44:49,155] --> player 10002 loadAccountInfo
+[18/04/26 15:44:49,157] --> 10002>>>false
+[18/04/26 15:44:49,157] --> player 10002 human.fromEntity(entity)
+[18/04/26 15:44:49,198] --> player 10002 doStop
+[18/04/26 15:44:49,199] --> 10002 in select role and will humanlogin
+[18/04/26 15:51:29,524] --> PlayerOffline.passportId[1707],State=gaming
+[18/04/26 15:51:29,525] --> Player exit, passportId: 1707
+[18/04/26 15:51:29,525] --> PlayerOffline.passportId[1707].offlinePlayer.SavePlayerRoleOperation
+[18/04/26 15:53:29,537] --> PlayerOffline.passportId[1708],State=gaming
+[18/04/26 15:53:29,537] --> Player exit, passportId: 1708
+[18/04/26 15:53:29,538] --> PlayerOffline.passportId[1708].offlinePlayer.SavePlayerRoleOperation
+[18/04/26 15:55:29,442] --> PlayerOffline.passportId[10001],State=gaming
+[18/04/26 15:55:29,443] --> Player exit, passportId: 10001
+[18/04/26 15:55:29,443] --> PlayerOffline.passportId[10001].offlinePlayer.SavePlayerRoleOperation
+[18/04/26 15:55:29,444] --> PlayerOffline.passportId[10002],State=gaming
+[18/04/26 15:55:29,444] --> Player exit, passportId: 10002
+[18/04/26 15:55:29,445] --> PlayerOffline.passportId[10002].offlinePlayer.SavePlayerRoleOperation
+[18/04/26 16:00:05,805] --> 当前的时间戳-------：1524729605803 ----- timeDian:16
+[18/04/26 16:20:04,239] --> loadPlayerRoleList begin
+[18/04/26 16:20:04,242] --> loadPlayerRoleList over
+[18/04/26 16:20:04,440] --> Player login, passportId: 10002
+[18/04/26 16:20:04,441] --> player 10002 loadAccountInfo
+[18/04/26 16:20:04,480] --> 10002>>>false
+[18/04/26 16:20:04,480] --> player 10002 human.fromEntity(entity)
+[18/04/26 16:20:04,547] --> player 10002 doStop
+[18/04/26 16:20:04,547] --> 10002 in select role and will humanlogin

@@ -401,7 +401,7 @@ public class LangConstants {
 	
 	
 	/** 银行 1000 0000  -   1000 0100 */
-	public static Integer BANK_BASE = 10000000;
+	private static Integer BANK_BASE = 10000000;
 	
 	@SysI18nString(content = "银行的密码为空")
 	public static final Integer BANK_PASSWORD_IS_NULL = ++BANK_BASE;
@@ -424,8 +424,11 @@ public class LangConstants {
 	@SysI18nString(content = "验证码已过期")
 	public static final Integer BANK_IDENTIFYING_CODE_IS_OVERDUE = ++BANK_BASE;
 	/**礼物（其实就是 邮件）**/
-	public static Integer GIFT_BASE = 20000000;
-	@SysI18nString(content = "礼物")
-	public static final Integer GIFT_MAIL_TITLE = ++BANK_BASE;
+	private static Integer GIFT_BASE = 20000000;
+	@SysI18nString(content = "礼物金币不足15万")
+	public static final Integer GIFT_NOT_ENOUGH = ++GIFT_BASE;
+	private static Integer RECEIVECODE_BASE = 30000000;
+	@SysI18nString(content = "兑换码次数超过2次")
+	public static final Integer RECEIVECODE_TIME_MORE = ++RECEIVECODE_BASE;
 	
 }

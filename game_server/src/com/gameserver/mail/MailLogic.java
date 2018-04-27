@@ -96,7 +96,7 @@ public class MailLogic {
 			Mail mail=player.getHuman().getHumanMailManager().getSendMailDataByMailId(mailId);
 			mail.setDeleted(1);//删除，数据库 只是改个标志位
 			mail.setModified();
-			player.getHuman().getHumanMailManager().removeMailById(mailId);
+			player.getHuman().getHumanMailManager().removeSendMailById(mailId);
 		}
 	}
 	
@@ -236,12 +236,13 @@ public class MailLogic {
 		
 		
 		//MailEntity mailEntity=creatMailEntity(sendId,sendName,friendId,playerCacheInfo.getName(),mailTitle,mailKind,content,randRewardDataList);
-		MailEntity mailEntity=creatMailEntity(sendId,sendName,friendId,"",mailTitle,mailKind,content,randRewardDataList, head);
+		MailEntity mailEntity=creatMailEntity(sendId,sendName,friendId,playerCacheInfo.getName(),mailTitle,mailKind,content,randRewardDataList, head);
 		Globals.getDaoService().getMailDao().save(mailEntity);
 		sendMail(human,playerCacheInfo,mailEntity);
 		//发送邮件的列表 添加到内存
 		Mail mail = new Mail();
 		mail.fromEntity(mailEntity);
+		mail.setOwner(human);
 		human.getHumanMailManager().getSendMailList().add(mail);
 		
 		if(human!=null)
